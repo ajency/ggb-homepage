@@ -15691,7 +15691,7 @@ div.ff-stream {
   margin: 0;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 2.2rem;
 }
 
 /* line 7, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
@@ -15726,14 +15726,15 @@ div.ff-stream {
 /* line 23, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .body-text {
   font-size: 1.375rem;
+  padding: 0 10px;
 }
 
-/* line 26, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 27, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .my-6 {
   margin: 0rem 0 5rem;
 }
 
-/* line 29, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 30, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .intro-text {
   font-size: 1.6rem;
   line-height: 2.7rem;
@@ -15744,7 +15745,7 @@ div.ff-stream {
   pointer-events: none;
 }
 
-/* line 37, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 38, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .intro-text .clutch {
   display: inline-block;
   position: relative;
@@ -15756,7 +15757,7 @@ div.ff-stream {
   color: #000;
 }
 
-/* line 46, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 47, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .intro-text .clutch .clutch-open {
   overflow: hidden;
   -webkit-transition: all .35s;
@@ -15769,26 +15770,26 @@ div.ff-stream {
   width: 100%;
 }
 
-/* line 59, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 60, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .product-title {
   font-size: 34px;
   line-height: 1.4;
 }
 
-/* line 64, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 65, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .product-content h4 {
   color: #212529;
   font-weight: normal;
   font-size: 17px;
 }
 
-/* line 70, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 71, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .product-price {
   font-weight: 600;
   font-size: 2.125rem;
 }
 
-/* line 74, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 75, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .product-image {
   opacity: 0;
   visibility: hidden;
@@ -15797,19 +15798,19 @@ div.ff-stream {
   height: 0vh;
 }
 
-/* line 80, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 81, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .product-image.slick-initialized {
   visibility: visible;
   opacity: 1;
   height: auto;
 }
 
-/* line 86, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 87, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .slick-list {
   padding-left: 0px !important;
 }
 
-/* line 90, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 91, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .aj-home-title {
   font-size: 2.5rem;
   margin: auto;
@@ -15818,7 +15819,7 @@ div.ff-stream {
   font-family: Libre Baskerville,Baskerville,georgia,serif !important;
 }
 
-/* line 97, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 98, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .btn-add-to-cart {
   font-size: 25px;
   font-weight: 600;
@@ -15826,13 +15827,13 @@ div.ff-stream {
 }
 
 @media (max-width: 767px) {
-  /* line 97, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  /* line 98, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
   .main-content .contentLeft .btn-add-to-cart {
     font-size: 20px;
   }
 }
 
-/* line 105, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 106, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .coming-soon {
   font-size: 20px;
   margin: auto;
@@ -15844,28 +15845,38 @@ div.ff-stream {
   font-family: Libre Baskerville,Baskerville,georgia,serif !important;
 }
 
-/* line 115, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 116, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+.main-content .contentLeft .btn_Whatsapp {
+  padding: 0 15px;
+}
+
+/* line 119, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+.main-content .contentLeft .btn_Whatsapp a:hover {
+  text-decoration: none;
+}
+
+/* line 124, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .footer-section {
   padding: 2rem 0 3rem;
 }
 
-/* line 118, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 127, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .footer-section .contact-details a {
   font-size: 20.4px;
 }
 
-/* line 120, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 129, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .footer-section .contact-details a:hover {
   color: #4aa751;
 }
 
-/* line 124, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 133, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .main-content .contentLeft .footer-section .contact-details h4 {
   font-size: 20.4px;
 }
 
 @media (min-width: 992px) {
-  /* line 117, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  /* line 126, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
   .main-content .contentLeft .footer-section .contact-details {
     margin: 25px 0;
   }
@@ -15878,7 +15889,7 @@ div.ff-stream {
   }
 }
 
-/* line 137, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 146, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight {
   position: fixed;
   left: 550px;
@@ -15888,58 +15899,58 @@ div.ff-stream {
   display: block;
 }
 
-/* line 144, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 153, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight .full-slider {
   height: 100%;
 }
 
-/* line 146, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 155, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight .full-slider img {
   width: 100%;
   height: auto;
 }
 
 @media (max-width: 1600px) {
-  /* line 146, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  /* line 155, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
   .contentRight .full-slider img {
     height: 100%;
     object-fit: cover;
   }
 }
 
-/* line 154, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 163, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight .full-slider .slick-list {
   height: 100%;
 }
 
-/* line 156, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 165, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight .full-slider .slick-list .slick-track {
   height: 100%;
 }
 
-/* line 158, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 167, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight .full-slider .slick-list .slick-track .slick-slide {
   margin-left: 0;
 }
 
-/* line 163, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 172, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight .full-slider .slick-dots {
   bottom: 40px;
 }
 
-/* line 167, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 176, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight .full-slider .slick-dots li button::before {
   font-size: 18px;
   opacity: 0.45;
 }
 
-/* line 174, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 183, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight .full-slider .slick-dots li.slick-active button::before {
   font-size: 18px;
   opacity: 0.85;
 }
 
-/* line 184, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 193, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight .main-image {
   background-size: cover;
   background-repeat: no-repeat;
@@ -15947,20 +15958,20 @@ div.ff-stream {
   height: 100%;
 }
 
-/* line 189, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 198, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .contentRight .main-image.main-child-2 {
   background-image: url(https://greengrainbowl.com/wp-content/uploads/sites/14/2020/06/front_banner_1.jpg);
 }
 
 @media (max-width: 768px) {
-  /* line 137, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  /* line 146, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
   .contentRight {
     display: none;
   }
 }
 
 /* Error Page styling **/
-/* line 201, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 210, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .mainbox {
   margin: auto;
   height: 600px;
@@ -15968,33 +15979,33 @@ div.ff-stream {
   position: relative;
 }
 
-/* line 206, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 215, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .mainbox .err {
   color: #4aa751;
   font-size: 11rem;
 }
 
 @media (max-width: 768px) {
-  /* line 206, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  /* line 215, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
   .mainbox .err {
     font-size: 6rem;
   }
 }
 
-/* line 213, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 222, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .mainbox .far {
   font-size: 8.5rem;
   color: #4aa751;
 }
 
 @media (max-width: 767px) {
-  /* line 213, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  /* line 222, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
   .mainbox .far {
     font-size: 5.5rem;
   }
 }
 
-/* line 220, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 229, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .mainbox .msg {
   text-align: center;
   font-size: 1.6rem;
@@ -16005,14 +16016,14 @@ div.ff-stream {
 }
 
 @media (max-width: 768px) {
-  /* line 220, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  /* line 229, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
   .mainbox .msg {
     margin: auto;
     width: 90%;
   }
 }
 
-/* line 232, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 241, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .mainbox .seperator-img {
   width: 60%;
   margin: auto;
@@ -16020,13 +16031,13 @@ div.ff-stream {
 }
 
 @media (max-width: 768px) {
-  /* line 232, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  /* line 241, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
   .mainbox .seperator-img {
     margin-bottom: 30px;
   }
 }
 
-/* line 240, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 249, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .mainbox a.home-link {
   display: inline-block;
   position: relative;
@@ -16039,7 +16050,7 @@ div.ff-stream {
   text-decoration: none;
 }
 
-/* line 250, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 259, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .mainbox a.home-link span.link-underline {
   overflow: hidden;
   -webkit-transition: all .35s;
@@ -16053,13 +16064,13 @@ div.ff-stream {
   width: 100%;
 }
 
-/* line 262, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+/* line 271, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
 .mainbox a.home-link:hover {
   text-decoration: none;
 }
 
 @media (max-width: 768px) {
-  /* line 201, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
+  /* line 210, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
   .mainbox {
     width: 100%;
   }
