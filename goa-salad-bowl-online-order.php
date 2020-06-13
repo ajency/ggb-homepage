@@ -55,10 +55,10 @@
 						</div>
 					</figure> -->
 					<div class="block-description">
-						<div class="intro-text">Welcome to <div class="clutch">GreenGrainBowl<div class="clutch-open"></div></div> online orders. <div class="clutch">5 days a week.<div class="clutch-open"></div></div> Order before 10.00 A.M for <div class="clutch">Lunch Orders<div class="clutch-open"></div></div> and before 3.00 P.M for <div class="clutch">Dinner Orders.<div class="clutch-open"></div></div> </div>
+						<div class="intro-text">Welcome to <div class="clutch">GreenGrainBowl<div class="clutch-open"></div></div> online orders. <div class="clutch">5 days a week. <div class="clutch-open"></div></div>Order before<div class="clutch">10:00 A.M. <div class="clutch-open"></div></div>for lunch and before<div class="clutch"> 3:00 P.M.<div class="clutch-open"></div></div> for dinner.</div>
 					</div>
 					<div class="text-center">
-						<div class="text-center py-4 px-3">
+						<div class="text-center py-3 px-3">
 							<img src="assets/images/Leaf_with_seperator@2x.png" class="img-fluid auto-width" alt="green grain bowl" title="green grain bowl">
 						</div>
 						<div class="wpb_text_column wpb_content_element ">
@@ -325,8 +325,8 @@
 					                        </div>
 					                        <div id="Wednesday" class="row product-list m-auto panel">
 					                        	<div class="alert alert-light">
-													<img src="assets/images/sold-out.png" class="img-fluid auto-width" alt="green grain bowl" title="green grain bowl">
-													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each days bowls are made from scratch and in small batches. They sell out often and we request you to order a day before.
+													<img src="assets/images/sold-out.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div>
 					                        </div>
@@ -338,8 +338,8 @@
 					                        </div>
 					                        <div id="Weekend" class="row product-list m-auto panel">
 					                        	<div class="alert alert-light">
-					                        		<img src="assets/images/weekend.png" class="img-fluid auto-width" alt="green grain bowl" title="green grain bowl">
-													<p class="mt-2 body-text text-black">We are open 5 days of the week for now. We hope to start weekend deliveries soon. Stay tuned.
+					                        		<img src="assets/images/weekend.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<p class="mt-2 body-text text-black"> We are currently open 5 days of the week but hope to start weekend deliveries soon. We will keep you posted.
 													</p>
 												</div>
 					                        </div>
@@ -350,6 +350,18 @@
 				        </div>
 				    </div>
 				</section>
+
+				<div class="term col-sm-12">
+                  	<h3 class="h1 ft6">We are Social!</h3>
+                	<h4 class="font-weight-light mt-4">We are present on your favorite social networks. Do like/follow and we will share weekly menu, new bowl alerts and the occasional offers.</h4>
+                </div>
+                <div class="mt-5 mb-5">
+					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgreengrainbowl&tabs&width=700px&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=168413963274202" width="100%" height="130" style="border:none;overflow:hidden;margin-left: 15px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+				</div>
+				<div class="btn_Whatsapp mb-5">
+					<h4 class="font-weight-light mt-4">Or reach out to us on Whatsapp</h4>
+					<a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block p-add w-100 my-2" href="https://wa.me/917770004258?text=Hi"><span class="zindex-1">Send us a Message</span><i class="text-white fa fa-arrow-right font-size-20" aria-hidden="true"></i></a>
+				</div>
 		        <div class="col-12">
 	       			<hr>
 			    </div>
@@ -375,7 +387,7 @@
 				                        </div>
 				                        <div class="col-md-12 mt-4 mt-md-0 py-2 contact-details">
 				                            <h4 class="font-weight-light">
-				                                Green Grain Bowl Kitchen, 1st floor Panjim convention center, Mala. 
+				                                Green Grain Bowl Kitchen, 1st Floor, Panjim Convention Center, Mala. 
 				                                <a class=" font-weight-light h5 " href="//shorturl.at/fgpq1" target="_blank">
 				                                    (Map)
 				                                </a>
@@ -400,7 +412,7 @@
 				                        </div>
 				                    </div>
 				                    <div class="mt-5">
-				                        (C) Green Grain Bowl 2019 All Right Reserved
+				                        (C) Green Grain Bowl LLP 2020. All Rights Reserved.
 				                    </div>
 				                </div>
 				            </div>
