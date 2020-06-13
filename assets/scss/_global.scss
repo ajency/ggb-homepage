@@ -114,11 +114,14 @@
 		    font-family: Libre Baskerville,Baskerville,georgia,serif !important;
 		}
 		.btn_Whatsapp{
-			padding: 0 15px;
+			padding: 0 15px 20px;
 			a{
 				&:hover{
 					text-decoration: none;
 				}
+			}
+			@media (max-width: 991px){
+				padding: 0 15px 0;
 			}
 		}
 		.footer-section{
