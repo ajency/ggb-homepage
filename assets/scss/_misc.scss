@@ -378,3 +378,17 @@
         display: none !important;
     }
 }
+
+.address-list{
+    li{
+        margin-bottom: 20px;
+        .address-text{
+            width: 100%;
+        }
+        &:last-child{
+            .address-text{
+                border-bottom: 0;
+            }
+        }
+    }
+}
