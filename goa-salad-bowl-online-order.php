@@ -1056,7 +1056,7 @@
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu / paneer / chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
-												                    "title": "Orange Barley Soba Noodle Bowl (Chicken)",
+												                    "title": "Soba Noodle Bowl (Chicken)",
 												                    "product_id": "uvCtO1TX0gdxL449TYxg",
 												                    "mark_type": "Non Veg",
 												                    "default": {
@@ -1935,7 +1935,7 @@
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu / paneer / chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
-												                    "title": "Orange Barley Soba Noodle Bowl (Chicken)",
+												                    "title": "Soba Noodle Bowl (Chicken)",
 												                    "product_id": "uvCtO1TX0gdxL449TYxg",
 												                    "mark_type": "Non Veg",
 												                    "default": {
