@@ -938,29 +938,75 @@
 												<div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl (Tofu/Paneer)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl (Tofu)</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu / paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu . Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.
 												                </h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu/Paneer)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Tofu/Paneer)" data-src="assets/images/Soba-Noodle_Bowl.jpg" data-srcset="assets/images/Soba-Noodle_Bowl.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Tofu)" data-src="assets/images/Soba-Noodle_Bowl.jpg" data-srcset="assets/images/Soba-Noodle_Bowl.jpg" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu/Paneer)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Tofu/Paneer)" data-src="assets/images/Soba-Noodle-Bowl-2.jpg" data-srcset="assets/images/Soba-Noodle-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Tofu)" data-src="assets/images/Soba-Noodle-Bowl-2.jpg" data-srcset="assets/images/Soba-Noodle-Bowl-2.jpg" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu / paneer / chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
-												                    "title": "Soba Noodle Bowl (Tofu/Paneer)",
+												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu . Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
+												                    "title": "Soba Noodle Bowl (Tofu)",
 												                    "product_id": "o8DaHCRxfYBIJQ5W7kCB",
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "o8DaHCRxfYBIJQ5W7kCB-bowl",
+												                      "mrp": 260,
+												                      "sale_price": 260,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "tuesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+												<div id="product-3GukcZQD4emxBqFI270J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl (Paneer)</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.
+												                </h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Paneer)" data-src="assets/images/Soba-Noodle_Bowl.jpg" data-srcset="assets/images/Soba-Noodle_Bowl.jpg" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Paneer)" data-src="assets/images/Soba-Noodle-Bowl-2.jpg" data-srcset="assets/images/Soba-Noodle-Bowl-2.jpg" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex mt-5">
+												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
+												            <div class="react-add-to-cart-container" data-product_data='{
+												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
+												                    "title": "Soba Noodle Bowl (Paneer)",
+												                    "product_id": "3GukcZQD4emxBqFI270J",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "3GukcZQD4emxBqFI270J-bowl",
 												                      "mrp": 260,
 												                      "sale_price": 260,
 												                      "size": "Regular Bowl"
@@ -1054,6 +1100,55 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "1CG6P1slxnr9TSNnPzvZ-bowl",
+												                      "mrp": 240,
+												                      "sale_price": 240,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "tuesday"
+												                }'
+												                >
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+												<div id="product-V2hxjWQXafuB8dq0unxy" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
+												    <div class="product-wrapper cardfour">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Paneer)</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
+											                	<br><br>
+											                	<strong class="font-weight-bold">PS:</strong> We have replaced the broccoli with coloured peppers. This does not reflect in the picture. Please do not hold us to it :)</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Paneer)" data-src="assets/images/Orange-Barley-Bowl-1.jpg" data-srcset="assets/images/Orange-Barley-Bowl-1.jpg" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Paneer)" data-src="assets/images/Orange-Barley-Bowl-2.jpg" data-srcset="assets/images/Orange-Barley-Bowl-2.jpg" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex mt-5">
+												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
+												            <div class="react-add-to-cart-container"
+												                data-product_data='{
+												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
+												                    "title": "Orange Barley Bowl (Paneer)",
+												                    "product_id": "V2hxjWQXafuB8dq0unxy",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "V2hxjWQXafuB8dq0unxy-bowl",
 												                      "mrp": 240,
 												                      "sale_price": 240,
 												                      "size": "Regular Bowl"
@@ -1724,28 +1819,73 @@
 												<div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl (Tofu/Paneer)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl (Tofu)</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu / paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu/Paneer)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Tofu/Paneer)" data-src="assets/images/Soba-Noodle_Bowl.jpg" data-srcset="assets/images/Soba-Noodle_Bowl.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Tofu)" data-src="assets/images/Soba-Noodle_Bowl.jpg" data-srcset="assets/images/Soba-Noodle_Bowl.jpg" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu/Paneer)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Tofu/Paneer)" data-src="assets/images/Soba-Noodle-Bowl-2.jpg" data-srcset="assets/images/Soba-Noodle-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Tofu)" data-src="assets/images/Soba-Noodle-Bowl-2.jpg" data-srcset="assets/images/Soba-Noodle-Bowl-2.jpg" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu / paneer / chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
-												                    "title": "Soba Noodle Bowl (Tofu/Paneer)",
+												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
+												                    "title": "Soba Noodle Bowl (Tofu)",
 												                    "product_id": "o8DaHCRxfYBIJQ5W7kCB",
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "o8DaHCRxfYBIJQ5W7kCB-bowl",
+												                      "mrp": 260,
+												                      "sale_price": 260,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+												<div id="product-3GukcZQD4emxBqFI270J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl (Paneer)</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Paneer)" data-src="assets/images/Soba-Noodle_Bowl.jpg" data-srcset="assets/images/Soba-Noodle_Bowl.jpg" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Paneer)" data-src="assets/images/Soba-Noodle-Bowl-2.jpg" data-srcset="assets/images/Soba-Noodle-Bowl-2.jpg" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex mt-5">
+												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
+												            <div class="react-add-to-cart-container" data-product_data='{
+												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced  paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
+												                    "title": "Soba Noodle Bowl (Paneer)",
+												                    "product_id": "3GukcZQD4emxBqFI270J",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "3GukcZQD4emxBqFI270J-bowl",
 												                      "mrp": 260,
 												                      "sale_price": 260,
 												                      "size": "Regular Bowl"
@@ -1839,6 +1979,55 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "1CG6P1slxnr9TSNnPzvZ-bowl",
+												                      "mrp": 240,
+												                      "sale_price": 240,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'
+												                >
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+												<div id="product-V2hxjWQXafuB8dq0unxy" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
+												    <div class="product-wrapper cardfour">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Paneer)</h3>
+												            <div class="product-content  pb-4">
+											                   <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.											                	
+											                	<br><br>
+											                	<strong class="font-weight-bold">PS:</strong> We have replaced the broccoli with coloured peppers. This does not reflect in the picture. Please do not hold us to it :)</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Paneer)" data-src="assets/images/Orange-Barley-Bowl-1.jpg" data-srcset="assets/images/Orange-Barley-Bowl-1.jpg" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Paneer)" data-src="assets/images/Orange-Barley-Bowl-2.jpg" data-srcset="assets/images/Orange-Barley-Bowl-2.jpg" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex mt-5">
+												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
+												            <div class="react-add-to-cart-container"
+												                data-product_data='{
+												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
+												                    "title": "Orange Barley Bowl (Paneer)",
+												                    "product_id": "V2hxjWQXafuB8dq0unxy",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "V2hxjWQXafuB8dq0unxy-bowl",
 												                      "mrp": 240,
 												                      "sale_price": 240,
 												                      "size": "Regular Bowl"
