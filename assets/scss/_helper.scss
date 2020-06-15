@@ -241,6 +241,13 @@ footer {
     min-width: 70px;
 }
 
+.mw-150{
+    min-width: 150px;
+    @media (max-width: 767px){
+        min-width: 140px;
+    }
+}
+
 .bg-off-green{
     background-color: rgba(71,167,72,0.1);
 }
