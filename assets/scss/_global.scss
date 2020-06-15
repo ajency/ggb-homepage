@@ -28,9 +28,9 @@
 		    margin: 0rem 0 5rem;
 		}
 		.intro-text{
-		    font-size: 1.6rem;
+		    font-size: 1.55rem;
 			line-height: 2.7rem;
-			font-weight: 700;
+			font-weight: 300;
 			padding: 8rem 15px 5rem;
 		    white-space: break-spaces;
 	        color: #212529;
@@ -44,6 +44,7 @@
 			    -ms-user-select: none;
 			    user-select: none;
 			    color: #000;
+    			font-weight: 700;
 				.clutch-open{
 					overflow: hidden;
 					-webkit-transition: all .35s;
