@@ -15024,12 +15024,6 @@
 												</div>
 					                        </div>
 					                        <div id="Wednesday" class="row product-list m-auto panel">
-					                        	<!-- <div class="alert alert-light">
-													<img src="assets/images/sold-out.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
-													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
-													</p>
-												</div> -->
-
 												<div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 												    <div class="product-wrapper cardfour">
 												        <div class="lg-w-50 hover-text">
@@ -22470,6 +22464,12 @@
 												        </div>
 												    </div>
 												</div>
+
+					                        	<!-- <div class="alert alert-light">
+													<img src="assets/images/sold-out.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
+													</p>
+												</div> -->
 					                        </div>
 					                        <div id="Thrusday" class="row product-list m-auto panel">
 												<div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
