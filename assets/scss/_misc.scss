@@ -383,7 +383,7 @@
     li{
         margin-bottom: 20px;
         .address-text{
-            width: 100%;
+            width: calc(100% - 30px);
             padding-right: 15px;
         }
         &:last-child{
