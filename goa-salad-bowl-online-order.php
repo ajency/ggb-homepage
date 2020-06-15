@@ -168,7 +168,7 @@
 												                      "id": "1CG6P1slxnr9TSNnPzvZ-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/OBB-Tofu_800.jpg"
@@ -214,7 +214,7 @@
 												                      "id": "8FVGmVx4JjQZRUsxtYrL-bowl",
 												                      "mrp": 270,
 												                      "sale_price": 270,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/OBB-Chicken_800.jpg"
@@ -259,7 +259,7 @@
 												                      "id": "QexP4xy4W2cMx4zORNEi-bowl",
 												                      "mrp": 240,
 												                      "sale_price": 240,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/QNB-Veg_800.jpg"
@@ -306,7 +306,7 @@
 												                      "id": "bqApKRirpEeopN3w9H3J-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/QNB-Chicken_800.jpg"
@@ -351,7 +351,7 @@
 												                      "id": "zhsxgRGAMaIbia75SQJr-bowl",
 												                      "mrp": 260,
 												                      "sale_price": 260,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/OBB-Chicken_800.jpg"
@@ -396,7 +396,7 @@
 												                      "id": "iAZQBNDAObu4phKqFeiO-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
@@ -442,7 +442,7 @@
 												                      "id": "iy0sD3rmOe9CB3extiE7-bowl",
 												                      "mrp": 270,
 												                      "sale_price": 270,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Thai-Bowl-Chicken_800.jpg"
@@ -487,7 +487,7 @@
 												                      "id": "uLG6xoTOYkcnpjxKoTXI-bowl",
 												                      "mrp": 240,
 												                      "sale_price": 240,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Rice-Noodle-Paneer_800.jpg"
@@ -532,7 +532,7 @@
 												                      "id": "yzwTvwigXncRLBNki4M9-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Rice-Noodle-Shrimp_800.jpg"
@@ -578,7 +578,7 @@
 												                      "id": "UKvF28KghJT75RDN1CPk-bowl",
 												                      "mrp": 270,
 												                      "sale_price": 270,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/MQB-Veg.jpg",
@@ -624,7 +624,7 @@
 												                      "id": "kprSd5b7lgiK0FkeWOPW-bowl",
 												                      "mrp": 310,
 												                      "sale_price": 310,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                    "assets/images/MQB-Chicken.jpg",
@@ -670,7 +670,7 @@
 												                      "id": "qEjBZmgcv14tAuCCkvmB-bowl",
 												                      "mrp": 250,
 												                      "sale_price": 250,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/MBB-Veg.jpg",
@@ -717,7 +717,7 @@
 												                      "id": "vXoakmxssdJG1M8DRrMF-bowl",
 												                      "mrp": 310,
 												                      "sale_price": 310,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/MBB-Prawns.jpg",
@@ -763,7 +763,7 @@
 												                      "id": "pbGEFxvc02aF3qbekNp9-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Pear-Barley-2.jpg"
@@ -808,7 +808,7 @@
 												                      "id": "cMjfFw1BSYxNwGZYRpeC-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Pear-Barley-2.jpg"
@@ -854,7 +854,7 @@
 												                      "id": "o8DaHCRxfYBIJQ5W7kCB-bowl",
 												                      "mrp": 260,
 												                      "sale_price": 260,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Soba-Noodle_Bowl.jpg"
@@ -899,7 +899,7 @@
 												                      "id": "uvCtO1TX0gdxL449TYxg-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Soba-Noodle_Bowl.jpg"
@@ -948,7 +948,7 @@
 												                      "id": "1CG6P1slxnr9TSNnPzvZ-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/OBB-Tofu_800.jpg"
@@ -994,7 +994,7 @@
 												                      "id": "8FVGmVx4JjQZRUsxtYrL-bowl",
 												                      "mrp": 270,
 												                      "sale_price": 270,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/OBB-Chicken_800.jpg"
@@ -1039,7 +1039,7 @@
 												                      "id": "QexP4xy4W2cMx4zORNEi-bowl",
 												                      "mrp": 240,
 												                      "sale_price": 240,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/QNB-Veg_800.jpg"
@@ -1086,7 +1086,7 @@
 												                      "id": "bqApKRirpEeopN3w9H3J-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/QNB-Chicken_800.jpg"
@@ -1131,7 +1131,7 @@
 												                      "id": "zhsxgRGAMaIbia75SQJr-bowl",
 												                      "mrp": 260,
 												                      "sale_price": 260,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/OBB-Chicken_800.jpg"
@@ -1176,7 +1176,7 @@
 												                      "id": "iAZQBNDAObu4phKqFeiO-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
@@ -1222,7 +1222,7 @@
 												                      "id": "iy0sD3rmOe9CB3extiE7-bowl",
 												                      "mrp": 270,
 												                      "sale_price": 270,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Thai-Bowl-Chicken_800.jpg"
@@ -1267,7 +1267,7 @@
 												                      "id": "uLG6xoTOYkcnpjxKoTXI-bowl",
 												                      "mrp": 240,
 												                      "sale_price": 240,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Rice-Noodle-Paneer_800.jpg"
@@ -1312,7 +1312,7 @@
 												                      "id": "yzwTvwigXncRLBNki4M9-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Rice-Noodle-Shrimp_800.jpg"
@@ -1358,7 +1358,7 @@
 												                      "id": "UKvF28KghJT75RDN1CPk-bowl",
 												                      "mrp": 270,
 												                      "sale_price": 270,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/MQB-Veg.jpg",
@@ -1404,7 +1404,7 @@
 												                      "id": "kprSd5b7lgiK0FkeWOPW-bowl",
 												                      "mrp": 310,
 												                      "sale_price": 310,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                    "assets/images/MQB-Chicken.jpg",
@@ -1450,7 +1450,7 @@
 												                      "id": "qEjBZmgcv14tAuCCkvmB-bowl",
 												                      "mrp": 250,
 												                      "sale_price": 250,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/MBB-Veg.jpg",
@@ -1497,7 +1497,7 @@
 												                      "id": "vXoakmxssdJG1M8DRrMF-bowl",
 												                      "mrp": 310,
 												                      "sale_price": 310,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/MBB-Prawns.jpg",
@@ -1543,7 +1543,7 @@
 												                      "id": "pbGEFxvc02aF3qbekNp9-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Pear-Barley-2.jpg"
@@ -1588,7 +1588,7 @@
 												                      "id": "cMjfFw1BSYxNwGZYRpeC-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Pear-Barley-2.jpg"
@@ -1634,7 +1634,7 @@
 												                      "id": "o8DaHCRxfYBIJQ5W7kCB-bowl",
 												                      "mrp": 260,
 												                      "sale_price": 260,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Soba-Noodle_Bowl.jpg"
@@ -1679,7 +1679,7 @@
 												                      "id": "uvCtO1TX0gdxL449TYxg-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Soba-Noodle_Bowl.jpg"
@@ -1727,7 +1727,7 @@
 												                      "id": "1CG6P1slxnr9TSNnPzvZ-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/OBB-Tofu_800.jpg"
@@ -1773,7 +1773,7 @@
 												                      "id": "8FVGmVx4JjQZRUsxtYrL-bowl",
 												                      "mrp": 270,
 												                      "sale_price": 270,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/OBB-Chicken_800.jpg"
@@ -1818,7 +1818,7 @@
 												                      "id": "QexP4xy4W2cMx4zORNEi-bowl",
 												                      "mrp": 240,
 												                      "sale_price": 240,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/QNB-Veg_800.jpg"
@@ -1865,7 +1865,7 @@
 												                      "id": "bqApKRirpEeopN3w9H3J-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/QNB-Chicken_800.jpg"
@@ -1910,7 +1910,7 @@
 												                      "id": "zhsxgRGAMaIbia75SQJr-bowl",
 												                      "mrp": 260,
 												                      "sale_price": 260,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/OBB-Chicken_800.jpg"
@@ -1955,7 +1955,7 @@
 												                      "id": "iAZQBNDAObu4phKqFeiO-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
@@ -2001,7 +2001,7 @@
 												                      "id": "iy0sD3rmOe9CB3extiE7-bowl",
 												                      "mrp": 270,
 												                      "sale_price": 270,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Thai-Bowl-Chicken_800.jpg"
@@ -2046,7 +2046,7 @@
 												                      "id": "uLG6xoTOYkcnpjxKoTXI-bowl",
 												                      "mrp": 240,
 												                      "sale_price": 240,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Rice-Noodle-Paneer_800.jpg"
@@ -2091,7 +2091,7 @@
 												                      "id": "yzwTvwigXncRLBNki4M9-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Rice-Noodle-Shrimp_800.jpg"
@@ -2137,7 +2137,7 @@
 												                      "id": "UKvF28KghJT75RDN1CPk-bowl",
 												                      "mrp": 270,
 												                      "sale_price": 270,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/MQB-Veg.jpg",
@@ -2183,7 +2183,7 @@
 												                      "id": "kprSd5b7lgiK0FkeWOPW-bowl",
 												                      "mrp": 310,
 												                      "sale_price": 310,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                    "assets/images/MQB-Chicken.jpg",
@@ -2229,7 +2229,7 @@
 												                      "id": "qEjBZmgcv14tAuCCkvmB-bowl",
 												                      "mrp": 250,
 												                      "sale_price": 250,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/MBB-Veg.jpg",
@@ -2276,7 +2276,7 @@
 												                      "id": "vXoakmxssdJG1M8DRrMF-bowl",
 												                      "mrp": 310,
 												                      "sale_price": 310,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/MBB-Prawns.jpg",
@@ -2322,7 +2322,7 @@
 												                      "id": "pbGEFxvc02aF3qbekNp9-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Pear-Barley-2.jpg"
@@ -2367,7 +2367,7 @@
 												                      "id": "cMjfFw1BSYxNwGZYRpeC-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Pear-Barley-2.jpg"
@@ -2413,7 +2413,7 @@
 												                      "id": "o8DaHCRxfYBIJQ5W7kCB-bowl",
 												                      "mrp": 260,
 												                      "sale_price": 260,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Soba-Noodle_Bowl.jpg"
@@ -2458,7 +2458,7 @@
 												                      "id": "uvCtO1TX0gdxL449TYxg-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Soba-Noodle_Bowl.jpg"
@@ -2511,7 +2511,7 @@
 												                      "id": "1CG6P1slxnr9TSNnPzvZ-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/OBB-Tofu_800.jpg"
@@ -2557,7 +2557,7 @@
 												                      "id": "8FVGmVx4JjQZRUsxtYrL-bowl",
 												                      "mrp": 270,
 												                      "sale_price": 270,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/OBB-Chicken_800.jpg"
@@ -2602,7 +2602,7 @@
 												                      "id": "QexP4xy4W2cMx4zORNEi-bowl",
 												                      "mrp": 240,
 												                      "sale_price": 240,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/QNB-Veg_800.jpg"
@@ -2649,7 +2649,7 @@
 												                      "id": "bqApKRirpEeopN3w9H3J-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/QNB-Chicken_800.jpg"
@@ -2694,7 +2694,7 @@
 												                      "id": "zhsxgRGAMaIbia75SQJr-bowl",
 												                      "mrp": 260,
 												                      "sale_price": 260,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/OBB-Chicken_800.jpg"
@@ -2739,7 +2739,7 @@
 												                      "id": "iAZQBNDAObu4phKqFeiO-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
@@ -2785,7 +2785,7 @@
 												                      "id": "iy0sD3rmOe9CB3extiE7-bowl",
 												                      "mrp": 270,
 												                      "sale_price": 270,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Thai-Bowl-Chicken_800.jpg"
@@ -2830,7 +2830,7 @@
 												                      "id": "uLG6xoTOYkcnpjxKoTXI-bowl",
 												                      "mrp": 240,
 												                      "sale_price": 240,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Rice-Noodle-Paneer_800.jpg"
@@ -2875,7 +2875,7 @@
 												                      "id": "yzwTvwigXncRLBNki4M9-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Rice-Noodle-Shrimp_800.jpg"
@@ -2921,7 +2921,7 @@
 												                      "id": "UKvF28KghJT75RDN1CPk-bowl",
 												                      "mrp": 270,
 												                      "sale_price": 270,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/MQB-Veg.jpg",
@@ -2967,7 +2967,7 @@
 												                      "id": "kprSd5b7lgiK0FkeWOPW-bowl",
 												                      "mrp": 310,
 												                      "sale_price": 310,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                    "assets/images/MQB-Chicken.jpg",
@@ -3013,7 +3013,7 @@
 												                      "id": "qEjBZmgcv14tAuCCkvmB-bowl",
 												                      "mrp": 250,
 												                      "sale_price": 250,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/MBB-Veg.jpg",
@@ -3060,7 +3060,7 @@
 												                      "id": "vXoakmxssdJG1M8DRrMF-bowl",
 												                      "mrp": 310,
 												                      "sale_price": 310,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/MBB-Prawns.jpg",
@@ -3106,7 +3106,7 @@
 												                      "id": "pbGEFxvc02aF3qbekNp9-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Pear-Barley-2.jpg"
@@ -3151,7 +3151,7 @@
 												                      "id": "cMjfFw1BSYxNwGZYRpeC-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Pear-Barley-2.jpg"
@@ -3197,7 +3197,7 @@
 												                      "id": "o8DaHCRxfYBIJQ5W7kCB-bowl",
 												                      "mrp": 260,
 												                      "sale_price": 260,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Soba-Noodle_Bowl.jpg"
@@ -3242,7 +3242,7 @@
 												                      "id": "uvCtO1TX0gdxL449TYxg-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Soba-Noodle_Bowl.jpg"
@@ -3291,7 +3291,7 @@
 												                      "id": "1CG6P1slxnr9TSNnPzvZ-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/OBB-Tofu_800.jpg"
@@ -3337,7 +3337,7 @@
 												                      "id": "8FVGmVx4JjQZRUsxtYrL-bowl",
 												                      "mrp": 270,
 												                      "sale_price": 270,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/OBB-Chicken_800.jpg"
@@ -3382,7 +3382,7 @@
 												                      "id": "QexP4xy4W2cMx4zORNEi-bowl",
 												                      "mrp": 240,
 												                      "sale_price": 240,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/QNB-Veg_800.jpg"
@@ -3429,7 +3429,7 @@
 												                      "id": "bqApKRirpEeopN3w9H3J-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/QNB-Chicken_800.jpg"
@@ -3474,7 +3474,7 @@
 												                      "id": "zhsxgRGAMaIbia75SQJr-bowl",
 												                      "mrp": 260,
 												                      "sale_price": 260,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/OBB-Chicken_800.jpg"
@@ -3519,7 +3519,7 @@
 												                      "id": "iAZQBNDAObu4phKqFeiO-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
@@ -3565,7 +3565,7 @@
 												                      "id": "iy0sD3rmOe9CB3extiE7-bowl",
 												                      "mrp": 270,
 												                      "sale_price": 270,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Thai-Bowl-Chicken_800.jpg"
@@ -3610,7 +3610,7 @@
 												                      "id": "uLG6xoTOYkcnpjxKoTXI-bowl",
 												                      "mrp": 240,
 												                      "sale_price": 240,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Rice-Noodle-Paneer_800.jpg"
@@ -3655,7 +3655,7 @@
 												                      "id": "yzwTvwigXncRLBNki4M9-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Rice-Noodle-Shrimp_800.jpg"
@@ -3701,7 +3701,7 @@
 												                      "id": "UKvF28KghJT75RDN1CPk-bowl",
 												                      "mrp": 270,
 												                      "sale_price": 270,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/MQB-Veg.jpg",
@@ -3747,7 +3747,7 @@
 												                      "id": "kprSd5b7lgiK0FkeWOPW-bowl",
 												                      "mrp": 310,
 												                      "sale_price": 310,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                    "assets/images/MQB-Chicken.jpg",
@@ -3793,7 +3793,7 @@
 												                      "id": "qEjBZmgcv14tAuCCkvmB-bowl",
 												                      "mrp": 250,
 												                      "sale_price": 250,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/MBB-Veg.jpg",
@@ -3840,7 +3840,7 @@
 												                      "id": "vXoakmxssdJG1M8DRrMF-bowl",
 												                      "mrp": 310,
 												                      "sale_price": 310,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/MBB-Prawns.jpg",
@@ -3886,7 +3886,7 @@
 												                      "id": "pbGEFxvc02aF3qbekNp9-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Pear-Barley-2.jpg"
@@ -3931,7 +3931,7 @@
 												                      "id": "cMjfFw1BSYxNwGZYRpeC-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Pear-Barley-2.jpg"
@@ -3977,7 +3977,7 @@
 												                      "id": "o8DaHCRxfYBIJQ5W7kCB-bowl",
 												                      "mrp": 260,
 												                      "sale_price": 260,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Soba-Noodle_Bowl.jpg"
@@ -4022,7 +4022,7 @@
 												                      "id": "uvCtO1TX0gdxL449TYxg-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
-												                      "size": "bowl"
+												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
 												                      "assets/images/Soba-Noodle_Bowl.jpg"
