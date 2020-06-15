@@ -2,13 +2,22 @@
 <html>
 <head>
     <title>Health Food Delivery Goa | Green Grain Bowl | Buy Healthy Food Online</title>
-    <meta charset="utf-8">
+    <meta content="Buy healthy food online by Green Grain Bowl. Healthy lunch bowls delivered to you in Panjim/Porvorim, Goa. Enjoy wholesome meals, salad style." name="description"/>
+    <meta content="Health Food Delivery Goa, order healthy food online, health food online, health food delivery, buy healthy food online" name="keywords"/>
+    <meta content="website" property="og:type"/>
+    <meta content="Health Food Delivery Goa | Green Grain Bowl | Buy Healthy Food Online " property="og:title"/>
+    <meta content="Buy healthy food online by Green Grain Bowl. Healthy lunch bowls delivered to you in Panjim/Porvorim, Goa. Enjoy wholesome meals, salad " name="description." property="og:description"/>
+    <meta content="https://greengrainbowl.com/" property="og:url"/>
+    <meta content="Health Food Delivery Goa | Green Grain Bowl | Buy Healthy Food Online" property="og:site_name"/>
+    <meta content="summary_large_image" name="twitter:card"/>
+    <meta content="Buy healthy food online by Green Grain Bowl. Healthy lunch bowls delivered to you in Panjim/Porvorim, Goa. Enjoy wholesome meals, salad style." name="description" name="twitter:description"/>
+    <meta content="Health Food Delivery Goa | Green Grain Bowl | Buy Healthy Food Online" name="twitter:title"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<link rel="stylesheet" type="text/css" href="assets/css/custom.css">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500|Libre+Baskerville:400,400i" rel="stylesheet">  
     <link rel="stylesheet" href="https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/themes/ajency-portfolio/css/animate.min.css">
     <link rel='icon' type='image/x-icon' href='assets/images/Favicon-48.png'/>
-	
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154494750-1"></script>
     <script>
