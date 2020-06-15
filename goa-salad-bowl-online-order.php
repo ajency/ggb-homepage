@@ -17,7 +17,7 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-154494750-1');
-      gtag('config', 'UA-121565233-3');
+      gtag('config', 'UA-169407721-1');
 
     </script>
 	<!-- Hotjar Tracking Code for greengrainbowl.com --> 
