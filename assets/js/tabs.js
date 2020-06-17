@@ -29,6 +29,7 @@ $(document).ready(function(){
     $("input[type=radio]").click(function(){
         $(".product-image").slick('setPosition');
     });
+    $('._2p3a').css('width','94%');
 });
 
 
