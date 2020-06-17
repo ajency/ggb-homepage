@@ -145,7 +145,7 @@
 			                    	  	<input class="radio" id="thrus" name="group" type="radio" <?php if($day_of_week == 4) echo 'checked' ?>>
 										<input class="radio" id="fri" name="group" type="radio" <?php if($day_of_week == 5) echo 'checked' ?>>
 										<input class="radio" id="weekends" name="group" type="radio" <?php if($day_of_week == 6 or $day_of_week == 0) echo 'checked' ?>>
-										
+										<input class="radio" id="nextweek" name="group" type="radio">
 
 										
 
@@ -156,6 +156,7 @@
 											<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="thrus">Thursday</label>
 											<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="fri">Friday</label>
 											<label class="tab <?php if($day_of_week == 6 or $day_of_week == 0) echo 'active' ?>" id="weeknd" for="weekends">Weekend</label>
+											<label class="tab" id="nextweekorder" for="nextweek">Next Week</label>
 										</div>
 
 
@@ -355,7 +356,7 @@
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Paneer)</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced panner and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced paneer and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
 											                	<br><br>
 											                	<strong class="font-weight-bold">PS:</strong> We have replaced the broccoli with coloured peppers. This does not reflect in the picture. Please do not hold us to it :)</h4>
 												            </div>
@@ -1350,7 +1351,7 @@
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Paneer)</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced panner and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced paneer and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
 											                	<br><br>
 											                	<strong class="font-weight-bold">PS:</strong> We have replaced the broccoli with coloured peppers. This does not reflect in the picture. Please do not hold us to it :)</h4>
 												            </div>
@@ -2346,7 +2347,7 @@
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Paneer)</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced panner and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced paneer and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
 											                	<br><br>
 											                	<strong class="font-weight-bold">PS:</strong> We have replaced the broccoli with coloured peppers. This does not reflect in the picture. Please do not hold us to it :)</h4>
 												            </div>
@@ -3342,7 +3343,7 @@
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Paneer)</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced panner and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced paneer and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
 											                	<br><br>
 											                	<strong class="font-weight-bold">PS:</strong> We have replaced the broccoli with coloured peppers. This does not reflect in the picture. Please do not hold us to it :)</h4>
 												            </div>
@@ -4332,7 +4333,7 @@
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Paneer)</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced panner and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced paneer and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
 											                	<br><br>
 											                	<strong class="font-weight-bold">PS:</strong> We have replaced the broccoli with coloured peppers. This does not reflect in the picture. Please do not hold us to it :)</h4>
 												            </div>
@@ -5136,6 +5137,12 @@
 													</p>
 												</div>
 					                        </div>
+					                        <div id="NextWeek" class="row product-list m-auto panel">
+					                        	<div class="alert alert-light">
+													<p class="mt-2 body-text text-black"> Next week's menu will be posted soon!
+													</p>
+												</div>
+					                        </div>
 			                        	</div>
 				                    </div>
 				                </div>
@@ -5153,7 +5160,7 @@
 				</div>
 				<div class="btn_Whatsapp mb-5">
 					<h4 class="font-weight-light mt-4">Or reach out to us on Whatsapp</h4>
-					<a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block p-add w-100 my-2" href="https://wa.me/917770004258?text=Hi"><span class="zindex-1">Send us a Message</span><i class="text-white fa fa-arrow-right font-size-20" aria-hidden="true"></i></a>
+					<a class="btn-add-to-cart btn-send text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block p-add w-100 my-2" href="https://wa.me/917770004258?text=Hi"><span class="zindex-1">Send us a Message on<i class="fab fa-whatsapp mr-2"></i></span><i class="text-white fa fa-arrow-right font-size-20" aria-hidden="true"></i></a>
 				</div>
 		        <div class="col-12">
 	       			<hr>

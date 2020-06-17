@@ -72,6 +72,7 @@
 #wed:checked ~ .panels #Wednesday,
 #thrus:checked ~ .panels #Thrusday,
 #fri:checked ~ .panels #Friday,
-#weekends:checked ~ .panels #Weekend{
+#weekends:checked ~ .panels #Weekend,
+#nextweek:checked ~ .panels #NextWeek{
   display:block;
 }
