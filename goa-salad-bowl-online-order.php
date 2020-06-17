@@ -135,7 +135,19 @@
 											}
 											else{
 												// echo "no query param set";
-												$day_of_week = date('w'); //gets day of week as number(0=sunday,1=monday...,6=sat)
+
+												$CONFIGURED_END_HOUR = 15;
+												
+												$current_date = new DateTime();
+												date_timezone_set($current_date, timezone_open('Asia/Kolkata'));
+            									$current_hour = $current_date->format('H');
+
+
+												if ($current_hour >= $CONFIGURED_END_HOUR){
+  													$current_date->modify('+1 day');
+												}
+
+												$day_of_week = date("w", strtotime($current_date->format('Y-m-d H:i:sP')));
 											}
 
 										?>
