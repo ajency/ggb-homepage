@@ -5161,8 +5161,7 @@
 					                        <div id="NextWeek" class="row product-list m-auto panel">
 					                        	<div class="alert alert-light">
 													<img src="assets/images/next-week.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
-													<p class="mt-2 body-text text-black">SO SORRY!
-													<br><br>
+													<p class="mt-2 body-text text-black">
 													 We will post details of the bowls for next week by Sunday. Do come back and take a look.
 													</p>
 												</div>
