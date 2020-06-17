@@ -15484,13 +15484,12 @@ body > div, body > section {
 
 /* line 157, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_slidein.scss */
 .genuinity img {
-  width: 45px;
-  height: 45px;
+  width: 32px;
   float: left;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
-/* line 164, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_slidein.scss */
+/* line 162, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_slidein.scss */
 .genuinity span {
   margin-top: 0 !important;
 }
