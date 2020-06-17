@@ -76,7 +76,7 @@
 						</div>
 					</figure> -->
 					<div class="block-description">
-						<div class="intro-text">Welcome to <div class="clutch">GreenGrainBowl<div class="clutch-open"></div></div> online orders. <div class="clutch">5 days a week.<div class="clutch-open"></div></div> Order before <div class="clutch">10:00 A.M.<div class="clutch-open"></div></div> for lunch and before <div class="clutch">3:00 P.M.<div class="clutch-open"></div></div> for dinner.</div>
+						<div class="intro-text">Welcome to <div class="clutch">GreenGrainBowl<div class="clutch-open"></div></div> online orders. Delivering <div class="clutch">5 days a week.<div class="clutch-open"></div></div> Order before <div class="clutch">10:00 A.M.<div class="clutch-open"></div></div> for lunch and before <div class="clutch">3:00 P.M.<div class="clutch-open"></div></div> for dinner.</div>
 					</div>
 					<div class="text-center">
 						<div class="text-center py-3 px-3">
@@ -162,6 +162,11 @@
 
 									 	<div class="panels">
 					                        <div id="Monday" class="row product-list m-auto panel mt-3">
+												<div class="alert alert-light">
+													<img src="assets/images/missed.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
+													</p>
+												</div>
 												<!-- <div class="coming-soon"> Coming Soon </div> -->
 												<!-- <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -1151,14 +1156,19 @@
 												        </div>
 												    </div>
 												</div> -->
-												<div class="alert alert-light">
+												<!-- <div class="alert alert-light">
 													<img src="assets/images/sold-out.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
-												</div>
+												</div> -->
 				                            </div>
 				                            <div id="Tuesday" class="row product-list m-auto panel mt-3">
-												<!-- <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div class="alert alert-light">
+													<img src="assets/images/missed.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
+													</p>
+												</div>
+												<div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl (Tofu)</h3>
@@ -1443,7 +1453,7 @@
 												    </div>
 												</div>
 
- 												<div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+ 												<!-- <div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Veg)</h3>
@@ -2146,14 +2156,13 @@
 												        </div>
 												    </div>
 												</div> -->
-
+					                        </div>
+					                        <div id="Wednesday" class="row product-list m-auto panel">
 												<div class="alert alert-light">
-													<img src="assets/images/sold-out.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="assets/images/missed.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div>
-					                        </div>
-					                        <div id="Wednesday" class="row product-list m-auto panel">
 												<div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
@@ -5139,7 +5148,10 @@
 					                        </div>
 					                        <div id="NextWeek" class="row product-list m-auto panel">
 					                        	<div class="alert alert-light">
-													<p class="mt-2 body-text text-black"> Next week's menu will be posted soon!
+													<img src="assets/images/next-week.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<p class="mt-2 body-text text-black">SO SORRY!
+													<br><br>
+													 We will post details of the bowls for next week by Sunday. Do come back and take a look.
 													</p>
 												</div>
 					                        </div>
@@ -5155,12 +5167,17 @@
                   	<h3 class="h1 ft6">We are Social!</h3>
                 	<h4 class="font-weight-light mt-4">We are present on your favorite social networks. Do like/follow and we will share weekly menu, new bowl alerts and the occasional offers.</h4>
                 </div>
-                <div class="mt-5 mb-5">
+                <div class="facebook mt-5 mb-5">
 					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fgreengrainbowl&tabs&width=700px&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=168413963274202" width="100%" height="130" style="border:none;overflow:hidden;margin-left: 15px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 				</div>
+				<div class="follow-instagram mb-5">
+					<a href="https://www.instagram.com/greengrainbowl/"  target="_blank">
+						<img src="assets/images/follow-instagram.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="follow us on instagram">
+					</a>
+				</div>	
 				<div class="btn_Whatsapp mb-5">
 					<h4 class="font-weight-light mt-4">Or reach out to us on Whatsapp</h4>
-					<a class="btn-add-to-cart btn-send text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block p-add w-100 my-2" href="https://wa.me/917770004258?text=Hi"><span class="zindex-1">Send us a Message on<i class="fab fa-whatsapp mr-2"></i></span><i class="text-white fa fa-arrow-right font-size-20" aria-hidden="true"></i></a>
+					<a class="btn-add-to-cart btn-send text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block p-add w-100 my-2" href="https://wa.me/917770004258?text=Hi" target="_blank"><span class="zindex-1">Send us a Message on<i class="fab fa-whatsapp mr-2"></i></span><i class="text-white fa fa-arrow-right font-size-20" aria-hidden="true"></i></a>
 				</div>
 		        <div class="col-12">
 	       			<hr>
@@ -5195,17 +5212,17 @@
 				                        </div>
 				                        <div class="col-md-12 mt-4 mt-md-0 contact-details">
 				                            <h4 class="font-weight-light">
-				                                <a class="d-block h4 font-weight-light" href="https://www.instagram.com/greengrainbowl/">
+				                                <a class="d-block h4 font-weight-light" href="https://www.instagram.com/greengrainbowl/"  target="_blank">
 				                                    <i class="fab fa-instagram mr-2"></i>Instagram
 				                                </a>
 				                            </h4>
 				                            <h4 class="font-weight-light">
-				                                <a class="d-block h4 font-weight-light" href="https://wa.me/917770004258?text=Hi">
+				                                <a class="d-block h4 font-weight-light" href="https://wa.me/917770004258?text=Hi"  target="_blank">
 				                                    <i class="fab fa-whatsapp mr-2"></i>Whatsapp
 				                                </a>
 				                            </h4>
 				                            <h4 class="font-weight-light">
-				                                <a class="d-block h4 font-weight-light" href="https://www.facebook.com/GreenGrainBowl">
+				                                <a class="d-block h4 font-weight-light" href="https://www.facebook.com/GreenGrainBowl" target="_blank">
 				                                    <i class="fab fa-facebook-square mr-2"></i>Facebook
 				                                </a>
 				                            </h4>
