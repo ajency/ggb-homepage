@@ -136,7 +136,7 @@
 											else{
 												// echo "no query param set";
 
-												$CONFIGURED_END_HOUR = 15;
+												$CONFIGURED_END_HOUR = 14;
 												
 												$current_date = new DateTime();
 												date_timezone_set($current_date, timezone_open('Asia/Kolkata'));
