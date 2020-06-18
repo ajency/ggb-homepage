@@ -160,19 +160,19 @@
 										<input class="radio" id="nextweek" name="group" type="radio">
 
 										
-
-										<div class="tabs" data-text="<?php echo 'Day of the week '.$day_of_week;?>">
-											<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="mon">Monday</label>
-											<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="tue">Tuesday</label>
-											<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="wed">Wednesday</label>
-											<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="thrus">Thursday</label>
-											<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="fri">Friday</label>
-											<label class="tab <?php if($day_of_week == 6 or $day_of_week == 0) echo 'active' ?>" id="weeknd" for="weekends">Weekend</label>
-											<label class="tab" id="nextweekorder" for="nextweek">Next Week</label>
+										<div class="tabs-section">
+											<div class="tabs" data-text="<?php echo 'Day of the week '.$day_of_week;?>">
+												<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="mon">Monday</label>
+												<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="tue">Tuesday</label>
+												<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="wed">Wednesday</label>
+												<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="thrus">Thursday</label>
+												<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="fri">Friday</label>
+												<label class="tab <?php if($day_of_week == 6 or $day_of_week == 0) echo 'active' ?>" id="weeknd" for="weekends">Weekend</label>
+												<label class="tab" id="nextweekorder" for="nextweek">Next Week</label>
+											</div>
 										</div>
 
-
-									 	<div class="panels">
+									 	<div id="panels" class="panels">
 					                        <div id="Monday" class="row product-list m-auto panel mt-3">
 												<div class="alert alert-light">
 													<img src="assets/images/missed.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
@@ -191,10 +191,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Tofu)" data-src="assets/images/Soba-Noodle_Bowl.jpg" data-srcset="assets/images/Soba-Noodle_Bowl.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Tofu)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Tofu)" data-src="assets/images/Soba-Noodle-Bowl-2.jpg" data-srcset="assets/images/Soba-Noodle-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Tofu)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -237,10 +237,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Paneer)" data-src="assets/images/Soba-Noodle_Bowl.jpg" data-srcset="assets/images/Soba-Noodle_Bowl.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Paneer)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Paneer)" data-src="assets/images/Soba-Noodle-Bowl-2.jpg" data-srcset="assets/images/Soba-Noodle-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Paneer)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -283,10 +283,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Chicken)" data-src="assets/images/Soba-Noodle_Bowl.jpg" data-srcset="assets/images/Soba-Noodle_Bowl.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Chicken)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Chicken)" data-src="assets/images/Soba-Noodle-Bowl-2.jpg" data-srcset="assets/images/Soba-Noodle-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Chicken)"/>
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -330,10 +330,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Tofu)" data-src="assets/images/Orange-Barley-Bowl-1.jpg" data-srcset="assets/images/Orange-Barley-Bowl-1.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Tofu)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Tofu)" data-src="assets/images/Orange-Barley-Bowl-2.jpg" data-srcset="assets/images/Orange-Barley-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Tofu)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -380,10 +380,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Paneer)" data-src="assets/images/Orange-Barley-Bowl-1.jpg" data-srcset="assets/images/Orange-Barley-Bowl-1.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Paneer)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Paneer)" data-src="assets/images/Orange-Barley-Bowl-2.jpg" data-srcset="assets/images/Orange-Barley-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Paneer)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -429,10 +429,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Chicken)" data-src="assets/images/Orange-Barley-Bowl-1.jpg" data-srcset="assets/images/Orange-Barley-Bowl-1.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Chicken)"  />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Chicken)" data-src="assets/images/Orange-Barley-Bowl-2.jpg" data-srcset="assets/images/Orange-Barley-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -475,10 +475,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Veg)" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl (Veg)" data-src="assets/images/QNB-Veg_800.jpg" data-srcset="assets/images/QNB-Veg_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Veg)" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl (Veg)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Veg)" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl (Veg)" data-src="assets/images/QNB-Veg_800.jpg" data-srcset="assets/images/QNB-Veg_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Veg)" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl (Veg)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -521,10 +521,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Chicken)" data-src="assets/images/QNB-Chicken_800.jpg" data-srcset="assets/images/QNB-Chicken_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Chicken)" data-src="assets/images/QNB-Chicken_800.jpg" data-srcset="assets/images/QNB-Chicken_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -567,10 +567,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Free Range Eggs)" src="assets/images/OBB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Free Range Eggs)" data-src="assets/images/OBB-Chicken_800.jpg" data-srcset="assets/images/OBB-Chicken_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Free Range Eggs)" src="assets/images/OBB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Free Range Eggs)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Free Range Eggs)" src="assets/images/OBB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Free Range Eggs)" data-src="assets/images/OBB-Chicken_800.jpg" data-srcset="assets/images/OBB-Chicken_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Free Range Eggs)" src="assets/images/OBB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Free Range Eggs)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -612,10 +612,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Paneer)" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl (Paneer)" data-src="assets/images/Thai-Bowl-Paneer_800.jpg" data-srcset="assets/images/Thai-Bowl-Paneer_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Paneer)" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl (Paneer)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Paneer)" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl (Paneer)" data-src="assets/images/Thai-Bowl-Paneer_800.jpg" data-srcset="assets/images/Thai-Bowl-Paneer_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Paneer)" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl (Paneer)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -658,10 +658,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Chicken)" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl (Chicken)" data-src="assets/images/Thai-Bowl-Chicken_800.jpg" data-srcset="assets/images/Thai-Bowl-Chicken_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Chicken)" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl (Chicken)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Chicken)" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl (Chicken)" data-src="assets/images/Thai-Bowl-Chicken_800.jpg" data-srcset="assets/images/Thai-Bowl-Chicken_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Chicken)" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl (Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -703,10 +703,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/Rice-Noodle-Paneer_800.jpg" alt="Rice Noodle Paneer Bowl" data-src="assets/images/Rice-Noodle-Paneer_800" data-srcset="assets/images/Rice-Noodle-Paneer_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/Rice-Noodle-Paneer_800.jpg" alt="Rice Noodle Paneer Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/Rice-Noodle-Paneer_800.jpg" alt="Rice Noodle Paneer Bowl" data-src="assets/images/Rice-Noodle-Paneer_800" data-srcset="assets/images/Rice-Noodle-Paneer_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/Rice-Noodle-Paneer_800.jpg" alt="Rice Noodle Paneer Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -749,10 +749,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Shrimp Bowl" src="assets/images/Rice-Noodle-Shrimp_800.jpg" alt="Rice Noodle Shrimp Bowl" data-src="assets/images/Rice-Noodle-Shrimp_800.jpg" data-srcset="assets/images/Rice-Noodle-Shrimp_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Rice Noodle Shrimp Bowl" src="assets/images/Rice-Noodle-Shrimp_800.jpg" alt="Rice Noodle Shrimp Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Shrimp Bowl" src="assets/images/Rice-Noodle-Shrimp_800.jpg" alt="Rice Noodle Shrimp Bowl" data-src="assets/images/Rice-Noodle-Shrimp_800.jpg" data-srcset="assets/images/Rice-Noodle-Shrimp_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Rice Noodle Shrimp Bowl" src="assets/images/Rice-Noodle-Shrimp_800.jpg" alt="Rice Noodle Shrimp Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -794,10 +794,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" data-src="assets/images/MQB-Veg.jpg" data-srcset="assets/images/MQB-Veg.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg-2.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" data-src="assets/images/MQB-Veg-2.jpg" data-srcset="assets/images/MQB-Veg-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg-2.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -841,10 +841,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken.jpg" alt="Mango Quinoa Bowl (With Chicken)" data-src="assets/images/MQB-Chicken.jpg" data-srcset="assets/images/MQB-Chicken.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken.jpg" alt="Mango Quinoa Bowl (With Chicken)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken-2.jpg" alt="Mango Quinoa Bowl (With Chicken)" data-src="assets/images/MQB-Chicken-2.jpg" data-srcset="assets/images/MQB-Chicken-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken-2.jpg" alt="Mango Quinoa Bowl (With Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -888,10 +888,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/MBB-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" data-src="assets/images/MBB-Veg.jpg" data-srcset="assets/images/MBB-Veg.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/MBB-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/Mango-Barley-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" data-src="assets/images/Mango-Barley-Veg.jpg" data-srcset="assets/images/Mango-Barley-Veg.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/Mango-Barley-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -1191,10 +1191,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Tofu)" data-src="assets/images/Soba-Noodle_Bowl.jpg" data-srcset="assets/images/Soba-Noodle_Bowl.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Tofu)"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Tofu)" data-src="assets/images/Soba-Noodle-Bowl-2.jpg" data-srcset="assets/images/Soba-Noodle-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Tofu)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -1237,10 +1237,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Paneer)" data-src="assets/images/Soba-Noodle_Bowl.jpg" data-srcset="assets/images/Soba-Noodle_Bowl.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Paneer)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Paneer)" data-src="assets/images/Soba-Noodle-Bowl-2.jpg" data-srcset="assets/images/Soba-Noodle-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Paneer)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -1283,10 +1283,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Chicken)" data-src="assets/images/Soba-Noodle_Bowl.jpg" data-srcset="assets/images/Soba-Noodle_Bowl.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Chicken)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Chicken)" data-src="assets/images/Soba-Noodle-Bowl-2.jpg" data-srcset="assets/images/Soba-Noodle-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -1330,10 +1330,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Tofu)" data-src="assets/images/Orange-Barley-Bowl-1.jpg" data-srcset="assets/images/Orange-Barley-Bowl-1.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Tofu)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Tofu)" data-src="assets/images/Orange-Barley-Bowl-2.jpg" data-srcset="assets/images/Orange-Barley-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Tofu)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -1380,10 +1380,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Paneer)" data-src="assets/images/Orange-Barley-Bowl-1.jpg" data-srcset="assets/images/Orange-Barley-Bowl-1.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Paneer)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Paneer)" data-src="assets/images/Orange-Barley-Bowl-2.jpg" data-srcset="assets/images/Orange-Barley-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Paneer)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -1429,10 +1429,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Chicken)" data-src="assets/images/Orange-Barley-Bowl-1.jpg" data-srcset="assets/images/Orange-Barley-Bowl-1.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Chicken)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Chicken)" data-src="assets/images/Orange-Barley-Bowl-2.jpg" data-srcset="assets/images/Orange-Barley-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -2186,10 +2186,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Tofu)" data-src="assets/images/Soba-Noodle_Bowl.jpg" data-srcset="assets/images/Soba-Noodle_Bowl.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Tofu)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Tofu)" data-src="assets/images/Soba-Noodle-Bowl-2.jpg" data-srcset="assets/images/Soba-Noodle-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Tofu)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -2232,10 +2232,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Paneer)" data-src="assets/images/Soba-Noodle_Bowl.jpg" data-srcset="assets/images/Soba-Noodle_Bowl.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Paneer)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Paneer)" data-src="assets/images/Soba-Noodle-Bowl-2.jpg" data-srcset="assets/images/Soba-Noodle-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Paneer)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -2278,10 +2278,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Chicken)" data-src="assets/images/Soba-Noodle_Bowl.jpg" data-srcset="assets/images/Soba-Noodle_Bowl.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Chicken)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Chicken)" data-src="assets/images/Soba-Noodle-Bowl-2.jpg" data-srcset="assets/images/Soba-Noodle-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -2325,10 +2325,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Tofu)" data-src="assets/images/Orange-Barley-Bowl-1.jpg" data-srcset="assets/images/Orange-Barley-Bowl-1.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Tofu)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Tofu)" data-src="assets/images/Orange-Barley-Bowl-2.jpg" data-srcset="assets/images/Orange-Barley-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Tofu)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -2375,10 +2375,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Paneer)" data-src="assets/images/Orange-Barley-Bowl-1.jpg" data-srcset="assets/images/Orange-Barley-Bowl-1.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Paneer)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Paneer)" data-src="assets/images/Orange-Barley-Bowl-2.jpg" data-srcset="assets/images/Orange-Barley-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Paneer)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -2424,10 +2424,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Chicken)" data-src="assets/images/Orange-Barley-Bowl-1.jpg" data-srcset="assets/images/Orange-Barley-Bowl-1.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Chicken)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Chicken)" data-src="assets/images/Orange-Barley-Bowl-2.jpg" data-srcset="assets/images/Orange-Barley-Bowl-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -3879,10 +3879,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/MBB-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" data-src="assets/images/MBB-Veg.jpg" data-srcset="assets/images/MBB-Veg.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/MBB-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/Mango-Barley-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" data-src="assets/images/Mango-Barley-Veg.jpg" data-srcset="assets/images/Mango-Barley-Veg.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/Mango-Barley-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -3927,10 +3927,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/MBB-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" data-src="assets/images/MBB-Prawns.jpg" data-srcset="assets/images/MBB-Prawns.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/MBB-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/Mango-Barley-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" data-src="assets/images/Mango-Barley-Prawns.jpg" data-srcset="assets/images/Mango-Barley-Prawns.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/Mango-Barley-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -4071,10 +4071,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Veg)" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl (Veg)" data-src="assets/images/CWF-Bowl-Veg.jpg" data-srcset="assets/images/CWF-Bowl-Veg.jpg" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Veg)" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl (Veg)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Veg)" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl (Veg)" data-src="assets/images/CWF-Bowl-Veg.jpg" data-srcset="assets/images/CWF-Bowl-Veg.jpg" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Veg)" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl (Veg)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -4124,10 +4124,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Chicken)" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl (Chicken)" data-src="assets/images/CWF-Bowl-Chicken.jpg" data-srcset="assets/images/CWF-Bowl-Chicken.jpg" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Chicken)" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl (Chicken)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Chicken)" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl (Chicken)" data-src="assets/images/CWF-Bowl-Chicken.jpg" data-srcset="assets/images/CWF-Bowl-Chicken.jpg" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Chicken)" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl (Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -4869,10 +4869,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/MBB-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" data-src="assets/images/MBB-Veg.jpg" data-srcset="assets/images/MBB-Veg.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/MBB-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/Mango-Barley-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" data-src="assets/images/Mango-Barley-Veg.jpg" data-srcset="assets/images/Mango-Barley-Veg.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/Mango-Barley-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -4917,10 +4917,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/MBB-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" data-src="assets/images/MBB-Prawns.jpg" data-srcset="assets/images/MBB-Prawns.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/MBB-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/Mango-Barley-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" data-src="assets/images/Mango-Barley-Prawns.jpg" data-srcset="assets/images/Mango-Barley-Prawns.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/Mango-Barley-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -5061,10 +5061,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Veg)" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl (Veg)" data-src="assets/images/CWF-Bowl-Veg.jpg" data-srcset="assets/images/CWF-Bowl-Veg.jpg" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Veg)" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl (Veg)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Veg)" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl (Veg)" data-src="assets/images/CWF-Bowl-Veg.jpg" data-srcset="assets/images/CWF-Bowl-Veg.jpg" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Veg)" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl (Veg)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -5114,10 +5114,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Chicken)" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl (Chicken)" data-src="assets/images/CWF-Bowl-Chicken.jpg" data-srcset="assets/images/CWF-Bowl-Chicken.jpg" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Chicken)" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl (Chicken)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Chicken)" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl (Chicken)" data-src="assets/images/CWF-Bowl-Chicken.jpg" data-srcset="assets/images/CWF-Bowl-Chicken.jpg" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Chicken)" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl (Chicken)"  />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
