@@ -94,3 +94,16 @@ slider.addEventListener("mousemove", e => {
   const walk = (x - startX) * 3;
   slider.scrollLeft = scrollLeft - walk;
 });
+
+$(document).ready(function() {
+    var top = $('.tabs-section').offset().top;
+    $(window).scroll(function() {
+      var height = $('#panels').outerHeight() + top;
+      if ( $(this).scrollTop() >= top && $(this).scrollTop() <= height ) {
+          $(".tabs-section").addClass('sticky');
+      }
+      else{
+        $(".tabs-section").removeClass('sticky');
+      }
+    });
+});
