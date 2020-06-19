@@ -60,15 +60,6 @@
         height: 88px;
         padding: 0;
         width: 550px;
-        &.sticky{
-            position: sticky;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 99;
-            transform: translateX(0) rotate(0deg);  
-            transition: all ease-in-out 0.5s;     
-        }
         @media (max-width: 768px){
             width: 100vw;
             padding: 0 20px;
