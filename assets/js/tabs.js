@@ -100,10 +100,13 @@ $(document).ready(function() {
     $(window).scroll(function() {
       var height = $('#panels').outerHeight() + top;
       if ( $(this).scrollTop() >= top && $(this).scrollTop() <= height ) {
-          $(".tabs-section").addClass('sticky');
-      }
-      else{
-        $(".tabs-section").removeClass('sticky');
+          $(".tabs-section").css({
+            'position': 'sticky',
+            'top': '0',
+            'left': '0',
+            'right': '0',
+            'z-index': '99',
+          });
       }
     });
 });
