@@ -2555,7 +2555,7 @@
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Veg)</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
@@ -2569,7 +2569,7 @@
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
+												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.",
 												                    "title": "Quinoa and Nuts Bowl (Veg)",
 												                    "product_id": "QexP4xy4W2cMx4zORNEi",
 												                    "mark_type": "Veg",
@@ -2596,7 +2596,7 @@
 												        </div>
 												    </div>
 												</div>
-												<div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Chicken)</h3>
@@ -2640,29 +2640,29 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 
 												<div id="product-zhsxgRGAMaIbia75SQJr" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Free Range Eggs)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Soft Boiled Eggs)</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Free Range Eggs)" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Free Range Eggs)"/>
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Soft Boiled Eggs)" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Soft Boiled Eggs)"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Free Range Eggs)" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl (Free Range Eggs)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Soft Boiled Eggs)" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl (Soft Boiled Eggs)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
-												                    "title": "Quinoa and Nuts Bowl (Free Range Eggs)",
+												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.",
+												                    "title": "Quinoa and Nuts Bowl (Soft Boiled Eggs)",
 												                    "product_id": "zhsxgRGAMaIbia75SQJr",
 												                    "mark_type": "Non Veg",
 												                    "default": {
@@ -3466,7 +3466,7 @@
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Veg)</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
@@ -3480,7 +3480,7 @@
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
+												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.",
 												                    "title": "Quinoa and Nuts Bowl (Veg)",
 												                    "product_id": "QexP4xy4W2cMx4zORNEi",
 												                    "mark_type": "Veg",
@@ -3506,8 +3506,8 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
-												<div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div> 
+												<!-- <div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Chicken)</h3>
@@ -3551,29 +3551,29 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 
 												<div id="product-zhsxgRGAMaIbia75SQJr" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Free Range Eggs)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Soft Boiled Eggs)</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Free Range Eggs)" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Free Range Eggs)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Soft Boiled Eggs)" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Soft Boiled Eggs)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Free Range Eggs)" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl (Free Range Eggs)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Soft Boiled Eggs)" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl (Soft Boiled Eggs)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
-												                    "title": "Quinoa and Nuts Bowl (Free Range Eggs)",
+												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.",
+												                    "title": "Quinoa and Nuts Bowl (Soft Boiled Eggs)",
 												                    "product_id": "zhsxgRGAMaIbia75SQJr",
 												                    "mark_type": "Non Veg",
 												                    "default": {
@@ -3642,7 +3642,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div>
 
 												<div id="product-iy0sD3rmOe9CB3extiE7" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -3689,7 +3689,7 @@
 												        </div>
 												    </div>
 												</div> 
-												<!-- <div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												 <div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Rice Noodle Paneer Bowl</h3>

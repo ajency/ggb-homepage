@@ -16212,12 +16212,6 @@ div.ff-stream {
   }
 }
 
-/* line 354, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_global.scss */
-#product-test > div a {
-  pointer-events: none !important;
-  opacity: 0.6 !important;
-}
-
 /* line 1, ../../../xampp/htdocs/GGB-Home/ggb-homepage/assets/scss/_tabs.scss */
 .tab-panels {
   display: flex;
