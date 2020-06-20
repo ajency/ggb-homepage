@@ -151,24 +151,24 @@
 											}
 
 										?>
+										<input class="radio" id="weekends" name="group" type="radio" <?php if($day_of_week == 6 or $day_of_week == 0) echo 'checked' ?>>
 			                    	  	<input class="radio show" id="mon" name="group" type="radio" <?php if($day_of_week == 1) echo 'checked' ?>>
 										<input class="radio" id="tue" name="group" type="radio" <?php if($day_of_week == 2) echo 'checked' ?>>
 										<input class="radio" id="wed" name="group" type="radio" <?php if($day_of_week == 3) echo 'checked' ?>>
 			                    	  	<input class="radio" id="thrus" name="group" type="radio" <?php if($day_of_week == 4) echo 'checked' ?>>
 										<input class="radio" id="fri" name="group" type="radio" <?php if($day_of_week == 5) echo 'checked' ?>>
-										<input class="radio" id="weekends" name="group" type="radio" <?php if($day_of_week == 6 or $day_of_week == 0) echo 'checked' ?>>
-										<input class="radio" id="nextweek" name="group" type="radio">
+										<!-- <input class="radio" id="nextweek" name="group" type="radio"> -->
 
 										
 										<div class="tabs-section">
 											<div class="tabs" data-text="<?php echo 'Day of the week '.$day_of_week;?>">
+												<label class="tab <?php if($day_of_week == 6 or $day_of_week == 0) echo 'active' ?>" id="weeknd" for="weekends">Weekend</label>
 												<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="mon">Monday</label>
 												<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="tue">Tuesday</label>
 												<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="wed">Wednesday</label>
 												<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="thrus">Thursday</label>
 												<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="fri">Friday</label>
-												<label class="tab <?php if($day_of_week == 6 or $day_of_week == 0) echo 'active' ?>" id="weeknd" for="weekends">Weekend</label>
-												<label class="tab" id="nextweekorder" for="nextweek">Next Week</label>
+												<!-- <label class="tab" id="nextweekorder" for="nextweek">Next Week</label> -->
 											</div>
 										</div>
 
