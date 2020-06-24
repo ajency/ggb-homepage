@@ -179,18 +179,11 @@ function locationHashChanged() {
     if (window.location.hash === '#/cart' || window.location.hash === '#/order-summary') { 
         loadCartApp();
         showCartSlider()
-    }
-    else if(!window.location.hash){
-        closeCart();
     } else if(window.location.hash == '#/' || window.location.hash == '') {
         closeCart();
         var variantpop= document.querySelector('#variation-selection-popup')
         if(variantpop.classList.contains("show-modal")) {
             variantpop.click()
-        }
-        if(document.querySelector('#gpsModal').classList.contains("visible")) {
-           document.querySelector('#gpsModal').classList.remove('visible');
-           window.removeBackDrop();
         }
     }
 }
