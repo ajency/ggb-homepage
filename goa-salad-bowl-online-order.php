@@ -5373,7 +5373,8 @@
 	</div>
 
 	<div class="backdrop"></div>
-	
+	<button id="cart-address-change-trigger" class="d-none"></button>
+
 	<div class="site-loader text-center p-5">
 		<img src="assets/images/GGB-logo.png" width="75px" class="mt-5"/> 
 		<div class="spinner">
