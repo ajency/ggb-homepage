@@ -184,6 +184,10 @@ function locationHashChanged() {
         closeCart();
     } else if(window.location.hash == '#/' || window.location.hash == '') {
         closeCart();
+        var variantpop= document.querySelector('#variation-selection-popup')
+       if(variantpop.classList.contains("show-modal")) {
+            variantpop.click()
+       }
     }
 }
 
