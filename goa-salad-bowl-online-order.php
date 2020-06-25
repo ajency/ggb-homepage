@@ -5385,11 +5385,11 @@
 	<script src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
 	<script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>	
 	<script src="https://order-staging.greengrainbowl.com/site/firebase-functions.js" type="text/javascript"></script>
-	<script src="https://order-staging.greengrainbowl.com/site/react-components.1593001941595.js" type="text/javascript"></script>
+	<script src="https://order-staging.greengrainbowl.com/site/react-components.1593060209700.js" type="text/javascript"></script>
 	
 	<!-- Global variables for react cart app component and css  hash -->
 	<script>
-		var react_js_file_hashes = {"2":"4535aed7","runtime-main":"9efbcb05","main":"22688245","react-components":"1593001941595"};
+		var react_js_file_hashes = {"2":"4535aed7","runtime-main":"9efbcb05","main":"22688245","react-components":"1593060209700"};
 		var react_css_file_hashes = {"main":"727e096b"};
 		var app_url = "https://order-staging.greengrainbowl.com/site";
 		var site_url = "https://ggb-ajency.in";
