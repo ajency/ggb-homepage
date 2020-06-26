@@ -348,3 +348,12 @@
 	  transform: scale(1.0);
 	}
   }
+
+#product-test{ 
+  	> div{ 
+  		a{ 
+  			pointer-events: none !important; 
+    		opacity: 0.6 !important; 
+  		} 
+  	} 
+}
