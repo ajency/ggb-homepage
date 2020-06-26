@@ -180,28 +180,28 @@
 													</p>
 												</div> -->
 												<!-- <div class="coming-soon"> Coming Soon </div> -->
-												<!-- <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl (Tofu)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl - Tofu</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu . Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.
 												                </h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Tofu)" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Tofu" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl - Tofu" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Tofu)" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Tofu" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl - Tofu" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu . Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
-												                    "title": "Soba Noodle Bowl (Tofu)",
+												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
+												                    "title": "Soba Noodle Bowl - Tofu",
 												                    "product_id": "o8DaHCRxfYBIJQ5W7kCB",
 												                    "mark_type": "Veg",
 												                    "default": {
@@ -229,7 +229,7 @@
 												<div id="product-3GukcZQD4emxBqFI270J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl (Paneer)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl - Paneer</h3>
 												            <div class="product-content  pb-4">
 												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.
 												                </h4>
@@ -237,17 +237,17 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Paneer)" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Paneer" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl - Paneer" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Paneer)" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Paneer" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl - Paneer" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
-												                    "title": "Soba Noodle Bowl (Paneer)",
+												                    "title": "Soba Noodle Bowl - Paneer",
 												                    "product_id": "3GukcZQD4emxBqFI270J",
 												                    "mark_type": "Veg",
 												                    "default": {
@@ -276,24 +276,24 @@
 												<div id="product-uvCtO1TX0gdxL449TYxg" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl (Chicken)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl - Chicken</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and roasted chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Chicken" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Chicken)"/>
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Chicken" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl - Chicken"/>
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu / paneer / chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
-												                    "title": "Soba Noodle Bowl (Chicken)",
+												                    "description": "Buckwheat noodles, greens, roasted vegetables and roasted chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
+												                    "title": "Soba Noodle Bowl - Chicken",
 												                    "product_id": "uvCtO1TX0gdxL449TYxg",
 												                    "mark_type": "Non Veg",
 												                    "default": {
@@ -318,7 +318,7 @@
 												        </div>
 												    </div>
 												</div>
-												<div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
+												<!-- <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 												    <div class="product-wrapper cardfour">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Tofu)</h3>
@@ -783,7 +783,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div> 
 												<div id="product-UKvF28KghJT75RDN1CPk" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
@@ -877,7 +877,7 @@
 												        </div>
 												    </div>
 												</div> 
-												<!-- <div id="product-qEjBZmgcv14tAuCCkvmB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+											 	<div id="product-qEjBZmgcv14tAuCCkvmB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Barley Bowl (Brown Chickpeas)</h3>
@@ -1180,28 +1180,28 @@
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
-												<!-- <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl (Tofu)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl - Tofu</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu . Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.
 												                </h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Tofu)"/>
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Tofu" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl - Tofu"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Tofu)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Tofu)" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Tofu" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl - Tofu" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu . Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
-												                    "title": "Soba Noodle Bowl (Tofu)",
+												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
+												                    "title": "Soba Noodle Bowl - Tofu",
 												                    "product_id": "o8DaHCRxfYBIJQ5W7kCB",
 												                    "mark_type": "Veg",
 												                    "default": {
@@ -1229,7 +1229,7 @@
 												<div id="product-3GukcZQD4emxBqFI270J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl (Paneer)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl - Paneer</h3>
 												            <div class="product-content  pb-4">
 												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.
 												                </h4>
@@ -1237,17 +1237,17 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Paneer)" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Paneer" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl - Paneer" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Paneer)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Paneer)" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Paneer" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl - Paneer" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
-												                    "title": "Soba Noodle Bowl (Paneer)",
+												                    "title": "Soba Noodle Bowl - Paneer",
 												                    "product_id": "3GukcZQD4emxBqFI270J",
 												                    "mark_type": "Veg",
 												                    "default": {
@@ -1276,24 +1276,24 @@
 												<div id="product-uvCtO1TX0gdxL449TYxg" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl (Chicken)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl - Chicken</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and roasted chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Chicken" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl (Chicken)" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Chicken" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl - Chicken" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu / paneer / chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
-												                    "title": "Soba Noodle Bowl (Chicken)",
+												                    "description": "Buckwheat noodles, greens, roasted vegetables and roasted chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
+												                    "title": "Soba Noodle Bowl - Chicken",
 												                    "product_id": "uvCtO1TX0gdxL449TYxg",
 												                    "mark_type": "Non Veg",
 												                    "default": {
@@ -1321,27 +1321,25 @@
 												<div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 												    <div class="product-wrapper cardfour">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Tofu)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl - Tofu</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.											                	
-											                	<br><br>
-											                	<strong class="font-weight-bold">PS:</strong> We have replaced the broccoli with coloured peppers. This does not reflect in the picture. Please do not hold us to it :)</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Tofu)" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Tofu" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl - Tofu" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Tofu)" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Tofu" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl - Tofu" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
 												            <div class="react-add-to-cart-container"
 												                data-product_data='{
-												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl (Tofu)",
+												                    "description": "Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
+												                    "title": "Orange Barley Bowl - Tofu",
 												                    "product_id": "1CG6P1slxnr9TSNnPzvZ",
 												                    "mark_type": "Veg",
 												                    "default": {
@@ -1371,27 +1369,25 @@
 												<div id="product-V2hxjWQXafuB8dq0unxy" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 												    <div class="product-wrapper cardfour">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Paneer)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl - Paneer</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced paneer and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
-											                	<br><br>
-											                	<strong class="font-weight-bold">PS:</strong> We have replaced the broccoli with coloured peppers. This does not reflect in the picture. Please do not hold us to it :)</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced paneer and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Paneer)" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Paneer" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl - Paneer" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Paneer)" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Paneer" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl - Paneer" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
 												            <div class="react-add-to-cart-container"
 												                data-product_data='{
-												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl (Paneer)",
+												                    "description": "Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced paneer and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
+												                    "title": "Orange Barley Bowl - Paneer",
 												                    "product_id": "V2hxjWQXafuB8dq0unxy",
 												                    "mark_type": "Veg",
 												                    "default": {
@@ -1420,26 +1416,24 @@
 												<div id="product-8FVGmVx4JjQZRUsxtYrL" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Chicken)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl - Chicken</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.											                	
-											                	<br><br>
-											                	<strong class="font-weight-bold">PS:</strong> We have replaced the broccoli with coloured peppers. This does not reflect in the picture. Please do not hold us to it :)</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Chicken" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Chicken" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl - Chicken" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl (Chicken)",
+												                    "title": "Orange Barley Bowl - Chicken",
 												                    "product_id": "8FVGmVx4JjQZRUsxtYrL",
 												                    "mark_type": "Non Veg",
 												                    "default": {
@@ -1465,7 +1459,7 @@
 												    </div>
 												</div>
 
- 												 <div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+ 												<!-- <div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Veg)</h3>
@@ -1783,7 +1777,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div>
 												<div id="product-UKvF28KghJT75RDN1CPk" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
@@ -1877,7 +1871,7 @@
 												        </div>
 												    </div>
 												</div> 
-												<!-- <div id="product-qEjBZmgcv14tAuCCkvmB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-qEjBZmgcv14tAuCCkvmB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Barley Bowl (Brown Chickpeas)</h3>
@@ -1971,7 +1965,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div>
 												<div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
@@ -2063,7 +2057,7 @@
 												        </div>
 												    </div>
 												</div>
-												<!-- <div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl (Veg)</h3>
@@ -2312,31 +2306,29 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 												<div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 												    <div class="product-wrapper cardfour">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Tofu)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl - Tofu</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.											                	
-											                	<br><br>
-											                	<strong class="font-weight-bold">PS:</strong> We have replaced the broccoli with coloured peppers. This does not reflect in the picture. Please do not hold us to it :)</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Tofu)" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Tofu" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl - Tofu" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Tofu)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Tofu)" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Tofu" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl - Tofu" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
 												            <div class="react-add-to-cart-container"
 												                data-product_data='{
-												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl (Tofu)",
+												                    "description": "Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
+												                    "title": "Orange Barley Bowl - Tofu",
 												                    "product_id": "1CG6P1slxnr9TSNnPzvZ",
 												                    "mark_type": "Veg",
 												                    "default": {
@@ -2366,27 +2358,25 @@
 												<div id="product-V2hxjWQXafuB8dq0unxy" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 												    <div class="product-wrapper cardfour">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Paneer)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl - Paneer</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced paneer and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
-											                	<br><br>
-											                	<strong class="font-weight-bold">PS:</strong> We have replaced the broccoli with coloured peppers. This does not reflect in the picture. Please do not hold us to it :)</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced paneer and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Paneer)" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Paneer" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl - Paneer" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Paneer)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Paneer)" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Paneer" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl - Paneer" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
 												            <div class="react-add-to-cart-container"
 												                data-product_data='{
-												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl (Paneer)",
+												                    "description": "Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced paneer and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
+												                    "title": "Orange Barley Bowl - Paneer",
 												                    "product_id": "V2hxjWQXafuB8dq0unxy",
 												                    "mark_type": "Veg",
 												                    "default": {
@@ -2415,26 +2405,24 @@
 												<div id="product-8FVGmVx4JjQZRUsxtYrL" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl (Chicken)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl - Chicken</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.											                	
-											                	<br><br>
-											                	<strong class="font-weight-bold">PS:</strong> We have replaced the broccoli with coloured peppers. This does not reflect in the picture. Please do not hold us to it :)</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Chicken" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl (Chicken)" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Chicken" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl - Chicken" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl (Chicken)",
+												                    "title": "Orange Barley Bowl - Chicken",
 												                    "product_id": "8FVGmVx4JjQZRUsxtYrL",
 												                    "mark_type": "Non Veg",
 												                    "default": {
@@ -2458,8 +2446,8 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
-												<div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div> 
+												<!-- <div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl (Mung Beans)</h3>
@@ -2596,7 +2584,7 @@
 												        </div>
 												    </div>
 												</div>
-												<!-- <div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Chicken)</h3>
@@ -2640,7 +2628,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div> 
 
 												<div id="product-zhsxgRGAMaIbia75SQJr" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -2686,28 +2674,28 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
-												<!-- <div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div>-->
+												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl (Paneer)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl - Paneer</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Thai grilled paneer with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Thai grilled paneer, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Paneer)" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl (Paneer)" data-src="assets/images/Thai-Bowl-Paneer_800.jpg" data-srcset="assets/images/Thai-Bowl-Paneer_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Paneer" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl - Paneer" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Paneer)" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl (Paneer)" data-src="assets/images/Thai-Bowl-Paneer_800.jpg" data-srcset="assets/images/Thai-Bowl-Paneer_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Paneer)" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl (Paneer)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Thai grilled paneer with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
-												                    "title": "Thai Brown Rice Bowl (Paneer)",
+												                    "description": "Thai grilled paneer, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
+												                    "title": "Thai Brown Rice Bowl - Paneer",
 												                    "product_id": "iAZQBNDAObu4phKqFeiO",
 												                    "mark_type": "Veg",
 												                    "default": {
@@ -2736,24 +2724,24 @@
 												<div id="product-iy0sD3rmOe9CB3extiE7" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl (Chicken)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl - Chicken</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Thai grilled chicken with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Thai grilled chicken with greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Chicken)" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl (Chicken)" data-src="assets/images/Thai-Bowl-Chicken_800.jpg" data-srcset="assets/images/Thai-Bowl-Chicken_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Chicken)" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl (Chicken)" data-src="assets/images/Thai-Bowl-Chicken_800.jpg" data-srcset="assets/images/Thai-Bowl-Chicken_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Thai grilled chicken with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
-												                    "title": "Thai Brown Rice Bowl (Chicken)",
+												                    "description": "Thai grilled chicken with greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
+												                    "title": "Thai Brown Rice Bowl - Chicken",
 												                    "product_id": "iy0sD3rmOe9CB3extiE7",
 												                    "mark_type": "Non Veg",
 												                    "default": {
@@ -2778,7 +2766,54 @@
 												        </div>
 												    </div>
 												</div>
-												<div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+
+												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl - Tofu</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Thai grilled tofu, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Tofu" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl - Tofu" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Tofu" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl - Tofu" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex mt-5">
+												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
+												            <div class="react-add-to-cart-container" data-product_data='{
+												                    "description": "Thai grilled tofu, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
+												                    "title": "Thai Brown Rice Bowl - Tofu",
+												                    "product_id": "iAZQBNDAObu4phKqFeiO",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "iAZQBNDAObu4phKqFeiO-bowl",
+												                      "mrp": 230,
+												                      "sale_price": 230,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+
+												<!-- <div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Rice Noodle Paneer Bowl</h3>
@@ -3459,7 +3494,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div> 
 
  												<div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -3507,7 +3542,7 @@
 												        </div>
 												    </div>
 												</div> 
-												<!-- <div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+											 	<div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Chicken)</h3>
@@ -3551,7 +3586,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div> 
 
 												<div id="product-zhsxgRGAMaIbia75SQJr" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -3597,28 +3632,28 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div>-->
 												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl (Paneer)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl - Paneer</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Thai grilled paneer with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Thai grilled paneer, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Paneer)" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl (Paneer)" data-src="assets/images/Thai-Bowl-Paneer_800.jpg" data-srcset="assets/images/Thai-Bowl-Paneer_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Paneer" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl - Paneer" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Paneer)" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl (Paneer)" data-src="assets/images/Thai-Bowl-Paneer_800.jpg" data-srcset="assets/images/Thai-Bowl-Paneer_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Paneer" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl - Paneer" />
 												            </div>
 												        </div>
-												        <div id="product-test" class="product-meta d-flex mt-5">
+												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Thai grilled paneer with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
-												                    "title": "Thai Brown Rice Bowl (Paneer)",
+												                    "description": "Thai grilled paneer, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
+												                    "title": "Thai Brown Rice Bowl - Paneer",
 												                    "product_id": "iAZQBNDAObu4phKqFeiO",
 												                    "mark_type": "Veg",
 												                    "default": {
@@ -3642,29 +3677,29 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> 
 
-												<!--<div id="product-iy0sD3rmOe9CB3extiE7" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-iy0sD3rmOe9CB3extiE7" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl (Chicken)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl - Chicken</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Thai grilled chicken with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Thai grilled paneer, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Chicken)" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl (Chicken)" data-src="assets/images/Thai-Bowl-Chicken_800.jpg" data-srcset="assets/images/Thai-Bowl-Chicken_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Chicken)" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl (Chicken)" data-src="assets/images/Thai-Bowl-Chicken_800.jpg" data-srcset="assets/images/Thai-Bowl-Chicken_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												        </div>
-												        <div  id="product-test" class="product-meta d-flex mt-5">
+												        <div  class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Thai grilled chicken with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
-												                    "title": "Thai Brown Rice Bowl (Chicken)",
+												                    "description": "Thai grilled paneer, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
+												                    "title": "Thai Brown Rice Bowl - Chicken",
 												                    "product_id": "iy0sD3rmOe9CB3extiE7",
 												                    "mark_type": "Non Veg",
 												                    "default": {
@@ -3689,7 +3724,53 @@
 												        </div>
 												    </div>
 												</div> 
-												 <div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+
+												<div id="product-EIAHVzsPLkUY6yrNGjOj" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl - Tofu</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Thai grilled tofu, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Tofu" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl - Tofu" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Tofu" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl - Tofu" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex mt-5">
+												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
+												            <div class="react-add-to-cart-container" data-product_data='{
+												                    "description": "Thai grilled tofu, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
+												                    "title": "Thai Brown Rice Bowl - Tofu",
+												                    "product_id": "EIAHVzsPLkUY6yrNGjOj",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "EIAHVzsPLkUY6yrNGjOj-bowl",
+												                      "mrp": 230,
+												                      "sale_price": 230,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div> 
+											 	<!-- <div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Rice Noodle Paneer Bowl</h3>
@@ -3779,28 +3860,28 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 												<div id="product-UKvF28KghJT75RDN1CPk" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Quinoa Bowl (With Red Kidney Beans (Rajma))</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Quinoa Bowl - Rajma</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">A limited-edition bowl. Mixed greens, quinoa, red cabbage, cucumber, red peppers and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette for dressing, along with red kidney beans (rajma). Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" data-src="assets/images/MQB-Veg.jpg" data-srcset="assets/images/MQB-Veg.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl - Rajma" src="assets/images/MQB-Veg.jpg" alt="Mango Quinoa Bowl - Rajma" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg-2.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" data-src="assets/images/MQB-Veg-2.jpg" data-srcset="assets/images/MQB-Veg-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl - Rajma" src="assets/images/MQB-Veg-2.jpg" alt="Mango Quinoa Bowl - Rajma" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
-												                    "title": "Mango Quinoa Bowl (With Red Kidney Beans (Rajma))",
+												                    "description": "A limited-edition bowl. Mixed greens, quinoa, red cabbage, cucumber, red peppers and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette for dressing, along with red kidney beans (rajma). Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
+												                    "title": "Mango Quinoa Bowl - Rajma",
 												                    "product_id": "UKvF28KghJT75RDN1CPk",
 												                    "mark_type": "Veg",
 												                    "default": {
@@ -3830,24 +3911,24 @@
 												<div id="product-kprSd5b7lgiK0FkeWOPW" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Quinoa Bowl (With Chicken)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Quinoa Bowl - Chicken</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">A limited-edition bowl. Mixed greens, quinoa, red cabbage, cucumber, red peppers and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette for dressing, along with roast chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken.jpg" alt="Mango Quinoa Bowl (With Chicken)" data-src="assets/images/MQB-Chicken.jpg" data-srcset="assets/images/MQB-Chicken.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl - Chicken" src="assets/images/MQB-Chicken.jpg" alt="Mango Quinoa Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken-2.jpg" alt="Mango Quinoa Bowl (With Chicken)" data-src="assets/images/MQB-Chicken-2.jpg" data-srcset="assets/images/MQB-Chicken-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl - Chicken" src="assets/images/MQB-Chicken-2.jpg" alt="Mango Quinoa Bowl - Chicken" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
-												                    "title": "Mango Quinoa Bowl (With Chicken)",
+												                    "description": "A limited-edition bowl. Mixed greens, quinoa, red cabbage, cucumber, red peppers and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette for dressing, along with roast chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
+												                    "title": "Mango Quinoa Bowl - Chicken",
 												                    "product_id": "kprSd5b7lgiK0FkeWOPW",
 												                    "mark_type": " Non Veg",
 												                    "default": {
@@ -3873,7 +3954,7 @@
 												        </div>
 												    </div>
 												</div>
-												<div id="product-qEjBZmgcv14tAuCCkvmB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-qEjBZmgcv14tAuCCkvmB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Barley Bowl (Brown Chickpeas)</h3>
@@ -4058,7 +4139,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div> 
 												<div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
@@ -4163,7 +4244,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 					                        </div>
 				                        	<div id="Friday" class="row product-list m-auto panel">
 												<!-- <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
@@ -4769,28 +4850,28 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 												<div id="product-UKvF28KghJT75RDN1CPk" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Quinoa Bowl (With Red Kidney Beans (Rajma))</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Quinoa Bowl - Rajma</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">A limited-edition bowl. Mixed greens, quinoa, red cabbage, cucumber, red peppers and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette for dressing, along with red kidney beans (rajma). Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" data-src="assets/images/MQB-Veg.jpg" data-srcset="assets/images/MQB-Veg.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl - Rajma" src="assets/images/MQB-Veg.jpg" alt="Mango Quinoa Bowl - Rajma" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg-2.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" data-src="assets/images/MQB-Veg-2.jpg" data-srcset="assets/images/MQB-Veg-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl - Rajma" src="assets/images/MQB-Veg-2.jpg" alt="Mango Quinoa Bowl - Rajma" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
-												                    "title": "Mango Quinoa Bowl (With Red Kidney Beans (Rajma))",
+												                    "description": "A limited-edition bowl. Mixed greens, quinoa, red cabbage, cucumber, red peppers and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette for dressing, along with red kidney beans (rajma). Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
+												                    "title": "Mango Quinoa Bowl - Rajma",
 												                    "product_id": "UKvF28KghJT75RDN1CPk",
 												                    "mark_type": "Veg",
 												                    "default": {
@@ -4820,24 +4901,24 @@
 												<div id="product-kprSd5b7lgiK0FkeWOPW" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Quinoa Bowl (With Chicken)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Quinoa Bowl - Chicken</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">A limited-edition bowl. Mixed greens, quinoa, red cabbage, cucumber, red peppers and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette for dressing, along with roast chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken.jpg" alt="Mango Quinoa Bowl (With Chicken)" data-src="assets/images/MQB-Chicken.jpg" data-srcset="assets/images/MQB-Chicken.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl - Chicken" src="assets/images/MQB-Chicken.jpg" alt="Mango Quinoa Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken-2.jpg" alt="Mango Quinoa Bowl (With Chicken)" data-src="assets/images/MQB-Chicken-2.jpg" data-srcset="assets/images/MQB-Chicken-2.jpg" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl - Chicken" src="assets/images/MQB-Chicken-2.jpg" alt="Mango Quinoa Bowl - Chicken" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
-												                    "title": "Mango Quinoa Bowl (With Chicken)",
+												                    "description": "A limited-edition bowl. Mixed greens, quinoa, red cabbage, cucumber, red peppers and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette for dressing, along with roast chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
+												                    "title": "Mango Quinoa Bowl - Chicken",
 												                    "product_id": "kprSd5b7lgiK0FkeWOPW",
 												                    "mark_type": " Non Veg",
 												                    "default": {
@@ -4863,7 +4944,7 @@
 												        </div>
 												    </div>
 												</div> 
-												<div id="product-qEjBZmgcv14tAuCCkvmB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!--<div id="product-qEjBZmgcv14tAuCCkvmB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Barley Bowl (Brown Chickpeas)</h3>
@@ -5048,7 +5129,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div> 
 												<div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
@@ -5154,7 +5235,7 @@
 												        </div>
 												    </div>
 												</div>
-					                        	<!-- <div class="coming-soon"> Coming Soon </div> -->
+					                        	<div class="coming-soon"> Coming Soon </div> -->
 					                        </div>
 					                        <div id="Weekend" class="row product-list m-auto panel">
 					                        	<div class="alert alert-light">
