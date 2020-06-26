@@ -3597,8 +3597,8 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
-												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div> 
+												<!-- <div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl (Paneer)</h3>
@@ -3614,7 +3614,7 @@
 												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl (Paneer)" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl (Paneer)" data-src="assets/images/Thai-Bowl-Paneer_800.jpg" data-srcset="assets/images/Thai-Bowl-Paneer_800.jpg" />
 												            </div>
 												        </div>
-												        <div id="product-test" class="product-meta d-flex mt-5">
+												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
 												                    "description": "Thai grilled paneer with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
@@ -3644,7 +3644,7 @@
 												    </div>
 												</div>
 
-												<!--<div id="product-iy0sD3rmOe9CB3extiE7" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-iy0sD3rmOe9CB3extiE7" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl (Chicken)</h3>
