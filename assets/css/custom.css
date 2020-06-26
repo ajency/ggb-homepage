@@ -10403,10 +10403,6 @@ div.ff-stream {
   40% {
     -webkit-transform: scale(1);
     transform: scale(1); } }
-#product-test > div a {
-  pointer-events: none !important;
-  opacity: 0.6 !important; }
-
 .tab-panels {
   display: flex;
   flex-direction: column;
