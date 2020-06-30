@@ -184,7 +184,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu . Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl (Tofu)",
 												                    "product_id": "o8DaHCRxfYBIJQ5W7kCB",
@@ -230,7 +230,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl (Paneer)",
 												                    "product_id": "3GukcZQD4emxBqFI270J",
@@ -276,7 +276,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu / paneer / chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl (Chicken)",
 												                    "product_id": "uvCtO1TX0gdxL449TYxg",
@@ -323,7 +323,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container"
+												            <div class="  react-add-to-cart-container btn-hide btn-hide"
 												                data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
 												                    "title": "Orange Barley Bowl (Tofu)",
@@ -373,7 +373,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container"
+												            <div class="  react-add-to-cart-container btn-hide btn-hide"
 												                data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
 												                    "title": "Orange Barley Bowl (Paneer)",
@@ -422,7 +422,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
 												                    "title": "Orange Barley Bowl (Chicken)",
 												                    "product_id": "8FVGmVx4JjQZRUsxtYrL",
@@ -468,7 +468,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Veg)",
 												                    "product_id": "QexP4xy4W2cMx4zORNEi",
@@ -514,7 +514,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Chicken)",
 												                    "product_id": "bqApKRirpEeopN3w9H3J",
@@ -560,7 +560,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Free Range Eggs)",
 												                    "product_id": "zhsxgRGAMaIbia75SQJr",
@@ -605,7 +605,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Thai grilled paneer with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl (Paneer)",
 												                    "product_id": "iAZQBNDAObu4phKqFeiO",
@@ -651,7 +651,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Thai grilled chicken with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl (Chicken)",
 												                    "product_id": "iy0sD3rmOe9CB3extiE7",
@@ -696,7 +696,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Sweet and chilly paneer with rice noodles and asorted vegetables. An equally flavourful dressing and surprise chunks of fruit give this bowl a very tropical vibe, topped off with ssome roasted cashews.",
 												                    "title": "Rice Noodle Paneer Bowl",
 												                    "product_id": "uLG6xoTOYkcnpjxKoTXI",
@@ -742,7 +742,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Sweet and chilly shrimps with rice noodles and assorted vegetables. An equally flavourful dressing and surprise chunks of fruit give this bowl a very tropical vibe, topped off with some roasted cashews.",
 												                    "title": "Rice Noodle Shrimp Bowl",
 												                    "product_id": "yzwTvwigXncRLBNki4M9",
@@ -787,7 +787,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
 												                    "title": "Mango Quinoa Bowl (With Red Kidney Beans (Rajma))",
 												                    "product_id": "UKvF28KghJT75RDN1CPk",
@@ -834,7 +834,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
 												                    "title": "Mango Quinoa Bowl (With Chicken)",
 												                    "product_id": "kprSd5b7lgiK0FkeWOPW",
@@ -881,7 +881,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mix of lettuce and lightly bitter amaranth leaves (tambdi bhaji), red cabbage, cucumber, capsicum and carrots. Our sour-ish pickled chillies (made in-house) play their part well alongside mango (alphonso) chunks and the mint mustard dressing. Flax seeds for crunch.\r\n    Choose between the veg/ vegan bowl that comes with brown chickpeas (kaala chana).",
 												                    "title": "Mango Barley Bowl (Brown Chickpeas)",
 												                    "product_id": "qEjBZmgcv14tAuCCkvmB",
@@ -929,7 +929,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mix of lettuce and lightly bitter amaranth leaves (tambdi bhaji), red cabbage, cucumber, capsicum and carrots. Our sour-ish pickled chillies (made in-house) play their part well alongside mango (alphonso) chunks and the mint mustard dressing. Flax seeds for crunch.\r\n    The non veg bowl comes with prawns.",
 												                    "title": "Mango Barley Bowl (Prawns)",
 												                    "product_id": "vXoakmxssdJG1M8DRrMF",
@@ -975,7 +975,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.\r\n    The vegetarian bowl comes with boiled mung beans (also vegan friendly) .",
 												                    "title": "Pear Barley Bowl (Mung Beans)",
 												                    "product_id": "pbGEFxvc02aF3qbekNp9",
@@ -1021,7 +1021,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.\r\n    The non vegetarian bowl comes with chicken.",
 												                    "title": "Pear Barley Bowl (Chicken)",
 												                    "product_id": "cMjfFw1BSYxNwGZYRpeC",
@@ -1073,7 +1073,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 290</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. Theres falafel and roasted eggplant. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
 												                    "title": "Cracked Wheat & Falafel Bowl (Veg)",
 												                    "product_id": "w9CiPdw0MzpGfKkQsKqJ",
@@ -1126,7 +1126,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. There is falafel and roasted eggplant. Herbed chicken is an added bonus. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
 												                    "title": "Cracked Wheat & Falafel Bowl (Chicken)",
 												                    "product_id": "OMXhZUrvVWwCsLKNDlFK",
@@ -1184,7 +1184,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu . Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl (Tofu)",
 												                    "product_id": "o8DaHCRxfYBIJQ5W7kCB",
@@ -1230,7 +1230,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl (Paneer)",
 												                    "product_id": "3GukcZQD4emxBqFI270J",
@@ -1276,7 +1276,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu / paneer / chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl (Chicken)",
 												                    "product_id": "uvCtO1TX0gdxL449TYxg",
@@ -1323,7 +1323,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container"
+												            <div class="  react-add-to-cart-container btn-hide btn-hide"
 												                data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
 												                    "title": "Orange Barley Bowl (Tofu)",
@@ -1373,7 +1373,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container"
+												            <div class="  react-add-to-cart-container btn-hide btn-hide"
 												                data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
 												                    "title": "Orange Barley Bowl (Paneer)",
@@ -1422,7 +1422,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
 												                    "title": "Orange Barley Bowl (Chicken)",
 												                    "product_id": "8FVGmVx4JjQZRUsxtYrL",
@@ -1468,7 +1468,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Veg)",
 												                    "product_id": "QexP4xy4W2cMx4zORNEi",
@@ -1514,7 +1514,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Chicken)",
 												                    "product_id": "bqApKRirpEeopN3w9H3J",
@@ -1560,7 +1560,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Free Range Eggs)",
 												                    "product_id": "zhsxgRGAMaIbia75SQJr",
@@ -1605,7 +1605,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Thai grilled paneer with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl (Paneer)",
 												                    "product_id": "iAZQBNDAObu4phKqFeiO",
@@ -1651,7 +1651,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Thai grilled chicken with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl (Chicken)",
 												                    "product_id": "iy0sD3rmOe9CB3extiE7",
@@ -1696,7 +1696,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Sweet and chilly paneer with rice noodles and asorted vegetables. An equally flavourful dressing and surprise chunks of fruit give this bowl a very tropical vibe, topped off with ssome roasted cashews.",
 												                    "title": "Rice Noodle Paneer Bowl",
 												                    "product_id": "uLG6xoTOYkcnpjxKoTXI",
@@ -1742,7 +1742,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Sweet and chilly shrimps with rice noodles and assorted vegetables. An equally flavourful dressing and surprise chunks of fruit give this bowl a very tropical vibe, topped off with some roasted cashews.",
 												                    "title": "Rice Noodle Shrimp Bowl",
 												                    "product_id": "yzwTvwigXncRLBNki4M9",
@@ -1787,7 +1787,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
 												                    "title": "Mango Quinoa Bowl (With Red Kidney Beans (Rajma))",
 												                    "product_id": "UKvF28KghJT75RDN1CPk",
@@ -1834,7 +1834,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
 												                    "title": "Mango Quinoa Bowl (With Chicken)",
 												                    "product_id": "kprSd5b7lgiK0FkeWOPW",
@@ -1881,7 +1881,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mix of lettuce and lightly bitter amaranth leaves (tambdi bhaji), red cabbage, cucumber, capsicum and carrots. Our sour-ish pickled chillies (made in-house) play their part well alongside mango (alphonso) chunks and the mint mustard dressing. Flax seeds for crunch.\r\n    Choose between the veg/ vegan bowl that comes with brown chickpeas (kaala chana).",
 												                    "title": "Mango Barley Bowl (Brown Chickpeas)",
 												                    "product_id": "qEjBZmgcv14tAuCCkvmB",
@@ -1929,7 +1929,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mix of lettuce and lightly bitter amaranth leaves (tambdi bhaji), red cabbage, cucumber, capsicum and carrots. Our sour-ish pickled chillies (made in-house) play their part well alongside mango (alphonso) chunks and the mint mustard dressing. Flax seeds for crunch.\r\n    The non veg bowl comes with prawns.",
 												                    "title": "Mango Barley Bowl (Prawns)",
 												                    "product_id": "vXoakmxssdJG1M8DRrMF",
@@ -1975,7 +1975,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.\r\n    The vegetarian bowl comes with boiled mung beans (also vegan friendly) .",
 												                    "title": "Pear Barley Bowl (Mung Beans)",
 												                    "product_id": "pbGEFxvc02aF3qbekNp9",
@@ -2021,7 +2021,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.\r\n    The non vegetarian bowl comes with chicken.",
 												                    "title": "Pear Barley Bowl (Chicken)",
 												                    "product_id": "cMjfFw1BSYxNwGZYRpeC",
@@ -2073,7 +2073,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 290</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. Theres falafel and roasted eggplant. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
 												                    "title": "Cracked Wheat & Falafel Bowl (Veg)",
 												                    "product_id": "w9CiPdw0MzpGfKkQsKqJ",
@@ -2126,7 +2126,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. There is falafel and roasted eggplant. Herbed chicken is an added bonus. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
 												                    "title": "Cracked Wheat & Falafel Bowl (Chicken)",
 												                    "product_id": "OMXhZUrvVWwCsLKNDlFK",
@@ -2179,7 +2179,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu . Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl (Tofu)",
 												                    "product_id": "o8DaHCRxfYBIJQ5W7kCB",
@@ -2225,7 +2225,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl (Paneer)",
 												                    "product_id": "3GukcZQD4emxBqFI270J",
@@ -2271,7 +2271,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu / paneer / chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl (Chicken)",
 												                    "product_id": "uvCtO1TX0gdxL449TYxg",
@@ -2318,7 +2318,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container"
+												            <div class="  react-add-to-cart-container btn-hide btn-hide"
 												                data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
 												                    "title": "Orange Barley Bowl (Tofu)",
@@ -2368,7 +2368,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container"
+												            <div class="  react-add-to-cart-container btn-hide btn-hide"
 												                data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
 												                    "title": "Orange Barley Bowl (Paneer)",
@@ -2417,7 +2417,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
 												                    "title": "Orange Barley Bowl (Chicken)",
 												                    "product_id": "8FVGmVx4JjQZRUsxtYrL",
@@ -2463,7 +2463,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Veg)",
 												                    "product_id": "QexP4xy4W2cMx4zORNEi",
@@ -2509,7 +2509,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Chicken)",
 												                    "product_id": "bqApKRirpEeopN3w9H3J",
@@ -2555,7 +2555,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Free Range Eggs)",
 												                    "product_id": "zhsxgRGAMaIbia75SQJr",
@@ -2600,7 +2600,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Thai grilled paneer with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl (Paneer)",
 												                    "product_id": "iAZQBNDAObu4phKqFeiO",
@@ -2646,7 +2646,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Thai grilled chicken with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl (Chicken)",
 												                    "product_id": "iy0sD3rmOe9CB3extiE7",
@@ -2691,7 +2691,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Sweet and chilly paneer with rice noodles and asorted vegetables. An equally flavourful dressing and surprise chunks of fruit give this bowl a very tropical vibe, topped off with ssome roasted cashews.",
 												                    "title": "Rice Noodle Paneer Bowl",
 												                    "product_id": "uLG6xoTOYkcnpjxKoTXI",
@@ -2737,7 +2737,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Sweet and chilly shrimps with rice noodles and assorted vegetables. An equally flavourful dressing and surprise chunks of fruit give this bowl a very tropical vibe, topped off with some roasted cashews.",
 												                    "title": "Rice Noodle Shrimp Bowl",
 												                    "product_id": "yzwTvwigXncRLBNki4M9",
@@ -2782,7 +2782,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
 												                    "title": "Mango Quinoa Bowl (With Red Kidney Beans (Rajma))",
 												                    "product_id": "UKvF28KghJT75RDN1CPk",
@@ -2829,7 +2829,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
 												                    "title": "Mango Quinoa Bowl (With Chicken)",
 												                    "product_id": "kprSd5b7lgiK0FkeWOPW",
@@ -2876,7 +2876,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mix of lettuce and lightly bitter amaranth leaves (tambdi bhaji), red cabbage, cucumber, capsicum and carrots. Our sour-ish pickled chillies (made in-house) play their part well alongside mango (alphonso) chunks and the mint mustard dressing. Flax seeds for crunch.\r\n    Choose between the veg/ vegan bowl that comes with brown chickpeas (kaala chana).",
 												                    "title": "Mango Barley Bowl (Brown Chickpeas)",
 												                    "product_id": "qEjBZmgcv14tAuCCkvmB",
@@ -2924,7 +2924,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mix of lettuce and lightly bitter amaranth leaves (tambdi bhaji), red cabbage, cucumber, capsicum and carrots. Our sour-ish pickled chillies (made in-house) play their part well alongside mango (alphonso) chunks and the mint mustard dressing. Flax seeds for crunch.\r\n    The non veg bowl comes with prawns.",
 												                    "title": "Mango Barley Bowl (Prawns)",
 												                    "product_id": "vXoakmxssdJG1M8DRrMF",
@@ -2970,7 +2970,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.\r\n    The vegetarian bowl comes with boiled mung beans (also vegan friendly) .",
 												                    "title": "Pear Barley Bowl (Mung Beans)",
 												                    "product_id": "pbGEFxvc02aF3qbekNp9",
@@ -3016,7 +3016,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.\r\n    The non vegetarian bowl comes with chicken.",
 												                    "title": "Pear Barley Bowl (Chicken)",
 												                    "product_id": "cMjfFw1BSYxNwGZYRpeC",
@@ -3068,7 +3068,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 290</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. Theres falafel and roasted eggplant. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
 												                    "title": "Cracked Wheat & Falafel Bowl (Veg)",
 												                    "product_id": "w9CiPdw0MzpGfKkQsKqJ",
@@ -3121,7 +3121,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. There is falafel and roasted eggplant. Herbed chicken is an added bonus. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
 												                    "title": "Cracked Wheat & Falafel Bowl (Chicken)",
 												                    "product_id": "OMXhZUrvVWwCsLKNDlFK",
@@ -3180,7 +3180,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu . Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl (Tofu)",
 												                    "product_id": "o8DaHCRxfYBIJQ5W7kCB",
@@ -3226,7 +3226,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl (Paneer)",
 												                    "product_id": "3GukcZQD4emxBqFI270J",
@@ -3272,7 +3272,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu / paneer / chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl (Chicken)",
 												                    "product_id": "uvCtO1TX0gdxL449TYxg",
@@ -3319,7 +3319,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container"
+												            <div class="  react-add-to-cart-container btn-hide btn-hide"
 												                data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
 												                    "title": "Orange Barley Bowl (Tofu)",
@@ -3369,7 +3369,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container"
+												            <div class="  react-add-to-cart-container btn-hide btn-hide"
 												                data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
 												                    "title": "Orange Barley Bowl (Paneer)",
@@ -3418,7 +3418,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
 												                    "title": "Orange Barley Bowl (Chicken)",
 												                    "product_id": "8FVGmVx4JjQZRUsxtYrL",
@@ -3464,7 +3464,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Veg)",
 												                    "product_id": "QexP4xy4W2cMx4zORNEi",
@@ -3510,7 +3510,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Chicken)",
 												                    "product_id": "bqApKRirpEeopN3w9H3J",
@@ -3556,7 +3556,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Free Range Eggs)",
 												                    "product_id": "zhsxgRGAMaIbia75SQJr",
@@ -3601,7 +3601,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Thai grilled paneer with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl (Paneer)",
 												                    "product_id": "iAZQBNDAObu4phKqFeiO",
@@ -3647,7 +3647,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Thai grilled chicken with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl (Chicken)",
 												                    "product_id": "iy0sD3rmOe9CB3extiE7",
@@ -3692,7 +3692,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Sweet and chilly paneer with rice noodles and asorted vegetables. An equally flavourful dressing and surprise chunks of fruit give this bowl a very tropical vibe, topped off with ssome roasted cashews.",
 												                    "title": "Rice Noodle Paneer Bowl",
 												                    "product_id": "uLG6xoTOYkcnpjxKoTXI",
@@ -3738,7 +3738,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Sweet and chilly shrimps with rice noodles and assorted vegetables. An equally flavourful dressing and surprise chunks of fruit give this bowl a very tropical vibe, topped off with some roasted cashews.",
 												                    "title": "Rice Noodle Shrimp Bowl",
 												                    "product_id": "yzwTvwigXncRLBNki4M9",
@@ -3783,7 +3783,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
 												                    "title": "Mango Quinoa Bowl (With Red Kidney Beans (Rajma))",
 												                    "product_id": "UKvF28KghJT75RDN1CPk",
@@ -3830,7 +3830,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
 												                    "title": "Mango Quinoa Bowl (With Chicken)",
 												                    "product_id": "kprSd5b7lgiK0FkeWOPW",
@@ -3877,7 +3877,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mix of lettuce and lightly bitter amaranth leaves (tambdi bhaji), red cabbage, cucumber, capsicum and carrots. Our sour-ish pickled chillies (made in-house) play their part well alongside mango (alphonso) chunks and the mint mustard dressing. Flax seeds for crunch.\r\n    Choose between the veg/ vegan bowl that comes with brown chickpeas (kaala chana).",
 												                    "title": "Mango Barley Bowl (Brown Chickpeas)",
 												                    "product_id": "qEjBZmgcv14tAuCCkvmB",
@@ -3925,7 +3925,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mix of lettuce and lightly bitter amaranth leaves (tambdi bhaji), red cabbage, cucumber, capsicum and carrots. Our sour-ish pickled chillies (made in-house) play their part well alongside mango (alphonso) chunks and the mint mustard dressing. Flax seeds for crunch.\r\n    The non veg bowl comes with prawns.",
 												                    "title": "Mango Barley Bowl (Prawns)",
 												                    "product_id": "vXoakmxssdJG1M8DRrMF",
@@ -3971,7 +3971,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.\r\n    The vegetarian bowl comes with boiled mung beans (also vegan friendly) .",
 												                    "title": "Pear Barley Bowl (Mung Beans)",
 												                    "product_id": "pbGEFxvc02aF3qbekNp9",
@@ -4017,7 +4017,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.\r\n    The non vegetarian bowl comes with chicken.",
 												                    "title": "Pear Barley Bowl (Chicken)",
 												                    "product_id": "cMjfFw1BSYxNwGZYRpeC",
@@ -4069,7 +4069,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 290</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. Theres falafel and roasted eggplant. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
 												                    "title": "Cracked Wheat & Falafel Bowl (Veg)",
 												                    "product_id": "w9CiPdw0MzpGfKkQsKqJ",
@@ -4122,7 +4122,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. There is falafel and roasted eggplant. Herbed chicken is an added bonus. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
 												                    "title": "Cracked Wheat & Falafel Bowl (Chicken)",
 												                    "product_id": "OMXhZUrvVWwCsLKNDlFK",
@@ -4170,7 +4170,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu . Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl (Tofu)",
 												                    "product_id": "o8DaHCRxfYBIJQ5W7kCB",
@@ -4216,7 +4216,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl (Paneer)",
 												                    "product_id": "3GukcZQD4emxBqFI270J",
@@ -4262,7 +4262,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu / paneer / chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl (Chicken)",
 												                    "product_id": "uvCtO1TX0gdxL449TYxg",
@@ -4309,7 +4309,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container"
+												            <div class="  react-add-to-cart-container btn-hide btn-hide"
 												                data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
 												                    "title": "Orange Barley Bowl (Tofu)",
@@ -4359,7 +4359,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container"
+												            <div class="  react-add-to-cart-container btn-hide btn-hide"
 												                data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
 												                    "title": "Orange Barley Bowl (Paneer)",
@@ -4408,7 +4408,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
 												                    "title": "Orange Barley Bowl (Chicken)",
 												                    "product_id": "8FVGmVx4JjQZRUsxtYrL",
@@ -4454,7 +4454,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Veg)",
 												                    "product_id": "QexP4xy4W2cMx4zORNEi",
@@ -4500,7 +4500,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Chicken)",
 												                    "product_id": "bqApKRirpEeopN3w9H3J",
@@ -4546,7 +4546,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Free Range Eggs)",
 												                    "product_id": "zhsxgRGAMaIbia75SQJr",
@@ -4591,7 +4591,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Thai grilled paneer with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl (Paneer)",
 												                    "product_id": "iAZQBNDAObu4phKqFeiO",
@@ -4637,7 +4637,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Thai grilled chicken with salad vegetables and greens served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl (Chicken)",
 												                    "product_id": "iy0sD3rmOe9CB3extiE7",
@@ -4682,7 +4682,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Sweet and chilly paneer with rice noodles and asorted vegetables. An equally flavourful dressing and surprise chunks of fruit give this bowl a very tropical vibe, topped off with ssome roasted cashews.",
 												                    "title": "Rice Noodle Paneer Bowl",
 												                    "product_id": "uLG6xoTOYkcnpjxKoTXI",
@@ -4728,7 +4728,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Sweet and chilly shrimps with rice noodles and assorted vegetables. An equally flavourful dressing and surprise chunks of fruit give this bowl a very tropical vibe, topped off with some roasted cashews.",
 												                    "title": "Rice Noodle Shrimp Bowl",
 												                    "product_id": "yzwTvwigXncRLBNki4M9",
@@ -4773,7 +4773,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
 												                    "title": "Mango Quinoa Bowl (With Red Kidney Beans (Rajma))",
 												                    "product_id": "UKvF28KghJT75RDN1CPk",
@@ -4820,7 +4820,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Our limited-edition bowl with the king of fruits! This bowl comes with mixed greens, quinoa, red cabbage, cucumber, red pepper and sweet (alphonso) mango chunks. A gingery carrot balsamic vinaigrette to tie them all together, along with red kidney beans (rajma) or chicken. Topped with soft feta and crunchy granola (made in-house, with organic oats, honey and almonds).",
 												                    "title": "Mango Quinoa Bowl (With Chicken)",
 												                    "product_id": "kprSd5b7lgiK0FkeWOPW",
@@ -4867,7 +4867,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mix of lettuce and lightly bitter amaranth leaves (tambdi bhaji), red cabbage, cucumber, capsicum and carrots. Our sour-ish pickled chillies (made in-house) play their part well alongside mango (alphonso) chunks and the mint mustard dressing. Flax seeds for crunch.\r\n    Choose between the veg/ vegan bowl that comes with brown chickpeas (kaala chana).",
 												                    "title": "Mango Barley Bowl (Brown Chickpeas)",
 												                    "product_id": "qEjBZmgcv14tAuCCkvmB",
@@ -4915,7 +4915,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mix of lettuce and lightly bitter amaranth leaves (tambdi bhaji), red cabbage, cucumber, capsicum and carrots. Our sour-ish pickled chillies (made in-house) play their part well alongside mango (alphonso) chunks and the mint mustard dressing. Flax seeds for crunch.\r\n    The non veg bowl comes with prawns.",
 												                    "title": "Mango Barley Bowl (Prawns)",
 												                    "product_id": "vXoakmxssdJG1M8DRrMF",
@@ -4961,7 +4961,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.\r\n    The vegetarian bowl comes with boiled mung beans (also vegan friendly) .",
 												                    "title": "Pear Barley Bowl (Mung Beans)",
 												                    "product_id": "pbGEFxvc02aF3qbekNp9",
@@ -5007,7 +5007,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.\r\n    The non vegetarian bowl comes with chicken.",
 												                    "title": "Pear Barley Bowl (Chicken)",
 												                    "product_id": "cMjfFw1BSYxNwGZYRpeC",
@@ -5059,7 +5059,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 290</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. Theres falafel and roasted eggplant. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
 												                    "title": "Cracked Wheat & Falafel Bowl (Veg)",
 												                    "product_id": "w9CiPdw0MzpGfKkQsKqJ",
@@ -5112,7 +5112,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 310</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="  react-add-to-cart-container btn-hide btn-hide" data-product_data='{
 												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. There is falafel and roasted eggplant. Herbed chicken is an added bonus. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
 												                    "title": "Cracked Wheat & Falafel Bowl (Chicken)",
 												                    "product_id": "OMXhZUrvVWwCsLKNDlFK",
