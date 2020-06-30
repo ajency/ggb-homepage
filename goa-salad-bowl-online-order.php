@@ -197,7 +197,7 @@
 												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Tofu" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl - Tofu" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex mt-5">
+												        <div id="product-test" class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
 												            <div class="react-add-to-cart-container" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
