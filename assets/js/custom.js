@@ -179,6 +179,12 @@ function locationHashChanged() {
     if (window.location.hash === '#/cart' || window.location.hash === '#/order-summary') { 
         loadCartApp();
         showCartSlider()
+    } else if(window.location.hash) {
+        closeCart();
+        var variantpop= document.querySelector('#variation-selection-popup')
+        if(variantpop.classList.contains("show-modal")) {
+            variantpop.click()
+        }
     }
     else if(window.location.hash == '#/' || window.location.hash == '') {
         closeCart();
