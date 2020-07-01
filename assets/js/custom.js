@@ -195,6 +195,7 @@ function locationHashChanged() {
 }
 
 
+
 function closeCart(){
     document.querySelector(".cart-wrapper").classList.remove('active');
     removeBackDrop();
