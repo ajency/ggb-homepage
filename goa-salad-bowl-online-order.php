@@ -2752,7 +2752,7 @@
 												    </div>
 												</div>
 
-												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-EIAHVzsPLkUY6yrNGjOj" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl - Tofu</h3>
@@ -2773,10 +2773,10 @@
 												            <div class="react-add-to-cart-container" data-product_data='{
 												                    "description": "Thai grilled tofu, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl - Tofu",
-												                    "product_id": "iAZQBNDAObu4phKqFeiO",
+												                    "product_id": "EIAHVzsPLkUY6yrNGjOj",
 												                    "mark_type": "Veg",
 												                    "default": {
-												                      "id": "iAZQBNDAObu4phKqFeiO-bowl",
+												                      "id": "EIAHVzsPLkUY6yrNGjOj-bowl",
 												                      "mrp": 230,
 												                      "sale_price": 230,
 												                      "size": "Regular Bowl"
