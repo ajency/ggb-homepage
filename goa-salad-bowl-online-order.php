@@ -5008,7 +5008,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												            <div class="react-add-to-cart-container" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Veg)",
 												                    "product_id": "QexP4xy4W2cMx4zORNEi",
