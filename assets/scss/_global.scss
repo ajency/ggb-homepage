@@ -1,7 +1,14 @@
-
+/* hide button */
 .btn-hide{
 	display: none;
 }
+/* end of hide  button */
+
+/* hide product */
+.hide-product{
+	display: none;
+}
+/*  end of hide product */
 .header-section{
     max-width: 520px;
     margin: 0;
@@ -353,6 +360,7 @@
 	}
   }
 
+/* hide add to cart button */
 #product-test{ 
   	> div{ 
   		a{ 
@@ -361,3 +369,4 @@
   		} 
   	} 
 }
+/*end of hide add to cart button */
