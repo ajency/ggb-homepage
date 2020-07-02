@@ -5527,11 +5527,11 @@
 	<script src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
 	<script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>	
 	<script src="https://order.greengrainbowl.com/site/firebase-functions.js?_1" type="text/javascript"></script>
-	<script src="https://order.greengrainbowl.com/site/react-components.1593506430777.js" type="text/javascript"></script>
+	<script src="https://order.greengrainbowl.com/site/react-components.1593680214986.js" type="text/javascript"></script>
 	
 	<!-- Global variables for react cart app component and css  hash -->
 	<script>
-		var react_js_file_hashes = {"2":"4535aed7","runtime-main":"9efbcb05","main":"aed8987e","react-components":"1593506430777"};
+		var react_js_file_hashes = {"2":"4535aed7","runtime-main":"9efbcb05","main":"3be0b6f4","react-components":"1593680214986"};
 		var react_css_file_hashes = {"main":"727e096b"};
 		var app_url = "https://order.greengrainbowl.com/site";
 		var site_url = "https://greengrainbowl.com";
