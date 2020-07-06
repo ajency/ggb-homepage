@@ -165,7 +165,7 @@
 													</p>
 												</div> -->
 												<!-- <div class="coming-soon"> Coming Soon </div> -->
-												<div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl - Tofu</h3>
@@ -448,22 +448,23 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
+
 
  												<div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Veg)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl - Veg</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Veg)" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl (Veg)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Veg)" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl (Veg)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -545,17 +546,17 @@
 												<div id="product-zhsxgRGAMaIbia75SQJr" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Free Range Eggs)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl - Egg</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Free Range Eggs)" src="assets/images/OBB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Free Range Eggs)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Free Range Eggs)" src="assets/images/OBB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Free Range Eggs)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -572,7 +573,7 @@
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/OBB-Chicken_800.jpg"
+												                      "assets/images/QNB-Chicken_800.jpg"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -586,8 +587,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
-												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div>												<!-- <div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl (Paneer)</h3>
@@ -1165,7 +1165,7 @@
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
-												<div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl - Tofu</h3>
@@ -1442,22 +1442,22 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 
- 												<!-- <div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+ 												<div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Veg)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl - Veg</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Veg)" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl (Veg)" data-src="assets/images/QNB-Veg_800.jpg" data-srcset="assets/images/QNB-Veg_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Veg)" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl (Veg)" data-src="assets/images/QNB-Veg_800.jpg" data-srcset="assets/images/QNB-Veg_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -1539,17 +1539,17 @@
 												<div id="product-zhsxgRGAMaIbia75SQJr" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Free Range Eggs)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl - Egg</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Free Range Eggs)" src="assets/images/OBB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Free Range Eggs)" data-src="assets/images/OBB-Chicken_800.jpg" data-srcset="assets/images/OBB-Chicken_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Free Range Eggs)" src="assets/images/OBB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Free Range Eggs)" data-src="assets/images/OBB-Chicken_800.jpg" data-srcset="assets/images/OBB-Chicken_800.jpg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -1566,7 +1566,7 @@
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/OBB-Chicken_800.jpg"
+												                      "assets/images/QNB-Chicken_800.jpg"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1581,7 +1581,7 @@
 												        </div>
 												    </div>
 												</div>
-												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl (Paneer)</h3>
@@ -1950,21 +1950,21 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 												<div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl (Mung Beans)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl - Mung Beans</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The vegetarian bowl comes with boiled mung beans (also vegan friendly) .</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The vegetarian bowl comes with boiled mung beans (also vegan friendly).</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl (Mung Beans)" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl (Mung Beans)" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl - Mung Beans" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl - Mung Beans" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl (Mung Beans)" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl (Mung Beans)" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl - Mung Beans" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl - Mung Beans" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -2000,17 +2000,17 @@
 												<div id="product-cMjfFw1BSYxNwGZYRpeC" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl (Chicken)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl - Chicken</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The non vegetarian bowl comes with chicken.</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.The non vegetarian bowl comes with chicken.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl (Chicken)" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl - Chicken" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl (Chicken)" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl - Chicken" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl - Chicken" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -2042,7 +2042,7 @@
 												        </div>
 												    </div>
 												</div>
-												<div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl (Veg)</h3>
@@ -2431,28 +2431,28 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> 
-												<!-- <div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div> -->
+												<div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl (Mung Beans)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl - Mung Beans</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The vegetarian bowl comes with boiled mung beans (also vegan friendly) .</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The vegetarian bowl comes with boiled mung beans (also vegan friendly).</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl (Mung Beans)" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl (Mung Beans)" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl - Mung Beans" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl - Mung Beans" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl (Mung Beans)" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl (Mung Beans)" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl - Mung Beans" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl - Mung Beans" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The vegetarian bowl comes with boiled mung beans (also vegan friendly) .",
-												                    "title": "Pear Barley Bowl (Mung Beans)",
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The vegetarian bowl comes with boiled mung beans (also vegan friendly).",
+												                    "title": "Pear Barley Bowl - Mung Beans",
 												                    "product_id": "pbGEFxvc02aF3qbekNp9",
 												                    "mark_type": "Veg",
 												                    "default": {
@@ -2481,24 +2481,24 @@
 												<div id="product-cMjfFw1BSYxNwGZYRpeC" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl (Chicken)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl - Chicken</h3>
 												            <div class="product-content  pb-4">
 												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.The non vegetarian bowl comes with chicken.</h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl (Chicken)" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl - Chicken" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl (Chicken)" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl - Chicken" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl - Chicken" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
-												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The non vegetarian bowl comes with chicken.",
-												                    "title": "Pear Barley Bowl (Chicken)",
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. Comes with roast chicken.",
+												                    "title": "Pear Barley Bowl - Chicken",
 												                    "product_id": "cMjfFw1BSYxNwGZYRpeC",
 												                    "mark_type": "Non Veg",
 												                    "default": {
@@ -2523,7 +2523,7 @@
 												        </div>
 												    </div>
 												</div>
- 												<div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+ 												<!-- <div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Veg)</h3>
@@ -2568,8 +2568,8 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
-												<div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div> -->
+												<div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6 hide-product">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Chicken)</h3>
@@ -2590,10 +2590,10 @@
 												            <div class=" react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Chicken)",
-												                    "product_id": "bqApKRirpEeopN3w9H3J",
+												                    "product_id": "dummy-product",
 												                    "mark_type": "Non Veg",
 												                    "default": {
-												                      "id": "bqApKRirpEeopN3w9H3J-bowl",
+												                      "id": "dummy-product-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
 												                      "size": "Regular Bowl"
@@ -2615,7 +2615,7 @@
 												    </div>
 												</div> 
 
-												<div id="product-zhsxgRGAMaIbia75SQJr" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-zhsxgRGAMaIbia75SQJr" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Soft Boiled Eggs)</h3>
@@ -2659,7 +2659,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>-->
+												</div>
 												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
@@ -2770,7 +2770,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Thai grilled tofu, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl - Tofu",
 												                    "product_id": "EIAHVzsPLkUY6yrNGjOj",
@@ -2798,7 +2798,7 @@
 												    </div>
 												</div>
 
-												<!-- <div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Rice Noodle Paneer Bowl</h3>
@@ -3078,15 +3078,15 @@
 												    </div>
 												</div> -->
 
-												<!-- <div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl (Veg)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl - Veg</h3>
 												            <div class="product-content  pb-4">
 												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
 												                	New bowl on the menu!<br>
 												                	<br>
-																	A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. There's falafel and roasted eggplant. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe!<br>
+																	A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Olives, pomegranate and feta to complete the middle eastern vibe!<br>
 																	<br>
 																	*Salad comes with dressing mixed in.<br>
 																	**Dip is not the dressing.<br>
@@ -3095,10 +3095,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Veg)" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl (Veg)" data-src="assets/images/CWF-Bowl-Veg.jpg" data-srcset="assets/images/CWF-Bowl-Veg.jpg" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl - Veg" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl - Veg" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Veg)" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl (Veg)" data-src="assets/images/CWF-Bowl-Veg.jpg" data-srcset="assets/images/CWF-Bowl-Veg.jpg" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl - Veg" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl - Veg" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -3134,24 +3134,25 @@
 												<div id="product-OMXhZUrvVWwCsLKNDlFK" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl (Chicken)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl - Chicken</h3>
 												            <div class="product-content  pb-4">
 												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
 												                	New bowl on the menu!<br>
 												                	<br>
-																	A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. There's falafel and roasted eggplant. Herbed chicken is an added bonus. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe!<br>
+																	A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Herbed chicken is an added bonus. Olives, pomegranate and feta to complete the middle eastern vibe!<br>
 																	<br>
 																	*Salad comes with dressing mixed in.<br>
 																	**Dip is not the dressing.<br>
+																	New bowl on the menu!
 												                </h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Chicken)" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl (Chicken)" data-src="assets/images/CWF-Bowl-Chicken.jpg" data-srcset="assets/images/CWF-Bowl-Chicken.jpg" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl - Chicken" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Chicken)" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl (Chicken)" data-src="assets/images/CWF-Bowl-Chicken.jpg" data-srcset="assets/images/CWF-Bowl-Chicken.jpg" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl - Chicken" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl - Chicken" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -3182,7 +3183,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div> 
 												
 					                        	<!-- <div class="alert alert-light">
 													<img src="assets/images/sold-out.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
@@ -3526,8 +3527,8 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> 
-											 	<div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div> -->
+												<div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6 hide-product">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Chicken)</h3>
@@ -3548,10 +3549,10 @@
 												            <div class=" react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
 												                    "title": "Quinoa and Nuts Bowl (Chicken)",
-												                    "product_id": "bqApKRirpEeopN3w9H3J",
+												                    "product_id": "dummy-product",
 												                    "mark_type": "Non Veg",
 												                    "default": {
-												                      "id": "bqApKRirpEeopN3w9H3J-bowl",
+												                      "id": "dummy-product-bowl",
 												                      "mrp": 280,
 												                      "sale_price": 280,
 												                      "size": "Regular Bowl"
@@ -3573,7 +3574,7 @@
 												    </div>
 												</div> 
 
-												<div id="product-zhsxgRGAMaIbia75SQJr" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-zhsxgRGAMaIbia75SQJr" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Soft Boiled Eggs)</h3>
@@ -3728,7 +3729,7 @@
 												        </div>
 												        <div class="product-meta d-flex mt-5">
 												            <div class="product-price h1 ft6 mb-0">₹ 230</div>
-												            <div class="react-add-to-cart-container" data-product_data='{
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Thai grilled tofu, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl - Tofu",
 												                    "product_id": "EIAHVzsPLkUY6yrNGjOj",
@@ -3755,7 +3756,7 @@
 												        </div>
 												    </div>
 												</div> 
-											 	<!-- <div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+											 	<div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Rice Noodle Paneer Bowl</h3>
@@ -3845,7 +3846,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div> 
 												<div id="product-UKvF28KghJT75RDN1CPk" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
@@ -3939,7 +3940,7 @@
 												        </div>
 												    </div>
 												</div>
-												<!-- <div id="product-qEjBZmgcv14tAuCCkvmB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-qEjBZmgcv14tAuCCkvmB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Barley Bowl (Brown Chickpeas)</h3>
@@ -4124,16 +4125,16 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> 
+												</div>  -->
 												<div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl (Veg)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl - Veg</h3>
 												            <div class="product-content  pb-4">
 												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
 												                	New bowl on the menu!<br>
 												                	<br>
-																	A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. There's falafel and roasted eggplant. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe!<br>
+																	A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Olives, pomegranate and feta to complete the middle eastern vibe!<br>
 																	<br>
 																	*Salad comes with dressing mixed in.<br>
 																	**Dip is not the dressing.<br>
@@ -4142,10 +4143,10 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Veg)" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl (Veg)" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl - Veg" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl - Veg" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Veg)" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl (Veg)" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl - Veg" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl - Veg" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -4181,24 +4182,25 @@
 												<div id="product-OMXhZUrvVWwCsLKNDlFK" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl (Chicken)</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl - Chicken</h3>
 												            <div class="product-content  pb-4">
 												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
 												                	New bowl on the menu!<br>
 												                	<br>
-																	A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. There's falafel and roasted eggplant. Herbed chicken is an added bonus. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe!<br>
+																	A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Herbed chicken is an added bonus. Olives, pomegranate and feta to complete the middle eastern vibe!<br>
 																	<br>
 																	*Salad comes with dressing mixed in.<br>
 																	**Dip is not the dressing.<br>
+																	New bowl on the menu!
 												                </h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Chicken)" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl - Chicken" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl (Chicken)" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl - Chicken" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl - Chicken" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -4229,7 +4231,105 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div> 
+
+												<div id="product-04W7PPoomTolZTxdgpVI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Almost Burrito Bowl - Veg</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
+												                	Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble! 
+												                	<br>The elements are all dressed up individually, so there isn't one given separately with this bowl
+												                </h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-1.jpg" alt="Almost Burrito Bowl - Veg" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-2.jpg" alt="Almost Burrito Bowl - Veg"  />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex mt-5">
+												            <div class="product-price h1 ft6 mb-0">₹ 300</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble! The elements are all dressed up individually, so there isnt one given separately with this bowl.",
+												                    "title": "Almost Burrito Bowl - Veg",
+												                    "product_id": "04W7PPoomTolZTxdgpVI",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "04W7PPoomTolZTxdgpVI-bowl",
+												                      "mrp": 300,
+												                      "sale_price": 300,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/almost-burrito-bowl-veg-1"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block btn-disabled"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+
+												<div id="product-kQnL29KfLMFrrhLQC6M3" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Almost Burrito Bowl - Chicken</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
+												                	Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar and herbed chicken on the side. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble!
+												                	<br>The elements are all dressed up individually, so there isn't one given separately with this bowl.
+												                </h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-1.jpg" alt="Almost Burrito Bowl - Chicken" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-2.jpg" alt="Almost Burrito Bowl - Chicken"  />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex mt-5">
+												            <div class="product-price h1 ft6 mb-0">₹ 330</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar and herbed chicken on the side. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble!The elements are all dressed up individually, so there isnt one given separately with this bowl.",
+												                    "title": "Almost Burrito Bowl - Chicken",
+												                    "product_id": "kQnL29KfLMFrrhLQC6M3",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "kQnL29KfLMFrrhLQC6M3-bowl",
+												                      "mrp": 330,
+												                      "sale_price": 330,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/almost-burrito-bowl-chicken-1.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block btn-disabled"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
 					                        </div>
 				                        	<div id="Friday" class="row product-list m-auto panel">
 												 <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
@@ -4835,7 +4935,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div>
 												<div id="product-UKvF28KghJT75RDN1CPk" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
@@ -4929,7 +5029,53 @@
 												        </div>
 												    </div>
 												</div> 
-												<!--<div id="product-qEjBZmgcv14tAuCCkvmB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Veg)</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Veg)" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl (Veg)" data-src="assets/images/QNB-Veg_800.jpg" data-srcset="assets/images/QNB-Veg_800.jpg" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Veg)" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl (Veg)" data-src="assets/images/QNB-Veg_800.jpg" data-srcset="assets/images/QNB-Veg_800.jpg" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex mt-5">
+												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
+												            <div class="react-add-to-cart-container" data-product_data='{
+												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
+												                    "title": "Quinoa and Nuts Bowl (Veg)",
+												                    "product_id": "QexP4xy4W2cMx4zORNEi",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "QexP4xy4W2cMx4zORNEi-bowl",
+												                      "mrp": 240,
+												                      "sale_price": 240,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/QNB-Veg_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "friday"
+												                }'
+												                >
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+												<div id="product-qEjBZmgcv14tAuCCkvmB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Barley Bowl (Brown Chickpeas)</h3>
@@ -5219,8 +5365,106 @@
 												            </div>
 												        </div>
 												    </div>
+												</div> -->
+
+												<div id="product-04W7PPoomTolZTxdgpVI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Almost Burrito Bowl - Veg</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
+												                	Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble! 
+												                	<br>The elements are all dressed up individually, so there isn't one given separately with this bowl
+												                </h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-1.jpg" alt="Almost Burrito Bowl - Veg" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-2.jpg" alt="Almost Burrito Bowl - Veg"  />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex mt-5">
+												            <div class="product-price h1 ft6 mb-0">₹ 300</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble! The elements are all dressed up individually, so there isnt one given separately with this bowl.",
+												                    "title": "Almost Burrito Bowl - Veg",
+												                    "product_id": "04W7PPoomTolZTxdgpVI",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "04W7PPoomTolZTxdgpVI-bowl",
+												                      "mrp": 300,
+												                      "sale_price": 300,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/almost-burrito-bowl-veg-1"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "friday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block btn-disabled"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
 												</div>
-					                        	<div class="coming-soon"> Coming Soon </div> -->
+
+												<div id="product-kQnL29KfLMFrrhLQC6M3" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Almost Burrito Bowl - Chicken</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
+												                	Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar and herbed chicken on the side. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble!
+												                	<br>The elements are all dressed up individually, so there isn't one given separately with this bowl.
+												                </h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-1.jpg" alt="Almost Burrito Bowl - Chicken" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-2.jpg" alt="Almost Burrito Bowl - Chicken"  />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex mt-5">
+												            <div class="product-price h1 ft6 mb-0">₹ 330</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar and herbed chicken on the side. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble!The elements are all dressed up individually, so there isnt one given separately with this bowl.",
+												                    "title": "Almost Burrito Bowl - Chicken",
+												                    "product_id": "kQnL29KfLMFrrhLQC6M3",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "kQnL29KfLMFrrhLQC6M3-bowl",
+												                      "mrp": 330,
+												                      "sale_price": 330,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/almost-burrito-bowl-chicken-1.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "friday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block btn-disabled"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+					                        	<!-- <div class="coming-soon"> Coming Soon </div> -->
 					                        </div>
 					                        <div id="Weekend" class="row product-list m-auto panel">
 					                        	<div class="alert alert-light">
