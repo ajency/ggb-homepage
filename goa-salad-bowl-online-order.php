@@ -5714,7 +5714,7 @@
 	
 	<!-- Global variables for react cart app component and css  hash -->
 	<script>
-		var react_js_file_hashes = {"2":"4535aed7","runtime-main":"9efbcb05","main":"26747d62","react-components":"1594032851893"};
+		var react_js_file_hashes = {"2":"4535aed7","runtime-main":"9efbcb05","main":"26747d62","react-components":"1594033286977"};
 		var react_css_file_hashes = {"main":"727e096b"};
 		var app_url = "https://order-staging.greengrainbowl.com/site";
 		var site_url = "https://ggb-ajency.in";
