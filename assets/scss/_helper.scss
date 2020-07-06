@@ -139,6 +139,7 @@ footer {
     }
 }
 */
+
 .position{
     &-absolute{
         &-right20{
@@ -146,6 +147,12 @@ footer {
             top: 50%;
             right: 15px;
             transform: translateY(-50%);
+        }
+        &-right0{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
         }
     }
 }
@@ -531,4 +538,30 @@ nav{
 .btn-disabled{
     pointer-events: none !important;
     opacity: 0.6 !important;
+}
+
+.btn-location{
+    &.pl-4{
+        padding-left: 35px !important;
+    }
+    &.pr-0{
+        padding-right: 0 !important;
+    }
+    .sprite-location{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        background-image: url(../images/location_dark.png); 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+.border-border-grey{
+    border: 0;
+    border-bottom: 1px solid #f1f3f4;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
