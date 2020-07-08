@@ -5709,8 +5709,8 @@
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
 	<script src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
 	<script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>	
-	<script src="https://order-staging.greengrainbowl.com/site/firebase-functions.js" type="text/javascript"></script>
-	<script src="https://order-staging.greengrainbowl.com/site/react-components.1594037099151.js" type="text/javascript"></script>
+	<script src="https://order.greengrainbowl.com/site/firebase-functions.js" type="text/javascript"></script>
+	<script src="https://order.greengrainbowl.com/site/react-components.1594199787978.js" type="text/javascript"></script>
 	
 	<!-- Global variables for react cart app component and css  hash -->
 	<script>
