@@ -185,8 +185,7 @@ function locationHashChanged() {
         if(variantpop.classList.contains("show-modal")) {
             variantpop.click()
         }
-    }
-    else if(window.location.hash == '#/' || window.location.hash == '') {
+    } else if(window.location.hash == '#/' || window.location.hash == '') {
         closeCart();
         var variantpop= document.querySelector('#variation-selection-popup')
         if(variantpop.classList.contains("show-modal")) {

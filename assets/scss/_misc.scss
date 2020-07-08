@@ -393,3 +393,13 @@
         }
     }
 }
+
+.gps-tag{
+    font-size: 12px;
+}
+
+.set-area{
+    height: calc(100vh - 150px);
+    overflow-x: hidden;
+    // overflow-y: scroll;
+}
