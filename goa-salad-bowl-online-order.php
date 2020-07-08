@@ -5685,8 +5685,8 @@
 	
 	<!-- Global variables for react cart app component and css  hash -->
 	<script>
-		var react_js_file_hashes = {"2":"4535aed7","runtime-main":"9efbcb05","main":"3be0b6f4","react-components":"1593686386024"};
-		var react_css_file_hashes = {"main":"727e096b"};
+		var react_js_file_hashes = {"2":"4535aed7","runtime-main":"9efbcb05","main":"d43099a8","react-components":"1594199787978"}
+		var react_css_file_hashes = {"main":"5ab3505a"};
 		var app_url = "https://order.greengrainbowl.com/site";
 		var site_url = "https://greengrainbowl.com";
 	</script>
