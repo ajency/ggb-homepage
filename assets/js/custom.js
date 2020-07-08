@@ -248,20 +248,24 @@ $('.delivery-location').click(function() {
     setTimeout(()=>{
         if(window.lat_lng && window.formatted_address){
             $('#selected-location-address').addClass('show');
+            hideScroll();
         }
         else{
             window.showGpsModalPrompt(true);
+            hideScroll();
         }
     },50)
 });
 
 $('#selected-location-address').click(function(){
     window.showGpsModalPrompt(true);
+    hideScroll()
 })
 
 $(window).click(function(e) {
     if($( "#selected-location-address" ).hasClass( "show" ) ){
         $('#selected-location-address').removeClass('show');
+        showScroll()
     }
 });
 
