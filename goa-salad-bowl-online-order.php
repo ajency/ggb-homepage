@@ -511,8 +511,90 @@
 												    </div>
 												</div> -->
 
-
  												<div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
+												            </div>
+											            	<div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        	<div class="menu-details">
+												        		<div class="product-variant-name">Veg</div>
+												            	<div class="product-price h1 mb-0">₹240</div>
+										            		</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.",
+												                    "title": "Quinoa and Nuts Bowl - Veg",
+												                    "product_id": "QexP4xy4W2cMx4zORNEi",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "QexP4xy4W2cMx4zORNEi-bowl",
+												                      "mrp": 240,
+												                      "sale_price": 240,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/QNB-Veg_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "monday"
+												                }'
+												                >
+												                <div>
+												                    <a class="btn-add-to-cart bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+											        	<div class="product-meta d-flex mt-4">
+											        		<div class="menu-details">
+												        		<div class="product-variant-name">Egg</div>
+												            	<div class="product-price h1  mb-0">₹260</div>
+										            		</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.",
+												                    "title": "Quinoa and Nuts Bowl - Egg",
+												                    "product_id": "zhsxgRGAMaIbia75SQJr",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "zhsxgRGAMaIbia75SQJr-bowl",
+												                      "mrp": 260,
+												                      "sale_price": 260,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/QNB-Chicken_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "monday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+ 												<!-- <div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl - Veg</h3>
@@ -557,9 +639,9 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 
-												<div id="product-zhsxgRGAMaIbia75SQJr" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-zhsxgRGAMaIbia75SQJr" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl - Egg</h3>
@@ -603,7 +685,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>												<!-- <div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div>	 -->											<!-- <div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl (Paneer)</h3>
@@ -1463,6 +1545,89 @@
  												<div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
+												            </div>
+											            	<div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        	<div class="menu-details">
+												        		<div class="product-variant-name">Veg</div>
+												            	<div class="product-price h1 mb-0">₹240</div>
+										            		</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.",
+												                    "title": "Quinoa and Nuts Bowl - Veg",
+												                    "product_id": "QexP4xy4W2cMx4zORNEi",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "QexP4xy4W2cMx4zORNEi-bowl",
+												                      "mrp": 240,
+												                      "sale_price": 240,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/QNB-Veg_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "tuesday"
+												                }'
+												                >
+												                <div>
+												                    <a class="btn-add-to-cart bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+											        	<div class="product-meta d-flex mt-4">
+											        		<div class="menu-details">
+												        		<div class="product-variant-name">Egg</div>
+												            	<div class="product-price h1  mb-0">₹260</div>
+										            		</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.",
+												                    "title": "Quinoa and Nuts Bowl - Egg",
+												                    "product_id": "zhsxgRGAMaIbia75SQJr",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "zhsxgRGAMaIbia75SQJr-bowl",
+												                      "mrp": 260,
+												                      "sale_price": 260,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/QNB-Chicken_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "tuesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+ 												<!-- <div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl - Veg</h3>
 												            <div class="product-content  pb-4">
 												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.</h4>
@@ -1551,7 +1716,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 												<!-- <div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
@@ -1925,6 +2090,85 @@
 												<div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl </h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The vegetarian bowl comes with boiled mung beans (also vegan friendly) and the non vegetarian bowl comes with chicken..</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+											        		<div class="menu-details">
+												        		<div class="product-variant-name">Mung Beans</div>
+												            	<div class="product-price h1  mb-0">₹230</div>
+										            		</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The vegetarian bowl comes with boiled mung beans (also vegan friendly).",
+												                    "title": "Pear Barley Bowl - Mung Beans",
+												                    "product_id": "pbGEFxvc02aF3qbekNp9",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "pbGEFxvc02aF3qbekNp9-bowl",
+												                      "mrp": 230,
+												                      "sale_price": 230,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Pear-Barley-2.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "tuesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
+											        		<div class="menu-details">
+												        		<div class="product-variant-name">Chicken</div>
+												            	<div class="product-price h1  mb-0">₹280</div>
+										            		</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. Comes with roast chicken.",
+												                    "title": "Pear Barley Bowl - Chicken",
+												                    "product_id": "cMjfFw1BSYxNwGZYRpeC",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "cMjfFw1BSYxNwGZYRpeC-bowl",
+												                      "mrp": 280,
+												                      "sale_price": 280,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Pear-Barley-2.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "tuesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+												<!-- <div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl - Mung Beans</h3>
 												            <div class="product-content  pb-4">
 												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The vegetarian bowl comes with boiled mung beans (also vegan friendly).</h4>
@@ -1966,9 +2210,9 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>	
+												</div>	 -->
 
-												<div id="product-cMjfFw1BSYxNwGZYRpeC" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-cMjfFw1BSYxNwGZYRpeC" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl - Chicken</h3>
@@ -2012,7 +2256,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 												<!-- <div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">

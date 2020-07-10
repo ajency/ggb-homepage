@@ -133,7 +133,25 @@
         background-size: 400% 400%;
         animation: gradient-glower 5s ease infinite;
     }
-    
+    &.btn-add-item-to-cart{
+        padding : 8px 40px !important;
+        &.p-add{
+            span{ 
+                margin: 0;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 26px;
+                color: #4AA751;
+            }
+        }
+        &:before{
+            content: '';
+            display: block;
+            border: 1.8px solid #4AA751;
+            background: white;
+        }
+    }    
 }
 
 @keyframes side-arrow {
