@@ -3203,7 +3203,7 @@
 												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex mt-5">
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Paneer</div>
 												            	<div class="product-price h1 mb-0">₹230</div>
@@ -3234,7 +3234,7 @@
 												            </div>
 												        </div>
 												        <hr>
-												        <div class="product-meta d-flex mt-5">
+												        <div class="product-meta d-flex mt-4 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Tofu</div>
 												            	<div class="product-price h1 mb-0">₹230</div>
@@ -3265,7 +3265,7 @@
 												            </div>
 												        </div>
 												        <hr>
-												        <div class="product-meta d-flex mt-5">
+												        <div class="product-meta d-flex mt-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Chicken</div>
 												            	<div class="product-price h1 mb-0">₹270</div>
@@ -4011,7 +4011,7 @@
 												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex mt-5">
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Paneer</div>
 												            	<div class="product-price h1 mb-0">₹230</div>
@@ -4042,7 +4042,7 @@
 												            </div>
 												        </div>
 												        <hr>
-												        <div class="product-meta d-flex mt-5">
+												        <div class="product-meta d-flex mt-4 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Tofu</div>
 												            	<div class="product-price h1 mb-0">₹230</div>
@@ -4073,7 +4073,7 @@
 												            </div>
 												        </div>
 												        <hr>
-												        <div class="product-meta d-flex mt-5">
+												        <div class="product-meta d-flex mt-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Chicken</div>
 												            	<div class="product-price h1 mb-0">₹270</div>
