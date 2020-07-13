@@ -375,10 +375,16 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Veg.jpg" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken.jpg" alt="Orange Barley Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Veg-2.jpg" alt="Orange Barley Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken-2.jpg" alt="Orange Barley Bowl" />
 												            </div>
 												        </div>
 								        				<div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -2015,10 +2021,16 @@
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Veg.jpg" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken.jpg" alt="Orange Barley Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Veg-2.jpg" alt="Orange Barley Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken-2.jpg" alt="Orange Barley Bowl" />
 												            </div>
 												        </div>
 								        				<div class="product-meta d-flex pt-4 mt-5 mb-4">
