@@ -1,5 +1,5 @@
 <?php 
 	require_once('website_constants.php');
-	header("Location:".$APP_URL."/goa-salad-bowl-online-order");
+	header("Location:".$SITE_URL."/goa-salad-bowl-online-order");
 	exit();
 ?>
