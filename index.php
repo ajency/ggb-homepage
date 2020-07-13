@@ -1,4 +1,5 @@
 <?php 
-	header("Location: http://greengrainbowl.com/goa-salad-bowl-online-order");
+	require_once('website_constants.php');
+	header("Location:".$APP_URL."/goa-salad-bowl-online-order");
 	exit();
 ?>
