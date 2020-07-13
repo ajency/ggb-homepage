@@ -1944,12 +1944,6 @@
 												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/RNB-Veg-1.jpg" alt="Rice Noodle Paneer Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/RNB-Veg-2.jpg" alt="Rice Noodle Paneer Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="assets/images/RNB-Prawns-1.jpg" alt="Rice Noodle Prawns Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
 												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="assets/images/RNB-Prawns-2.jpg" alt="Rice Noodle Prawns Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
@@ -3335,12 +3329,6 @@
 												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/RNB-Veg-1.jpg" alt="Rice Noodle Paneer Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/RNB-Veg-2.jpg" alt="Rice Noodle Paneer Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="assets/images/RNB-Prawns-1.jpg" alt="Rice Noodle Prawns Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
 												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="assets/images/RNB-Prawns-2.jpg" alt="Rice Noodle Prawns Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
@@ -3963,12 +3951,6 @@
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
 												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/RNB-Veg-1.jpg" alt="Rice Noodle Paneer Bowl"/>
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/RNB-Veg-2.jpg" alt="Rice Noodle Paneer Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="assets/images/RNB-Prawns-1.jpg" alt="Rice Noodle Prawns Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
 												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="assets/images/RNB-Prawns-2.jpg" alt="Rice Noodle Prawns Bowl"/>
@@ -6424,12 +6406,6 @@
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
 												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/RNB-Veg-1.jpg" alt="Rice Noodle Paneer Bowl"/>
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/RNB-Veg-2.jpg" alt="Rice Noodle Paneer Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="assets/images/RNB-Prawns-1.jpg" alt="Rice Noodle Prawns Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
 												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="assets/images/RNB-Prawns-2.jpg" alt="Rice Noodle Prawns Bowl"/>
