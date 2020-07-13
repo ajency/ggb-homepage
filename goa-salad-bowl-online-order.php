@@ -3114,7 +3114,7 @@
 												        </div>
 												    </div>
 												</div> -->
-												<!-- <div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6 hide-product">
+												<div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6 hide-product">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Chicken)</h3>
@@ -3158,7 +3158,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>  -->
+												</div> 
 
 												<!-- <div id="product-zhsxgRGAMaIbia75SQJr" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -4467,7 +4467,7 @@
 												        </div>
 												    </div>
 												</div> -->
-												<!-- <div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6 hide-product">
+												<div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6 hide-product">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Chicken)</h3>
@@ -4511,7 +4511,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> --> 
+												</div> 
 
 												<!-- <div id="product-zhsxgRGAMaIbia75SQJr" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
