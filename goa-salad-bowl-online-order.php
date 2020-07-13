@@ -40,6 +40,11 @@
 			}
 		}
 	</style>
+	<?php 
+		$ENV = getenv('.env');
+		$app_Url = $ENV["APP_URL"];
+	?>
+
 </head>
 <body>
 
@@ -6823,9 +6828,8 @@
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
 	<script src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
 	<script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>	
-	<script src="https://order.greengrainbowl.com/site/firebase-functions.js?_1" type="text/javascript"></script>
-	<script src="https://order.greengrainbowl.com/site/react-components.1594445723445.js" type="text/javascript"></script>
-	
+	<script src="<?php echo $app_url;?>/firebase-functions.js?_1" type="text/javascript"></script>
+	<script src="<?php echo $app_url;?>/react-components.1594445723445.js" type="text/javascript"></script>
 	<!-- Global variables for react cart app component and css  hash -->
 	<script>
 		var react_js_file_hashes = {"2":"4535aed7","runtime-main":"9efbcb05","main":"a4ccb55c","react-components":"1594445723445"};
