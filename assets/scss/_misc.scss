@@ -399,7 +399,35 @@
 }
 
 .set-area{
-    height: calc(100vh - 150px);
+    max-width: 410px;
+    margin-left: auto;
+    font-size: 16px;
+    line-height: 22px;
+    height: calc(100vh - 82px);
     overflow-x: hidden;
-    // overflow-y: scroll;
+    overflow-y: auto;
+    padding-bottom: 82px !important;
+    @media (max-width: 767px) {
+        max-width: 100%;
+        padding-bottom: 170px !important;
+    }
+}
+
+#gpsModal{
+    overflow: hidden;
+    .secure-checkout{
+        right: -100%;
+        -webkit-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+        @media (max-width: 767px) {
+            max-width: 100%;
+            width: 100%;
+        }
+    }   
+    &.visible{
+        .secure-checkout{
+            right: 0;
+
+        }
+    }
 }
