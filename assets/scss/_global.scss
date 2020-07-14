@@ -105,8 +105,9 @@
 				> div{
 					.border-green.bg-white{
 						@media (max-width: 767px){
-						    min-width: 115.65px;
-						    display: inline-block;
+						    width: 100%;
+						    display: flex;
+						    align-items: center;
 						}
 					}
 				}
