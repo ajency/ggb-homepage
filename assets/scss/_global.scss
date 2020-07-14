@@ -101,6 +101,16 @@
 					color: #000000;
 				}
 			}
+			.react-add-to-cart-container{
+				> div{
+					.border-green.bg-white{
+						@media (max-width: 767px){
+						    min-width: 115.65px;
+						    display: inline-block;
+						}
+					}
+				}
+			}
 		}
 		.product-image{
 		    opacity: 0;
