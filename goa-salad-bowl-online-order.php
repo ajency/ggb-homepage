@@ -174,6 +174,9 @@
 
 									 	<div id="panels" class="panels">
 					                        <div id="Monday" class="row product-list m-auto panel mt-3">
+												<div class="alert alert-light">
+													<img src="assets/images/not-available.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+												</div>
 												<!-- <div class="alert alert-light">
 													<img src="assets/images/missed.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
@@ -365,7 +368,7 @@
 												    </div>
 												</div> -->
 
-												<div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
+												<!-- <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 												    <div class="product-wrapper cardfour">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl</h3>
@@ -484,7 +487,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 
 												<!-- <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 												    <div class="product-wrapper cardfour">
@@ -1385,71 +1388,28 @@
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
-												<!-- <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl - Tofu</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu/ paneer or roast chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.
 												                </h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Tofu" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl - Tofu"/>
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Tofu" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl - Tofu" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex mt-5">
-												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
-												                    "title": "Soba Noodle Bowl - Tofu",
-												                    "product_id": "o8DaHCRxfYBIJQ5W7kCB",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "o8DaHCRxfYBIJQ5W7kCB-bowl",
-												                      "mrp": 260,
-												                      "sale_price": 260,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "tuesday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div>
-												<div id="product-3GukcZQD4emxBqFI270J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl - Paneer</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.
-												                </h4>
-												            </div>
-												        </div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Paneer" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl - Paneer" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Paneer" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl - Paneer" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex mt-5">
-												            <div class="product-price h1 ft6 mb-0">₹ 260</div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+									        				<div class="menu-details">
+												        		<div class="product-variant-name">Soba Noodle Bowl - Paneer</div>
+												            	<div class="product-price h1 mb-0">₹260</div>
+										            		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl - Paneer",
@@ -1475,27 +1435,43 @@
 												                </div>
 												            </div>
 												        </div>
-												    </div>
-												</div>
-
-												<div id="product-uvCtO1TX0gdxL449TYxg" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl - Chicken</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and roasted chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.</h4>
+												        <hr>
+												        <div class="product-meta d-flex mt-4 mb-4">
+									        				<div class="menu-details">
+												        		<div class="product-variant-name">Soba Noodle Bowl - Tofu</div>
+												            	<div class="product-price h1 mb-0">₹260</div>
+										            		</div>												            
+										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
+												                    "title": "Soba Noodle Bowl - Tofu",
+												                    "product_id": "o8DaHCRxfYBIJQ5W7kCB",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "o8DaHCRxfYBIJQ5W7kCB-bowl",
+												                      "mrp": 260,
+												                      "sale_price": 260,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "tuesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
 												            </div>
 												        </div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Chicken" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl - Chicken" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl - Chicken" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl - Chicken" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex mt-5">
-												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
+									        				<div class="menu-details">
+												        		<div class="product-variant-name">Soba Noodle Bowl - Chicken</div>
+												            	<div class="product-price h1 mb-0">₹280</div>
+										            		</div>	
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and roasted chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl - Chicken",
@@ -1523,132 +1499,73 @@
 												        </div>
 												    </div>
 												</div>
-												<div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
-												    <div class="product-wrapper cardfour">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl - Tofu</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.</h4>
-												            </div>
-												        </div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Tofu" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl - Tofu" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Tofu" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl - Tofu" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex mt-5">
-												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container btn-hide"
-												                data-product_data='{
-												                    "description": "Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl - Tofu",
-												                    "product_id": "1CG6P1slxnr9TSNnPzvZ",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "1CG6P1slxnr9TSNnPzvZ-bowl",
-												                      "mrp": 240,
-												                      "sale_price": 240,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "tuesday"
-												                }'
-												                >
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div>
-
-												<div id="product-V2hxjWQXafuB8dq0unxy" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
-												    <div class="product-wrapper cardfour">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl - Paneer</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced paneer and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.</h4>
-												            </div>
-												        </div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Paneer" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl - Paneer" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Paneer" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl - Paneer" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex mt-5">
-												            <div class="product-price h1 ft6 mb-0">₹ 240</div>
-												            <div class="react-add-to-cart-container btn-hide"
-												                data-product_data='{
-												                    "description": "Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced paneer and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl - Paneer",
-												                    "product_id": "V2hxjWQXafuB8dq0unxy",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "V2hxjWQXafuB8dq0unxy-bowl",
-												                      "mrp": 240,
-												                      "sale_price": 240,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "tuesday"
-												                }'
-												                >
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div>
-												<div id="product-8FVGmVx4JjQZRUsxtYrL" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl - Chicken</h3>
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.</h4>
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
+												                	A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Olives, pomegranate and feta to complete the middle eastern vibe! You could also add herbed chicken.
+												                </h4>
 												            </div>
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Chicken" src="assets/images/Orange-Barley-Bowl-1.jpg" alt="Orange Barley Bowl - Chicken" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl - Chicken" src="assets/images/Orange-Barley-Bowl-2.jpg" alt="Orange Barley Bowl - Chicken" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex mt-5">
-												            <div class="product-price h1 ft6 mb-0">₹ 270</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl - Chicken",
-												                    "product_id": "8FVGmVx4JjQZRUsxtYrL",
-												                    "mark_type": "Non Veg",
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+									        				<div class="menu-details">
+												        		<div class="product-variant-name">Cracked Wheat & Falafel Bowl - Veg</div>
+												            	<div class="product-price h1 mb-0">₹290</div>
+										            		</div>													            
+										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. Theres falafel and roasted eggplant. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
+												                    "title": "Cracked Wheat & Falafel Bowl (Veg)",
+												                    "product_id": "w9CiPdw0MzpGfKkQsKqJ",
+												                    "mark_type": "Veg",
 												                    "default": {
-												                      "id": "8FVGmVx4JjQZRUsxtYrL-bowl",
-												                      "mrp": 270,
-												                      "sale_price": 270,
+												                      "id": "w9CiPdw0MzpGfKkQsKqJ-bowl",
+												                      "mrp": 290,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "assets/images/CWF-Bowl-Veg.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "tuesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
+									        				<div class="menu-details">
+												        		<div class="product-variant-name">Cracked Wheat & Falafel Bowl - Chicken</div>
+												            	<div class="product-price h1 mb-0">₹310</div>
+										            		</div>	
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. There is falafel and roasted eggplant. Herbed chicken is an added bonus. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
+												                    "title": "Cracked Wheat & Falafel Bowl (Chicken)",
+												                    "product_id": "OMXhZUrvVWwCsLKNDlFK",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "OMXhZUrvVWwCsLKNDlFK-bowl",
+												                      "mrp": 310,
+												                      "sale_price": 310,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/CWF-Bowl-Chicken.jpg"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1662,7 +1579,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div>
 
  												<!-- <div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -1839,6 +1756,7 @@
 												        </div>
 												    </div>
 												</div> -->
+
 												<!-- <div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
@@ -1929,7 +1847,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div> 
 
 												<div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -2138,7 +2056,7 @@
 												    </div>
 												</div>
 
-												<!-- <div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Rice Noodle Paneer Bowl</h3>
@@ -2228,8 +2146,8 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>  -->
-												<!-- <div id="product-UKvF28KghJT75RDN1CPk" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div>  
+												<div id="product-UKvF28KghJT75RDN1CPk" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mango Quinoa Bowl (With Red Kidney Beans (Rajma))</h3>
@@ -2416,8 +2334,8 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
-												<!-- <div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div>
+												<div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl </h3>
@@ -2495,8 +2413,8 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
-												<!-- <div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div>
+												<div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl - Mung Beans</h3>
@@ -2586,8 +2504,8 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
-												<!-- <div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div> 
+											 	<div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl (Veg)</h3>
@@ -2699,6 +2617,200 @@
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
+												<div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
+												                	A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Olives, pomegranate and feta to complete the middle eastern vibe! You could also add herbed chicken.
+												                </h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl"/>
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+									        				<div class="menu-details">
+												        		<div class="product-variant-name">Cracked Wheat & Falafel Bowl - Veg</div>
+												            	<div class="product-price h1 mb-0">₹290</div>
+										            		</div>													            
+										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. Theres falafel and roasted eggplant. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
+												                    "title": "Cracked Wheat & Falafel Bowl (Veg)",
+												                    "product_id": "w9CiPdw0MzpGfKkQsKqJ",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "w9CiPdw0MzpGfKkQsKqJ-bowl",
+												                      "mrp": 290,
+												                      "sale_price": 290,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/CWF-Bowl-Veg.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
+									        				<div class="menu-details">
+												        		<div class="product-variant-name">Cracked Wheat & Falafel Bowl - Chicken</div>
+												            	<div class="product-price h1 mb-0">₹310</div>
+										            		</div>	
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. There is falafel and roasted eggplant. Herbed chicken is an added bonus. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
+												                    "title": "Cracked Wheat & Falafel Bowl (Chicken)",
+												                    "product_id": "OMXhZUrvVWwCsLKNDlFK",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "OMXhZUrvVWwCsLKNDlFK-bowl",
+												                      "mrp": 310,
+												                      "sale_price": 310,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/CWF-Bowl-Chicken.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+
+												<div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu/ paneer or roast chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.
+												                </h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl"/>
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+									        				<div class="menu-details">
+												        		<div class="product-variant-name">Soba Noodle Bowl - Paneer</div>
+												            	<div class="product-price h1 mb-0">₹260</div>
+										            		</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
+												                    "title": "Soba Noodle Bowl - Paneer",
+												                    "product_id": "3GukcZQD4emxBqFI270J",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "3GukcZQD4emxBqFI270J-bowl",
+												                      "mrp": 260,
+												                      "sale_price": 260,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4 mb-4">
+									        				<div class="menu-details">
+												        		<div class="product-variant-name">Soba Noodle Bowl - Tofu</div>
+												            	<div class="product-price h1 mb-0">₹260</div>
+										            		</div>												            
+										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
+												                    "title": "Soba Noodle Bowl - Tofu",
+												                    "product_id": "o8DaHCRxfYBIJQ5W7kCB",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "o8DaHCRxfYBIJQ5W7kCB-bowl",
+												                      "mrp": 260,
+												                      "sale_price": 260,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
+									        				<div class="menu-details">
+												        		<div class="product-variant-name">Soba Noodle Bowl - Chicken</div>
+												            	<div class="product-price h1 mb-0">₹280</div>
+										            		</div>	
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Buckwheat noodles, greens, roasted vegetables and roasted chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
+												                    "title": "Soba Noodle Bowl - Chicken",
+												                    "product_id": "uvCtO1TX0gdxL449TYxg",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "uvCtO1TX0gdxL449TYxg-bowl",
+												                      "mrp": 280,
+												                      "sale_price": 280,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+
 												<!-- <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
@@ -3204,7 +3316,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
+												</div> 
 												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
@@ -3403,7 +3515,7 @@
 												</div>
 
 
-												<!-- <div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl - Paneer</h3>
@@ -3926,7 +4038,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>  -->
+												</div> -->
 												
 					                        	<!-- <div class="alert alert-light">
 													<img src="assets/images/sold-out.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
@@ -3940,7 +4052,7 @@
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
-												<div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Rice Noodle Bowl</h3>
@@ -4134,7 +4246,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 
 												<!-- <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -4973,8 +5085,177 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 												<div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The vegetarian bowl comes with boiled mung beans (also vegan friendly) or there is roast chicken.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Pear Barley Bowl - Veg</div>
+												            	<div class="product-price h1 mb-0">₹230</div>
+										            		</div>												            
+										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.\r\n    The vegetarian bowl comes with boiled mung beans (also vegan friendly) .",
+												                    "title": "Pear Barley Bowl (Mung Beans)",
+												                    "product_id": "pbGEFxvc02aF3qbekNp9",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "pbGEFxvc02aF3qbekNp9-bowl",
+												                      "mrp": 230,
+												                      "sale_price": 230,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Pear-Barley-2.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Pear Barley Bowl - Veg</div>
+												            	<div class="product-price h1 mb-0">₹280</div>
+										            		</div>	
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.\r\n    The non vegetarian bowl comes with chicken.",
+												                    "title": "Pear Barley Bowl (Chicken)",
+												                    "product_id": "cMjfFw1BSYxNwGZYRpeC",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "cMjfFw1BSYxNwGZYRpeC-bowl",
+												                      "mrp": 280,
+												                      "sale_price": 280,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Pear-Barley-2.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>	
+
+												<div id="product-04W7PPoomTolZTxdgpVI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Almost Burrito Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheese, and a lob of guacamole. There's also the option of adding herbed chicken.
+												                <br> 
+												                Squeeze in that wedge of lime, mix it all and gobble! The elements are all dressed up individually, so no separate dressing with this bowl.
+												                </h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-1.jpg" alt="Almost Burrito Bowl - Veg" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-2.jpg" alt="Almost Burrito Bowl - Veg"  />
+												            </div>
+            									            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-1.jpg" alt="Almost Burrito Bowl - Chicken" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-2.jpg" alt="Almost Burrito Bowl - Chicken"  />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4 ">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Almost Burrito Bowl - Veg</div>
+												            	<div class="product-price h1 mb-0">₹300</div>
+										            		</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble! The elements are all dressed up individually, so there isnt one given separately with this bowl.",
+												                    "title": "Almost Burrito Bowl - Veg",
+												                    "product_id": "04W7PPoomTolZTxdgpVI",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "04W7PPoomTolZTxdgpVI-bowl",
+												                      "mrp": 300,
+												                      "sale_price": 300,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/almost-burrito-bowl-veg-1"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block btn-disabled"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Almost Burrito Bowl - Chicken</div>
+												            	<div class="product-price h1 mb-0">₹330</div>
+										            		</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar and herbed chicken on the side. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble!The elements are all dressed up individually, so there isnt one given separately with this bowl.",
+												                    "title": "Almost Burrito Bowl - Chicken",
+												                    "product_id": "kQnL29KfLMFrrhLQC6M3",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "kQnL29KfLMFrrhLQC6M3-bowl",
+												                      "mrp": 330,
+												                      "sale_price": 330,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/almost-burrito-bowl-chicken-1.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block btn-disabled"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+
+												<!-- <div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl (Mung Beans)</h3>
@@ -5064,8 +5345,10 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> 
-												<div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div> -->
+
+
+												<!-- <div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl - Veg</h3>
@@ -6395,7 +6678,87 @@
 												    </div>
 												</div>
 
-												<div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The vegetarian bowl comes with boiled mung beans (also vegan friendly) or there is roast chicken.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Pear Barley Bowl - Veg</div>
+												            	<div class="product-price h1 mb-0">₹230</div>
+										            		</div>												            
+										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.\r\n    The vegetarian bowl comes with boiled mung beans (also vegan friendly) .",
+												                    "title": "Pear Barley Bowl (Mung Beans)",
+												                    "product_id": "pbGEFxvc02aF3qbekNp9",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "pbGEFxvc02aF3qbekNp9-bowl",
+												                      "mrp": 230,
+												                      "sale_price": 230,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Pear-Barley-2.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Pear Barley Bowl - Veg</div>
+												            	<div class="product-price h1 mb-0">₹280</div>
+										            		</div>	
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Barley, mixed greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together.\r\n    The non vegetarian bowl comes with chicken.",
+												                    "title": "Pear Barley Bowl (Chicken)",
+												                    "product_id": "cMjfFw1BSYxNwGZYRpeC",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "cMjfFw1BSYxNwGZYRpeC-bowl",
+												                      "mrp": 280,
+												                      "sale_price": 280,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Pear-Barley-2.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>	
+
+												<!-- <div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Rice Noodle Bowl</h3>
@@ -6475,104 +6838,6 @@
 												                }'>
 												                <div>
 												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div>
-
-												<!-- <div id="product-04W7PPoomTolZTxdgpVI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Almost Burrito Bowl - Veg</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
-												                	Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble! 
-												                	<br>The elements are all dressed up individually, so there isn't one given separately with this bowl
-												                </h4>
-												            </div>
-												        </div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-1.jpg" alt="Almost Burrito Bowl - Veg" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-2.jpg" alt="Almost Burrito Bowl - Veg"  />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex mt-5">
-												            <div class="product-price h1 ft6 mb-0">₹ 300</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble! The elements are all dressed up individually, so there isnt one given separately with this bowl.",
-												                    "title": "Almost Burrito Bowl - Veg",
-												                    "product_id": "04W7PPoomTolZTxdgpVI",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "04W7PPoomTolZTxdgpVI-bowl",
-												                      "mrp": 300,
-												                      "sale_price": 300,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/almost-burrito-bowl-veg-1"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "friday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block btn-disabled"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div>
-
-												<div id="product-kQnL29KfLMFrrhLQC6M3" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Almost Burrito Bowl - Chicken</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
-												                	Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar and herbed chicken on the side. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble!
-												                	<br>The elements are all dressed up individually, so there isn't one given separately with this bowl.
-												                </h4>
-												            </div>
-												        </div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-1.jpg" alt="Almost Burrito Bowl - Chicken" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-2.jpg" alt="Almost Burrito Bowl - Chicken"  />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex mt-5">
-												            <div class="product-price h1 ft6 mb-0">₹ 330</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar and herbed chicken on the side. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble!The elements are all dressed up individually, so there isnt one given separately with this bowl.",
-												                    "title": "Almost Burrito Bowl - Chicken",
-												                    "product_id": "kQnL29KfLMFrrhLQC6M3",
-												                    "mark_type": "Non Veg",
-												                    "default": {
-												                      "id": "kQnL29KfLMFrrhLQC6M3-bowl",
-												                      "mrp": 330,
-												                      "sale_price": 330,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/almost-burrito-bowl-chicken-1.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "friday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block btn-disabled"><span>Add to cart</span></a>
 												                </div>
 												            </div>
 												        </div>
