@@ -5135,7 +5135,7 @@
 												        <hr>
 												        <div class="product-meta d-flex mt-4">
 										        			<div class="menu-details">
-												        		<div class="product-variant-name">Pear Barley Bowl - Veg</div>
+												        		<div class="product-variant-name">Pear Barley Bowl - Chicken</div>
 												            	<div class="product-price h1 mb-0">₹280</div>
 										            		</div>	
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
@@ -6727,7 +6727,7 @@
 												        <hr>
 												        <div class="product-meta d-flex mt-4">
 										        			<div class="menu-details">
-												        		<div class="product-variant-name">Pear Barley Bowl - Veg</div>
+												        		<div class="product-variant-name">Pear Barley Bowl - Chicken</div>
 												            	<div class="product-price h1 mb-0">₹280</div>
 										            		</div>	
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
