@@ -5164,9 +5164,91 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>	
+												</div>
 
-												<div id="product-04W7PPoomTolZTxdgpVI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-mbggbxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mystery Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Let's have some fun, should we? We are running a Mystery Bowl only this week - 23rd and 24th July. For those who order, we will send you a message with the bowl description a few hours before you receive it. It's new, it's fresh, it's great!
+											                	<br><br>
+												                Must-give info: The pineapple in it makes it very tropical-ly. Choose between a veg/vegan option and prawns.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Mystery Bowl" src="assets/images/Mystery-Bowl.jpg" alt="Mystery Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Mystery Bowl" src="assets/images/Mystery-Bowl.jpg" alt="Mystery Bowl" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Mystery Bowl - Veg</div>
+												            	<div class="product-price h1 mb-0">₹270</div>
+										            		</div>												            
+										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Pineapple chunks add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish, carrots and brown chickpeas (kala chana). Flax seeds for crunch.",
+												                    "title": "Mystery Bowl - Veg",
+												                    "product_id": "mgILawWlIXQ8inejpZy8",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "mgILawWlIXQ8inejpZy8-bowl",
+												                      "mrp": 270,
+												                      "sale_price": 270,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Mystery-Bowl.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Mystery Bowl - Prawns</div>
+												            	<div class="product-price h1 mb-0">₹320</div>
+										            		</div>	
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Pineapple chunks and prawns add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish and carrots. Flax seeds for crunch.",
+												                    "title": "Mystery Bowl - Prawns",
+												                    "product_id": "Pr8J4eIEwFfKX3ZQ6gC8",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "Pr8J4eIEwFfKX3ZQ6gC8-bowl",
+												                      "mrp": 320,
+												                      "sale_price": 320,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Mystery-Bowl.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+
+												<!-- <div id="product-04W7PPoomTolZTxdgpVI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Almost Burrito Bowl</h3>
@@ -5253,7 +5335,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 
 												<!-- <div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -6589,7 +6671,7 @@
 												    </div>
 												</div> -->
 
-												<div id="product-04W7PPoomTolZTxdgpVI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-04W7PPoomTolZTxdgpVI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Almost Burrito Bowl</h3>
@@ -6672,6 +6754,88 @@
 												                }'>
 												                <div>
 												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block btn-disabled"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div> -->
+
+												<div id="product-mbggbxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Mystery Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Let's have some fun, should we? We are running a Mystery Bowl only this week - 23rd and 24th July. For those who order, we will send you a message with the bowl description a few hours before you receive it. It's new, it's fresh, it's great!
+											                	<br><br>
+												                Must-give info: The pineapple in it makes it very tropical-ly. Choose between a veg/vegan option and prawns.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Mystery Bowl" src="assets/images/Mystery-Bowl.jpg" alt="Mystery Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Mystery Bowl" src="assets/images/Mystery-Bowl.jpg" alt="Mystery Bowl" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Mystery Bowl - Veg</div>
+												            	<div class="product-price h1 mb-0">₹270</div>
+										            		</div>												            
+										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Pineapple chunks add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish, carrots and brown chickpeas (kala chana). Flax seeds for crunch.",
+												                    "title": "Mystery Bowl - Veg",
+												                    "product_id": "mgILawWlIXQ8inejpZy8",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "mgILawWlIXQ8inejpZy8-bowl",
+												                      "mrp": 270,
+												                      "sale_price": 270,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Mystery-Bowl.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "friday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Mystery Bowl - Prawns</div>
+												            	<div class="product-price h1 mb-0">₹320</div>
+										            		</div>	
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Pineapple chunks and prawns add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish and carrots. Flax seeds for crunch.",
+												                    "title": "Mystery Bowl - Prawns",
+												                    "product_id": "Pr8J4eIEwFfKX3ZQ6gC8",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "Pr8J4eIEwFfKX3ZQ6gC8-bowl",
+												                      "mrp": 320,
+												                      "sale_price": 320,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Mystery-Bowl.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "friday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
 												                </div>
 												            </div>
 												        </div>
