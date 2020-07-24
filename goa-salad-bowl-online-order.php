@@ -6881,7 +6881,7 @@
 												                    "put_empty": true,
 												                    "availability": "Tuesday",
 												                    "date": "Tuesday 2nd",
-												                    "day": "thursday"
+												                    "day": "friday"
 												                }'>
 												                <div>
 												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
@@ -6912,7 +6912,7 @@
 												                    "put_empty": true,
 												                    "availability": "Tuesday",
 												                    "date": "Tuesday 2nd",
-												                    "day": "thursday"
+												                    "day": "friday"
 												                }'>
 												                <div>
 												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
