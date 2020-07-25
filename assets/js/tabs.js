@@ -23,7 +23,7 @@ $(document).ready(function(){
         infinite: false,
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: true,
+        dots: false,
         arrows: false,
     });
     $("input[type=radio]").click(function(){
@@ -38,6 +38,9 @@ $(document).ready(function() {
     $(".tabs .tab").on("click", function() {
         $(".tabs .tab").removeClass("active");
         $(this).addClass("active");
+        $('html, body').animate({ 
+            scrollTop: $(".product-section").offset().top 
+        }, 700,'swing'); 
       // CALL scrollCenter PLUSGIN
     $(".tabs").scrollCenter(".active", 300);
 
