@@ -113,3 +113,10 @@ $(document).ready(function() {
       }
     });
 });
+
+$(function() {   
+  $('#switch-box').on('click', function(){                
+    $('.product-image').toggleClass('toggle-images');
+    $('.slick-dots').toggleClass('d-none');
+  });
+});
