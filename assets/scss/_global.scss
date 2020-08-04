@@ -119,10 +119,16 @@
 		    transition: opacity 1s ease;
 		    -webkit-transition: opacity 1s ease;
 	       	height: 0vh;
+       	    margin-bottom: 50px !important;
 		    &.slick-initialized {
 		        visibility: visible;
 		        opacity: 1; 
 		        height: auto;
+		    }
+		    &.toggle-images{
+		    	display: none;
+		    	transition: all .3s linear;
+	    	    margin-bottom: 0px !important;
 		    }
 		}
 		.slick-list {
@@ -216,6 +222,9 @@
 	display: block;
 	.full-slider{
 		height: 100%;
+		.image{
+			height: 100%;
+		}
 		img{
 			width: 100%;
 			height: auto;
@@ -396,3 +405,56 @@
   	} 
 }
 /*end of hide add to cart button */
+
+
+
+
+.switch_box{
+	display: flex;
+    justify-content: flex-end;
+    padding: 0 15px;
+}
+
+/* Switch 1 Specific Styles Start */
+
+input[type="checkbox"].switch{
+	font-size: 30px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+    width: 2em;
+    height: 1em;
+	background: #ddd;
+	border-radius: 3em;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+  }
+  
+  input[type="checkbox"].switch:checked{
+	background: #4aa751;
+  }
+  
+  input[type="checkbox"].switch:after{
+	position: absolute;
+	content: "";
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	background: #fff;
+	-webkit-box-shadow: 0 0 .25em rgba(0,0,0,.3);
+    box-shadow: 0 0 .25em rgba(0,0,0,.3);
+	-webkit-transform: scale(.7);
+    transform: scale(.7);
+	right: 0;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+  }
+  
+  input[type="checkbox"].switch:checked:after{
+	right: calc(100% - 1em);
+  }
+	
+/* Switch 1 Specific Style End */

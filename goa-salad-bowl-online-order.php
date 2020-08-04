@@ -83,7 +83,7 @@
 		</div>
 		<div class="row main-content">
 			<div class="contentLeft">
-				<section class="block-wrapper">
+				<section class="block-wrapper pb-1">
 <!-- 					<figure class="block-image text-center">
 						<div class="single_image_wrapper">
 							<img width="250" height="250" src="https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/uploads/sites/14/2020/02/GGB-logo-Final-1.png" class="vc_single_image-img attachment-full" alt="GGB_logo" srcset="https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/uploads/sites/14/2020/02/GGB-logo-Final-1.png 250w, https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/uploads/sites/14/2020/02/GGB-logo-Final-1-150x150.png 150w" sizes="(max-width: 250px) 100vw, 250px">
@@ -102,6 +102,12 @@
 								<p class="body-text">Browse through the daily menu and add one or more bowls to the cart. You can order for the entire week together or for any one day.</p>
 							</div>
 						</div>
+					</div>
+				</section>
+				<section class="toggle-wrapper pt-0 pb-1">
+					<div class="switch_box box">
+						<label for="switch-box"></label>
+						<input type="checkbox" class="switch" id="switch-box">
 					</div>
 				</section>
 				<section class="pt-0">
@@ -213,7 +219,7 @@
 												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-2.jpg" alt="Almost Burrito Bowl - Chicken"  />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4 ">
+												        <div class="product-meta d-flex pt-4 mb-4 ">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Almost Burrito Bowl - Veg</div>
 												            	<div class="product-price h1 mb-0">₹300</div>
@@ -293,7 +299,7 @@
 												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Tofu</div>
 												            	<div class="product-price h1 mb-0">₹230</div>
@@ -1242,7 +1248,7 @@
 												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Tofu</div>
 												            	<div class="product-price h1 mb-0">₹230</div>
@@ -1361,7 +1367,7 @@
 												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-2.jpg" alt="Almost Burrito Bowl - Chicken"  />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4 ">
+												        <div class="product-meta d-flex pt-4 mb-4 ">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Almost Burrito Bowl - Veg</div>
 												            	<div class="product-price h1 mb-0">₹300</div>
@@ -2280,7 +2286,7 @@
 												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Pear Barley Bowl - Veg</div>
 												            	<div class="product-price h1  mb-0">₹230</div>
@@ -2348,7 +2354,7 @@
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl</h3>
-												            <div class="product-content  pb-4">
+												            <div class="product-content pb-4">
 												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu/ paneer or roast chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.
 												                </h4>
 												            </div>
@@ -2361,7 +2367,7 @@
 												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Soba Noodle Bowl - Tofu</div>
 												            	<div class="product-price h1 mb-0">₹260</div>
@@ -3373,7 +3379,7 @@
 												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Soba Noodle Bowl - Tofu</div>
 												            	<div class="product-price h1 mb-0">₹260</div>
@@ -3487,7 +3493,7 @@
 												                <img class="bg-image-animation w-100" title="Rice Noodle Bowl" src="assets/images/RNB-2.jpg" alt="Rice Noodle Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Rice Noodle Bowl - Paneer</div>
 												            	<div class="product-price h1 mb-0">₹240</div>
@@ -3567,7 +3573,7 @@
 												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Pear Barley Bowl - Veg</div>
 												            	<div class="product-price h1  mb-0">₹230</div>
@@ -4459,7 +4465,7 @@
 												                <img class="bg-image-animation w-100" title="Rice Noodle Bowl" src="assets/images/RNB-2.jpg" alt="Rice Noodle Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Rice Noodle Bowl - Paneer</div>
 												            	<div class="product-price h1 mb-0">₹240</div>
@@ -4539,7 +4545,7 @@
 												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Pear Barley Bowl - Veg</div>
 												            	<div class="product-price h1  mb-0">₹230</div>
@@ -4620,7 +4626,7 @@
 												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Soba Noodle Bowl - Tofu</div>
 												            	<div class="product-price h1 mb-0">₹260</div>
@@ -5583,11 +5589,14 @@
 
 	<div class="contentRight">
 		<div class="full-slider">
-			<div class="image">
-				<img class="" src="assets/images/dummy-image.png" data-lazy="assets/images/front_banner_2.jpg" alt="Health Food Delivery Goa" />
-			</div>
-			<div class="image">
-				<img class="" src="assets/images/dummy-image.png" data-lazy="assets/images/front_banner_1.jpg" alt="Green Grain Bowl" />
+			<?php 
+				$images = array_slice(scandir(__DIR__.'/assets/images/front-banner/'),2);
+				$num = array_rand($images,1);
+			?>
+			<div class="full-slider">
+				<div class="image">
+					<img class="banner_image" src="assets/images/dummy-image.png" data-src="assets/images/<?php echo $images[$num]; ?>" alt="Green Grain Bowl" />
+				</div>
 			</div>
 			<!-- <div class="main-image">
 
