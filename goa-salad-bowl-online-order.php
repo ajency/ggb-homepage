@@ -5575,11 +5575,14 @@
 
 	<div class="contentRight">
 		<div class="full-slider">
-			<div class="image">
-				<img class="" src="assets/images/dummy-image.png" data-lazy="assets/images/front_banner_2.jpg" alt="Health Food Delivery Goa" />
-			</div>
-			<div class="image">
-				<img class="" src="assets/images/dummy-image.png" data-lazy="assets/images/front_banner_1.jpg" alt="Green Grain Bowl" />
+			<?php 
+				$images = array_slice(scandir(__DIR__.'/assets/images/front-banner/'),2);
+				$num = array_rand($images,1);
+			?>
+			<div class="full-slider">
+				<div class="image">
+					<img class="banner_image" src="assets/images/dummy-image.png" data-src="assets/images/<?php echo $images[$num]; ?>" alt="Green Grain Bowl" />
+				</div>
 			</div>
 			<!-- <div class="main-image">
 
