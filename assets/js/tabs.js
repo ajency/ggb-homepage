@@ -118,8 +118,8 @@ $(document).ready(function() {
 });
 
 $(function() {   
-  $('#switch-box').on('click', function(){                
-    $('.product-image').toggleClass('toggle-images');
+  $('#switch-box').on('click', function(){   
+    $('.product-image').toggleClass('d-none').slick('setPosition');
     $('.slick-dots').toggleClass('d-none');
   });
 });
