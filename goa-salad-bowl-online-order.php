@@ -92,7 +92,7 @@
 				</section>
 				<section class="toggle-wrapper pt-0 pb-1">
 					<div class="switch_box box">
-						<label for="switch-box"></label>
+						<label for="switch-box">Hide Images</label>
 						<input type="checkbox" class="switch" id="switch-box">
 					</div>
 				</section>
