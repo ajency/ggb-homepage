@@ -94,11 +94,21 @@
 					padding-bottom: 12px;
 				    padding-right: 10px;
 				}
+				.price-row{ 
+					align-items: baseline; 
+				} 
 				.product-price{ 
-					font-size: 22px;
-					line-height: 24px;
+					font-size: 26px;
+					line-height: 30px;
 					letter-spacing: 0.02em;
 					color: #000000;
+					&.discount-price{ 
+						padding-left: 8px; 
+						color: #bdbdbd; 
+						text-decoration: line-through; 
+						font-weight: 400; 
+						font-size:  22px; 
+					} 
 				}
 			}
 			.react-add-to-cart-container{
