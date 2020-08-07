@@ -90,6 +90,12 @@
 						</div>
 					</div>
 				</section>
+				<section class="toggle-wrapper pt-0 pb-1">
+					<div class="switch_box box">
+						<input type="checkbox" class="switch" id="switch-box">
+						<label for="switch-box">Hide Images</label>
+					</div>
+				</section>
 				<section class="pt-0">
 				    <div class="product-section">
 				        <div class="container-1">
@@ -3527,7 +3533,41 @@
 												                <img class="bg-image-animation w-100" title="Rice Noodle Bowl" src="assets/images/RNB-2.jpg" alt="Rice Noodle Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+											        	<div class="product-meta d-flex pt-4 mb-4">
+											        		<div class="menu-details">
+												        		<div class="product-variant-name">Rice Noodle Bowl - Tofu</div>
+																<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹270</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>		
+									            			</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Soft rice noodles, crunchy cucumber, carrots, bell peppers, red cabbage, sweet-sour pineapple chunks and tofu. Mixed in a tangy, zingy onion-chilli dressing. This ones as colourful as they get, and truly lit!",
+												                    "title": "Rice Noodle Bowl - Tofu",
+												                    "product_id": "6sDhDfiE3cCrqe1HxSox",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "6sDhDfiE3cCrqe1HxSox-bowl",
+												                      "mrp": 310,
+												                      "sale_price": 270,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Rice-Noodle-Paneer_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex pt-4 mb-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Rice Noodle Bowl - Paneer</div>
 												        		<div class="price-row d-flex">
@@ -4511,7 +4551,41 @@
 												                <img class="bg-image-animation w-100" title="Rice Noodle Bowl" src="assets/images/RNB-2.jpg" alt="Rice Noodle Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+											        	<div class="product-meta d-flex pt-4 mb-4">
+											        		<div class="menu-details">
+												        		<div class="product-variant-name">Rice Noodle Bowl - Tofu</div>
+																<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹270</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>		
+									            			</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Soft rice noodles, crunchy cucumber, carrots, bell peppers, red cabbage, sweet-sour pineapple chunks and tofu. Mixed in a tangy, zingy onion-chilli dressing. This ones as colourful as they get, and truly lit!",
+												                    "title": "Rice Noodle Bowl - Tofu",
+												                    "product_id": "6sDhDfiE3cCrqe1HxSox",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "6sDhDfiE3cCrqe1HxSox-bowl",
+												                      "mrp": 310,
+												                      "sale_price": 270,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Rice-Noodle-Paneer_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "friday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Rice Noodle Bowl - Paneer</div>
 																<div class="price-row d-flex">
