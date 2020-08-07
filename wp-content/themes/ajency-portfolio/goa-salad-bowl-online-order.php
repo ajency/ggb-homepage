@@ -5895,12 +5895,12 @@ Template Name: goa-salad-bowl-online-order
 	<div class="contentRight">
 		<div class="full-slider">
 			<?php 
-				$images = array_slice(scandir(__DIR__.'/assets/images/front-banner/'),2);
+				$images = array_slice(scandir(get_parent_theme_file_uri('/assets/images/front-banner/')),2);
 				$num = array_rand($images,1);
 			?>
 			<div class="full-slider">
 				<div class="image">
-					<img class="banner_image" src="<?php echo get_parent_theme_file_uri('/assets/images/dummy-image.png'); ?>" data-src="<?php echo get_parent_theme_file_uri('/assets/images/<?php echo $images[$num]; ?>'); ?>" alt="Green Grain Bowl" />
+					<img class="banner_image" src="<?php echo get_parent_theme_file_uri('/assets/images/dummy-image.png'); ?>" data-src="<?php echo get_parent_theme_file_uri('/assets/images/').$images[$num]; ?>" alt="Green Grain Bowl" />
 				</div>
 			</div>
 			<!-- <div class="main-image">
