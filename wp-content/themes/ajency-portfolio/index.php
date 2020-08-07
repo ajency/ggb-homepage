@@ -92,7 +92,7 @@
 
         <div class="container p5">
           <div class="row">
-            <div class="col  offset-xl-2 col-xl-8 col12">
+            <div class="col  offset-xl-2 col-xl-7 col12">
                <div class="headerfix ">
                 <div class="bread-crumb d-flex">
                   <span class="h1 font-weight-light pt-6 pr-2 pr-md-3">/</span>
@@ -161,7 +161,7 @@
             </h4>
 
             </div>
-            <div class="col-md-3 mt-5 mt-md-0 contact-details-1">
+            <div class="col-md-2 mt-5 mt-md-0 contact-details-1">
                 <h4 class="font-weight-light">
                     <a class="d-block h4 font-weight-light" href="https://www.instagram.com/greengrainbowl/"  target="_blank">
                         <i class="fab fa-instagram mr-2"></i>Instagram
