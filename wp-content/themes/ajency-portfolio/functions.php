@@ -78,6 +78,11 @@
         return $pageID;
     }
 
+    function add_favicon() {
+        $favicon_path = get_stylesheet_directory_uri() . '/images/favicon-admin.png';
+        echo '<link rel="shortcut icon" href="' . esc_url($favicon_path) . '" />';
+    }
 
+    add_action( 'admin_head', 'add_favicon' ); 
 
 ?>
