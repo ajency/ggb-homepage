@@ -5,23 +5,23 @@
         <meta name="google-site-verification" content="qd-1GG94afoWdGykydD88dvERzYFG9UYaLs9cT3t1fk" />
 
         <title>
-            Ajency.in - Premium Software Development & UI Design company. We also offer Web Design.
+            Health Food Delivery Goa | Green Grain Bowl | Buy Healthy Food Online
         </title>
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no" name="viewport"/>
-        <meta content="Ajency.in is a Goa, India based premium software development and UI design company. Founded in 2012 we have worked with startups backed by  Sequoia, Tiger Global, Google Capital among others." name="description"/>
-        <meta content="Ajency.in, Ajency, Ajency Goa, Panjim, India, Software development, UI design, application development, web design, webdesign" name="keywords"/>
+        <meta content="Buy healthy food online by Green Grain Bowl. Healthy lunch bowls delivered to you in Panjim/Porvorim, Goa. Enjoy wholesome meals, salad style." name="description"/>
+        <meta content="Health Food Delivery Goa, order healthy food online, health food online, health food delivery, buy healthy food online" name="keywords"/>
         <meta content="website" property="og:type"/>
-        <meta content="Ajency.in - Premium Software Development & UI Design company. We also offer Web Design." property="og:title"/>
-        <meta content="Ajency.in is a Goa, India based premium software development and UI design company. Founded in 2012 we have worked with startups backed by  Sequoia, Tiger Global, Google Capital among others." name="description." property="og:description"/>
-        <meta content="https://ajency.in/" property="og:url"/>
-        <meta content="Ajency.in - Premium Software Development & UI Design company. We also offer Web Design." property="og:site_name"/>
+        <meta content="Health Food Delivery Goa | Green Grain Bowl | Buy Healthy Food Online" property="og:title"/>
+        <meta content="Buy healthy food online by Green Grain Bowl. Healthy lunch bowls delivered to you in Panjim/Porvorim, Goa. Enjoy wholesome meals, salad" name="description." property="og:description"/>
+        <meta content="https://greengrainbowl.com/" property="og:url"/>
+        <meta content="Health Food Delivery Goa | Green Grain Bowl | Buy Healthy Food Online" property="og:site_name"/>
         <meta content="summary_large_image" name="twitter:card"/>
-        <meta content="Ajency.in is a Goa, India based premium software development and UI design company. Founded in 2012 we have worked with startups backed by  Sequoia, Tiger Global, Google Capital among others." name="description" name="twitter:description"/>
-        <meta content="Ajency.in - Premium Software Development & UI Design company. We also offer Web Design." name="twitter:title"/>
+        <meta content="Buy healthy food online by Green Grain Bowl. Healthy lunch bowls delivered to you in Panjim/Porvorim, Goa. Enjoy wholesome meals, salad style." name="description" name="twitter:description"/>
+        <meta content="Health Food Delivery Goa | Green Grain Bowl | Buy Healthy Food Online" name="twitter:title"/>
         <script type="application/ld+json">
             {"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/ajency.in\/","name":"Ajency.in - Goa based UI\/UX &amp; web + mobile application development company","potentialAction":{"@type":"SearchAction","target":"https:\/\/ajency.in\/?s={search_term_string}","query-input":"required name=search_term_string"}}
         </script>
-        <meta content="#707279" name="theme-color"/>
+        <meta content="#4aa751" name="theme-color"/>
         <link href="<?php echo get_template_directory_uri(); ?>/img/favicon.png" rel="icon" type="image/x-icon"/>
 
         <style type="text/css">
@@ -80,11 +80,11 @@
                 <div class="row ">
                     <div class="col-6 col-xl-2 col-sm-3">
                       <a href="<?php echo get_site_url(); ?>">
-                      <img src="<?php echo get_template_directory_uri(); ?>/img/ajency-logo.png" width="157px" class="float-right logo"/>
+                      <img src="<?php echo get_template_directory_uri(); ?>/images/greengrainbowl.png" width="157px" class="float-right logo"/>
                     </a>
                     </div>
                     <div class="  offset-sm-5 col-sm-4 offset-xl-8 col-xl-2 col-6">
-                      <a href="mailto:talktous@ajency.in" class="h4 menu float-left m-0" onclick="ga('send', 'event', 'headerid', 'Contact', 'Header - talktous@ajency.in');">talktous@ajency.in </a>
+                      <a href="mailto:avanti@greengrainbowl.com" class="h4 menu float-left m-0" onclick="ga('send', 'event', 'headerid', 'Contact', 'Header - avanti@greengrainbowl.com');">avanti@greengrainbowl.com</a>
                     </div>
                 </div>
               </div>
@@ -144,34 +144,43 @@
             	<div class="row no-gutters">
             		<div class="col-md-4 contact-details">
          	 <h4 class="font-weight-light">
-              <a href="tel:09975931402" class=" d-block h4 font-weight-light" onclick="ga('send', 'event', 'telephone', 'CallNow', 'tel:09975931402');">+91 99759 31402</a>
+              <a href="tel:07770004258" class=" d-block h4 font-weight-light" onclick="ga('send', 'event', 'telephone', 'CallNow', 'tel:07770004258');">+91 7770004258</a>
               </h4>
               <h4 class="font-weight-light">
-              <a href="mailto:talktous@ajency.in" class="d-block h4 font-weight-light" onclick="ga('send', 'event', 'footerid', 'Contact', 'Footer - talktous@ajency.in');">talktous@ajency.in</a>
+              <a href="mailto:avanti@greengrainbowl.com" class="d-block h4 font-weight-light" onclick="ga('send', 'event', 'footerid', 'Contact', 'Footer - avanti@greengrainbowl.com');">avanti@greengrainbowl.com</a>
               <br>
-              <span class="h5">Career Opportunities:</span> <a href="mailto:workwithus@ajency.in" class=" d-block h4 font-weight-light" onclick="ga('send', 'event', 'career', 'LinkClick', 'Career Opportunities');"> workwithus@ajency.in</a>
+             <!--  <span class="h5">Career Opportunities:</span> <a href="mailto:workwithus@ajency.in" class=" d-block h4 font-weight-light" onclick="ga('send', 'event', 'career', 'LinkClick', 'Career Opportunities');"> workwithus@ajency.in</a> -->
 
             </h4>
 
             </div>
             <div class="col-md-5 mt-5 mt-md-0 contact-details">
          	<h4 class="font-weight-light w-75">
-              Panjim Convention Center, Panjim. Goa, India.
-            <a href="https://goo.gl/maps/qmCNWotzNhC2"  target="_blank" class="  font-weight-light h5 ">(Map)</a>
+              Green Grain Bowl Kitchen, 1st Floor, Panjim Convention Center, Mala.
+            <!-- <a href="https://goo.gl/maps/qmCNWotzNhC2"  target="_blank" class="  font-weight-light h5 ">(Map)</a> -->
             </h4>
 
             </div>
             <div class="col-md-3 mt-5 mt-md-0 contact-details-1">
-         	<h4 class="font-weight-light">
-         		<a href="https://www.facebook.com/Ajency.in/" class="d-block h4 font-weight-light" onclick="ga('send', 'event', 'facebook', 'ShareThis', 'Facebook');">Facebook</a>
-         	</h4>
-         	<h4 class="font-weight-light">
-              <a href="https://www.linkedin.com/company/ajency-in" class="d-block h4 font-weight-light" onclick="ga('send', 'event', 'linkedin', 'ShareThis', 'Linkedin');">Linkedin</a>
-            </h4>
+                <h4 class="font-weight-light">
+                    <a class="d-block h4 font-weight-light" href="https://www.instagram.com/greengrainbowl/"  target="_blank">
+                        <i class="fab fa-instagram mr-2"></i>Instagram
+                    </a>
+                </h4>
+                <h4 class="font-weight-light">
+                    <a class="d-block h4 font-weight-light" href="https://wa.me/917770004258?text=Hi"  target="_blank">
+                        <i class="fab fa-whatsapp mr-2"></i>Whatsapp
+                    </a>
+                </h4>
+                <h4 class="font-weight-light">
+                    <a class="d-block h4 font-weight-light" href="https://www.facebook.com/GreenGrainBowl" target="_blank">
+                        <i class="fab fa-facebook-square mr-2"></i>Facebook
+                    </a>
+                </h4>
             </div>
             	</div>
               <div class="mt-5">
-              (C) 2018 Digital Dwarves Pvt Ltd. All Right Reserved
+                C) Green Grain Bowl LLP 2020. All Rights Reserved.
             </div>
             </div>
           </div>
