@@ -296,6 +296,9 @@
 .price-span{
     display: inline-block;
     min-width: 100px;
+    @media (max-width: 475px){
+        min-width: 45px;
+    }
 }
 
 .line-animation {
