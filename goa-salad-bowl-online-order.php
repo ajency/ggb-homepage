@@ -180,7 +180,7 @@
 
 									 	<div id="panels" class="panels">
 					                        <div id="Monday" class="row product-list m-auto panel mt-3">
-												<div id="product-04W7PPoomTolZTxdgpVI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-04W7PPoomTolZTxdgpVI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Almost Burrito Bowl</h3>
@@ -273,9 +273,9 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 
-												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl</h3>
@@ -393,7 +393,8 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> 
+												</div>  -->
+
 												<!-- <div id="product-mbggbxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
@@ -564,12 +565,12 @@
 												    </div>
 												</div> -->
 
-												<!-- <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
+												<div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 												    <div class="product-wrapper cardfour">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced paneer / tofu / chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">The odd nugget of fresh orange in a bowl of barley, greens, baby corn, beans, carrots and coloured peppers with spiced paneer / tofu / chicken will make you fall in love with this one. An orange mustard ginger dressing adds a slight pungent note. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
 												            </div>
 												        </div>
 												        <div class="product-image">
@@ -586,21 +587,24 @@
 												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken-2.jpg" alt="Orange Barley Bowl" />
 												            </div>
 												        </div>
-								        				<div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4 ">
 												        	<div class="menu-details">
-												        		<div class="product-variant-name">Orange Barley Bowl - Paneer</div>
-												            	<div class="product-price h1 mb-0">₹240</div>
+												        		<div class="product-variant-name">Orange Barley Bowl - Tofu</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹270</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>	
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide"
 												                data-product_data='{
-												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl (Paneer)",
-												                    "product_id": "V2hxjWQXafuB8dq0unxy",
+												                    "description": "The odd nugget of fresh orange in a bowl of barley, greens, baby corn, beans, carrots and coloured peppers with spiced tofu will make you fall in love with this one. An orange mustard ginger dressing adds a slight pungent note. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
+												                    "title": "Orange Barley Bowl - Tofu",
+												                    "product_id": "1CG6P1slxnr9TSNnPzvZ",
 												                    "mark_type": "Veg",
 												                    "default": {
-												                      "id": "V2hxjWQXafuB8dq0unxy-bowl",
-												                      "mrp": 240,
-												                      "sale_price": 240,
+												                      "id": "1CG6P1slxnr9TSNnPzvZ-bowl",
+												                      "mrp": 310,
+												                      "sale_price": 270,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -619,21 +623,24 @@
 												            </div>
 												        </div>
 												        <hr>
-												        <div class="product-meta d-flex  mt-4 mb-4">
+								        				<div class="product-meta d-flex mt-4 mb-4">
 												        	<div class="menu-details">
-												        		<div class="product-variant-name">Orange Barley Bowl - Tofu</div>
-												            	<div class="product-price h1 mb-0">₹240</div>
-										            		</div>
+												        		<div class="product-variant-name">Orange Barley Bowl - Paneer</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>										
+											            	</div>
 												            <div class="react-add-to-cart-container btn-hide"
 												                data-product_data='{
-												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl (Tofu)",
-												                    "product_id": "1CG6P1slxnr9TSNnPzvZ",
+												                    "description": "The odd nugget of fresh orange in a bowl of barley, greens, baby corn, beans, carrots and coloured peppers with spiced paneer will make you fall in love with this one. An orange mustard ginger dressing adds a slight pungent note. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
+												                    "title": "Orange Barley Bowl - Paneer",
+												                    "product_id": "V2hxjWQXafuB8dq0unxy",
 												                    "mark_type": "Veg",
 												                    "default": {
-												                      "id": "1CG6P1slxnr9TSNnPzvZ-bowl",
-												                      "mrp": 240,
-												                      "sale_price": 240,
+												                      "id": "V2hxjWQXafuB8dq0unxy-bowl",
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -655,17 +662,20 @@
 												        <div class="product-meta d-flex mt-4 mb-4">
 												        	<div class="menu-details">
 												        		<div class="product-variant-name">Orange Barley Bowl - Chicken</div>
-												            	<div class="product-price h1 mb-0">₹270</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>	
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl (Chicken)",
+												                    "description": "The odd nugget of fresh orange in a bowl of barley, greens, baby corn, beans, carrots and coloured peppers with roast chicken will make you fall in love with this one. An orange mustard ginger dressing adds a slight pungent note. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
+												                    "title": "Orange Barley Bowl - Chicken",
 												                    "product_id": "8FVGmVx4JjQZRUsxtYrL",
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "8FVGmVx4JjQZRUsxtYrL-bowl",
-												                      "mrp": 270,
-												                      "sale_price": 270,
+												                      "mrp": 290,
+												                      "sale_price": 330,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -683,7 +693,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> --> 
+												</div> 
 
 												<!-- <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -797,13 +807,17 @@
 												    </div>
 												</div> -->
 
-												<!-- <div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl</h3>
 												            <div class="product-content  pb-4">
 												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
-												                	A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Olives, pomegranate and feta to complete the middle eastern vibe! You could also add herbed chicken.
+																	A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Olives, pomegranate and feta to complete the middle eastern vibe! You could also add herbed chicken.
+																	<br>
+																	*Salad comes with dressing mixed in.
+																	<br>
+																	**Dip is not the dressing.
 												                </h4>
 												            </div>
 												        </div>
@@ -818,16 +832,19 @@
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Cracked Wheat & Falafel Bowl - Veg</div>
-												            	<div class="product-price h1 mb-0">₹290</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>	
 										            		</div>													            
 										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. Theres falafel and roasted eggplant. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
-												                    "title": "Cracked Wheat & Falafel Bowl (Veg)",
+												                    "description": "A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Olives, pomegranate and feta to complete the middle eastern vibe!",
+												                    "title": "Cracked Wheat & Falafel Bowl - Veg",
 												                    "product_id": "w9CiPdw0MzpGfKkQsKqJ",
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "w9CiPdw0MzpGfKkQsKqJ-bowl",
-												                      "mrp": 290,
+												                      "mrp": 330,
 												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
@@ -849,17 +866,22 @@
 												        <div class="product-meta d-flex mt-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Cracked Wheat & Falafel Bowl - Chicken</div>
-												            	<div class="product-price h1 mb-0">₹310</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹320</div>
+												            		<div class="product-price discount-price h1 mb-0">₹350</div>	
+											            		</div>
 										            		</div>	
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. There is falafel and roasted eggplant. Herbed chicken is an added bonus. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
-												                    "title": "Cracked Wheat & Falafel Bowl (Chicken)",
+												                    "description": "A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Herbed chicken is an added bonus. Olives, pomegranate and feta to complete the middle eastern vibe!
+																	*Salad comes with dressing mixed in.
+																	**Dip is not the dressing.",
+												                    "title": "Cracked Wheat & Falafel Bowl - Chicken",
 												                    "product_id": "OMXhZUrvVWwCsLKNDlFK",
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "OMXhZUrvVWwCsLKNDlFK-bowl",
-												                      "mrp": 310,
-												                      "sale_price": 310,
+												                      "mrp": 350,
+												                      "sale_price": 320,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -877,7 +899,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> --> 
+												</div> 
 
 												<!-- <div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -1233,7 +1255,7 @@
 												</div> -->
 				                            </div>
 				                            <div id="Tuesday" class="row product-list m-auto panel mt-3">
-												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl</h3>
@@ -1351,8 +1373,9 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> 
-												<div id="product-04W7PPoomTolZTxdgpVI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div>  -->
+
+												<!-- <div id="product-04W7PPoomTolZTxdgpVI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Almost Burrito Bowl</h3>
@@ -1445,7 +1468,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 
 												<!-- <div id="product-mbggbxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -1617,12 +1640,106 @@
 												    </div>
 												</div> -->
 
-												<!-- <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
+												<div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
+																	A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Olives, pomegranate and feta to complete the middle eastern vibe! You could also add herbed chicken.
+																	<br>
+																	*Salad comes with dressing mixed in.
+																	<br>
+																	**Dip is not the dressing.
+												                </h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl"/>
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+									        				<div class="menu-details">
+												        		<div class="product-variant-name">Cracked Wheat & Falafel Bowl - Veg</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>	
+										            		</div>													            
+										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Olives, pomegranate and feta to complete the middle eastern vibe!",
+												                    "title": "Cracked Wheat & Falafel Bowl - Veg",
+												                    "product_id": "w9CiPdw0MzpGfKkQsKqJ",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "w9CiPdw0MzpGfKkQsKqJ-bowl",
+												                      "mrp": 330,
+												                      "sale_price": 290,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/CWF-Bowl-Veg.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "tuesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
+									        				<div class="menu-details">
+												        		<div class="product-variant-name">Cracked Wheat & Falafel Bowl - Chicken</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹320</div>
+												            		<div class="product-price discount-price h1 mb-0">₹350</div>	
+											            		</div>
+										            		</div>	
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Herbed chicken is an added bonus. Olives, pomegranate and feta to complete the middle eastern vibe!
+																	*Salad comes with dressing mixed in.
+																	**Dip is not the dressing.",
+												                    "title": "Cracked Wheat & Falafel Bowl - Chicken",
+												                    "product_id": "OMXhZUrvVWwCsLKNDlFK",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "OMXhZUrvVWwCsLKNDlFK-bowl",
+												                      "mrp": 350,
+												                      "sale_price": 320,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/CWF-Bowl-Chicken.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "tuesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div> 
+
+												<div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 												    <div class="product-wrapper cardfour">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl</h3>
 												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Barley, mixed greens, baby corn, beans, carrots and coloured peppers with spiced paneer / tofu / chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">The odd nugget of fresh orange in a bowl of barley, greens, baby corn, beans, carrots and coloured peppers with spiced paneer / tofu / chicken will make you fall in love with this one. An orange mustard ginger dressing adds a slight pungent note. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
 												            </div>
 												        </div>
 												        <div class="product-image">
@@ -1639,21 +1756,24 @@
 												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken-2.jpg" alt="Orange Barley Bowl" />
 												            </div>
 												        </div>
-								        				<div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4 ">
 												        	<div class="menu-details">
-												        		<div class="product-variant-name">Orange Barley Bowl - Paneer</div>
-												            	<div class="product-price h1 mb-0">₹240</div>
+												        		<div class="product-variant-name">Orange Barley Bowl - Tofu</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹270</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>	
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide"
 												                data-product_data='{
-												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl (Paneer)",
-												                    "product_id": "V2hxjWQXafuB8dq0unxy",
+												                    "description": "The odd nugget of fresh orange in a bowl of barley, greens, baby corn, beans, carrots and coloured peppers with spiced tofu will make you fall in love with this one. An orange mustard ginger dressing adds a slight pungent note. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
+												                    "title": "Orange Barley Bowl - Tofu",
+												                    "product_id": "1CG6P1slxnr9TSNnPzvZ",
 												                    "mark_type": "Veg",
 												                    "default": {
-												                      "id": "V2hxjWQXafuB8dq0unxy-bowl",
-												                      "mrp": 240,
-												                      "sale_price": 240,
+												                      "id": "1CG6P1slxnr9TSNnPzvZ-bowl",
+												                      "mrp": 310,
+												                      "sale_price": 270,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -1663,7 +1783,7 @@
 												                    "put_empty": true,
 												                    "availability": "Tuesday",
 												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
+												                    "day": "tuesday"
 												                }'
 												                >
 												                <div>
@@ -1672,21 +1792,24 @@
 												            </div>
 												        </div>
 												        <hr>
-												        <div class="product-meta d-flex  mt-4 mb-4">
+								        				<div class="product-meta d-flex mt-4 mb-4">
 												        	<div class="menu-details">
-												        		<div class="product-variant-name">Orange Barley Bowl - Tofu</div>
-												            	<div class="product-price h1 mb-0">₹240</div>
-										            		</div>
+												        		<div class="product-variant-name">Orange Barley Bowl - Paneer</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>										
+											            	</div>
 												            <div class="react-add-to-cart-container btn-hide"
 												                data-product_data='{
-												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced tofu and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl (Tofu)",
-												                    "product_id": "1CG6P1slxnr9TSNnPzvZ",
+												                    "description": "The odd nugget of fresh orange in a bowl of barley, greens, baby corn, beans, carrots and coloured peppers with spiced paneer will make you fall in love with this one. An orange mustard ginger dressing adds a slight pungent note. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
+												                    "title": "Orange Barley Bowl - Paneer",
+												                    "product_id": "V2hxjWQXafuB8dq0unxy",
 												                    "mark_type": "Veg",
 												                    "default": {
-												                      "id": "1CG6P1slxnr9TSNnPzvZ-bowl",
-												                      "mrp": 240,
-												                      "sale_price": 240,
+												                      "id": "V2hxjWQXafuB8dq0unxy-bowl",
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -1696,7 +1819,7 @@
 												                    "put_empty": true,
 												                    "availability": "Tuesday",
 												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
+												                    "day": "tuesday"
 												                }'
 												                >
 												                <div>
@@ -1708,17 +1831,20 @@
 												        <div class="product-meta d-flex mt-4 mb-4">
 												        	<div class="menu-details">
 												        		<div class="product-variant-name">Orange Barley Bowl - Chicken</div>
-												            	<div class="product-price h1 mb-0">₹270</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>	
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Barley, mixed greens, broccoli, baby corn, beans, carrots and coloured peppers with spiced chicken and the odd nugget of fresh orange. All mixed in an orange mustard ginger dressing. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl (Chicken)",
+												                    "description": "The odd nugget of fresh orange in a bowl of barley, greens, baby corn, beans, carrots and coloured peppers with roast chicken will make you fall in love with this one. An orange mustard ginger dressing adds a slight pungent note. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
+												                    "title": "Orange Barley Bowl - Chicken",
 												                    "product_id": "8FVGmVx4JjQZRUsxtYrL",
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "8FVGmVx4JjQZRUsxtYrL-bowl",
-												                      "mrp": 270,
-												                      "sale_price": 270,
+												                      "mrp": 290,
+												                      "sale_price": 330,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -1728,7 +1854,7 @@
 												                    "put_empty": true,
 												                    "availability": "Tuesday",
 												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
+												                    "day": "tuesday"
 												                }'>
 												                <div>
 												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
@@ -1736,7 +1862,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> --> 
+												</div> 
 
 												<!-- <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -1849,88 +1975,6 @@
 												        </div>
 												    </div>
 												</div> -->
-
-												<!-- <div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
-												                	A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Olives, pomegranate and feta to complete the middle eastern vibe! You could also add herbed chicken.
-												                </h4>
-												            </div>
-												        </div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl"/>
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
-									        				<div class="menu-details">
-												        		<div class="product-variant-name">Cracked Wheat & Falafel Bowl - Veg</div>
-												            	<div class="product-price h1 mb-0">₹290</div>
-										            		</div>													            
-										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. Theres falafel and roasted eggplant. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
-												                    "title": "Cracked Wheat & Falafel Bowl (Veg)",
-												                    "product_id": "w9CiPdw0MzpGfKkQsKqJ",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "w9CiPdw0MzpGfKkQsKqJ-bowl",
-												                      "mrp": 290,
-												                      "sale_price": 290,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/CWF-Bowl-Veg.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-												        <div class="product-meta d-flex mt-4">
-									        				<div class="menu-details">
-												        		<div class="product-variant-name">Cracked Wheat & Falafel Bowl - Chicken</div>
-												            	<div class="product-price h1 mb-0">₹310</div>
-										            		</div>	
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "New bowl on the menu! A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and LOTS of fresh herbs. There is falafel and roasted eggplant. Herbed chicken is an added bonus. A roasted red pepper dip** on the side. Oh, and olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
-												                    "title": "Cracked Wheat & Falafel Bowl (Chicken)",
-												                    "product_id": "OMXhZUrvVWwCsLKNDlFK",
-												                    "mark_type": "Non Veg",
-												                    "default": {
-												                      "id": "OMXhZUrvVWwCsLKNDlFK-bowl",
-												                      "mrp": 310,
-												                      "sale_price": 310,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/CWF-Bowl-Chicken.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div> --> 
 
 												<!-- <div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -2286,7 +2330,7 @@
 												</div> -->
 					                        </div>
 					                        <div id="Wednesday" class="row product-list m-auto panel">
-												<div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl</h3>
@@ -2370,9 +2414,9 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 
-												<div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl</h3>
@@ -2491,6 +2535,354 @@
 												            </div>
 												        </div>
 												    </div>
+												</div> -->
+
+												<!-- <div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6 hide-product">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl (Chicken)</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex mt-5">
+												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
+												                    "title": "Quinoa and Nuts Bowl (Chicken)",
+												                    "product_id": "dummy-product",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "dummy-product-bowl",
+												                      "mrp": 280,
+												                      "sale_price": 280,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/QNB-Chicken_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>  -->
+
+ 												<div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
+												            </div>
+											            	<div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        	<div class="menu-details">
+												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Veg</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹270</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>	
+										            		</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.",
+												                    "title": "Quinoa and Nuts Bowl - Veg",
+												                    "product_id": "QexP4xy4W2cMx4zORNEi",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "QexP4xy4W2cMx4zORNEi-bowl",
+												                      "mrp": 310,
+												                      "sale_price": 270,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/QNB-Veg_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'
+												                >
+												                <div>
+												                    <a class="btn-add-to-cart bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+											        	<div class="product-meta d-flex mt-4">
+											        		<div class="menu-details">
+												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Egg</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>	
+										            		</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.",
+												                    "title": "Quinoa and Nuts Bowl - Egg",
+												                    "product_id": "zhsxgRGAMaIbia75SQJr",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "zhsxgRGAMaIbia75SQJr-bowl",
+												                      "mrp": 330,
+												                      "sale_price": 290,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/QNB-Chicken_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+
+												<div id="product-mbggbxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Chilli Pineapple Barley Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Pineapple chunks add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish and carrots. Flax seeds for crunch. Choose between the veg/vegan option of brown chickpeas (kala chana) or delicious prawns.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg.jpg" alt="Chilli Pineapple Barley Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns.jpg" alt="Chilli Pineapple Barley Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg-2.jpg" alt="Chilli Pineapple Barley Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns-2.jpg" alt="Chilli Pineapple Barley Bowl" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Chilli Pineapple Barley Bowl - Veg</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹270</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>	
+										            		</div>												            
+										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Pineapple chunks add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish, carrots and brown chickpeas (kala chana). Flax seeds for crunch.",
+												                    "title": "Chilli Pineapple Barley Bowl - Veg",
+												                    "product_id": "mgILawWlIXQ8inejpZy8",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "mgILawWlIXQ8inejpZy8-bowl",
+												                      "mrp": 310,
+												                      "sale_price": 270,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/chilli-pineapple-veg.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Chilli Pineapple Barley Bowl - Prawns</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹320</div>
+												            		<div class="product-price discount-price h1 mb-0">₹350</div>	
+											            		</div>	
+										            		</div>	
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Pineapple chunks and prawns add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish and carrots. Flax seeds for crunch.",
+												                    "title": "Chilli Pineapple Barley Bowl - Prawns",
+												                    "product_id": "Pr8J4eIEwFfKX3ZQ6gC8",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "Pr8J4eIEwFfKX3ZQ6gC8-bowl",
+												                      "mrp": 350,
+												                      "sale_price": 320,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/chilli-pineapple-prawns.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+
+												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Thai grilled paneer / tofu / chicken, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mb-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Thai Brown Rice Bowl - Tofu</div>
+																<div class="price-row d-flex">
+																	<div class="product-price h1 mb-0">₹270</div>
+																	<div class="product-price discount-price h1 mb-0">₹310</div>	
+																</div>
+															</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Thai grilled tofu, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
+												                    "title": "Thai Brown Rice Bowl - Tofu",
+												                    "product_id": "EIAHVzsPLkUY6yrNGjOj",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "EIAHVzsPLkUY6yrNGjOj-bowl",
+												                      "mrp": 310,
+												                      "sale_price": 270,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4 mb-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Thai Brown Rice Bowl - Paneer</div>
+																<div class="price-row d-flex">
+																	<div class="product-price h1 mb-0">₹290</div>
+																	<div class="product-price discount-price h1 mb-0">₹330</div>	
+																</div>	
+									            			</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Thai grilled paneer, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
+												                    "title": "Thai Brown Rice Bowl - Paneer",
+												                    "product_id": "iAZQBNDAObu4phKqFeiO",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "iAZQBNDAObu4phKqFeiO-bowl",
+												                      "mrp": 330,
+												                      "sale_price": 290,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Thai Brown Rice Bowl - Chicken</div>
+																<div class="price-row d-flex">
+																	<div class="product-price h1 mb-0">₹290</div>
+																	<div class="product-price discount-price h1 mb-0">₹330</div>	
+																</div>	
+										            		</div>												            
+										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Thai grilled chicken with greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
+												                    "title": "Thai Brown Rice Bowl - Chicken",
+												                    "product_id": "iy0sD3rmOe9CB3extiE7",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "iy0sD3rmOe9CB3extiE7-bowl",
+												                      "mrp": 330,
+												                      "sale_price": 290,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Thai-Bowl-Chicken_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "wednesday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
 												</div>
 
 												<div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6 hide-product">
@@ -2538,117 +2930,6 @@
 												        </div>
 												    </div>
 												</div> 
-												<!-- <div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Thai grilled paneer / tofu / chicken, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.</h4>
-												            </div>
-												        </div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
-										        			<div class="menu-details">
-												        		<div class="product-variant-name">Thai Brown Rice Bowl - Tofu</div>
-												            	<div class="product-price h1 mb-0">₹230</div>
-										            		</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Thai grilled tofu, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
-												                    "title": "Thai Brown Rice Bowl - Tofu",
-												                    "product_id": "EIAHVzsPLkUY6yrNGjOj",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "EIAHVzsPLkUY6yrNGjOj-bowl",
-												                      "mrp": 230,
-												                      "sale_price": 230,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "tuesday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-												        <div class="product-meta d-flex mt-4 mb-4">
-										        			<div class="menu-details">
-												        		<div class="product-variant-name">Thai Brown Rice Bowl - Paneer</div>
-												            	<div class="product-price h1 mb-0">₹230</div>
-										            		</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Thai grilled paneer, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
-												                    "title": "Thai Brown Rice Bowl - Paneer",
-												                    "product_id": "iAZQBNDAObu4phKqFeiO",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "iAZQBNDAObu4phKqFeiO-bowl",
-												                      "mrp": 230,
-												                      "sale_price": 230,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "tuesday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-												        <div class="product-meta d-flex mt-4">
-										        			<div class="menu-details">
-												        		<div class="product-variant-name">Thai Brown Rice Bowl - Chicken</div>
-												            	<div class="product-price h1 mb-0">₹270</div>
-										            		</div>												            
-										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Thai grilled chicken with greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
-												                    "title": "Thai Brown Rice Bowl - Chicken",
-												                    "product_id": "iy0sD3rmOe9CB3extiE7",
-												                    "mark_type": "Non Veg",
-												                    "default": {
-												                      "id": "iy0sD3rmOe9CB3extiE7-bowl",
-												                      "mrp": 270,
-												                      "sale_price": 270,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/Thai-Bowl-Chicken_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "tuesday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div>  -->
-
 												<!-- <div id="product-04W7PPoomTolZTxdgpVI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
@@ -2732,176 +3013,6 @@
 												                }'>
 												                <div>
 												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block btn-disabled"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div> -->
-
-												<!-- <div id="product-mbggbxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Chilli Pineapple Barley Bowl</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Pineapple chunks add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish and carrots. Flax seeds for crunch. Choose between the veg/vegan option of brown chickpeas (kala chana) or delicious prawns.</h4>
-												            </div>
-												        </div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg.jpg" alt="Chilli Pineapple Barley Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns.jpg" alt="Chilli Pineapple Barley Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg-2.jpg" alt="Chilli Pineapple Barley Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns-2.jpg" alt="Chilli Pineapple Barley Bowl" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
-										        			<div class="menu-details">
-												        		<div class="product-variant-name">Chilli Pineapple Barley Bowl - Veg</div>
-												            	<div class="product-price h1 mb-0">₹270</div>
-										            		</div>												            
-										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Pineapple chunks add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish, carrots and brown chickpeas (kala chana). Flax seeds for crunch.",
-												                    "title": "Chilli Pineapple Barley Bowl - Veg",
-												                    "product_id": "mgILawWlIXQ8inejpZy8",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "mgILawWlIXQ8inejpZy8-bowl",
-												                      "mrp": 270,
-												                      "sale_price": 270,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/chilli-pineapple-veg.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-												        <div class="product-meta d-flex mt-4">
-										        			<div class="menu-details">
-												        		<div class="product-variant-name">Chilli Pineapple Barley Bowl - Prawns</div>
-												            	<div class="product-price h1 mb-0">₹320</div>
-										            		</div>	
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Pineapple chunks and prawns add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish and carrots. Flax seeds for crunch.",
-												                    "title": "Chilli Pineapple Barley Bowl - Prawns",
-												                    "product_id": "Pr8J4eIEwFfKX3ZQ6gC8",
-												                    "mark_type": "Non Veg",
-												                    "default": {
-												                      "id": "Pr8J4eIEwFfKX3ZQ6gC8-bowl",
-												                      "mrp": 320,
-												                      "sale_price": 320,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/chilli-pineapple-prawns.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div> -->
-
- 												<!-- <div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.</h4>
-												            </div>
-												        </div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
-												            </div>
-											            	<div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
-												        	<div class="menu-details">
-												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Veg</div>
-												            	<div class="product-price h1 mb-0">₹240</div>
-										            		</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.",
-												                    "title": "Quinoa and Nuts Bowl - Veg",
-												                    "product_id": "QexP4xy4W2cMx4zORNEi",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "QexP4xy4W2cMx4zORNEi-bowl",
-												                      "mrp": 240,
-												                      "sale_price": 240,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/QNB-Veg_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'
-												                >
-												                <div>
-												                    <a class="btn-add-to-cart bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-											        	<div class="product-meta d-flex mt-4">
-											        		<div class="menu-details">
-												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Egg</div>
-												            	<div class="product-price h1  mb-0">₹260</div>
-										            		</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.",
-												                    "title": "Quinoa and Nuts Bowl - Egg",
-												                    "product_id": "zhsxgRGAMaIbia75SQJr",
-												                    "mark_type": "Non Veg",
-												                    "default": {
-												                      "id": "zhsxgRGAMaIbia75SQJr-bowl",
-												                      "mrp": 260,
-												                      "sale_price": 260,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/QNB-Chicken_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
 												                </div>
 												            </div>
 												        </div>
@@ -3028,8 +3139,6 @@
 												        </div>
 												    </div>
 												</div> --> 
-
-
 
 												<!-- <div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -3393,7 +3502,7 @@
 												</div> -->
 					                        </div>
 					                        <div id="Thrusday" class="row product-list m-auto panel">
-												<div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl</h3>
@@ -3512,9 +3621,9 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 
-												<div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Rice Noodle Bowl</h3>
@@ -3635,9 +3744,9 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 
-												<div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl</h3>
@@ -3708,6 +3817,308 @@
 												                    },
 												                    "images": [
 												                      "assets/images/Pear-Barley-2.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div> -->
+
+												<div id="product-mbggbxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Chilli Pineapple Barley Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Pineapple chunks add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish and carrots. Flax seeds for crunch. Choose between the veg/vegan option of brown chickpeas (kala chana) or delicious prawns.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg.jpg" alt="Chilli Pineapple Barley Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns.jpg" alt="Chilli Pineapple Barley Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg-2.jpg" alt="Chilli Pineapple Barley Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns-2.jpg" alt="Chilli Pineapple Barley Bowl" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Chilli Pineapple Barley Bowl - Veg</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹270</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>	
+										            		</div>												            
+										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Pineapple chunks add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish, carrots and brown chickpeas (kala chana). Flax seeds for crunch.",
+												                    "title": "Chilli Pineapple Barley Bowl - Veg",
+												                    "product_id": "mgILawWlIXQ8inejpZy8",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "mgILawWlIXQ8inejpZy8-bowl",
+												                      "mrp": 310,
+												                      "sale_price": 270,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/chilli-pineapple-veg.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Chilli Pineapple Barley Bowl - Prawns</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹320</div>
+												            		<div class="product-price discount-price h1 mb-0">₹350</div>	
+											            		</div>	
+										            		</div>	
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Pineapple chunks and prawns add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish and carrots. Flax seeds for crunch.",
+												                    "title": "Chilli Pineapple Barley Bowl - Prawns",
+												                    "product_id": "Pr8J4eIEwFfKX3ZQ6gC8",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "Pr8J4eIEwFfKX3ZQ6gC8-bowl",
+												                      "mrp": 350,
+												                      "sale_price": 320,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/chilli-pineapple-prawns.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+
+												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Thai grilled paneer / tofu / chicken, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl" />
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mb-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Thai Brown Rice Bowl - Tofu</div>
+																<div class="price-row d-flex">
+																	<div class="product-price h1 mb-0">₹270</div>
+																	<div class="product-price discount-price h1 mb-0">₹310</div>	
+																</div>
+															</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Thai grilled tofu, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
+												                    "title": "Thai Brown Rice Bowl - Tofu",
+												                    "product_id": "EIAHVzsPLkUY6yrNGjOj",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "EIAHVzsPLkUY6yrNGjOj-bowl",
+												                      "mrp": 310,
+												                      "sale_price": 270,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4 mb-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Thai Brown Rice Bowl - Paneer</div>
+																<div class="price-row d-flex">
+																	<div class="product-price h1 mb-0">₹290</div>
+																	<div class="product-price discount-price h1 mb-0">₹330</div>	
+																</div>	
+									            			</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Thai grilled paneer, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
+												                    "title": "Thai Brown Rice Bowl - Paneer",
+												                    "product_id": "iAZQBNDAObu4phKqFeiO",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "iAZQBNDAObu4phKqFeiO-bowl",
+												                      "mrp": 330,
+												                      "sale_price": 290,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+												        <div class="product-meta d-flex mt-4">
+										        			<div class="menu-details">
+												        		<div class="product-variant-name">Thai Brown Rice Bowl - Chicken</div>
+																<div class="price-row d-flex">
+																	<div class="product-price h1 mb-0">₹290</div>
+																	<div class="product-price discount-price h1 mb-0">₹330</div>	
+																</div>	
+										            		</div>												            
+										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Thai grilled chicken with greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
+												                    "title": "Thai Brown Rice Bowl - Chicken",
+												                    "product_id": "iy0sD3rmOe9CB3extiE7",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "iy0sD3rmOe9CB3extiE7-bowl",
+												                      "mrp": 330,
+												                      "sale_price": 290,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/Thai-Bowl-Chicken_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+
+												<div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
+												            </div>
+											            	<div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        	<div class="menu-details">
+												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Veg</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹270</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>	
+										            		</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.",
+												                    "title": "Quinoa and Nuts Bowl - Veg",
+												                    "product_id": "QexP4xy4W2cMx4zORNEi",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "QexP4xy4W2cMx4zORNEi-bowl",
+												                      "mrp": 310,
+												                      "sale_price": 270,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/QNB-Veg_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "thursday"
+												                }'
+												                >
+												                <div>
+												                    <a class="btn-add-to-cart bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+											        	<div class="product-meta d-flex mt-4">
+											        		<div class="menu-details">
+												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Egg</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>	
+										            		</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.",
+												                    "title": "Quinoa and Nuts Bowl - Egg",
+												                    "product_id": "zhsxgRGAMaIbia75SQJr",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "zhsxgRGAMaIbia75SQJr-bowl",
+												                      "mrp": 330,
+												                      "sale_price": 290,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/QNB-Chicken_800.jpg"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3852,286 +4263,6 @@
 												                }'>
 												                <div>
 												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block btn-disabled"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div> -->
-
-												<!-- <div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Thai grilled paneer / tofu / chicken, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.</h4>
-												            </div>
-												        </div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
-										        			<div class="menu-details">
-												        		<div class="product-variant-name">Thai Brown Rice Bowl - Tofu</div>
-												            	<div class="product-price h1 mb-0">₹230</div>
-										            		</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Thai grilled tofu, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
-												                    "title": "Thai Brown Rice Bowl - Tofu",
-												                    "product_id": "EIAHVzsPLkUY6yrNGjOj",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "EIAHVzsPLkUY6yrNGjOj-bowl",
-												                      "mrp": 230,
-												                      "sale_price": 230,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-												        <div class="product-meta d-flex mt-4 mb-4">
-										        			<div class="menu-details">
-												        		<div class="product-variant-name">Thai Brown Rice Bowl - Paneer</div>
-												            	<div class="product-price h1 mb-0">₹230</div>
-										            		</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Thai grilled paneer, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
-												                    "title": "Thai Brown Rice Bowl - Paneer",
-												                    "product_id": "iAZQBNDAObu4phKqFeiO",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "iAZQBNDAObu4phKqFeiO-bowl",
-												                      "mrp": 230,
-												                      "sale_price": 230,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-												        <div class="product-meta d-flex mt-4">
-										        			<div class="menu-details">
-												        		<div class="product-variant-name">Thai Brown Rice Bowl - Chicken</div>
-												            	<div class="product-price h1 mb-0">₹270</div>
-										            		</div>												            
-										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Thai grilled chicken with greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
-												                    "title": "Thai Brown Rice Bowl - Chicken",
-												                    "product_id": "iy0sD3rmOe9CB3extiE7",
-												                    "mark_type": "Non Veg",
-												                    "default": {
-												                      "id": "iy0sD3rmOe9CB3extiE7-bowl",
-												                      "mrp": 270,
-												                      "sale_price": 270,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/Thai-Bowl-Chicken_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div>  -->
-												<!-- <div id="product-mbggbxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Chilli Pineapple Barley Bowl</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Pineapple chunks add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish and carrots. Flax seeds for crunch. Choose between the veg/vegan option of brown chickpeas (kala chana) or delicious prawns.</h4>
-												            </div>
-												        </div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg.jpg" alt="Chilli Pineapple Barley Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns.jpg" alt="Chilli Pineapple Barley Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg-2.jpg" alt="Chilli Pineapple Barley Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns-2.jpg" alt="Chilli Pineapple Barley Bowl" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
-										        			<div class="menu-details">
-												        		<div class="product-variant-name">Chilli Pineapple Barley Bowl - Veg</div>
-												            	<div class="product-price h1 mb-0">₹270</div>
-										            		</div>												            
-										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Pineapple chunks add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish, carrots and brown chickpeas (kala chana). Flax seeds for crunch.",
-												                    "title": "Chilli Pineapple Barley Bowl - Veg",
-												                    "product_id": "mgILawWlIXQ8inejpZy8",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "mgILawWlIXQ8inejpZy8-bowl",
-												                      "mrp": 270,
-												                      "sale_price": 270,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/chilli-pineapple-veg.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-												        <div class="product-meta d-flex mt-4">
-										        			<div class="menu-details">
-												        		<div class="product-variant-name">Chilli Pineapple Barley Bowl - Prawns</div>
-												            	<div class="product-price h1 mb-0">₹320</div>
-										            		</div>	
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Pineapple chunks and prawns add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish and carrots. Flax seeds for crunch.",
-												                    "title": "Chilli Pineapple Barley Bowl - Prawns",
-												                    "product_id": "Pr8J4eIEwFfKX3ZQ6gC8",
-												                    "mark_type": "Non Veg",
-												                    "default": {
-												                      "id": "Pr8J4eIEwFfKX3ZQ6gC8-bowl",
-												                      "mrp": 320,
-												                      "sale_price": 320,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/chilli-pineapple-prawns.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div> -->
-
- 												<!-- <div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.</h4>
-												            </div>
-												        </div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
-												            </div>
-											            	<div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
-												        	<div class="menu-details">
-												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Veg</div>
-												            	<div class="product-price h1 mb-0">₹240</div>
-										            		</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.",
-												                    "title": "Quinoa and Nuts Bowl - Veg",
-												                    "product_id": "QexP4xy4W2cMx4zORNEi",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "QexP4xy4W2cMx4zORNEi-bowl",
-												                      "mrp": 240,
-												                      "sale_price": 240,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/QNB-Veg_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'
-												                >
-												                <div>
-												                    <a class="btn-add-to-cart bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-											        	<div class="product-meta d-flex mt-4">
-											        		<div class="menu-details">
-												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Egg</div>
-												            	<div class="product-price h1  mb-0">₹260</div>
-										            		</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.",
-												                    "title": "Quinoa and Nuts Bowl - Egg",
-												                    "product_id": "zhsxgRGAMaIbia75SQJr",
-												                    "mark_type": "Non Veg",
-												                    "default": {
-												                      "id": "zhsxgRGAMaIbia75SQJr-bowl",
-												                      "mrp": 260,
-												                      "sale_price": 260,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/QNB-Chicken_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
 												                </div>
 												            </div>
 												        </div>
@@ -4532,7 +4663,7 @@
 												</div> -->
 					                        </div>
 				                        	<div id="Friday" class="row product-list m-auto panel">
-												<div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-uLG6xoTOYkcnpjxKoTXI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Rice Noodle Bowl</h3>
@@ -4653,9 +4784,9 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 
-												<div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-pbGEFxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Pear Barley Bowl</h3>
@@ -4739,9 +4870,9 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 
-												<div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												<!-- <div id="product-o8DaHCRxfYBIJQ5W7kCB" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Soba Noodle Bowl</h3>
@@ -4860,7 +4991,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>
+												</div> -->
 
 												<!-- <div id="product-04W7PPoomTolZTxdgpVI" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
@@ -4951,7 +5082,8 @@
 												    </div>
 												</div> -->
 
-												<!-- <div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+
+												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl</h3>
@@ -4967,11 +5099,14 @@
 												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Tofu</div>
-												            	<div class="product-price h1 mb-0">₹230</div>
-										            		</div>
+																<div class="price-row d-flex">
+																	<div class="product-price h1 mb-0">₹270</div>
+																	<div class="product-price discount-price h1 mb-0">₹310</div>	
+																</div>
+															</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Thai grilled tofu, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl - Tofu",
@@ -4979,8 +5114,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "EIAHVzsPLkUY6yrNGjOj-bowl",
-												                      "mrp": 230,
-												                      "sale_price": 230,
+												                      "mrp": 310,
+												                      "sale_price": 270,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -4990,7 +5125,7 @@
 												                    "put_empty": true,
 												                    "availability": "Tuesday",
 												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
+												                    "day": "friday"
 												                }'>
 												                <div>
 												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
@@ -5001,8 +5136,11 @@
 												        <div class="product-meta d-flex mt-4 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Paneer</div>
-												            	<div class="product-price h1 mb-0">₹230</div>
-										            		</div>
+																<div class="price-row d-flex">
+																	<div class="product-price h1 mb-0">₹290</div>
+																	<div class="product-price discount-price h1 mb-0">₹330</div>	
+																</div>	
+									            			</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Thai grilled paneer, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl - Paneer",
@@ -5010,8 +5148,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "iAZQBNDAObu4phKqFeiO-bowl",
-												                      "mrp": 230,
-												                      "sale_price": 230,
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -5021,7 +5159,7 @@
 												                    "put_empty": true,
 												                    "availability": "Tuesday",
 												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
+												                    "day": "friday"
 												                }'>
 												                <div>
 												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
@@ -5032,7 +5170,10 @@
 												        <div class="product-meta d-flex mt-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Chicken</div>
-												            	<div class="product-price h1 mb-0">₹270</div>
+																<div class="price-row d-flex">
+																	<div class="product-price h1 mb-0">₹290</div>
+																	<div class="product-price discount-price h1 mb-0">₹330</div>	
+																</div>	
 										            		</div>												            
 										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Thai grilled chicken with greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
@@ -5041,8 +5182,8 @@
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "iy0sD3rmOe9CB3extiE7-bowl",
-												                      "mrp": 270,
-												                      "sale_price": 270,
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -5052,7 +5193,7 @@
 												                    "put_empty": true,
 												                    "availability": "Tuesday",
 												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
+												                    "day": "friday"
 												                }'>
 												                <div>
 												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
@@ -5060,8 +5201,99 @@
 												            </div>
 												        </div>
 												    </div>
-												</div>  -->
-												<!-- <div id="product-mbggbxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												</div>
+												
+												<div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
+												    <div class="product-wrapper cardfive">
+												        <div class="lg-w-50 hover-text">
+												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl</h3>
+												            <div class="product-content  pb-4">
+												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.</h4>
+												            </div>
+												        </div>
+												        <div class="product-image">
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
+												            </div>
+											            	<div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
+												            </div>
+												            <div class="slick-slideshow__slide">
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
+												            </div>
+												        </div>
+												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        	<div class="menu-details">
+												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Veg</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹270</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>	
+										            		</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.",
+												                    "title": "Quinoa and Nuts Bowl - Veg",
+												                    "product_id": "QexP4xy4W2cMx4zORNEi",
+												                    "mark_type": "Veg",
+												                    "default": {
+												                      "id": "QexP4xy4W2cMx4zORNEi-bowl",
+												                      "mrp": 310,
+												                      "sale_price": 270,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/QNB-Veg_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "friday"
+												                }'
+												                >
+												                <div>
+												                    <a class="btn-add-to-cart bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												        <hr>
+											        	<div class="product-meta d-flex mt-4">
+											        		<div class="menu-details">
+												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Egg</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>	
+										            		</div>
+												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
+												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.",
+												                    "title": "Quinoa and Nuts Bowl - Egg",
+												                    "product_id": "zhsxgRGAMaIbia75SQJr",
+												                    "mark_type": "Non Veg",
+												                    "default": {
+												                      "id": "zhsxgRGAMaIbia75SQJr-bowl",
+												                      "mrp": 330,
+												                      "sale_price": 290,
+												                      "size": "Regular Bowl"
+												                    },
+												                    "images": [
+												                      "assets/images/QNB-Chicken_800.jpg"
+												                    ],
+												                    "class": "cardfour",
+												                    "put_empty": true,
+												                    "availability": "Tuesday",
+												                    "date": "Tuesday 2nd",
+												                    "day": "friday"
+												                }'>
+												                <div>
+												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+												                </div>
+												            </div>
+												        </div>
+												    </div>
+												</div>
+
+												<div id="product-mbggbxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
 												    <div class="product-wrapper cardfive">
 												        <div class="lg-w-50 hover-text">
 												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Chilli Pineapple Barley Bowl</h3>
@@ -5086,7 +5318,10 @@
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Chilli Pineapple Barley Bowl - Veg</div>
-												            	<div class="product-price h1 mb-0">₹270</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹270</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>	
 										            		</div>												            
 										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Pineapple chunks add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish, carrots and brown chickpeas (kala chana). Flax seeds for crunch.",
@@ -5095,7 +5330,7 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "mgILawWlIXQ8inejpZy8-bowl",
-												                      "mrp": 270,
+												                      "mrp": 310,
 												                      "sale_price": 270,
 												                      "size": "Regular Bowl"
 												                    },
@@ -5106,7 +5341,7 @@
 												                    "put_empty": true,
 												                    "availability": "Tuesday",
 												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
+												                    "day": "friday"
 												                }'>
 												                <div>
 												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
@@ -5117,7 +5352,10 @@
 												        <div class="product-meta d-flex mt-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Chilli Pineapple Barley Bowl - Prawns</div>
-												            	<div class="product-price h1 mb-0">₹320</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹320</div>
+												            		<div class="product-price discount-price h1 mb-0">₹350</div>	
+											            		</div>	
 										            		</div>	
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Pineapple chunks and prawns add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish and carrots. Flax seeds for crunch.",
@@ -5126,7 +5364,7 @@
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "Pr8J4eIEwFfKX3ZQ6gC8-bowl",
-												                      "mrp": 320,
+												                      "mrp": 350,
 												                      "sale_price": 320,
 												                      "size": "Regular Bowl"
 												                    },
@@ -5137,7 +5375,7 @@
 												                    "put_empty": true,
 												                    "availability": "Tuesday",
 												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
+												                    "day": "friday"
 												                }'>
 												                <div>
 												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
@@ -5145,91 +5383,7 @@
 												            </div>
 												        </div>
 												    </div>
-												</div> -->
-
- 												<!-- <div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.</h4>
-												            </div>
-												        </div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
-												            </div>
-											            	<div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
-												        	<div class="menu-details">
-												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Veg</div>
-												            	<div class="product-price h1 mb-0">₹240</div>
-										            		</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.",
-												                    "title": "Quinoa and Nuts Bowl - Veg",
-												                    "product_id": "QexP4xy4W2cMx4zORNEi",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "QexP4xy4W2cMx4zORNEi-bowl",
-												                      "mrp": 240,
-												                      "sale_price": 240,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/QNB-Veg_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'
-												                >
-												                <div>
-												                    <a class="btn-add-to-cart bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-											        	<div class="product-meta d-flex mt-4">
-											        		<div class="menu-details">
-												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Egg</div>
-												            	<div class="product-price h1  mb-0">₹260</div>
-										            		</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.",
-												                    "title": "Quinoa and Nuts Bowl - Egg",
-												                    "product_id": "zhsxgRGAMaIbia75SQJr",
-												                    "mark_type": "Non Veg",
-												                    "default": {
-												                      "id": "zhsxgRGAMaIbia75SQJr-bowl",
-												                      "mrp": 260,
-												                      "sale_price": 260,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/QNB-Chicken_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div> -->
+												</div>
 
 												<!-- <div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 												    <div class="product-wrapper cardfour">
@@ -5633,14 +5787,14 @@
 													</p>
 												</div>
 					                        </div>
-					                        <div id="NextWeek" class="row product-list m-auto panel">
+					                        <!-- <div id="NextWeek" class="row product-list m-auto panel">
 					                        	<div class="alert alert-light">
 													<img src="assets/images/next-week.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black">
 													 We will post details of the bowls for next week by Sunday. Do come back and take a look.
 													</p>
 												</div>
-					                        </div>
+					                        </div> -->
 			                        	</div>
 				                    </div>
 				                </div>
