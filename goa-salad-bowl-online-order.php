@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+<?php 
+	require_once('website_constants.php');
+	$date = date_create();
+	 
+	$react_js_file_hashes = file_get_contents($APP_URL."/react_component_file_hash.json?time=".date_timestamp_get($date));
+	$react_css_file_hashes = file_get_contents($APP_URL."/cart_app_css_file_hash.json?time=".date_timestamp_get($date));
+	$react_js_file_hashes_decoded = json_decode($react_js_file_hashes,true);
+	
+?>
 <html>
 <head>
     <title>Health Food Delivery Goa | Green Grain Bowl | Buy Healthy Food Online</title>
@@ -40,6 +49,11 @@
 			}
 		}
 	</style>
+	<?php 
+		$ENV = getenv('.env');
+		$app_Url = $ENV["APP_URL"];
+	?>
+
 </head>
 <body>
 
@@ -5707,18 +5721,16 @@
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
 	<script src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
 	<script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>	
-	<script src="https://order.greengrainbowl.com/site/firebase-functions.js?_1" type="text/javascript"></script>
-	<script src="https://order.greengrainbowl.com/site/react-components.1596697515828.js" type="text/javascript"></script>
-	
+	<script src="<?php echo $APP_URL;?>/firebase-functions.js?_1" type="text/javascript"></script>
+	<script src="<?php echo $APP_URL;?>/react-components.<?php echo $react_js_file_hashes_decoded["react-components"];?>.js" type="text/javascript"></script>
 	<!-- Global variables for react cart app component and css  hash -->
 	<script>
-		var react_js_file_hashes = {"2":"4535aed7","runtime-main":"9efbcb05","main":"a4ccb55c","react-components":"1596697515828"};
-		 
+		var react_js_file_hashes = <?php echo $react_js_file_hashes; ?>;
 		//old{"2":"4535aed7","runtime-main":"9efbcb05","main":"a4ccb55c","react-components":"1594718742766"};
-		var react_css_file_hashes = {"main":"5ab3505a"};
+		var react_css_file_hashes = <?php echo $react_css_file_hashes; ?>;
 		// old 727e096b
-		var app_url = "https://order.greengrainbowl.com/site";
-		var site_url = "https://greengrainbowl.com";
+		var app_url = "<?php echo $APP_URL?>";
+		var site_url = "<?php echo $SITE_URL;?>"
 	</script>
 </body>
 </html>
