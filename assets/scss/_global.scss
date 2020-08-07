@@ -281,6 +281,17 @@
 	}
 }
 
+.custom-radio-btn{
+	.sale-price{
+		font-size: 17px;
+	    font-weight: 500;
+	}
+	.mrp-price{
+		color: #878787;
+		text-decoration: line-through;
+	    margin-left: 8px;
+	}
+}
 
 /* Error Page styling **/
 
