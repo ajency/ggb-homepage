@@ -88,3 +88,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
+define('SITE_URL', 'http://localhost/ggb');
+define('APP_URL', 'http://localhost/greengrainbowl/app/build/site');
