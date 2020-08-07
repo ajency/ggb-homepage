@@ -216,7 +216,10 @@
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4 ">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Almost Burrito Bowl - Veg</div>
-												            	<div class="product-price h1 mb-0">₹300</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>	
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble! The elements are all dressed up individually, so there isnt one given separately with this bowl.",
@@ -225,8 +228,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "04W7PPoomTolZTxdgpVI-bowl",
-												                      "mrp": 300,
-												                      "sale_price": 300,
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -247,7 +250,10 @@
 												        <div class="product-meta d-flex mt-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Almost Burrito Bowl - Chicken</div>
-												            	<div class="product-price h1 mb-0">₹330</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹320</div>
+												            		<div class="product-price discount-price h1 mb-0">₹350</div>	
+											            		</div>											           
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar and herbed chicken on the side. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble!The elements are all dressed up individually, so there isnt one given separately with this bowl.",
@@ -256,8 +262,8 @@
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "kQnL29KfLMFrrhLQC6M3-bowl",
-												                      "mrp": 330,
-												                      "sale_price": 330,
+												                      "mrp": 350,
+												                      "sale_price": 320,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -296,8 +302,11 @@
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Tofu</div>
-												            	<div class="product-price h1 mb-0">₹230</div>
-										            		</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹270</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>											           
+								            		 		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Thai grilled tofu, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl - Tofu",
@@ -305,8 +314,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "EIAHVzsPLkUY6yrNGjOj-bowl",
-												                      "mrp": 230,
-												                      "sale_price": 230,
+												                      "mrp": 310,
+												                      "sale_price": 270,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -327,7 +336,10 @@
 												        <div class="product-meta d-flex mt-4 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Paneer</div>
-												            	<div class="product-price h1 mb-0">₹230</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>											           
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Thai grilled paneer, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
@@ -336,8 +348,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "iAZQBNDAObu4phKqFeiO-bowl",
-												                      "mrp": 230,
-												                      "sale_price": 230,
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -358,8 +370,11 @@
 												        <div class="product-meta d-flex mt-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Chicken</div>
-												            	<div class="product-price h1 mb-0">₹270</div>
-										            		</div>												            
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>											           
+										            		</div>
 										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Thai grilled chicken with greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl - Chicken",
@@ -367,8 +382,8 @@
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "iy0sD3rmOe9CB3extiE7-bowl",
-												                      "mrp": 270,
-												                      "sale_price": 270,
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -1245,8 +1260,11 @@
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Tofu</div>
-												            	<div class="product-price h1 mb-0">₹230</div>
-										            		</div>
+																<div class="price-row d-flex">
+																	<div class="product-price h1 mb-0">₹270</div>
+																	<div class="product-price discount-price h1 mb-0">₹310</div>	
+																</div>
+															</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Thai grilled tofu, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl - Tofu",
@@ -1254,8 +1272,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "EIAHVzsPLkUY6yrNGjOj-bowl",
-												                      "mrp": 230,
-												                      "sale_price": 230,
+												                      "mrp": 310,
+												                      "sale_price": 270,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -1276,8 +1294,11 @@
 												        <div class="product-meta d-flex mt-4 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Paneer</div>
-												            	<div class="product-price h1 mb-0">₹230</div>
-										            		</div>
+																<div class="price-row d-flex">
+																	<div class="product-price h1 mb-0">₹290</div>
+																	<div class="product-price discount-price h1 mb-0">₹330</div>	
+																</div>	
+									            			</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Thai grilled paneer, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
 												                    "title": "Thai Brown Rice Bowl - Paneer",
@@ -1285,8 +1306,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "iAZQBNDAObu4phKqFeiO-bowl",
-												                      "mrp": 230,
-												                      "sale_price": 230,
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -1307,7 +1328,10 @@
 												        <div class="product-meta d-flex mt-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Chicken</div>
-												            	<div class="product-price h1 mb-0">₹270</div>
+																<div class="price-row d-flex">
+																	<div class="product-price h1 mb-0">₹290</div>
+																	<div class="product-price discount-price h1 mb-0">₹330</div>	
+																</div>	
 										            		</div>												            
 										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Thai grilled chicken with greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
@@ -1316,8 +1340,8 @@
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "iy0sD3rmOe9CB3extiE7-bowl",
-												                      "mrp": 270,
-												                      "sale_price": 270,
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -1364,7 +1388,10 @@
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4 ">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Almost Burrito Bowl - Veg</div>
-												            	<div class="product-price h1 mb-0">₹300</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>	
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble! The elements are all dressed up individually, so there isnt one given separately with this bowl.",
@@ -1373,8 +1400,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "04W7PPoomTolZTxdgpVI-bowl",
-												                      "mrp": 300,
-												                      "sale_price": 300,
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -1395,7 +1422,10 @@
 												        <div class="product-meta d-flex mt-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Almost Burrito Bowl - Chicken</div>
-												            	<div class="product-price h1 mb-0">₹330</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹320</div>
+												            		<div class="product-price discount-price h1 mb-0">₹350</div>	
+											            		</div>	
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Herbed brown rice, greens, seasoned red kidney beans (rajma) and garlic roasted peppers (fajita style). Some corn, salsa and cheddar and herbed chicken on the side. Comes with a lob of guacamole. Squeeze in that wedge of lime, mix it all up and gobble!The elements are all dressed up individually, so there isnt one given separately with this bowl.",
@@ -1404,8 +1434,8 @@
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "kQnL29KfLMFrrhLQC6M3-bowl",
-												                      "mrp": 330,
-												                      "sale_price": 330,
+												                      "mrp": 350,
+												                      "sale_price": 320,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -2283,8 +2313,11 @@
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Pear Barley Bowl - Veg</div>
-												            	<div class="product-price h1  mb-0">₹230</div>
-										            		</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹270</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>											           
+									            		 	</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The vegetarian bowl comes with boiled mung beans (also vegan friendly).",
 												                    "title": "Pear Barley Bowl - Mung Beans",
@@ -2292,8 +2325,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "pbGEFxvc02aF3qbekNp9-bowl",
-												                      "mrp": 230,
-												                      "sale_price": 230,
+												                      "mrp": 310,
+												                      "sale_price": 270,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -2314,7 +2347,10 @@
 												        <div class="product-meta d-flex mt-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Pear Barley Bowl - Chicken</div>
-												            	<div class="product-price h1  mb-0">₹280</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹310</div>
+												            		<div class="product-price discount-price h1 mb-0">₹350</div>	
+											            		</div>												        
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. Comes with roast chicken.",
@@ -2323,8 +2359,8 @@
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "cMjfFw1BSYxNwGZYRpeC-bowl",
-												                      "mrp": 280,
-												                      "sale_price": 280,
+												                      "mrp": 350,
+												                      "sale_price": 310,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -2364,8 +2400,11 @@
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Soba Noodle Bowl - Tofu</div>
-												            	<div class="product-price h1 mb-0">₹260</div>
-										            		</div>												            
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹280</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>											            
+								            				</div>
 										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl - Tofu",
@@ -2373,8 +2412,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "o8DaHCRxfYBIJQ5W7kCB-bowl",
-												                      "mrp": 260,
-												                      "sale_price": 260,
+												                      "mrp": 310,
+												                      "sale_price": 280,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -2395,7 +2434,10 @@
 												        <div class="product-meta d-flex mt-4 mb-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Soba Noodle Bowl - Paneer</div>
-												            	<div class="product-price h1 mb-0">₹260</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>		
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
@@ -2404,8 +2446,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "3GukcZQD4emxBqFI270J-bowl",
-												                      "mrp": 260,
-												                      "sale_price": 260,
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -2426,7 +2468,10 @@
 												        <div class="product-meta d-flex mt-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Soba Noodle Bowl - Chicken</div>
-												            	<div class="product-price h1 mb-0">₹280</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>	
 										            		</div>	
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and roasted chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
@@ -2435,8 +2480,8 @@
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "uvCtO1TX0gdxL449TYxg-bowl",
-												                      "mrp": 280,
-												                      "sale_price": 280,
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -3376,8 +3421,11 @@
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Soba Noodle Bowl - Tofu</div>
-												            	<div class="product-price h1 mb-0">₹260</div>
-										            		</div>												            
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹280</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>							
+        						            				</div>
 										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl - Tofu",
@@ -3385,8 +3433,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "o8DaHCRxfYBIJQ5W7kCB-bowl",
-												                      "mrp": 260,
-												                      "sale_price": 260,
+												                      "mrp": 310,
+												                      "sale_price": 280,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -3407,8 +3455,11 @@
 												        <div class="product-meta d-flex mt-4 mb-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Soba Noodle Bowl - Paneer</div>
-												            	<div class="product-price h1 mb-0">₹260</div>
-										            		</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>									
+									            			</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl - Paneer",
@@ -3416,8 +3467,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "3GukcZQD4emxBqFI270J-bowl",
-												                      "mrp": 260,
-												                      "sale_price": 260,
+												                      "mrp": 230,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -3438,7 +3489,10 @@
 												        <div class="product-meta d-flex mt-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Soba Noodle Bowl - Chicken</div>
-												            	<div class="product-price h1 mb-0">₹280</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>	
 										            		</div>	
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and roasted chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
@@ -3447,8 +3501,8 @@
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "uvCtO1TX0gdxL449TYxg-bowl",
-												                      "mrp": 280,
-												                      "sale_price": 280,
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -3490,7 +3544,10 @@
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Rice Noodle Bowl - Paneer</div>
-												            	<div class="product-price h1 mb-0">₹240</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>	
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Sweet and chilly paneer with rice noodles and asorted vegetables. An equally flavourful dressing and surprise chunks of fruit give this bowl a very tropical vibe, topped off with ssome roasted cashews.",
@@ -3499,8 +3556,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "uLG6xoTOYkcnpjxKoTXI-bowl",
-												                      "mrp": 240,
-												                      "sale_price": 240,
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -3521,7 +3578,10 @@
 												        <div class="product-meta d-flex mt-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Rice Noodle Bowl - Prawns</div>
-												            	<div class="product-price h1 mb-0">₹280</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹320</div>
+												            		<div class="product-price discount-price h1 mb-0">₹350</div>	
+											            		</div>	
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Sweet and chilly shrimps with rice noodles and assorted vegetables. An equally flavourful dressing and surprise chunks of fruit give this bowl a very tropical vibe, topped off with some roasted cashews.",
@@ -3530,8 +3590,8 @@
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "yzwTvwigXncRLBNki4M9-bowl",
-												                      "mrp": 280,
-												                      "sale_price": 280,
+												                      "mrp": 350,
+												                      "sale_price": 320,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -3570,8 +3630,11 @@
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Pear Barley Bowl - Veg</div>
-												            	<div class="product-price h1  mb-0">₹230</div>
-										            		</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹270</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>	
+								            				</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The vegetarian bowl comes with boiled mung beans (also vegan friendly).",
 												                    "title": "Pear Barley Bowl - Mung Beans",
@@ -3579,8 +3642,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "pbGEFxvc02aF3qbekNp9-bowl",
-												                      "mrp": 230,
-												                      "sale_price": 230,
+												                      "mrp": 310,
+												                      "sale_price": 270,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -3601,7 +3664,10 @@
 												        <div class="product-meta d-flex mt-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Pear Barley Bowl - Chicken</div>
-												            	<div class="product-price h1  mb-0">₹280</div>
+												        		<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹310</div>
+												            		<div class="product-price discount-price h1 mb-0">₹350</div>	
+											            		</div>	
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. Comes with roast chicken.",
@@ -3610,8 +3676,8 @@
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "cMjfFw1BSYxNwGZYRpeC-bowl",
-												                      "mrp": 280,
-												                      "sale_price": 280,
+												                      "mrp": 350,
+												                      "sale_price": 310,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -4462,8 +4528,11 @@
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Rice Noodle Bowl - Paneer</div>
-												            	<div class="product-price h1 mb-0">₹240</div>
-										            		</div>
+																<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>		
+									            			</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Sweet and chilly paneer with rice noodles and asorted vegetables. An equally flavourful dressing and surprise chunks of fruit give this bowl a very tropical vibe, topped off with ssome roasted cashews.",
 												                    "title": "Rice Noodle Paneer Bowl",
@@ -4471,8 +4540,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "uLG6xoTOYkcnpjxKoTXI-bowl",
-												                      "mrp": 240,
-												                      "sale_price": 240,
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -4493,8 +4562,11 @@
 												        <div class="product-meta d-flex mt-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Rice Noodle Bowl - Prawns</div>
-												            	<div class="product-price h1 mb-0">₹280</div>
-										            		</div>
+																<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹320</div>
+												            		<div class="product-price discount-price h1 mb-0">₹350</div>	
+											            		</div>	
+									            			</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Sweet and chilly shrimps with rice noodles and assorted vegetables. An equally flavourful dressing and surprise chunks of fruit give this bowl a very tropical vibe, topped off with some roasted cashews.",
 												                    "title": "Rice Noodle Shrimp Bowl",
@@ -4502,8 +4574,8 @@
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "yzwTvwigXncRLBNki4M9-bowl",
-												                      "mrp": 280,
-												                      "sale_price": 280,
+												                      "mrp": 350,
+												                      "sale_price": 320,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -4542,7 +4614,10 @@
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Pear Barley Bowl - Veg</div>
-												            	<div class="product-price h1  mb-0">₹230</div>
+																<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹270</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>	
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. The vegetarian bowl comes with boiled mung beans (also vegan friendly).",
@@ -4551,8 +4626,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "pbGEFxvc02aF3qbekNp9-bowl",
-												                      "mrp": 230,
-												                      "sale_price": 230,
+												                      "mrp": 310,
+												                      "sale_price": 270,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -4573,7 +4648,10 @@
 												        <div class="product-meta d-flex mt-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Pear Barley Bowl - Chicken</div>
-												            	<div class="product-price h1  mb-0">₹280</div>
+																<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹310</div>
+												            		<div class="product-price discount-price h1 mb-0">₹350</div>	
+											            		</div>	
 										            		</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Barley, greens, red cabbage, cucumber, coloured peppers and pomegranate are the crunch and colour elements of this bowl. The pear wedges add a hint of sweetness and then there are walnuts to balance that out. A classic herb balsamic vinaigrette ties all these together. Comes with roast chicken.",
@@ -4582,8 +4660,8 @@
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "cMjfFw1BSYxNwGZYRpeC-bowl",
-												                      "mrp": 280,
-												                      "sale_price": 280,
+												                      "mrp": 350,
+												                      "sale_price": 310,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -4623,7 +4701,10 @@
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Soba Noodle Bowl - Tofu</div>
-												            	<div class="product-price h1 mb-0">₹260</div>
+																<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹280</div>
+												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
+											            		</div>	
 										            		</div>												            
 										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced tofu. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
@@ -4632,8 +4713,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "o8DaHCRxfYBIJQ5W7kCB-bowl",
-												                      "mrp": 260,
-												                      "sale_price": 260,
+												                      "mrp": 310,
+												                      "sale_price": 280,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -4654,8 +4735,11 @@
 												        <div class="product-meta d-flex mt-4 mb-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Soba Noodle Bowl - Paneer</div>
-												            	<div class="product-price h1 mb-0">₹260</div>
-										            		</div>
+																<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>	
+									            			</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and sweet-spiced paneer. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl - Paneer",
@@ -4663,8 +4747,8 @@
 												                    "mark_type": "Veg",
 												                    "default": {
 												                      "id": "3GukcZQD4emxBqFI270J-bowl",
-												                      "mrp": 260,
-												                      "sale_price": 260,
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -4685,8 +4769,11 @@
 												        <div class="product-meta d-flex mt-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Soba Noodle Bowl - Chicken</div>
-												            	<div class="product-price h1 mb-0">₹280</div>
-										            		</div>	
+																<div class="price-row d-flex">
+												            		<div class="product-price h1 mb-0">₹290</div>
+												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
+											            		</div>	
+									            			</div>	
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Buckwheat noodles, greens, roasted vegetables and roasted chicken. Tossed together, salad style, in a very Asian soy-sesame ginger dressing. Completed with a generous topping of sesame seeds and roasted groundnuts.",
 												                    "title": "Soba Noodle Bowl - Chicken",
@@ -4694,8 +4781,8 @@
 												                    "mark_type": "Non Veg",
 												                    "default": {
 												                      "id": "uvCtO1TX0gdxL449TYxg-bowl",
-												                      "mrp": 280,
-												                      "sale_price": 280,
+												                      "mrp": 330,
+												                      "sale_price": 290,
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
@@ -5583,11 +5670,14 @@
 
 	<div class="contentRight">
 		<div class="full-slider">
-			<div class="image">
-				<img class="" src="assets/images/dummy-image.png" data-lazy="assets/images/front_banner_2.jpg" alt="Health Food Delivery Goa" />
-			</div>
-			<div class="image">
-				<img class="" src="assets/images/dummy-image.png" data-lazy="assets/images/front_banner_1.jpg" alt="Green Grain Bowl" />
+			<?php 
+				$images = array_slice(scandir(__DIR__.'/assets/images/front-banner/'),2);
+				$num = array_rand($images,1);
+			?>
+			<div class="full-slider">
+				<div class="image">
+					<img class="banner_image" src="assets/images/dummy-image.png" data-src="assets/images/<?php echo $images[$num]; ?>" alt="Green Grain Bowl" />
+				</div>
 			</div>
 			<!-- <div class="main-image">
 
