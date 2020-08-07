@@ -5900,7 +5900,7 @@ Template Name: goa-salad-bowl-online-order
 			?>
 			<div class="full-slider">
 				<div class="image">
-					<img class="banner_image" src="/assets/images/dummy-image.png" data-src='"/assets/images/"<php echo $images[$num]; ?>"' alt="Green Grain Bowl" />
+					<img class="banner_image" src="/assets/images/dummy-image.png" data-src='"/assets/images/"<?php echo $images[$num]; ?>"' alt="Green Grain Bowl" />
 				</div>
 			</div>
 			<!-- <div class="main-image">
