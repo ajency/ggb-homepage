@@ -83,7 +83,7 @@
 		</div>
 		<div class="row main-content">
 			<div class="contentLeft">
-				<section class="block-wrapper">
+				<section class="block-wrapper pb-0">
 <!-- 					<figure class="block-image text-center">
 						<div class="single_image_wrapper">
 							<img width="250" height="250" src="https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/uploads/sites/14/2020/02/GGB-logo-Final-1.png" class="vc_single_image-img attachment-full" alt="GGB_logo" srcset="https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/uploads/sites/14/2020/02/GGB-logo-Final-1.png 250w, https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/uploads/sites/14/2020/02/GGB-logo-Final-1-150x150.png 150w" sizes="(max-width: 250px) 100vw, 250px">
