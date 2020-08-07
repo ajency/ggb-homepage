@@ -5895,7 +5895,7 @@ Template Name: goa-salad-bowl-online-order
 	<div class="contentRight">
 		<div class="full-slider">
 			<?php 
-				$images = array_slice(scandir(get_home_path('/assets/images/front-banner/')),2);
+				$images = array_slice(scandir(ABSPATH.'/assets/images/front-banner/'),2);
 				$num = array_rand($images,1);
 			?>
 			<div class="full-slider">
