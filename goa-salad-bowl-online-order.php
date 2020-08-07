@@ -205,7 +205,7 @@
 												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-2.jpg" alt="Almost Burrito Bowl - Chicken"  />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4 ">
+												        <div class="product-meta d-flex pt-4 mb-4 ">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Almost Burrito Bowl - Veg</div>
 												        		<div class="price-row d-flex">
@@ -291,7 +291,7 @@
 												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4  mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Tofu</div>
 												        		<div class="price-row d-flex">
@@ -1249,7 +1249,7 @@
 												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Thai Brown Rice Bowl - Tofu</div>
 																<div class="price-row d-flex">
@@ -1377,7 +1377,7 @@
 												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-2.jpg" alt="Almost Burrito Bowl - Chicken"  />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4 ">
+												        <div class="product-meta d-flex pt-4 mb-4 ">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Almost Burrito Bowl - Veg</div>
 												        		<div class="price-row d-flex">
@@ -2302,7 +2302,7 @@
 												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4  mb-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Pear Barley Bowl - Veg</div>
 												        		<div class="price-row d-flex">
@@ -2389,7 +2389,7 @@
 												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4  mb-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Soba Noodle Bowl - Tofu</div>
 												        		<div class="price-row d-flex">
@@ -3410,7 +3410,7 @@
 												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Soba Noodle Bowl - Tofu</div>
 												        		<div class="price-row d-flex">
@@ -3653,7 +3653,7 @@
 												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Pear Barley Bowl - Veg</div>
 												        		<div class="price-row d-flex">
@@ -4671,7 +4671,7 @@
 												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 											        		<div class="menu-details">
 												        		<div class="product-variant-name">Pear Barley Bowl - Veg</div>
 																<div class="price-row d-flex">
@@ -4758,7 +4758,7 @@
 												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Soba Noodle Bowl - Tofu</div>
 																<div class="price-row d-flex">
