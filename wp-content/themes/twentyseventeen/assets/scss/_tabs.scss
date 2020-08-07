@@ -1,0 +1,88 @@
+.tab-panels{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    .radio{
+        display:none;
+    }
+    .tabs{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+        width: 450px;
+        margin: 0 auto 30px;
+        .tab{
+            position: relative;
+            display: inline-block;
+            padding: 15px 0 25px 0;
+            border: 1px solid transparent;
+            border-bottom: 0;
+            cursor: pointer;
+            font-weight: 300;
+            cursor: pointer;
+            font-size: 26px;
+            color: #ced4da;;
+            margin-right: 15px;
+            &.active{
+                color: #000 !important;
+                font-weight: 600 !important;
+                &:after{
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    bottom: 10px;
+                    width: 50%;
+                    height: 2.5px;
+                    background: #4aa751;
+                }
+            }
+        }
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        @media (max-width: 768px){
+            width: 90%;
+        }
+    }
+    .panels{
+        width:100%;
+        .panel{
+            display: none;
+            overflow-y: hidden;
+            animation: fadein .8s;
+        }
+    }
+    .tabs-section{
+        background: white;
+        height: 88px;
+        padding: 0;
+        width: 550px;
+        @media (max-width: 768px){
+            width: 100vw;
+            padding: 0 20px;
+        }
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
+#mon:checked ~ .panels #Monday,
+#tue:checked ~ .panels #Tuesday,
+#wed:checked ~ .panels #Wednesday,
+#thrus:checked ~ .panels #Thrusday,
+#fri:checked ~ .panels #Friday,
+#weekends:checked ~ .panels #Weekend,
+#nextweek:checked ~ .panels #NextWeek{
+  display:block;
+}
