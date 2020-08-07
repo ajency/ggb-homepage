@@ -1,49 +1,133 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title><?php wp_title(); ?></title>
+     <title><?php wp_title(); ?></title>
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="google-site-verification" content="qd-1GG94afoWdGykydD88dvERzYFG9UYaLs9cT3t1fk" />
+
+<!--
+
+    <?php  if ( is_page_template('website-design/axisrooms.php') ) { ?>
+ 			<title>Website design and development of Axisrooms.com | Ajency.in Goa</title>
+    	<meta name="description" content="AxisRooms: award-winning hospitality technology solution company that is used in over 6000+ hotels across the world."/>
+
+    <?php } elseif ( is_page_template('website-design/indigowine.php') ) { ?>
+ 			<title>Website design and development of indigowineco.com | Ajency.in Goa</title>
+	    <meta name="description" content="Wine club in Singapore of artisanal wines from boutique producers across Australia. Members can read about wines &subscribe to wine box via site."/>
+
+    <?php } elseif ( is_page_template('website-design/designdesk.php') ) { ?>
+ 			<title>Website design and development of Designdesk.in | Ajency.in Goa</title>
+	    <meta name="description" content="Designdesk: based out of Mumbai, India, designs & builds exhibition stands. The website is a showcase of their work of 1200+ exhibitions in India & abroad."/>
+
+    <?php } elseif ( is_page_template('website-design/marvelrealtors.php') ) { ?>
+ 			<title>Website design and development of marvelrealtors.com | Ajency.in Goa</title>
+	    <meta name="description" content="Marvel Realtors Pune India, known for their premium residences. Website is their brochure for past &ongoing projects, highlighting amenities & unit configuration in each project."/>
+
+    <?php } elseif ( is_page_template('engineering.php') ) { ?>
+ 			<title>Software Development company with focus on JAVA, PHP, Angular, Mobile Applications and Ecommerce. Goa, India.</title>
+	    <meta name="description" content="We research and design digital products that people love to use. Led by HFI certified UX analyst we have worked on diverse projects. From mobile wallets for India's largest business group to an online marketplace for a soloprenuer."/>
+
+    <?php } elseif ( is_page_template('user-interface-design.php') ) { ?>
+ 			<title>User interface Design, UI & UX research, Product design. Goa, India.</title>
+	    <meta name="description" content="We research and design digital products that people love to use. Led by an HFI certified UX analyst, we have worked on diverse projects, from mobile wallets for India's largest business group to an online marketplace for a soloprenuer."/>
+
+    <?php } elseif ( is_page_template('product-user-interface-design/fnbcircle.php') ) { ?>
+ 			<title>FnB Circle | Ajency.in</title>
+	    <meta name="description" content="Large directory sites are making way for newer industry-focused vertical directories and marketplaces. We worked with a family business with strong roots in the traditional F&B industry. Our brief was to help them be part of the online disruption taking place in discovery of vendors in their niche."/>
+
+    <?php } elseif ( is_page_template('product-user-interface-design/goomoextranet.php') ) { ?>
+ 			<title>Goomo CBT | Ajency.in</title>
+	    <meta name="description" content="Armed with $50 million in fund raise Goomo has set out to disrupt the business travel market. We worked with them on numerous projects including their corporate booking tool and the extranet product for use by their hotel partners. "/>
+
+    <?php } elseif ( is_page_template('product-user-interface-design/goomotrain.php') ) { ?>
+ 			<title>Goomo Train Booking App | Ajency.in</title>
+	    <meta name="description" content="Armed with $50 million in fund raise Goomo has set out to disrupt the online travel booking market in India. We worked with them on numerous projects including the interface design for train bookings product. "/>
+
+    <?php } elseif ( is_page_template('product-user-interface-design/mrupee.php') ) { ?>
+ 			<title>Mobile Wallet App | Ajency.in</title>
+	    <meta name="description" content="Mobile wallets and seamless payments at retail and online merchants have revolutionized the Indian market. We made a small contribution to trend while designing the mobile wallet for India’s largest business house (TATA)."/>
+
+    <?php } elseif ( is_page_template('website-design.php') ) { ?>
+      <title>Web design for online stores, real estate projects, hotels, company blog. Wordpress, Shopify. Goa, India.</title>
+      <meta name="description" content="We design and code websites for online stores, real estate projects, hotels, company or product websites, blog and others. Sites we build are buzzword and SEO compliant, and load under 4 seconds."/>
+
+    <?php } elseif ( is_page_template('template-blogs.php') ) { ?>
+          <title>Ajency.in Blog | People & Processes and Technology Blog</title>
+          <meta name="description" content="Check out the Ajency.in blog. Read about our thoughts, opinions and updates on our workplace processes and activities as well as know more about our job vacancies."/>
+
+      <?php } elseif ( is_page_template('template-all_blogs.php') ) { ?>
+          <title>Blog by Ajency.in | IT Company in Goa, India</title>
+          <meta name="description" content="Check out blog posts by Ajency.in. to read about the activities and workplace processes we follow and also know more about our job vacancies."/>      
+
+    <?php } elseif ( is_singular('post') ) { ?>
+        <?php
+            $the_post_id = get_the_ID();
+            $meta_title = get_post_meta($the_post_id, "wpcf-meta-title", true);
+            $meta_desc = get_post_meta($the_post_id, "wpcf-meta-description", true);
+            $meta_keys = get_post_meta($the_post_id, "wpcf-meta-keywords", true);
+        ?>
+
+        <title><?php echo $meta_title; ?></title>
+        <meta name="description" content="<?php echo $meta_desc; ?>"/>
+        <meta name="keywords" content="<?php echo $meta_keys; ?>"/>
+
+        <meta property="fb:app_id" content="313022923485" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="<?php echo $meta_title; ?>" />
+        <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+        <meta property="og:url" content="<?php echo esc_url( get_permalink()); ?>" />
+        <meta property="og:site_name" content="Ajency.in - Goa based UI/UX &amp; web + mobile application development company" />
+        <?php if (has_post_thumbnail()) : ?>
+            <meta property="og:image" content="<?php the_post_thumbnail_url('medium_large'); ?>">
+            <meta property="twitter:image" content="<?php the_post_thumbnail_url('medium_large'); ?>">
+        <?php else : ?>
+            <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/img/ajency-logo.png">
+            <meta property="twitter:image" content="<?php echo get_template_directory_uri(); ?>/img/ajency-logo.png">
+        <?php endif;?>
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="<?php echo $meta_title; ?>" />
+        <meta name="twitter:description" content="<?php echo $meta_desc; ?>" />
+
+    <?php } else { ?>
+
+    	<title>Software Development and User Interface Design company that also offers Web Design services. Goa, India. </title>
+
+			<meta name="description" content="We work with startups in Goa, London, Mumbai, Bangalore &amp; rest of the world. We combine both UI/UX &amp; web + mobile development skills to create winning digital products."/>
+			<meta name="keywords" content="Software company in Goa,Software Development Company Goa,Mobile Application Development, Mobile Application Development Goa, Web design Panjim,Ajency.in Goa"/>
+			<meta property="og:type" content="website" />
+			<meta property="og:title" content="Software Development and User Interface Design company that also offers Web Design services. Goa, India." />
+			<meta property="og:description" content="We work with startups in Goa, London, Mumbai, Bangalore &amp; rest of the world. We combine both UI/UX &amp; web + mobile development skills to create winning digital products." />
+			<meta property="og:url" content="https://ajency.in/" />
+			<meta property="og:site_name" content="Ajency.in - Goa based UI/UX &amp; web + mobile application development company" />
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:description" content="We work with startups in Goa, London, Mumbai, Bangalore &amp; rest of the world. We combine both UI/UX &amp; web + mobile development skills to create winning digital products." />
+			<meta name="twitter:title" content="Software Development and User Interface Design company that also offers Web Design services. Goa, India." />
+
+			<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/ajency.in\/","name":"Ajency.in - Goa based UI\/UX &amp; web + mobile application development company","potentialAction":{"@type":"SearchAction","target":"https:\/\/ajency.in\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+
+		<?php } ?>
+
+
+    <link  rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.png" />
+    -->
+
     <style type="text/css">
-      *,:after,:before{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar}@-ms-viewport{width:device-width}nav,section{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:.85rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}h1,h3,h4{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}a{color:#4aa751;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}img{vertical-align:middle;border-style:none}button{border-radius:0}button{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button{overflow:visible}button{text-transform:none}button{-webkit-appearance:button}button::-moz-focus-inner{padding:0;border-style:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}.h1,h1,h3,h4{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit}.h1,h1{font-size:2.125rem}h3{font-size:1.375rem}h4{font-size:1.275rem}.display-4{font-weight:300;line-height:1.2}.display-4{font-size:3.5rem}.img-fluid{max-width:100%;height:auto}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:1200px){.container{max-width:1800px}}.row{display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.col,.col-xl-8{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}.col{flex-basis:0;flex-grow:1;max-width:100%}@media (min-width:1200px){.col-xl-8{flex:0 0 66.66667%;max-width:66.66667%}.offset-xl-2{margin-left:16.66667%}}.btn{display:inline-block;font-weight:400;text-align:center;white-space:nowrap;vertical-align:middle;border:1px solid transparent;padding:.375rem .75rem;font-size:.85rem;line-height:1.5;border-radius:.25rem}.btn-primary{background-color:#4aa751;border-color:#4aa751}.fade:not(.show){opacity:0}.collapse:not(.show){display:none}.card-body{flex:1 1 auto;padding:1.25rem}.alert-info{color:#0c5460;background-color:#d1ecf1;border-color:#bee5eb}.alert-danger{color:#5a0905;background-color:#efcfce;border-color:#e8bcba}.modal{overflow:hidden}.modal{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1050;display:none;outline:0}.modal-dialog{position:relative;width:auto;margin:.5rem}.modal.fade .modal-dialog{transform:translateY(-25%)}.modal-content{position:relative;display:flex;flex-direction:column;width:100%;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,.2);border-radius:.2rem;outline:0}.modal-body{position:relative;flex:1 1 auto;padding:1rem}@media (min-width:576px){.modal-dialog{max-width:500px;margin:1.75rem auto}}.bg-white{background-color:#fff!important}.rounded-0{border-radius:0!important}.d-none{display:none!important}.d-inline-block{display:inline-block!important}.d-flex{display:flex!important}@media (min-width:992px){.d-lg-block{display:block!important}}.justify-content-end{justify-content:flex-end!important}.justify-content-center{justify-content:center!important}.position-relative{position:relative!important}.w-100{width:100%!important}.mb-2{margin-bottom:.5rem!important}.mr-3{margin-right:1rem!important}.mb-3{margin-bottom:1rem!important}.mb-4{margin-bottom:1.5rem!important}.mt-5{margin-top:3rem!important}.p-0{padding:0!important}.pr-2{padding-right:.5rem!important}.pl-3{padding-left:1rem!important}.p-5{padding:3rem!important}@media (min-width:768px){.mb-md-0{margin-bottom:0!important}}@media (min-width:992px){.mb-lg-0{margin-bottom:0!important}.mt-lg-1{margin-top:.25rem!important}.ml-lg-2{margin-left:.5rem!important}.mb-lg-3{margin-bottom:1rem!important}.mt-lg-5{margin-top:3rem!important}.pt-lg-2{padding-top:.5rem!important}.pb-lg-2{padding-bottom:.5rem!important}.pl-lg-2{padding-left:.5rem!important}}.text-center{text-align:center!important}@media (min-width:992px){.text-lg-center{text-align:center!important}}.text-uppercase{text-transform:uppercase!important}.font-weight-light{font-weight:300!important}.font-weight-bold{font-weight:700!important}.text-primary{color:#4aa751!important}.text-white{color:#fff!important}.location-icon{display:inline-block;background:#4aa751;color:#fff;width:25px;height:25px;text-align:center;padding:1px;border-radius:50%}#selected-location-address{position:absolute;right:15px;left:15px;top:100%;display:none}@media (min-width:992px){.delivery-location{position:relative}.delivery-location #selected-location-address{position:absolute;right:15px;left:30px;top:-10px;width:400px;z-index:1}}#selected-location-address{margin-top:5px}@media (max-width:991px){#selected-location-address:after{content:"";position:absolute;left:5px;top:-9px;width:0;height:0;clear:both;border-left:10px solid transparent;border-right:10px solid transparent;border-bottom:10px solid #eeefee}}@media (min-width:768px) and (max-width:991px){#selected-location-address:after{left:19px}}@media (min-width:992px){#selected-location-address{margin-top:0}}.number-edit{color:#fff;background:#4aa751;padding:7px;border-radius:50%}.push{position:fixed;top:0;right:0;left:0;bottom:0;z-index:99999;background-color:rgba(0,0,0,.5)}.push-note{width:500px;margin:0 auto;background:#fff;padding:15px}@media (max-width:520px){.push-note{width:100%}}@media (min-width:992px) and (max-width:1400px){.logo{width:170px!important}}@media (min-width:768px) and (max-width:991px){.logo{width:110px!important;margin:0 auto}}@media (min-width:320px) and (max-width:767.98px){.logo{width:100px!important;margin:0 auto}}nav{width:100%;padding-bottom:16px}@media (min-width:768px) and (max-width:991px){nav{padding-bottom:16px;z-index:999}}@media (min-width:320px) and (max-width:767.98px){nav{padding-bottom:16px;padding-top:50px!important;z-index:999}}.img-fluid{width:100%}.img-fluid.auto-width{width:auto}.aj-home-title{line-height:5rem}@media (min-width:320px) and (max-width:767.98px){.aj-home-title{font-size:1.6rem;line-height:2.7rem}}@media (min-width:992px) and (max-width:1399.98px){.aj-home-title{line-height:4rem;font-size:2.9rem}}#imagemodal .modal-content{background-color:transparent;border:0}#imagemodal .modal-content .modal-body{height:100%;padding:0}#imagemodal .modal-dialog{transform:translate(0)!important}body{overflow-x:hidden}body{font-family:Work Sans,sans-serif}.body-text{font-size:1.75rem;line-height:1.428}@media (min-width:992px) and (max-width:1400px){.body-text.small-laptop-text{font-size:1.2rem}}@media (max-width:767px){.body-text.small-laptop-text{font-size:1.2rem}}@media (min-width:320px) and (max-width:767.98px){.body-text{font-size:1.375rem}}.btn,.btn-reset{outline:0}.btn-reset{background:transparent;border:0;border-radius:0}.btn-primary{border:1px solid #47a748;background:#47a748;color:#fff;padding:11px;text-decoration:none;text-transform:uppercase}.btn-inverted{background:#c4c8c4;border-color:#c4c8c4}.msg-container{position:fixed;right:0;left:0;bottom:0;z-index:2}@media (max-width:991px){.msg-container #react-view-cart-container{width:100%}}@media (min-width:992px){.msg-container{bottom:40px;right:85px;left:auto;max-width:410px;width:100%}}.success.toast{background:#ecf6ec;color:#4aa751}@media (min-width:992px){.success.toast{font-size:18px;background:#fff;color:#000;max-width:320px;margin-left:auto}}.failure.toast{background:#ecf6ec}@media (min-width:992px){.failure.toast{font-size:18px;background:#fff;color:#000;max-width:320px;margin-left:auto}}.p-15{padding:15px}.close-img{position:absolute;right:-20px;top:-18px}@media (max-width:991px){.close-img{right:-7px}}.cart-wrapper{position:fixed;top:0;right:0;bottom:0;height:100%;z-index:1200;transform:translate(500px);width:410px;padding:0 0 52px;background:#fff}.cart-app-loader{display:flex;justify-content:center;align-items:center;height:100vh;font-size:16px;font-weight:500;text-transform:uppercase}@media (max-width:480px){.cart-wrapper{width:100%}}.ft6{font-weight:600}@media (min-width:992px) and (max-width:1399.98px){.container{max-width:1200px}}.p5{padding-left:4rem;padding-right:4rem}@media (min-width:320px) and (max-width:767.98px){.p5{padding-left:1rem;padding-right:1rem}}@media (min-width:768px) and (max-width:991.98px){.p5{padding-left:2rem;padding-right:2rem}}@media (min-width:768px) and (max-width:1199.98px){.p5{padding-left:2rem!important;padding-right:2rem!important}}@media (min-width:992px) and (max-width:1399.98px){.p5{padding-left:0;padding-right:0}}section{padding-top:6rem;padding-bottom:6rem}@media (min-width:320px) and (max-width:767.98px){section{padding-top:4rem;padding-bottom:4rem}}.pt-6{padding-top:60px}@media (min-width:992px){./*lg-w-50{width:50%;float:left}*/}.backdrop{position:fixed;min-height:100%;width:100%;top:0;left:0;background:rgba(173,181,189,.6);z-index:1199;display:none}.backdrop-wrap{position:fixed;min-height:100%;width:100%;top:0;left:0;background:rgba(173,181,189,.6);z-index:9999;display:none}.vertical-align-middle{vertical-align:middle}.mw-120{min-width:120px}.pt-6{padding-top:6rem!important}.mb-32{margin-bottom:32px}.mb-29{margin-bottom:29px}.full-screen-section{display: flex;flex-direction: column;align-items: center;justify-content: center;min-height:100vh;}.full-screen-section h1,.full-screen-section img,.full-screen-section p{-webkit-animation:fadein 2s;animation:fadein 2s}@media (min-width:992px) and (max-width:1400px){.full-screen-section .aj-home-title{font-size:40px!important}}.sb-shadow{box-shadow:0 0 12px 0 rgba(0,0,0,.2)}nav img{-webkit-animation:fadein 2s;animation:fadein 2s}@keyframes fadein{0%{opacity:0}to{opacity:1}}@-webkit-keyframes fadein{0%{opacity:0}to{opacity:1}}@media (max-width:767px){body{-webkit-overflow-scrolling:touch;scroll-padding:20px}body>div{scroll-snap-align:start;scroll-snap-stop:normal}}.product-image img{width:100%;height:auto;display:block;margin:0 auto;box-shadow:0 2px 6px 0 rgba(0,0,0,.3)}@media (min-width:992px){.product-image img{transform:scale(1.2)}}@media (min-width:992px){./*product-info{position:absolute;left:0;width:100%*/}.product-info{z-index:2;padding-left:25px!important;padding-right:25px!important}./*product-info.hover-text{bottom:-100%}*/}@media (min-width:992px) and (max-width:1199px){.product-info{padding-left:15px!important;padding-right:15px!important}}.product-title{margin-top:15px;margin-bottom:7.5px}.product-image .item{display:none}@media (min-width:992px){.product-info h3.type{font-size:18px}.product-info h3.p-title{font-size:25px}}@media (min-width:992px){/*.product-info{color:#fff}*/}.site-loader{max-width:410px;margin-left:auto;background-color:hsla(0,0%,100%,.8);font-size:15px;line-height:20px;position:fixed;top:0;right:0;left:auto;width:100%;height:100%;overflow-x:hidden;overflow-y:scroll;z-index:1202;display:none}@media (max-width:767px){.site-loader{max-width:100%}}
-      .custom-modal{
-        opacity:0;
-        visibility:hidden;
-      }
-      .logo {
-        /* min-height: 250px; */
-        width: 250px;
-      }
-      @media (min-width: 992px) and (max-width: 1400px) {
-        .log{
-          /* min-height: 170px; */
-          width: 170px;
-        }
-      }
-      @media (min-width: 768px) and (max-width: 991px) {
-        .log{
-          /* min-height: 110px; */
-          width: 110px;
-        }
-      }
-      @media (min-width: 320px) and (max-width: 767.98px) {
-        .logo{
-          /*min-height: 150px;*/
-          width: 150px;
-        }
-      }
-      @media (min-width: 992px) {
-        .product-wrapper{
-          min-height: 33vh;
-        }
-      }   
-      @media (max-width: 991px) {
-       .add-address-form{
-           padding-bottom: 100px;
-       }
-      }
+      @charset "UTF-8";:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#f9bc23;--secondary:#004283;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#ad110a;--light:#e4e4e4;--dark:#707279;--cancel:#4b4b4b;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,::after,::before{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar}@-ms-viewport{width:device-width}nav,section{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:.85rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff;overflow-x:hidden;font-family:'Work Sans',sans-serif}h1,p{margin-top:0}p{margin-bottom:1rem}a{color:#f9bc23;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}img{vertical-align:middle;border-style:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}.h1,.h2,.h4,h1{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit}.h1,h1{font-size:2.125rem}.h2{font-size:1.7rem}.h4{font-size:1.275rem}.img-fluid{max-width:100%;height:auto}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:1200px){.container{max-width:1800px}}.row{display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.col,.col-6{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}.col-sm-3,.col-sm-4,.col-xl-2,.col-xl-8{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}.col{flex-basis:0;flex-grow:1;max-width:100%}.col-6{flex:0 0 50%;max-width:50%}@media (min-width:576px){.col-sm-3{flex:0 0 25%;max-width:25%}.col-sm-4{flex:0 0 33.33333%;max-width:33.33333%}.offset-sm-5{margin-left:41.66667%}}@media (min-width:1200px){.col-xl-2{flex:0 0 16.66667%;max-width:16.66667%}.col-xl-8{flex:0 0 66.66667%;max-width:66.66667%}.offset-xl-2{margin-left:16.66667%}.offset-xl-8{margin-left:66.66667%}}.fade:not(.show){opacity:0}.bread-crumb__menu.levelTwo h1{margin-bottom:0}.modal{overflow:hidden}.modal{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1050;display:none;outline:0}.modal-dialog{position:relative;width:auto;margin:.5rem}.modal.fade .modal-dialog{transform:translate(0,-25%)}.modal-content{position:relative;display:flex;flex-direction:column;width:100%;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,.2);border-radius:.2rem;outline:0}.modal-body{position:relative;flex:1 1 auto;padding:1rem}@media (min-width:576px){.modal-dialog{max-width:500px;margin:1.75rem auto}}.d-block{display:block!important}.d-flex{display:flex!important}@media (min-width:768px){.d-md-none{display:none!important}}.flex-wrap{flex-wrap:wrap!important}.float-left{float:left!important}.float-right{float:right!important}.position-fixed{position:fixed!important}.m-0{margin:0!important}.mb-4{margin-bottom:1.5rem!important}.pr-2{padding-right:.5rem!important}@media (min-width:768px){.pr-md-2{padding-right:.5rem!important}}.font-weight-light{font-weight:300!important}.font-weight-bold{font-weight:700!important}.text-muted{color:#6c757d!important}@media (min-width:768px) and (max-width:1199.98px){.bread-crumb .h1,.bread-crumb h1{margin-top:53px;font-size:1.4rem}}@media (min-width:320px) and (max-width:767.98px){.bread-crumb .h1,.bread-crumb h1{margin-top:23px;font-size:1.2rem}}@media (min-width:768px) and (max-width:991.98px){.bread-crumb .h1,.bread-crumb h1{font-size:1.7rem}}.bread-crumb .h1 a,.bread-crumb h1 a,.bread-crumb__menu a{font-family:"Libre Baskerville",Baskerville,georgia,serif!important;font-style:italic}.bread-crumb .h1 a,.bread-crumb h1 a{text-transform:lowercase}.bread-crumb__menu{overflow:hidden;position:relative;margin-top:58px;padding-top:0;padding-right:30px;perspective:100px}.bread-crumb__menu a{font-weight:600}.bread-crumb__menu a.normal-font{font-family:'Work Sans',sans-serif!important;font-style:normal;text-transform:none}.bread-crumb__menu .actionable{margin:-43px 0 0;display:block;line-height:1.3;text-transform:lowercase;opacity:0;color:#6c757d}.bread-crumb__menu .actionable.is-active{margin-top:0;transform:translateY(0);position:relative;display:inline-block;opacity:1;color:#6c757d;animation-name:slideltr;animation-duration:1s;animation-iteration-count:1}.bread-crumb__menu .actionable.is-active:before{content:"\f077";top:0}.bread-crumb__menu .actionable.is-active:after,.bread-crumb__menu .actionable.is-active:before{font-family:"Font Awesome 5 Free";font-weight:900;font-style:normal;position:absolute;right:-25px;font-size:15px;color:#6c757d;opacity:0;visibility:hidden}.bread-crumb__menu .actionable.is-active:after,.bread-crumb__menu .actionable.is-active:before{transform:translateY(-15px);animation-name:slideup;animation-duration:2s;animation-iteration-count:1}.bread-crumb__menu .actionable.is-active:after{content:"\f078";top:auto;bottom:0;transform:translateY(20px);animation-name:slidedown}@media (min-width:320px) and (max-width:767.98px){.bread-crumb__menu{margin-top:82px}.bread-crumb__menu .actionable{margin-top:-22px}.bread-crumb__menu .actionable:after,.bread-crumb__menu .actionable:before{font-size:10px!important;right:-20px!important;opacity:1!important;visibility:visible!important}.bread-crumb__menu .actionable:before{transform:translateY(4px)!important}.bread-crumb__menu .actionable:after{transform:translateY(0)!important}.bread-crumb__menu.levelTwo{margin-top:0}.bread-crumb__menu.levelTwo h1{margin-top:12px}}@media (min-width:320px) and (max-width:767.98px){.bread-crumb .h2{font-size:1.2rem}}@keyframes slideup{0%{transform:translateY(8px);opacity:0;visibility:hidden}20%{transform:translateY(8px);opacity:1;visibility:visible}50%{transform:translateY(8px)}to{transform:translateY(-40px);opacity:0;visibility:hidden}}@keyframes slidedown{0%{transform:translateY(-5px);opacity:0;visibility:hidden}20%{transform:translateY(-5px);opacity:1;visibility:visible}50%{transform:translateY(-5px)}to{transform:translateY(40px);opacity:0;visibility:hidden}}@keyframes slideltr{0%{transform:translate3d(-20rem,0,0)}to{transform:translate3d(0,0,0)}}.mobile-header{margin:auto;font-style:italic;text-transform:lowercase;font-family:"Libre Baskerville",Baskerville,georgia,serif!important}@media (min-width:768px) and (max-width:1199.98px){.logo{float:left!important}}@media (min-width:320px) and (max-width:767.98px){.logo{width:125px!important;float:left!important}}@media (min-width:768px) and (max-width:991.98px){.logo{width:110px}}.headerfix{height:188px;z-index:9;position:relative}@media (min-width:320px) and (max-width:767.98px){.headerfix{height:184px}}nav{width:100%;position:absolute}@media (min-width:320px) and (max-width:767.98px){nav{padding-bottom:16px;z-index:9999}.menu{font-size:.9rem!important;display:inline-flex;align-items:center;float:right!important;margin-left:auto!important}}@media (min-width:768px) and (max-width:1199.98px){.menu{word-break:break-all;font-size:1.4rem;float:right!important}}@media (min-width:768px) and (max-width:991.98px){.menu{word-break:break-all;font-size:1.14rem}}.img-fluid{width:100%}@media (min-width:768px) and (max-width:1199.98px){body .fixed-header{position:absolute!important}}@media (min-width:320px) and (max-width:767.98px){body .fixed-header{position:absolute!important}}#imagemodal .modal-content{background-color:transparent;border:0}#imagemodal .modal-content .modal-body{height:100%;padding:0}#imagemodal .modal-dialog{transform:translate(0,0)!important}.body-text{font-size:1.75rem;line-height:1.428}@media (min-width:320px) and (max-width:767.98px){.body-text{font-size:1.375rem}}@media (min-width:992px) and (max-width:1399.98px){.container{max-width:1200px}}.mt5{margin-top:4rem}@media (min-width:320px) and (max-width:767.98px){.mt5{margin-top:2rem}}.p5{padding-left:4rem;padding-right:4rem}@media (min-width:320px) and (max-width:767.98px){.p5{padding-left:1rem;padding-right:1rem}}@media (min-width:768px) and (max-width:991.98px){.p5{padding-left:2rem;padding-right:2rem}}@media (min-width:768px) and (max-width:1199.98px){.p5{padding-left:2rem!important;padding-right:2rem!important}}@media (min-width:992px) and (max-width:1399.98px){.p5{padding-left:0;padding-right:0}}section{padding-top:6rem}section{padding-bottom:6rem}@media (min-width:320px) and (max-width:767.98px){section{padding-top:4rem;padding-bottom:4rem}}.text-link{text-decoration:none!important}.text-black{color:#000!important}.p2{padding-top:2rem;padding-bottom:2rem}.pt-6{padding-top:60px}.blur-up{-webkit-filter:blur(5px);filter:blur(5px)}@media(max-width: 1199px){.hide_mobile{display:none !important;}}@media(min-width: 1200px){.hide_desk{display: none !important;}}
     </style>
-    <!-- <script>
+
+		<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121565233-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-121565233-1');
+		</script> -->
+    <!-- This site is running CAOS: Complete Analytics Optimization Suite for Wordpress -->
+    <script>
 
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -57,83 +141,30 @@
             'cookieExpires':'0',
         });
             ga('send', 'pageview');
-    </script> -->
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500|Libre+Baskerville:400,400i" rel="stylesheet">  
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/animate.min.css">
-    <link rel='icon' type='image/x-icon' href='<?php echo get_template_directory_uri(); ?>/images/Favicon-48.png'/>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154494750-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-154494750-1');
     </script>
 
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500|Libre+Baskerville:400,400i" rel="stylesheet">
+
+    <?php if (is_page_template('archive.php') || is_singular('post') || is_page_template('template-blogs.php') || is_page_template('template-fullwidth.php') || is_page_template('template-all_blogs.php')) { ?>
+        <link href="<?php echo get_template_directory_uri(); ?>/css/custom.css" rel="stylesheet" type="text/css"/>
+    <?php } ?>
+
+    <?php wp_head(); ?>
   </head>
 
   <body>
 
-  <div class="d-none header-location">
-    <div class="delivery-location cursor-pointer d-inline-block pr-2 ml-lg-2 vertical-align-middle">
-      <a href="javascript:void(0)" class="d-inline-block location-icon">
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
-      </a> 
-      <div id="selected-location-address" class="font-weight-light">
-      </div> 
-    </div>              
-    <div class="edit-location d-none text-primary vertical-align-middle mt-3">
-      <a href="#" class="d-inline-block location-icon"><i class="fas fa-pencil-alt number-edit cursor-pointer"></i></a>  
-    </div>
-  </div>
-
-  	<!-- <nav class="bg-white">
-      <div class="container mt-3 p5 position-relative">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-4 col-lg-3 position-static">
-              <a href="<?php echo get_site_url(); ?>" class="d-none d-lg-inline-block vertical-align-middle">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/green_grain_bowl.jpg" width="120px" class="logo"/>
-              </a>
-              <div class="menu-toggle d-none d-lg-none mr-2 vertical-align-middle">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-              </div>
-              <div class="delivery-location cursor-pointer d-inline-block pr-2 ml-lg-2 vertical-align-middle">
-                <a href="javascript:void(0)" class="d-inline-block location-icon">
-                  <i class="fa fa-map-marker" aria-hidden="true"></i>
-                </a> 
-                <div id="selected-location-address" class="font-weight-light">
-                </div> 
-              </div>              
-              <div class="edit-location d-none text-primary vertical-align-middle">
-                <a href="#" class="d-inline-block location-icon"><i class="fas fa-pencil-alt number-edit cursor-pointer"></i></a>  
-              </div>
+  	<nav class="fixed-header position-fixed">
+      <div class="container mt5  p5">
+        <div class="row ">
+            <div class="col-6 col-xl-2 col-sm-3">
+              <a href="<?php echo get_site_url(); ?>">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/ajency-logo.png" width="157px" class="float-right logo"/>
+            </a>
             </div>
-            <div class="col-4 col-lg-6 text-center">
-              <a href="<?php echo get_site_url(); ?>" class="d-block d-lg-none">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/green_grain_bowl.jpg" width="120px" class="logo"/>
-              </a>
-              <ul class="navbar-nav d-none">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#our-bowl">Our Bowls</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#we-are-hiring">We're Hiring</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#footer">Contact Us</a>
-                </li>
-              </ul>
+            <div class="  offset-sm-5 col-sm-4 offset-xl-8 col-xl-2 col-6">
+              <a href="mailto:talktous@ajency.in" class="h4 menu float-left m-0">talktous@ajency.in </a>
             </div>
-            <div class="col-4 col-lg-3 text-right">
-              <a href="mailto:talktous@ajency.in" class="h4 menu float-right m-0 d-none d-lg-block">talktous@ajency.in </a>
-              <div class="cart-icon d-none d-lg-none">
-                <a href="#">
-                  <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-                  <div class="cart-count">2</div>
-                </a>
-              </div>
-            </div>
-        </div>        
+        </div>
       </div>
-    </nav> -->
+    </nav>

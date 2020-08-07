@@ -55,9 +55,13 @@
 		}
 	}
 	.next-post a{
-		font-size: 1.6rem;
+		font-size: 1rem;
 		font-weight: 500;
 		color: darken($gray-800, 20%);
+
+		&:hover,&:focus {			
+			text-decoration: none;			
+		}
 	}
 
 	@media(max-width: 767px){
@@ -65,8 +69,8 @@
 			font-size: 0.9rem;
 		}
 		.next-post a{
-			font-size: 1rem;
-			line-height: 22px;
+			font-size: 0;
+			line-height: 16px;
 		}
 	}
 	.highlight{
@@ -81,5 +85,16 @@
 	a {
 		font-size: 14px;
 	  color: darken($gray-400, 20%);    
+	}
+}
+
+.hide_mobile {	
+	@media(max-width: 1199px){
+		display: none;
+	}
+}
+.hide_desk {
+	@media(min-width: 1200px){
+		display: none; 
 	}
 }
