@@ -137,7 +137,8 @@
     }
     &:hover{
         text-decoration: none;
-        background-color: theme-color('primary');
+        /*background-color: theme-color('primary');*/
+        background-color: #4aa751;
         i{
             color: white;
         }
@@ -217,7 +218,8 @@
                 font-size: 1.4rem;
                 margin: 20px 0 10px;
                 i{
-                    color: theme-color('primary');
+                    /*color: theme-color('primary');*/
+                    color: #4aa751;
                 }
             }
 

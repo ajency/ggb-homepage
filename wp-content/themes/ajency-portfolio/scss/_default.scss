@@ -15,3 +15,8 @@ div.ff-stream {
 .ordered-list-10-mt > li {
 	margin-top: 10px;
 }
+a{
+	&:hover{
+		color: #4aa751;
+	}
+}

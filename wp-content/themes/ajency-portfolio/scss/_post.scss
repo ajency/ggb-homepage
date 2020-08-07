@@ -51,7 +51,8 @@
 		font-size: 1.4rem;
 		margin: 20px 0 10px;
 		i{
-			color: theme-color('primary');
+			/*color: theme-color('primary');*/
+			color: #4aa751;
 		}
 	}
 	.next-post a{
@@ -63,7 +64,9 @@
 			text-decoration: none;			
 		}
 	}
-
+	a{
+		color: #4aa751;
+	}
 	@media(max-width: 767px){
 		.next-title{
 			font-size: 0.9rem;
