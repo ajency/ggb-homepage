@@ -73,7 +73,7 @@ Template Name: goa-salad-bowl-online-order
 		<div class="row header-section">
 			<div>
 				<a href="https://greengrainbowl.com/">
-					<img src="assets/images/greengrainbowl.png" class="logo" alt="greengrainbowl logo">
+					<img src="<?php echo get_parent_theme_file_uri('/assets/images/greengrainbowl.png'); ?>" class="logo" alt="greengrainbowl logo">
 				</a>
 			</div>
 			<div>
@@ -94,7 +94,7 @@ Template Name: goa-salad-bowl-online-order
 					</div>
 					<div class="text-center">
 						<div class="text-center py-3 px-3">
-							<img src="assets/images/Leaf_with_seperator@2x.png" class="img-fluid auto-width" alt="green grain bowl" title="green grain bowl">
+							<img src="<?php echo get_parent_theme_file_uri('/assets/images/Leaf_with_seperator@2x.png'); ?>" class="img-fluid auto-width" alt="green grain bowl" title="green grain bowl">
 						</div>
 						<div class="wpb_text_column wpb_content_element ">
 							<div class="wpb_wrapper">
@@ -207,16 +207,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-1.jpg" alt="Almost Burrito Bowl - Veg" />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-veg-1.jpg'); ?>" alt="Almost Burrito Bowl - Veg" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-2.jpg" alt="Almost Burrito Bowl - Veg"  />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-veg-2.jpg'); ?>" alt="Almost Burrito Bowl - Veg"  />
 												            </div>
             									            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-1.jpg" alt="Almost Burrito Bowl - Chicken" />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-chicken-1.jpg'); ?>" alt="Almost Burrito Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-2.jpg" alt="Almost Burrito Bowl - Chicken"  />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-chicken-2.jpg'); ?>" alt="Almost Burrito Bowl - Chicken"  />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4 ">
@@ -239,7 +239,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/almost-burrito-bowl-veg-1"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-veg-1'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -273,7 +273,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/almost-burrito-bowl-chicken-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-chicken-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -299,10 +299,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Paneer_800.jpg'); ?>" alt="Thai Brown Rice Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Chicken_800.jpg'); ?>" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4  mb-4">
@@ -325,7 +325,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -359,7 +359,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -393,7 +393,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Thai-Bowl-Chicken_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Chicken_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -419,16 +419,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-veg.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-prawns.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg-2.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-veg-2.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns-2.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-prawns-2.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -448,7 +448,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/chilli-pineapple-veg.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-veg.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -479,7 +479,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/chilli-pineapple-prawns.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-prawns.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -505,13 +505,13 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB-Veg_800.jpg'); ?>" alt="Quinoa and Nuts Bowl - Veg" />
 												            </div>
 											            	<div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>" alt="Quinoa and Nuts Bowl - Egg"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB.jpg'); ?>" alt="Quinoa and Nuts Bowl - Egg" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -531,7 +531,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/QNB-Veg_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/QNB-Veg_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -563,7 +563,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/QNB-Chicken_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -589,16 +589,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Veg.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Veg.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Chicken.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Veg-2.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Veg-2.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken-2.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Chicken-2.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4 ">
@@ -622,7 +622,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Orange-Barley-Bowl-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -658,7 +658,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Orange-Barley-Bowl-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -693,7 +693,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Orange-Barley-Bowl-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -720,10 +720,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl"/>
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>" alt="Soba Noodle Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle-Bowl-2.jpg'); ?>" alt="Soba Noodle Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -743,7 +743,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -774,7 +774,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -805,7 +805,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -837,10 +837,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl"/>
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Veg.jpg'); ?>" alt="Cracked Wheat & Falafel Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Chicken.jpg'); ?>" alt="Cracked Wheat & Falafel Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -863,7 +863,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/CWF-Bowl-Veg.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Veg.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -897,7 +897,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/CWF-Bowl-Chicken.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Chicken.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -923,13 +923,13 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/RNB-Veg-1.jpg" alt="Rice Noodle Paneer Bowl"/>
+												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/RNB-Veg-1.jpg'); ?>" alt="Rice Noodle Paneer Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="assets/images/RNB-Prawns-2.jpg" alt="Rice Noodle Prawns Bowl"/>
+												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/RNB-Prawns-2.jpg'); ?>" alt="Rice Noodle Prawns Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Bowl" src="assets/images/RNB-2.jpg" alt="Rice Noodle Bowl" />
+												                <img class="bg-image-animation w-100" title="Rice Noodle Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/RNB-2.jpg'); ?>" alt="Rice Noodle Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -949,7 +949,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Rice-Noodle-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Rice-Noodle-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -980,7 +980,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Rice-Noodle-Shrimp_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Rice-Noodle-Shrimp_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1006,10 +1006,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>" alt="Pear Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>" alt="Pear Barley Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -1029,7 +1029,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Pear-Barley-2.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1060,7 +1060,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Pear-Barley-2.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1086,16 +1086,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg.jpg'); ?>" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken.jpg" alt="Mango Quinoa Bowl (With Chicken)" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken.jpg'); ?>" alt="Mango Quinoa Bowl (With Chicken)" />
 												            </div>
 											            	<div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg-2.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg-2.jpg'); ?>" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken-2.jpg" alt="Mango Quinoa Bowl (With Chicken)" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken-2.jpg'); ?>" alt="Mango Quinoa Bowl (With Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -1114,8 +1114,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/MQB-Veg.jpg",
-												                      "assets/images/MQB-Veg-2.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1146,8 +1146,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                    "assets/images/MQB-Chicken.jpg",
-												                      "assets/images/MQB-Chicken-2.jpg"
+												                    "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1174,16 +1174,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/MBB-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="<?php echo get_parent_theme_file_uri('/assets/images/MBB-Veg.jpg'); ?>" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/MBB-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="<?php echo get_parent_theme_file_uri('/assets/images/MBB-Prawns.jpg'); ?>" alt="Mango Barley Bowl (Prawns)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/Mango-Barley-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Veg.jpg'); ?>" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/Mango-Barley-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Prawns.jpg'); ?>" alt="Mango Barley Bowl (Prawns)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -1203,8 +1203,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/MBB-Veg.jpg",
-												                      "assets/images/Mango-Barley-Veg.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MBB-Veg.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Veg.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1235,8 +1235,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/MBB-Prawns.jpg",
-												                      "assets/images/Mango-Barley-Prawns.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MBB-Prawns.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Prawns.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1252,16 +1252,16 @@ Template Name: goa-salad-bowl-online-order
 												    </div>
 												</div> -->
 												<!-- <div class="alert alert-light">
-													<img src="assets/images/not-available.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/not-available.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 												</div> -->
 												<!-- <div class="alert alert-light">
-													<img src="assets/images/missed.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/missed.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
 												<!-- <div class="coming-soon"> Coming Soon </div> -->
 												<!-- <div class="alert alert-light">
-													<img src="assets/images/sold-out.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/sold-out.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
@@ -1277,10 +1277,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Paneer_800.jpg'); ?>" alt="Thai Brown Rice Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Chicken_800.jpg'); ?>" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -1303,7 +1303,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1337,7 +1337,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1371,7 +1371,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Thai-Bowl-Chicken_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Chicken_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1400,16 +1400,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-1.jpg" alt="Almost Burrito Bowl - Veg" />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-veg-1.jpg'); ?>" alt="Almost Burrito Bowl - Veg" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-2.jpg" alt="Almost Burrito Bowl - Veg"  />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-veg-2.jpg'); ?>" alt="Almost Burrito Bowl - Veg"  />
 												            </div>
             									            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-1.jpg" alt="Almost Burrito Bowl - Chicken" />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-chicken-1.jpg'); ?>" alt="Almost Burrito Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-2.jpg" alt="Almost Burrito Bowl - Chicken"  />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-chicken-2.jpg'); ?>" alt="Almost Burrito Bowl - Chicken"  />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4 ">
@@ -1432,7 +1432,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/almost-burrito-bowl-veg-1"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-veg-1'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1466,7 +1466,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/almost-burrito-bowl-chicken-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-chicken-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1492,16 +1492,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-veg.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-prawns.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg-2.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-veg-2.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns-2.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-prawns-2.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -1521,7 +1521,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/chilli-pineapple-veg.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-veg.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1552,7 +1552,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/chilli-pineapple-prawns.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-prawns.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1578,13 +1578,13 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB-Veg_800.jpg'); ?>" alt="Quinoa and Nuts Bowl - Veg" />
 												            </div>
 											            	<div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>" alt="Quinoa and Nuts Bowl - Egg"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB.jpg'); ?>" alt="Quinoa and Nuts Bowl - Egg" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -1604,7 +1604,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/QNB-Veg_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/QNB-Veg_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1636,7 +1636,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/QNB-Chicken_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1668,10 +1668,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl"/>
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Veg.jpg'); ?>" alt="Cracked Wheat & Falafel Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Chicken.jpg'); ?>" alt="Cracked Wheat & Falafel Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -1694,7 +1694,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/CWF-Bowl-Veg.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Veg.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1728,7 +1728,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/CWF-Bowl-Chicken.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Chicken.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1754,16 +1754,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Veg.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Veg.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Chicken.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Veg-2.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Veg-2.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken-2.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Chicken-2.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4 ">
@@ -1787,7 +1787,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Orange-Barley-Bowl-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1823,7 +1823,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Orange-Barley-Bowl-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1858,7 +1858,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Orange-Barley-Bowl-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1885,10 +1885,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl"/>
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>" alt="Soba Noodle Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle-Bowl-2.jpg'); ?>" alt="Soba Noodle Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -1908,7 +1908,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1939,7 +1939,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1970,7 +1970,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -1996,13 +1996,13 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/RNB-Veg-1.jpg" alt="Rice Noodle Paneer Bowl"/>
+												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/RNB-Veg-1.jpg'); ?>" alt="Rice Noodle Paneer Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="assets/images/RNB-Prawns-2.jpg" alt="Rice Noodle Prawns Bowl"/>
+												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/RNB-Prawns-2.jpg'); ?>" alt="Rice Noodle Prawns Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Bowl" src="assets/images/RNB-2.jpg" alt="Rice Noodle Bowl" />
+												                <img class="bg-image-animation w-100" title="Rice Noodle Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/RNB-2.jpg'); ?>" alt="Rice Noodle Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -2022,7 +2022,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Rice-Noodle-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Rice-Noodle-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2053,7 +2053,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Rice-Noodle-Shrimp_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Rice-Noodle-Shrimp_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2079,10 +2079,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>" alt="Pear Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>" alt="Pear Barley Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -2102,7 +2102,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Pear-Barley-2.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2133,7 +2133,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Pear-Barley-2.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2159,16 +2159,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg.jpg'); ?>" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken.jpg" alt="Mango Quinoa Bowl (With Chicken)" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken.jpg'); ?>" alt="Mango Quinoa Bowl (With Chicken)" />
 												            </div>
 											            	<div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg-2.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg-2.jpg'); ?>" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken-2.jpg" alt="Mango Quinoa Bowl (With Chicken)" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken-2.jpg'); ?>" alt="Mango Quinoa Bowl (With Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -2187,8 +2187,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/MQB-Veg.jpg",
-												                      "assets/images/MQB-Veg-2.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2219,8 +2219,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                    "assets/images/MQB-Chicken.jpg",
-												                      "assets/images/MQB-Chicken-2.jpg"
+												                    "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2247,16 +2247,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/MBB-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="<?php echo get_parent_theme_file_uri('/assets/images/MBB-Veg.jpg'); ?>" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/MBB-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="<?php echo get_parent_theme_file_uri('/assets/images/MBB-Prawns.jpg'); ?>" alt="Mango Barley Bowl (Prawns)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/Mango-Barley-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Veg.jpg'); ?>" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/Mango-Barley-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Prawns.jpg'); ?>" alt="Mango Barley Bowl (Prawns)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -2276,8 +2276,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/MBB-Veg.jpg",
-												                      "assets/images/Mango-Barley-Veg.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MBB-Veg.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Veg.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2308,8 +2308,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/MBB-Prawns.jpg",
-												                      "assets/images/Mango-Barley-Prawns.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MBB-Prawns.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Prawns.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2325,16 +2325,16 @@ Template Name: goa-salad-bowl-online-order
 												    </div>
 												</div> -->
 												<!-- <div class="alert alert-light">
-													<img src="assets/images/not-available.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/not-available.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 												</div> -->
 												<!-- <div class="alert alert-light">
-													<img src="assets/images/missed.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/missed.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
 												<!-- <div class="coming-soon"> Coming Soon </div> -->
 												<!-- <div class="alert alert-light">
-													<img src="assets/images/sold-out.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/sold-out.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
@@ -2350,10 +2350,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>" alt="Pear Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>" alt="Pear Barley Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4  mb-4">
@@ -2376,7 +2376,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Pear-Barley-2.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2410,7 +2410,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Pear-Barley-2.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2437,10 +2437,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl"/>
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>" alt="Soba Noodle Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle-Bowl-2.jpg'); ?>" alt="Soba Noodle Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4  mb-4">
@@ -2463,7 +2463,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2497,7 +2497,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2531,7 +2531,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2557,10 +2557,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>" alt="Quinoa and Nuts Bowl (Chicken)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB.jpg'); ?>" alt="Quinoa and Nuts Bowl (Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-5">
@@ -2577,7 +2577,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/QNB-Chicken_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2603,13 +2603,13 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB-Veg_800.jpg'); ?>" alt="Quinoa and Nuts Bowl - Veg" />
 												            </div>
 											            	<div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>" alt="Quinoa and Nuts Bowl - Egg"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB.jpg'); ?>" alt="Quinoa and Nuts Bowl - Egg" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -2632,7 +2632,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/QNB-Veg_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/QNB-Veg_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2667,7 +2667,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/QNB-Chicken_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2693,16 +2693,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-veg.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-prawns.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg-2.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-veg-2.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns-2.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-prawns-2.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -2725,7 +2725,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/chilli-pineapple-veg.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-veg.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2759,7 +2759,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/chilli-pineapple-prawns.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-prawns.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2785,10 +2785,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Paneer_800.jpg'); ?>" alt="Thai Brown Rice Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Chicken_800.jpg'); ?>" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -2811,7 +2811,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2845,7 +2845,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2879,7 +2879,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Thai-Bowl-Chicken_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Chicken_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2905,10 +2905,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>" alt="Quinoa and Nuts Bowl (Chicken)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB.jpg'); ?>" alt="Quinoa and Nuts Bowl (Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-1">
@@ -2925,7 +2925,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/QNB-Chicken_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -2953,16 +2953,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-1.jpg" alt="Almost Burrito Bowl - Veg" />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-veg-1.jpg'); ?>" alt="Almost Burrito Bowl - Veg" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-2.jpg" alt="Almost Burrito Bowl - Veg"  />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-veg-2.jpg'); ?>" alt="Almost Burrito Bowl - Veg"  />
 												            </div>
             									            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-1.jpg" alt="Almost Burrito Bowl - Chicken" />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-chicken-1.jpg'); ?>" alt="Almost Burrito Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-2.jpg" alt="Almost Burrito Bowl - Chicken"  />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-chicken-2.jpg'); ?>" alt="Almost Burrito Bowl - Chicken"  />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4 ">
@@ -2982,7 +2982,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/almost-burrito-bowl-veg-1"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-veg-1'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3013,7 +3013,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/almost-burrito-bowl-chicken-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-chicken-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3039,16 +3039,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Veg.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Veg.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Chicken.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Veg-2.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Veg-2.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken-2.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Chicken-2.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												        </div>
 								        				<div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -3069,7 +3069,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Orange-Barley-Bowl-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3102,7 +3102,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Orange-Barley-Bowl-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3134,7 +3134,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Orange-Barley-Bowl-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3162,10 +3162,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl"/>
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Veg.jpg'); ?>" alt="Cracked Wheat & Falafel Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Chicken.jpg'); ?>" alt="Cracked Wheat & Falafel Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -3185,7 +3185,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/CWF-Bowl-Veg.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Veg.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3216,7 +3216,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/CWF-Bowl-Chicken.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Chicken.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3242,13 +3242,13 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/RNB-Veg-1.jpg" alt="Rice Noodle Paneer Bowl"/>
+												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/RNB-Veg-1.jpg'); ?>" alt="Rice Noodle Paneer Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="assets/images/RNB-Prawns-2.jpg" alt="Rice Noodle Prawns Bowl"/>
+												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/RNB-Prawns-2.jpg'); ?>" alt="Rice Noodle Prawns Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Bowl" src="assets/images/RNB-2.jpg" alt="Rice Noodle Bowl" />
+												                <img class="bg-image-animation w-100" title="Rice Noodle Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/RNB-2.jpg'); ?>" alt="Rice Noodle Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -3268,7 +3268,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Rice-Noodle-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Rice-Noodle-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3299,7 +3299,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Rice-Noodle-Shrimp_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Rice-Noodle-Shrimp_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3325,16 +3325,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg.jpg'); ?>" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken.jpg" alt="Mango Quinoa Bowl (With Chicken)" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken.jpg'); ?>" alt="Mango Quinoa Bowl (With Chicken)" />
 												            </div>
 											            	<div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg-2.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg-2.jpg'); ?>" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken-2.jpg" alt="Mango Quinoa Bowl (With Chicken)" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken-2.jpg'); ?>" alt="Mango Quinoa Bowl (With Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -3353,8 +3353,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/MQB-Veg.jpg",
-												                      "assets/images/MQB-Veg-2.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3385,8 +3385,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                    "assets/images/MQB-Chicken.jpg",
-												                      "assets/images/MQB-Chicken-2.jpg"
+												                    "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3413,16 +3413,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/MBB-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="<?php echo get_parent_theme_file_uri('/assets/images/MBB-Veg.jpg'); ?>" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/MBB-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="<?php echo get_parent_theme_file_uri('/assets/images/MBB-Prawns.jpg'); ?>" alt="Mango Barley Bowl (Prawns)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/Mango-Barley-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Veg.jpg'); ?>" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/Mango-Barley-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Prawns.jpg'); ?>" alt="Mango Barley Bowl (Prawns)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -3442,8 +3442,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/MBB-Veg.jpg",
-												                      "assets/images/Mango-Barley-Veg.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MBB-Veg.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Veg.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3474,8 +3474,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/MBB-Prawns.jpg",
-												                      "assets/images/Mango-Barley-Prawns.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MBB-Prawns.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Prawns.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3491,22 +3491,22 @@ Template Name: goa-salad-bowl-online-order
 												    </div>
 												</div> -->
 												<!-- <div class="alert alert-light">
-													<img src="assets/images/not-available.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/not-available.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 												</div> -->
 												<!-- <div class="alert alert-light">
-													<img src="assets/images/missed.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/missed.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
 												<!-- <div class="coming-soon"> Coming Soon </div> -->
 												<!-- <div class="alert alert-light">
-													<img src="assets/images/sold-out.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/sold-out.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
 												
 					                        	<!-- <div class="alert alert-light">
-													<img src="assets/images/sold-out.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/sold-out.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
@@ -3523,10 +3523,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl"/>
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>" alt="Soba Noodle Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle-Bowl-2.jpg'); ?>" alt="Soba Noodle Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -3549,7 +3549,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3583,7 +3583,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3617,7 +3617,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3643,13 +3643,13 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/RNB-Veg-1.jpg" alt="Rice Noodle Paneer Bowl"/>
+												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/RNB-Veg-1.jpg'); ?>" alt="Rice Noodle Paneer Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="assets/images/RNB-Prawns-2.jpg" alt="Rice Noodle Prawns Bowl"/>
+												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/RNB-Prawns-2.jpg'); ?>" alt="Rice Noodle Prawns Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Bowl" src="assets/images/RNB-2.jpg" alt="Rice Noodle Bowl" />
+												                <img class="bg-image-animation w-100" title="Rice Noodle Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/RNB-2.jpg'); ?>" alt="Rice Noodle Bowl" />
 												            </div>
 												        </div>
 											        	<div class="product-meta d-flex pt-4 mb-4">
@@ -3672,7 +3672,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Rice-Noodle-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Rice-Noodle-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3706,7 +3706,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Rice-Noodle-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Rice-Noodle-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3740,7 +3740,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Rice-Noodle-Shrimp_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Rice-Noodle-Shrimp_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3766,10 +3766,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>" alt="Pear Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>" alt="Pear Barley Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -3792,7 +3792,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Pear-Barley-2.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3826,7 +3826,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Pear-Barley-2.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3852,16 +3852,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-veg.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-prawns.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg-2.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-veg-2.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns-2.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-prawns-2.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -3884,7 +3884,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/chilli-pineapple-veg.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-veg.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3918,7 +3918,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/chilli-pineapple-prawns.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-prawns.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -3944,10 +3944,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Paneer_800.jpg'); ?>" alt="Thai Brown Rice Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Chicken_800.jpg'); ?>" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -3970,7 +3970,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4004,7 +4004,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4038,7 +4038,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Thai-Bowl-Chicken_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Chicken_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4064,13 +4064,13 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB-Veg_800.jpg'); ?>" alt="Quinoa and Nuts Bowl - Veg" />
 												            </div>
 											            	<div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>" alt="Quinoa and Nuts Bowl - Egg"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB.jpg'); ?>" alt="Quinoa and Nuts Bowl - Egg" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -4093,7 +4093,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/QNB-Veg_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/QNB-Veg_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4128,7 +4128,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/QNB-Chicken_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4154,10 +4154,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>" alt="Quinoa and Nuts Bowl (Chicken)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB.jpg'); ?>" alt="Quinoa and Nuts Bowl (Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-1">
@@ -4174,7 +4174,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/QNB-Chicken_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4203,16 +4203,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-1.jpg" alt="Almost Burrito Bowl - Veg" />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-veg-1.jpg'); ?>" alt="Almost Burrito Bowl - Veg" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-2.jpg" alt="Almost Burrito Bowl - Veg"  />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-veg-2.jpg'); ?>" alt="Almost Burrito Bowl - Veg"  />
 												            </div>
             									            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-1.jpg" alt="Almost Burrito Bowl - Chicken" />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-chicken-1.jpg'); ?>" alt="Almost Burrito Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-2.jpg" alt="Almost Burrito Bowl - Chicken"  />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-chicken-2.jpg'); ?>" alt="Almost Burrito Bowl - Chicken"  />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4 ">
@@ -4232,7 +4232,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/almost-burrito-bowl-veg-1"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-veg-1'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4263,7 +4263,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/almost-burrito-bowl-chicken-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-chicken-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4289,16 +4289,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Veg.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Veg.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Chicken.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Veg-2.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Veg-2.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken-2.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Chicken-2.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												        </div>
 								        				<div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -4319,7 +4319,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Orange-Barley-Bowl-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4352,7 +4352,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Orange-Barley-Bowl-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4384,7 +4384,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Orange-Barley-Bowl-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4412,10 +4412,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl"/>
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Veg.jpg'); ?>" alt="Cracked Wheat & Falafel Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Chicken.jpg'); ?>" alt="Cracked Wheat & Falafel Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -4435,7 +4435,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/CWF-Bowl-Veg.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Veg.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4466,7 +4466,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/CWF-Bowl-Chicken.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Chicken.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4492,16 +4492,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg.jpg'); ?>" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken.jpg" alt="Mango Quinoa Bowl (With Chicken)" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken.jpg'); ?>" alt="Mango Quinoa Bowl (With Chicken)" />
 												            </div>
 											            	<div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg-2.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg-2.jpg'); ?>" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken-2.jpg" alt="Mango Quinoa Bowl (With Chicken)" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken-2.jpg'); ?>" alt="Mango Quinoa Bowl (With Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -4520,8 +4520,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/MQB-Veg.jpg",
-												                      "assets/images/MQB-Veg-2.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4552,8 +4552,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                    "assets/images/MQB-Chicken.jpg",
-												                      "assets/images/MQB-Chicken-2.jpg"
+												                    "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4580,16 +4580,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/MBB-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="<?php echo get_parent_theme_file_uri('/assets/images/MBB-Veg.jpg'); ?>" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/MBB-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="<?php echo get_parent_theme_file_uri('/assets/images/MBB-Prawns.jpg'); ?>" alt="Mango Barley Bowl (Prawns)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/Mango-Barley-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Veg.jpg'); ?>" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/Mango-Barley-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Prawns.jpg'); ?>" alt="Mango Barley Bowl (Prawns)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -4609,8 +4609,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/MBB-Veg.jpg",
-												                      "assets/images/Mango-Barley-Veg.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MBB-Veg.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Veg.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4641,8 +4641,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/MBB-Prawns.jpg",
-												                      "assets/images/Mango-Barley-Prawns.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MBB-Prawns.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Prawns.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4658,16 +4658,16 @@ Template Name: goa-salad-bowl-online-order
 												    </div>
 												</div> -->
 												<!-- <div class="alert alert-light">
-													<img src="assets/images/not-available.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/not-available.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 												</div> -->
 												<!-- <div class="alert alert-light">
-													<img src="assets/images/missed.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/missed.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
 												<!-- <div class="coming-soon"> Coming Soon </div> -->
 												<!-- <div class="alert alert-light">
-													<img src="assets/images/sold-out.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/sold-out.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
@@ -4683,13 +4683,13 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="assets/images/RNB-Veg-1.jpg" alt="Rice Noodle Paneer Bowl"/>
+												                <img class="bg-image-animation w-100" title="Rice Noodle Paneer Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/RNB-Veg-1.jpg'); ?>" alt="Rice Noodle Paneer Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="assets/images/RNB-Prawns-2.jpg" alt="Rice Noodle Prawns Bowl"/>
+												                <img class="bg-image-animation w-100" title="Rice Noodle Prawns Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/RNB-Prawns-2.jpg'); ?>" alt="Rice Noodle Prawns Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Rice Noodle Bowl" src="assets/images/RNB-2.jpg" alt="Rice Noodle Bowl" />
+												                <img class="bg-image-animation w-100" title="Rice Noodle Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/RNB-2.jpg'); ?>" alt="Rice Noodle Bowl" />
 												            </div>
 												        </div>
 											        	<div class="product-meta d-flex pt-4 mb-4">
@@ -4712,7 +4712,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Rice-Noodle-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Rice-Noodle-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4746,7 +4746,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Rice-Noodle-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Rice-Noodle-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4780,7 +4780,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Rice-Noodle-Shrimp_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Rice-Noodle-Shrimp_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4806,10 +4806,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>" alt="Pear Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="assets/images/Pear-Barley-2.jpg" alt="Pear Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Pear Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>" alt="Pear Barley Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -4832,7 +4832,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Pear-Barley-2.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4866,7 +4866,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Pear-Barley-2.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Pear-Barley-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4893,10 +4893,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle_Bowl.jpg" alt="Soba Noodle Bowl"/>
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>" alt="Soba Noodle Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="assets/images/Soba-Noodle-Bowl-2.jpg" alt="Soba Noodle Bowl" />
+												                <img class="bg-image-animation w-100" title="Soba Noodle Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle-Bowl-2.jpg'); ?>" alt="Soba Noodle Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -4919,7 +4919,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4953,7 +4953,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4987,7 +4987,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Soba-Noodle_Bowl.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Soba-Noodle_Bowl.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5016,16 +5016,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-1.jpg" alt="Almost Burrito Bowl - Veg" />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-veg-1.jpg'); ?>" alt="Almost Burrito Bowl - Veg" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="assets/images/almost-burrito-bowl-veg-2.jpg" alt="Almost Burrito Bowl - Veg"  />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Veg" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-veg-2.jpg'); ?>" alt="Almost Burrito Bowl - Veg"  />
 												            </div>
             									            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-1.jpg" alt="Almost Burrito Bowl - Chicken" />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-chicken-1.jpg'); ?>" alt="Almost Burrito Bowl - Chicken" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="assets/images/almost-burrito-bowl-chicken-2.jpg" alt="Almost Burrito Bowl - Chicken"  />
+												                <img class="bg-image-animation w-100" title="Almost Burrito Bowl - Chicken" src="<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-chicken-2.jpg'); ?>" alt="Almost Burrito Bowl - Chicken"  />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4 ">
@@ -5045,7 +5045,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/almost-burrito-bowl-veg-1"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-veg-1'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5076,7 +5076,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/almost-burrito-bowl-chicken-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/almost-burrito-bowl-chicken-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5103,10 +5103,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl" src="assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Paneer_800.jpg'); ?>" alt="Thai Brown Rice Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
+												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Chicken_800.jpg'); ?>" alt="Thai Brown Rice Bowl - Chicken" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -5129,7 +5129,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5163,7 +5163,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Thai-Bowl-Paneer_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Paneer_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5197,7 +5197,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Thai-Bowl-Chicken_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Thai-Bowl-Chicken_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5223,13 +5223,13 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB-Veg_800.jpg'); ?>" alt="Quinoa and Nuts Bowl - Veg" />
 												            </div>
 											            	<div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>" alt="Quinoa and Nuts Bowl - Egg"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="<?php echo get_parent_theme_file_uri('/assets/images/QNB.jpg'); ?>" alt="Quinoa and Nuts Bowl - Egg" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -5252,7 +5252,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/QNB-Veg_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/QNB-Veg_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5287,7 +5287,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/QNB-Chicken_800.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/QNB-Chicken_800.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5313,16 +5313,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-veg.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-prawns.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-veg-2.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-veg-2.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns-2.jpg" alt="Chilli Pineapple Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-prawns-2.jpg'); ?>" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mb-4">
@@ -5345,7 +5345,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/chilli-pineapple-veg.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-veg.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5379,7 +5379,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/chilli-pineapple-prawns.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/chilli-pineapple-prawns.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5405,16 +5405,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Veg.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Veg.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Chicken.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Veg-2.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Veg-2.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken-2.jpg" alt="Orange Barley Bowl" />
+												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-OBB-Chicken-2.jpg'); ?>" alt="Orange Barley Bowl" />
 												            </div>
 												        </div>
 								        				<div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -5435,7 +5435,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Orange-Barley-Bowl-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5468,7 +5468,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Orange-Barley-Bowl-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5500,7 +5500,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/Orange-Barley-Bowl-1.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Orange-Barley-Bowl-1.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5528,10 +5528,10 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl"/>
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Veg.jpg'); ?>" alt="Cracked Wheat & Falafel Bowl"/>
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl" />
+												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Chicken.jpg'); ?>" alt="Cracked Wheat & Falafel Bowl" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -5551,7 +5551,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/CWF-Bowl-Veg.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Veg.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5582,7 +5582,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/CWF-Bowl-Chicken.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/CWF-Bowl-Chicken.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5608,16 +5608,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg.jpg'); ?>" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken.jpg" alt="Mango Quinoa Bowl (With Chicken)" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken.jpg'); ?>" alt="Mango Quinoa Bowl (With Chicken)" />
 												            </div>
 											            	<div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="assets/images/MQB-Veg-2.jpg" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg-2.jpg'); ?>" alt="Mango Quinoa Bowl (With Red Kidney Beans (Rajma))" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="assets/images/MQB-Chicken-2.jpg" alt="Mango Quinoa Bowl (With Chicken)" />
+												                <img class="bg-image-animation w-100" title="Mango Quinoa Bowl (With Chicken)" src="<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken-2.jpg'); ?>" alt="Mango Quinoa Bowl (With Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -5636,8 +5636,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/MQB-Veg.jpg",
-												                      "assets/images/MQB-Veg-2.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Veg-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5668,8 +5668,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                    "assets/images/MQB-Chicken.jpg",
-												                      "assets/images/MQB-Chicken-2.jpg"
+												                    "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MQB-Chicken-2.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5696,16 +5696,16 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/MBB-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="<?php echo get_parent_theme_file_uri('/assets/images/MBB-Veg.jpg'); ?>" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/MBB-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="<?php echo get_parent_theme_file_uri('/assets/images/MBB-Prawns.jpg'); ?>" alt="Mango Barley Bowl (Prawns)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="assets/images/Mango-Barley-Veg.jpg" alt="Mango Barley Bowl (Brown Chickpeas)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Brown Chickpeas)" src="<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Veg.jpg'); ?>" alt="Mango Barley Bowl (Brown Chickpeas)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="assets/images/Mango-Barley-Prawns.jpg" alt="Mango Barley Bowl (Prawns)" />
+												                <img class="bg-image-animation w-100" title="Mango Barley Bowl (Prawns)" src="<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Prawns.jpg'); ?>" alt="Mango Barley Bowl (Prawns)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
@@ -5725,8 +5725,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/MBB-Veg.jpg",
-												                      "assets/images/Mango-Barley-Veg.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MBB-Veg.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Veg.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5757,8 +5757,8 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/MBB-Prawns.jpg",
-												                      "assets/images/Mango-Barley-Prawns.jpg"
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/MBB-Prawns.jpg'); ?>",
+												                      "<?php echo get_parent_theme_file_uri('/assets/images/Mango-Barley-Prawns.jpg'); ?>"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -5774,16 +5774,16 @@ Template Name: goa-salad-bowl-online-order
 												    </div>
 												</div> -->
 												<!-- <div class="alert alert-light">
-													<img src="assets/images/not-available.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/not-available.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 												</div> -->
 												<!-- <div class="alert alert-light">
-													<img src="assets/images/missed.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/missed.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
 												<!-- <div class="coming-soon"> Coming Soon </div> -->
 												<!-- <div class="alert alert-light">
-													<img src="assets/images/sold-out.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/sold-out.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black"> We go to great lengths to work with fresh and quality ingredients. Each day's bowls are made from scratch and in small batches. They sell out often, so we request that you order a day prior.
 													</p>
 												</div> -->
@@ -5792,14 +5792,14 @@ Template Name: goa-salad-bowl-online-order
 					                        </div>
 					                        <div id="Weekend" class="row product-list m-auto panel">
 					                        	<div class="alert alert-light">
-					                        		<img src="assets/images/weekend.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+					                        		<img src="<?php echo get_parent_theme_file_uri('/assets/images/weekend.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black"> We are currently open 5 days of the week but hope to start weekend deliveries soon. We will keep you posted.
 													</p>
 												</div>
 					                        </div>
 					                        <!-- <div id="NextWeek" class="row product-list m-auto panel">
 					                        	<div class="alert alert-light">
-													<img src="assets/images/next-week.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<img src="<?php echo get_parent_theme_file_uri('/assets/images/next-week.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black">
 													 We will post details of the bowls for next week by Sunday. Do come back and take a look.
 													</p>
@@ -5821,7 +5821,7 @@ Template Name: goa-salad-bowl-online-order
 				</div>
 				<div class="follow-instagram mb-5">
 					<a href="https://www.instagram.com/greengrainbowl/"  target="_blank">
-						<img src="assets/images/follow-instagram.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="follow us on instagram">
+						<img src="<?php echo get_parent_theme_file_uri('/assets/images/follow-instagram.png'); ?>" class="img-fluid w-100 m-auto" alt="green grain bowl" title="follow us on instagram">
 					</a>
 				</div>	
 				<div class="btn_Whatsapp mb-5">
@@ -5900,7 +5900,7 @@ Template Name: goa-salad-bowl-online-order
 			?>
 			<div class="full-slider">
 				<div class="image">
-					<img class="banner_image" src="assets/images/dummy-image.png" data-src="assets/images/<?php echo $images[$num]; ?>" alt="Green Grain Bowl" />
+					<img class="banner_image" src="<?php echo get_parent_theme_file_uri('/assets/images/dummy-image.png'); ?>" data-src="<?php echo get_parent_theme_file_uri('/assets/images/<?php echo $images[$num]; ?>'); ?>" alt="Green Grain Bowl" />
 				</div>
 			</div>
 			<!-- <div class="main-image">
@@ -6012,7 +6012,7 @@ Template Name: goa-salad-bowl-online-order
  	<button id="cart-address-change-trigger" class="d-none"></button>
  
 	<div class="site-loader text-center p-5">
-		<img src="assets/images/GGB-logo.png" width="75px" class="mt-5"/> 
+		<img src="<?php echo get_parent_theme_file_uri('/assets/images/GGB-logo.png'); ?>" width="75px" class="mt-5"/> 
 		<div class="spinner">
   <div class="bounce1"></div>
   <div class="bounce2"></div>
@@ -6028,8 +6028,8 @@ Template Name: goa-salad-bowl-online-order
 	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
 	<script src="https://unpkg.com/axios@0.19.0/dist/axios.min.js"></script>
-	<script src="assets/js/custom.js"></script>
-	<script src="assets/js/tabs.js"></script>
+	<script src="<?php echo get_parent_theme_file_uri('/assets/js/custom.js'); ?>"></script>
+	<script src="<?php echo get_parent_theme_file_uri('/assets/js/tabs.js'); ?>"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-auth.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
