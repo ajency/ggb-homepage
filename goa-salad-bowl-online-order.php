@@ -587,7 +587,7 @@
 												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken-2.jpg" alt="Orange Barley Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4 ">
+												        <div class="product-meta d-flex pt-4 mb-4 ">
 												        	<div class="menu-details">
 												        		<div class="product-variant-name">Orange Barley Bowl - Tofu</div>
 												        		<div class="price-row d-flex">
@@ -829,7 +829,7 @@
 												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Cracked Wheat & Falafel Bowl - Veg</div>
 												        		<div class="price-row d-flex">
@@ -872,9 +872,7 @@
 											            		</div>
 										            		</div>	
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Herbed chicken is an added bonus. Olives, pomegranate and feta to complete the middle eastern vibe!
-																	*Salad comes with dressing mixed in.
-																	**Dip is not the dressing.",
+												                    "description": "A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Herbed chicken is an added bonus. Olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in.**Dip is not the dressing.",
 												                    "title": "Cracked Wheat & Falafel Bowl - Chicken",
 												                    "product_id": "OMXhZUrvVWwCsLKNDlFK",
 												                    "mark_type": "Non Veg",
@@ -1662,7 +1660,7 @@
 												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 									        				<div class="menu-details">
 												        		<div class="product-variant-name">Cracked Wheat & Falafel Bowl - Veg</div>
 												        		<div class="price-row d-flex">
@@ -1705,9 +1703,7 @@
 											            		</div>
 										            		</div>	
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Herbed chicken is an added bonus. Olives, pomegranate and feta to complete the middle eastern vibe!
-																	*Salad comes with dressing mixed in.
-																	**Dip is not the dressing.",
+												                    "description": "A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Herbed chicken is an added bonus. Olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
 												                    "title": "Cracked Wheat & Falafel Bowl - Chicken",
 												                    "product_id": "OMXhZUrvVWwCsLKNDlFK",
 												                    "mark_type": "Non Veg",
@@ -1756,7 +1752,7 @@
 												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="assets/images/GGB-OBB-Chicken-2.jpg" alt="Orange Barley Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4 ">
+												        <div class="product-meta d-flex pt-4 mb-4 ">
 												        	<div class="menu-details">
 												        		<div class="product-variant-name">Orange Barley Bowl - Tofu</div>
 												        		<div class="price-row d-flex">
@@ -2602,7 +2598,7 @@
 												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 												        	<div class="menu-details">
 												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Veg</div>
 												        		<div class="price-row d-flex">
@@ -2695,7 +2691,7 @@
 												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns-2.jpg" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Chilli Pineapple Barley Bowl - Veg</div>
 												        		<div class="price-row d-flex">
@@ -2901,7 +2897,7 @@
 												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex mt-5">
+												        <div class="product-meta d-flex mt-1">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
@@ -3854,7 +3850,7 @@
 												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns-2.jpg" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Chilli Pineapple Barley Bowl - Veg</div>
 												        		<div class="price-row d-flex">
@@ -4063,7 +4059,7 @@
 												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 												        	<div class="menu-details">
 												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Veg</div>
 												        		<div class="price-row d-flex">
@@ -4150,7 +4146,7 @@
 												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex mt-5">
+												        <div class="product-meta d-flex mt-1">
 												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
 												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
 												                    "description": "Quinoa, mixed leaves, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. You could add a couple of soft boiled eggs to up your protein intake for the day :)",
@@ -5222,7 +5218,7 @@
 												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 												        	<div class="menu-details">
 												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Veg</div>
 												        		<div class="price-row d-flex">
@@ -5315,7 +5311,7 @@
 												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="assets/images/chilli-pineapple-prawns-2.jpg" alt="Chilli Pineapple Barley Bowl" />
 												            </div>
 												        </div>
-												        <div class="product-meta d-flex pt-4 mt-5 mb-4">
+												        <div class="product-meta d-flex pt-4 mb-4">
 										        			<div class="menu-details">
 												        		<div class="product-variant-name">Chilli Pineapple Barley Bowl - Veg</div>
 												        		<div class="price-row d-flex">
