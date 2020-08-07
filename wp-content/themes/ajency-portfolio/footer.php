@@ -6,24 +6,24 @@
                 </div>
                 <div class="col-xl-8">
                     <div class="row no-gutters">
-                        <div class="col-md-4 contact-details">
+                        <div class="col-md-5 contact-details">
                             <!-- <h4 class="font-weight-light">
                                 <a class=" d-block h4 font-weight-light" href="tel:09975931402" onclick="ga('send', 'event', 'telephone', 'CallNow', 'tel:09975931402');">
                                     +91 99759 31402
                                 </a>
                             </h4> -->
                             <h4 class="font-weight-light">
-                                <a class="d-block h4 font-weight-light" href="mailto:talktous@ajency.in" onclick="ga('send', 'event', 'footerid', 'Contact', 'Footer - talktous@ajency.in');">
-                                    talktous@ajency.in
+                                <a class="d-block h4 font-weight-light" href="mailto:avanti@greengrainbowl.com" onclick="ga('send', 'event', 'footerid', 'Contact', 'Footer - avanti@greengrainbowl.com');">
+                                    avanti@greengrainbowl.com
                                 </a>
-                                <a class=" d-block h4 font-weight-light" href="tel:+91 9075112096">+91 90751 12096</a>
-                                <br/>
+                                <a class=" d-block h4 font-weight-light" href="tel:+91 7770004258">+91 7770004258</a>
+                                <!-- <br/>
                                 <span class="h5">
                                     Career Opportunities:
                                 </span>
-                                <a class=" d-block h4 font-weight-light" href="mailto:workwithus@ajency.in">
-                                    workwithus@ajency.in
-                                </a>
+                                <a class=" d-block h4 font-weight-light" href="mailto:avanti@greengrainbowl.com">
+                                    avanti@greengrainbowl.com
+                                </a> -->
                             </h4>
                         </div>
                         <div class="col-md-5 mt-5 mt-md-0 contact-details">
@@ -34,21 +34,26 @@
                                 </a>
                             </h4>
                         </div>
-                        <div class="col-md-3 mt-5 mt-md-0 contact-details-1">
+                        <div class="col-md-2 mt-5 mt-md-0 contact-details-1">
                             <h4 class="font-weight-light">
-                                <a class="d-block h4 font-weight-light" href="https://www.facebook.com/Ajency.in/">
+                                <a class="d-block h4 font-weight-light" href="https://www.facebook.com/GreenGrainBowl">
                                     Facebook
                                 </a>
                             </h4>
                             <h4 class="font-weight-light">
-                                <a class="d-block h4 font-weight-light" href="https://www.linkedin.com/company/ajency-in">
-                                    Linkedin
+                                <a class="d-block h4 font-weight-light" href="https://www.instagram.com/greengrainbowl/">
+                                    Instagram
+                                </a>
+                            </h4>
+                            <h4 class="font-weight-light">
+                                <a class="d-block h4 font-weight-light" href="https://api.whatsapp.com/send?phone=917770004258&text=Hi&source=&data=&app_absent=">
+                                    Whatsapp
                                 </a>
                             </h4>
                         </div>
                     </div>
                     <div class="mt-5">
-                        (C) 2018 Digital Dwarves Pvt Ltd. All Right Reserved
+                        (C) Green Grain Bowl LLP 2020. All Rights Reserved.
                     </div>
                 </div>
             </div>
