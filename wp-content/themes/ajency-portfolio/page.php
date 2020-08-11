@@ -1,6 +1,6 @@
 <?php get_header();  ?>
 
-<div class="container p5">
+<!-- <div class="container p5">
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
       <div class="headerfix ">
@@ -12,17 +12,17 @@
             <a href="<?php echo get_site_url(); ?>/product-user-interface-design/" class="actionable text-link h1">User interface design</a>
             <a href="<?php echo get_site_url(); ?>/website-design/" class="actionable text-link h1">Website design</a>
             <a href="<?php echo get_site_url(); ?>/blog/" class="actionable text-link h1">Blog</a>
-            <!-- <a href="#" class="actionable text-link h1">Blog</a>
-            <a href="#" class="actionable text-link h1">Careers</a> -->
+            <a href="#" class="actionable text-link h1">Blog</a>
+            <a href="#" class="actionable text-link h1">Careers</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <section class="post-content">
-	<div class="container p5">
+	<div class="container p5 mt-5">
 	  	<div class="row">
 		    <div class="col  offset-xl-3 col-xl-6 col12">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
