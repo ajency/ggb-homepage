@@ -78,6 +78,17 @@
         return $pageID;
     }
 
+    function wpb_custom_menu() {
+      register_nav_menu('header-menu',__( 'Menu' ));
+    }
+    add_action( 'init', 'wpb_custom_menu' );
 
-
+    function register_my_menu() {
+      register_nav_menus(
+        array(
+          'header-menu' => __( 'Menu' ),
+        )
+      );
+    }
+    add_action( 'init', 'register_my_menu' );
 ?>

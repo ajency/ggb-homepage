@@ -155,16 +155,30 @@
   <body>
 
   	<nav class="fixed-header position-fixed">
-      <div class="container mt5  p5">
-        <div class="row ">
-            <div class="col-6 col-xl-2 col-sm-3">
-              <a href="<?php echo get_site_url(); ?>">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/greengrainbowl.png" class="float-right logo"/>
-            </a>
+      <div class="container p5 site-header">
+        <div class="row align-items-center">
+            <div class="col-6 col-xl-2 col-sm-3 site-logo">
+                <a href="<?php echo get_site_url(); ?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/greengrainbowl.png" class="float-right logo"/>
+                </a>
             </div>
-            <div class="  offset-sm-5 col-sm-4 offset-xl-8 col-xl-2 col-6">
-              <a href="mailto:avanti@greengrainbowl.com" class="h4 menu float-left m-0">avanti@greengrainbowl.com </a>
+            <div class="full-primary-navbar">
+                <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
             </div>
+            <div class="offset-sm-4 col-sm-3 offset-xl-8 col-xl-2 col-6">
+                <a href="" class="cart-btn">Order Now</a>
+              <!-- <a href="mailto:avanti@greengrainbowl.com" class="h4 menu float-left m-0">avanti@greengrainbowl.com </a> -->
+            </div>
+            <button id="mobile-hamburger" class="hamburger spin-animation">
+                <span class="hamburger-outer">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
         </div>
       </div>
+    </nav>
+    <nav id="mobile-menu" class="mobile-primary-menu">
+        <div class="container site-header">
+            <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+        </div>
     </nav>
