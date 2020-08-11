@@ -99,6 +99,9 @@ ul{
 			        width: 35px;
 			        height: 4px;
 			        margin-left: auto;
+			        &.transform{
+			    		transform: rotate(45deg);
+			    	}
 			        @media (max-width: 991px) {
 			            width: 30px;
 			            height: 4px;
@@ -122,6 +125,11 @@ ul{
 			        width: 35px;
 			        height: 4px;
 			        margin-left: auto;
+			        &.transform{
+			    		transform: rotate(-45deg);
+					    margin: -8px 0 3px 0;
+					    width: 30px;
+			    	}
 			        @media (max-width: 991px) {
 			            width: 22px;
 			            height: 4px;

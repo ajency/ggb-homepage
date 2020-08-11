@@ -347,11 +347,11 @@
         float: left !important;
     }
     @media (min-width: 320px) and (max-width: 767.98px) {
-        width: 85px !important;
+        width: 100% !important;
         float: left !important;
     }
     @media (min-width: 768px) and (max-width: 991.98px) {
-        width: 110px;
+        width: 100%;
     }
 }
 .headerfix {
