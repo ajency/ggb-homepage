@@ -21,7 +21,7 @@
 </div>
 
 <section class="post-content">
-	<div class="container p5 mt-5 pt-5">
+	<div class="container p5 mt-5 pdt-3">
 			<?php
 				$term_list = array(); 
 				$posttags = array();
