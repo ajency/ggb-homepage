@@ -156,8 +156,8 @@
 
   	<nav class="fixed-header position-fixed">
       <div class="container p5 site-header">
-        <div class="row align-items-center">
-            <div class="col-6 col-xl-2 col-sm-3 site-logo">
+        <div class="row align-items-center justify-content-between ml-0">
+            <div class="site-logo">
                 <a href="<?php echo get_site_url(); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/greengrainbowl.png" class="float-right logo"/>
                 </a>
@@ -165,15 +165,17 @@
             <div class="full-primary-navbar">
                 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
             </div>
-            <div class="offset-sm-4 col-sm-3 offset-xl-8 col-xl-2 col-6">
+            <div class="d-flex align-items-center">
                 <a href="" class="cart-btn">Order Now</a>
               <!-- <a href="mailto:avanti@greengrainbowl.com" class="h4 menu float-left m-0">avanti@greengrainbowl.com </a> -->
+                <button id="mobile-hamburger" class="hamburger spin-animation ml-3">
+                    <div class="hamburger-menu">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </button>
             </div>
-            <button id="mobile-hamburger" class="hamburger spin-animation">
-                <span class="hamburger-outer">
-                    <span class="hamburger-inner"></span>
-                </span>
-            </button>
         </div>
       </div>
     </nav>
