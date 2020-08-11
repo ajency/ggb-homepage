@@ -19,6 +19,9 @@ ul{
             	border-bottom: 2px solid #4AA751;
 			}
         }
+        &.current_page_item{
+        	border-bottom: 2px solid #4AA751;
+        }
         @media (max-width: 991px){
         	margin-top: 8px;
         	margin-bottom: 8px;
