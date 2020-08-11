@@ -101,7 +101,7 @@
 </script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/combine.js" type="text/javascript">
 </script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/custom.js" type="text/javascript">
+<script src="<?php echo get_template_directory_uri(); ?>/js/custom.min.js" type="text/javascript">
 </script>
 <!--<script type="text/javascript" src="http://filamentgroup.github.io/enlarge/src/enlarge.js"> </script>
 <script type="text/javascript" src="http://filamentgroup.github.io/enlarge/src/enlarge.init.js"> </script>

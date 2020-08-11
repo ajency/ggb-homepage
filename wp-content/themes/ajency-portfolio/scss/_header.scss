@@ -1,3 +1,19 @@
+ul{
+	display: flex;
+	li{
+		list-style-type: none;
+	    margin-right: 20px;
+        white-space: nowrap;
+        a{
+			font-size: 18px;
+			font-weight: 500;
+			color: #4aa751;
+			&:hover{
+				text-decoration: none;
+			}
+        }
+	}
+}
 .fixed-header{
     background: white;
     z-index: 1;
@@ -28,23 +44,6 @@
 		    -ms-flex-align: center;
 		    align-items: center;
 		    text-transform: uppercase;
-		    .menu{
-		    	ul{
-		    		display: flex;
-		    		li{
-		    			list-style-type: none;
-					    margin-right: 20px;
-				        white-space: nowrap;
-				        a{
-							font-size: 16px;
-							font-weight: 500;
-							&:hover{
-								text-decoration: none;
-							}
-				        }
-		    		}
-		    	}
-		    }
 		    @media (max-width: 991px){
 		    	display: none;
 		    }
@@ -58,7 +57,11 @@
 			font-size: 15px;
 			line-height: 26px;
 			color: #4AA751;
-			padding: 6px 20px;
+			padding: 3px 20px;
+			z-index: 5;
+			@media (max-width: 475px){
+				display: none;
+			}
 		}
 		.hamburger{
 			height: 18px;
@@ -96,7 +99,7 @@
 			        width: 35px;
 			        height: 4px;
 			        margin-left: auto;
-			        @media (max-width: 768px) {
+			        @media (max-width: 991px) {
 			            width: 30px;
 			            height: 4px;
 			        }
@@ -108,7 +111,7 @@
 			        height: 1px;
 			        margin-left: auto; 
 			        opacity: 0;
-			        @media (max-width: 768px) {
+			        @media (max-width: 991px) {
 			            // width: 14px;
 			            width: 30px;
 			            height: 1px;
@@ -119,7 +122,7 @@
 			        width: 35px;
 			        height: 4px;
 			        margin-left: auto;
-			        @media (max-width: 768px) {
+			        @media (max-width: 991px) {
 			            width: 22px;
 			            height: 4px;
 			        }
@@ -140,9 +143,14 @@
 			}
 		    @media (max-width: 991px){
 		    	display: block;
-	    		padding: 9px;
+	    		padding: 6px;
+	    		outline: 0;
 		    }
 		}
+	}
+	@media (max-width: 991px){
+		padding: 0;
+		z-index: 99999;
 	}
 }
 .mobile-primary-menu{
@@ -167,24 +175,13 @@
 		    left: 0;
 		    right: 0;
 		    bottom: 0;
-		    background: white;	    
+		    background: white;
+		    z-index: 2;	    
 		}
     	ul{
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-    		li{
-    			list-style-type: none;
-			    margin-right: 20px;
-		        white-space: nowrap;
-		        a{
-					font-size: 20px;
-					font-weight: 500;
-					&:hover{
-						text-decoration: none;
-					}
-		        }
-    		}
     	}
 	}
 }

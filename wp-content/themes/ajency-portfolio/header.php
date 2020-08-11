@@ -166,12 +166,12 @@
                 <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
             </div>
             <div class="d-flex align-items-center">
-                <a href="" class="cart-btn">Order Now</a>
+                <a href="<?php echo get_site_url(); ?>/goa-salad-bowl-online-order/" target="_blank" class="cart-btn">Order Now</a>
               <!-- <a href="mailto:avanti@greengrainbowl.com" class="h4 menu float-left m-0">avanti@greengrainbowl.com </a> -->
                 <button id="mobile-hamburger" class="hamburger spin-animation ml-3">
                     <div class="hamburger-menu">
                         <div class="bar1"></div>
-                        <div class="bar2"></div>
+                       <!--  <div class="bar2"></div> -->
                         <div class="bar3"></div>
                     </div>
                 </button>
