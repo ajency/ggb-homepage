@@ -19,12 +19,6 @@ ul{
             	border-bottom: 2px solid #4AA751;
 			}
         }
-       /* &.current_page_item{
-        	a{
-				text-decoration: none;
-            	border-bottom: 2px solid #4AA751;
-        	}
-        }*/
         @media (max-width: 991px){
         	margin-top: 8px;
         	margin-bottom: 8px;
@@ -45,6 +39,9 @@ ul{
 		}
 		.site-logo{
 		    z-index: 5;
+		    @media (max-width: 340px){
+	    	    margin-bottom: 6px;
+		    }
 		}
 		.full-primary-navbar{
 			position: absolute;
@@ -78,11 +75,12 @@ ul{
 			color: #4AA751;
 		    padding: 5px 35px;
 			z-index: 5;
+			@media (max-width: 425px){
+			    padding: 2px 14px;
+    			font-size: 13px;
+			}
 			&:hover{
 				text-decoration: none;
-			}
-			@media (max-width: 475px){
-				display: none;
 			}
 		}
 		.hamburger{
@@ -176,6 +174,12 @@ ul{
 	    		padding: 9px;
 	    		outline: 0;
 		    }
+	     	@media (max-width: 425px){
+     			padding: 6px;
+	     	}
+	     	@media (max-width: 375px){
+	     		margin: 0 15px 0 0;
+	     	}
 		}
 	}
 	@media (max-width: 991px){
