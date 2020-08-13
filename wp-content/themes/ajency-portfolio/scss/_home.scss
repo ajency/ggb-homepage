@@ -791,10 +791,10 @@ body{
     }
 }
 .coblocks-gallery.is-cropped .coblocks-gallery--item img{
-    height: 600px;
-    object-fit: contain;
+    height: 600px !important;
+    object-fit: contain !important;
     margin: auto;
     @media (max-width: 991px){
-        height: inherit;
+        height: inherit !important;
     }    
 }
