@@ -780,15 +780,6 @@ body{
     .container{
         max-width: 100%;
     }
-    .coblocks-gallery--item-thumbnail{
-        img{
-            height: 600px;
-            object-fit: contain;
-            @media (max-width: 991px){
-                height: inherit;
-            }
-        }
-    }
     .wp-block-coblocks-row{
         padding: 0 28px;
         @media (min-width: 1200px){
@@ -798,4 +789,12 @@ body{
             padding: 0;
         }
     }
+}
+.coblocks-gallery.is-cropped .coblocks-gallery--item img{
+    height: 600px;
+    object-fit: contain;
+    margin: auto;
+    @media (max-width: 991px){
+        height: inherit;
+    }    
 }
