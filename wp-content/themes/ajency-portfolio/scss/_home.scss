@@ -777,4 +777,16 @@ body{
     strong{
         font-size: 32px;
     }
+    .container{
+        max-width: 100%;
+    }
+    .wp-block-coblocks-row{
+        padding: 0 28px;
+        @media (min-width: 1200px){
+            max-width: 63.66%;
+            flex: 0 0 63.66%;
+            margin: 0 auto;
+            padding: 0;
+        }
+    }
 }

@@ -1,9 +1,9 @@
 <?php get_header();  ?>
 
 <section class="post-content page-content">
-	<div class="container p5 mt-5 pdt-3">
+	<div class="container mt-5 pdt-3">
 	  	<div class="row">
-		    <div class="col  offset-xl-2 col-xl-8 col12">
+		    <div class="">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
           
 					<?php the_content(); ?>
