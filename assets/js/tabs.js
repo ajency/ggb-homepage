@@ -122,3 +122,9 @@ $(function() {
     $('.slick-dots').toggleClass('d-none'); 
   }); 
 });
+
+$(window).load(function(){
+  $(".chosen-select").removeClass('d-none')
+  $(".chosen-choices-1").css({'display' : 'none'})
+  $(".chosen-select").chosen()
+});
