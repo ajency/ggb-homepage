@@ -796,3 +796,46 @@ body{
         padding: 10px;
     }    
 }
+/*accordion*/
+
+.sp-easy-accordion{
+    padding: 3rem 0px !important;
+    .sp-ea-single {
+        background: transparent !important;
+        border: 0 !important;
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+        border-radius: 0 !important;
+        margin-bottom: 0 !important;
+        &:first-of-type{
+            border-bottom: 0 !important;
+        }
+        .ea-header {
+            a {
+                font-family: inherit !important;
+                font-weight: 500 !important;
+                line-height: 1.2 !important;
+                color: inherit !important;
+                font-size: 27.2px !important;
+                padding-left: 0 !important;
+                position: relative;
+                .ea-expand-icon{
+                    display: none;
+                }
+                @media (max-width: 991px){
+                    font-size: 20.8px !important;
+                }
+            }
+        }
+        .ea-body{
+            padding: 15px 15px 15px 30px !important;
+            p{
+                font-size: 28px !important;
+                color: #212529 !important;
+                @media (max-width: 991px){
+                    font-size: 22px !important;
+                }
+            }
+        }
+    }
+}
