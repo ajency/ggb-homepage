@@ -1,23 +1,30 @@
 ul{
 	display: flex;
-	li{
+	li.menu-item{
 		list-style-type: none;
-	    margin-right: 20px;
+	    margin-right: 30px;
         white-space: nowrap;
         a{
-			font-size: 18px;
-			font-weight: 500;
-			color: #4aa751;
+			font-size: 22.4px;
+			font-weight: 600;
+			color: #6c757d;
 			position: relative;
-			text-transform: uppercase;
-			@media (max-width: 991px){
-				font-size: 20px;
-				letter-spacing: 0.4px;
-			}
+			text-transform: lowercase;
+			font-family: "Libre Baskerville",Baskerville,georgia,serif!important;
+    		font-style: italic;
 			&:hover{
 				text-decoration: none;
-            	border-bottom: 2px solid #4AA751;
+				color: #343a40;
 			}
+			@media (max-width: 991px){
+				font-size: 19.2px;
+				letter-spacing: 0.4px;
+			}
+        }
+        &.current_page_item{
+        	a{
+        		color: #000;
+        	}
         }
         @media (max-width: 991px){
         	margin-top: 8px;
@@ -34,9 +41,6 @@ ul{
 	.site-header{
 	    padding-top: 1rem;
 	    padding-bottom: 1rem;
-	    a{
-			color: #4aa751;
-		}
 		.site-logo{
 		    z-index: 5;
 		    @media (max-width: 340px){
