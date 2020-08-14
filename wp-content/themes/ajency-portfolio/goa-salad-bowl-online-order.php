@@ -104,6 +104,28 @@ Template Name: goa-salad-bowl-online-order
 						</div>
 					</div>
 				</section>
+				<div class="position-relative">
+					<div id="output"></div>
+					<form method="get">
+						<select data-placeholder="Select day of the Week" name="tags[]" multiple class="chosen-select d-none">
+							<option value="Monday">Monday</option>
+							<option value="Tuesday">Tuesday</option>
+							<option value="Wednesday">Wednesday</option>
+							<option value="Thursday">Thursday</option>
+							<option value="Friday">Friday</option>
+							<option value="Saturday">Saturday</option>
+							<option value="Sunday">Sunday</option>
+						</select>
+						<!-- <input type="submit" class="submit-choices"> -->
+					</form>
+					<div class="chosen-container chosen-container-multi" title="">
+						<ul class="chosen-choices chosen-choices-1">
+							<li class="search-field">
+								<input class="chosen-search-input default w-100" type="text" autocomplete="off" value="Select day of the Week">
+							</li>
+						</ul>
+					</div>
+				</div>
 				<section class="toggle-wrapper pt-0 pb-1">
 					<div class="switch_box box">
 						<input type="checkbox" class="switch" id="switch-box">
@@ -6270,6 +6292,7 @@ Template Name: goa-salad-bowl-online-order
 	<script src="https://unpkg.com/axios@0.19.0/dist/axios.min.js"></script>
 	<script src="/assets/js/custom.js"></script>
 	<script src="/assets/js/tabs.js"></script>
+	<script src="/assets/js/chosen.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-auth.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
