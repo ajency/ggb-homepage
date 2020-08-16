@@ -839,3 +839,111 @@ body{
         }
     }
 }
+
+/* slider */
+.wp-block-media-text{
+    &__content{
+        color: #212529 !important;
+        width: 70% !important;
+        margin-left: 8.33333%;
+        padding: 0 !important;
+        h1{
+            font-size: 4.5rem !important;
+            font-weight: 300 !important;
+            line-height: 1.2 !important;
+            width: 350px;
+            @media (max-width: 1199.98px){
+                font-size: 2.5rem !important;
+                width: 196px;
+            }
+        }
+        h5{
+            margin-bottom: .5rem;
+            font-family: inherit;
+            line-height: 1.2;
+            color: inherit;
+            @media (max-width: 600px){
+                font-size: 12.8px;
+            }
+            @media (max-width: 699px) and (min-width: 601px){
+                font-size: 14px !important;
+            }
+        }
+        &:first-child{
+            font-weight: 500 !important;
+        }
+        @media (max-width: 699px) and (min-width: 601px){
+            width: 100% !important;
+        }
+        @media (min-width: 601px){
+            padding: 0px 25px !important;
+        }
+        @media(max-width: 600px){
+            margin-left: 0;
+            margin-top: 40px;
+            padding-bottom: 5px;
+            height: 100%;
+        }
+    }
+}
+
+.wp-block-cwp-block-slider{
+    margin-left: 100px;
+    .cwp-block-slider-main{
+        .slick-slide{
+           margin: 0 15px 0 0 !important;
+        }
+    }
+    .cwp-preview {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 1s ease;
+        -webkit-transition: opacity 1s ease;
+        &.slick-initialized {
+            visibility: visible;
+            opacity: 1; 
+        }
+        .slick-list{
+            padding: 0 150px;
+            padding-left: 0;
+            @media (max-width: 600px){
+                padding: 0 60px;
+                padding-left: 0;
+            }
+        }
+        .slick-dots {
+            left: 35px !important;
+            bottom: -34px !important;
+            li{
+                width: 16px;
+                height: 16px;
+                .cwp-block-slider-pagin{
+                    border-radius: 6px !important;
+                    background-color: #000 !important;
+                    padding: 4px !important;
+                    opacity: .25 !important;
+                    &:hover{
+                        opacity: 1 !important;
+                    }
+                }
+                &.slick-active{
+                    .cwp-block-slider-pagin{
+                        opacity: .75 !important;
+                        color: #000 !important;
+                    }
+                }
+            }
+            @media (min-width: 1024px){
+                left: 60px !important;
+                bottom: -50px !important;
+            }
+        }
+    }
+    @media(max-width: 1199.98px){
+        margin-left: 0px;
+        padding-left: 30px;
+    }
+}
+
+
+
