@@ -822,6 +822,23 @@ body{
                 .ea-expand-icon{
                     display: none;
                 }
+                &.collapsed{
+                    &:after{
+                        transform: rotate(0deg);
+                    }
+                }
+                &:after{
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    content: "\f078";
+                    position: absolute;
+                    right: 10px;
+                    top: 20px;
+                    color: #495057;
+                    transition: all .3s ease;
+                    transform: rotate(180deg);
+                    font-size: 13px;
+                }
                 @media (max-width: 991px){
                     font-size: 20.8px !important;
                 }
@@ -847,6 +864,7 @@ body{
         width: 70% !important;
         margin-left: 8.33333%;
         padding: 0 !important;
+        word-break: normal !important;
         h1{
             font-size: 4.5rem !important;
             font-weight: 300 !important;
