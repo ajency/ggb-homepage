@@ -858,6 +858,9 @@ body{
 }
 
 /* slider */
+.wp-block-media-text__content :first-child {
+    font-weight: 500 !important; 
+}
 .wp-block-media-text{
     &__content{
         color: #212529 !important;
@@ -886,9 +889,6 @@ body{
             @media (max-width: 699px) and (min-width: 601px){
                 font-size: 14px !important;
             }
-        }
-        &:first-child{
-            font-weight: 500 !important;
         }
         @media (max-width: 699px) and (min-width: 601px){
             width: 100% !important;
