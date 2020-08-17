@@ -3191,15 +3191,15 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="/assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="/assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-1">
 												        	<div class="menu-details">
-												        		<div class="product-variant-name">Orange Barley Bowl - Chicken</div>
+												        		<div class="product-variant-name">Test Product</div>
 												        		<div class="price-row d-flex">
 												            		<div class="product-price h1 mb-0">₹290</div>
 												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
@@ -3217,7 +3217,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/QNB-Chicken_800.jpg"
+												                      "/assets/images/QNB-Chicken_800.jpg"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
@@ -4069,15 +4069,15 @@ Template Name: goa-salad-bowl-online-order
 												        </div>
 												        <div class="product-image">
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="/assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
 												            </div>
 												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
+												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="/assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
 												            </div>
 												        </div>
 												        <div class="product-meta d-flex mt-1">
 												        	<div class="menu-details">
-												        		<div class="product-variant-name">Orange Barley Bowl - Chicken</div>
+												        		<div class="product-variant-name">Test Product</div>
 												        		<div class="price-row d-flex">
 												            		<div class="product-price h1 mb-0">₹290</div>
 												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
@@ -4095,7 +4095,7 @@ Template Name: goa-salad-bowl-online-order
 												                      "size": "Regular Bowl"
 												                    },
 												                    "images": [
-												                      "assets/images/QNB-Chicken_800.jpg"
+												                      "/assets/images/QNB-Chicken_800.jpg"
 												                    ],
 												                    "class": "cardfour",
 												                    "put_empty": true,
