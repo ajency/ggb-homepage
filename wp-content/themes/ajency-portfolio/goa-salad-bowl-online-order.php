@@ -9,8 +9,90 @@ Template Name: goa-salad-bowl-online-order
 	 
 	$react_js_file_hashes = file_get_contents(APP_URL."/react_component_file_hash.json?time=".date_timestamp_get($date));
 	$react_css_file_hashes = file_get_contents(APP_URL."/cart_app_css_file_hash.json?time=".date_timestamp_get($date));
-	$react_js_file_hashes_decoded = json_decode($react_js_file_hashes,true);
+	$react_js_file_hashes_decoded = json_encode($react_js_file_hashes,true);
 	
+?>
+
+<?php
+	const api_url = API_URL."/rest/v1/admin/get-all-products";
+	function fetch_all_product() {
+		$response =  wp_remote_get(api_url);
+		$responseBody = wp_remote_retrieve_body( $response );
+		$result = json_decode($responseBody);
+		return $result;
+	}
+
+	function getAvailableDays($productStore, $variants) {
+		$days = array_column($variants, "day");
+		if(!isset($productStore["available_on"])) {
+			$productStore["available_on"]=[];
+		}
+		return array_unique(array_merge($productStore["available_on"], $days));
+	}	
+
+	function getImagesUrls($productStore,$image) {
+		if(!isset($productStore["image_urls"])) {
+			$productStore["image_urls"]=[];
+		}
+		if(isset($image))
+			array_push($productStore["image_urls"], $image);
+
+		return array_unique($productStore["image_urls"]);
+	}
+
+	function getProducts($productStore,$product) {
+		$productObject["title"] = $product->title;
+		$productObject["description"] = $product->description;
+		$productObject["product_id"] = $product->product_id;
+		$cheapProduct = getProductPrices($product->variants);
+		$productObject["mrp"] = $cheapProduct["mrp"];
+		$productObject["sale_price"] = $cheapProduct["sale_price"];
+		if(!isset($productStore['products'])) {
+			$productStore['products'] = [];
+		}
+		array_push($productStore['products'], $productObject);
+ 		return $productStore['products'];
+	}
+
+	function getProductPrices($variants) {
+		$variants = json_decode(json_encode($variants), true);
+		$t = array_reduce($variants, function($a, $b) {
+			return $a["sale_price"] < $b["sale_price"] ? $a :$b ;
+		}, array_shift($variants));
+		return $t;
+	}
+
+	function getGroupProductObject($productStore,$product) {
+		$productObject["group_name"] = $product->group_name;
+		$productObject["group_description"] = $product->group_description;
+		$productObject["product_id"] = $product->product_id;
+		if(isset($product->default_image))
+			$productObject["image_urls"] = getImagesUrls($productStore, $product->default_image);
+		if(isset($product->variants))	
+			$productObject["available_on"] = getAvailableDays($productStore, $product->variants);
+		
+		$productObject["products"]=getProducts($productStore, $product);
+		return $productObject;
+	}
+	
+	$result = fetch_all_product();
+	$allProducts = $result->data->products;
+	$productsToDisplay = [];
+	if($result->success) {
+		foreach($allProducts as $key => $product) {
+			if(isset($product->group_name)) {
+				if(!isset($productsToDisplay[$product->group_name])) {
+					$productsToDisplay[$product->group_name] = [];
+					$productsToDisplay[$product->group_name] = getGroupProductObject($productsToDisplay[$product->group_name],$product);
+				} else {
+					$productsToDisplay[$product->group_name] = getGroupProductObject($productsToDisplay[$product->group_name],$product);
+				}
+			}
+			
+		}
+	}
+	var_export(($productsToDisplay['Almost Burrito Bowl']['products'][0]));
+		
 ?>
 <html>
 <head>
@@ -193,28 +275,10 @@ Template Name: goa-salad-bowl-online-order
 											}
 
 										?>
-										<!-- <input class="radio" id="weekends" name="group" type="radio" <?php if($day_of_week == 6 or $day_of_week == 0) echo 'checked' ?>>
-			                    	  	<input class="radio show" id="mon" name="group" type="radio" <?php if($day_of_week == 1) echo 'checked' ?>>
-										<input class="radio" id="tue" name="group" type="radio" <?php if($day_of_week == 2) echo 'checked' ?>>
-										<input class="radio" id="wed" name="group" type="radio" <?php if($day_of_week == 3) echo 'checked' ?>>
-			                    	  	<input class="radio" id="thrus" name="group" type="radio" <?php if($day_of_week == 4) echo 'checked' ?>>
-										<input class="radio" id="fri" name="group" type="radio" <?php if($day_of_week == 5) echo 'checked' ?>> -->
-										<!-- <input class="radio" id="nextweek" name="group" type="radio"> -->
 
-										
-										<!-- <div class="tabs-section">
-											<div class="tabs" data-text="<?php echo 'Day of the week '.$day_of_week;?>">
-												<label class="tab <?php if($day_of_week == 6 or $day_of_week == 0) echo 'active' ?>" id="weeknd" for="weekends">Weekend</label>
-												<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="mon">Monday</label>
-												<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="tue">Tuesday</label>
-												<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="wed">Wednesday</label>
-												<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="thrus">Thursday</label>
-												<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="fri">Friday</label>
-												<label class="tab" id="nextweekorder" for="nextweek">Next Week</label>
-											</div>
-										</div> -->
 
 									 	<div id="panels" class="panels">
+												<?php echo $prodcutsHtml?>>
 												<div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
 												    <div class="product-wrapper cardfour">
 												        <div class="lg-w-50 hover-text">
@@ -357,503 +421,8 @@ Template Name: goa-salad-bowl-online-order
 												    </div>
 												</div> 
 
-												<div id="product-w9CiPdw0MzpGfKkQsKqJ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Cracked Wheat & Falafel Bowl</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">
-																	A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Olives, pomegranate and feta to complete the middle eastern vibe! You could also add herbed chicken.
-																	<br>
-																	*Salad comes with dressing mixed in.
-																	<br>
-																	**Dip is not the dressing.
-												                </h4>
-												            </div>
-												        </div>
-    	        										<div class="tabs-section">
-															<div class="tabs list-text-block" data-text="<?php echo 'Day of the week '.$day_of_week;?>">
-																<span class="font-size-15 pr-2">Available on:</span>
-																<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="mon">Mon</label>
-																<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="tue">Tue</label>
-																<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="wed">Wed</label>
-																<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="thrus">Thu</label>
-																<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="fri">Fri</label>
-																<label class="tab <?php if($day_of_week == 6) echo 'active' ?>" id="five-tab" for="weekend">Sat</label>
-																<label class="tab <?php if($day_of_week == 6) echo 'active' ?>" id="five-tab" for="weekend">Sun</label>
-															</div>
-														</div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="/assets/images/CWF-Bowl-Veg.jpg" alt="Cracked Wheat & Falafel Bowl"/>
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Cracked Wheat & Falafel Bowl" src="/assets/images/CWF-Bowl-Chicken.jpg" alt="Cracked Wheat & Falafel Bowl" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex pt-4 mb-4">
-									        				<div class="menu-details">
-												        		<div class="product-variant-name">Cracked Wheat & Falafel Bowl - Veg</div>
-												        		<div class="price-row d-flex">
-												            		<div class="product-price h1 mb-0">₹290</div>
-												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
-											            		</div>	
-										            		</div>													            
-										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Olives, pomegranate and feta to complete the middle eastern vibe!",
-												                    "title": "Cracked Wheat & Falafel Bowl - Veg",
-												                    "product_id": "w9CiPdw0MzpGfKkQsKqJ",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "w9CiPdw0MzpGfKkQsKqJ-bowl",
-												                      "mrp": 330,
-												                      "sale_price": 290,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "/assets/images/CWF-Bowl-Veg.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "tuesday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-												        <div class="product-meta d-flex mt-4">
-									        				<div class="menu-details">
-												        		<div class="product-variant-name">Cracked Wheat & Falafel Bowl - Chicken</div>
-												        		<div class="price-row d-flex">
-												            		<div class="product-price h1 mb-0">₹320</div>
-												            		<div class="product-price discount-price h1 mb-0">₹350</div>	
-											            		</div>
-										            		</div>	
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "A very tabbouleh-inspired salad*: greens, cucumber, tomato, pickled beetroot, onions with cracked wheat and fresh herbs. Falafel and roasted eggplant with a red pepper dip**. Herbed chicken is an added bonus. Olives, pomegranate and feta to complete the middle eastern vibe! *Salad comes with dressing mixed in. **Dip is not the dressing.",
-												                    "title": "Cracked Wheat & Falafel Bowl - Chicken",
-												                    "product_id": "OMXhZUrvVWwCsLKNDlFK",
-												                    "mark_type": "Non Veg",
-												                    "default": {
-												                      "id": "OMXhZUrvVWwCsLKNDlFK-bowl",
-												                      "mrp": 350,
-												                      "sale_price": 320,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "/assets/images/CWF-Bowl-Chicken.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "tuesday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div> 
-												<div id="product-QexP4xy4W2cMx4zORNEi" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Quinoa and Nuts Bowl</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.</h4>
-												            </div>
-												        </div>
-    	        										<div class="tabs-section">
-															<div class="tabs list-text-block" data-text="<?php echo 'Day of the week '.$day_of_week;?>">
-																<span class="font-size-15 pr-2">Available on:</span>
-																<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="mon">Mon</label>
-																<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="tue">Tue</label>
-																<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="wed">Wed</label>
-																<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="thrus">Thu</label>
-																<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="fri">Fri</label>
-																<label class="tab <?php if($day_of_week == 6) echo 'active' ?>" id="five-tab" for="weekend">Sat</label>
-																<label class="tab <?php if($day_of_week == 6) echo 'active' ?>" id="five-tab" for="weekend">Sun</label>
-															</div>
-														</div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Veg" src="/assets/images/QNB-Veg_800.jpg" alt="Quinoa and Nuts Bowl - Veg" />
-												            </div>
-											            	<div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="/assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl - Egg"/>
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl - Egg" src="/assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl - Egg" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex pt-4 mb-4">
-												        	<div class="menu-details">
-												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Veg</div>
-												        		<div class="price-row d-flex">
-												            		<div class="product-price h1 mb-0">₹270</div>
-												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
-											            		</div>	
-										            		</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta.",
-												                    "title": "Quinoa and Nuts Bowl - Veg",
-												                    "product_id": "QexP4xy4W2cMx4zORNEi",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "QexP4xy4W2cMx4zORNEi-bowl",
-												                      "mrp": 310,
-												                      "sale_price": 270,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "/assets/images/QNB-Veg_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "wednesday"
-												                }'
-												                >
-												                <div>
-												                    <a class="btn-add-to-cart bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-											        	<div class="product-meta d-flex mt-4">
-											        		<div class="menu-details">
-												        		<div class="product-variant-name">Quinoa and Nuts Bowl - Egg</div>
-												        		<div class="price-row d-flex">
-												            		<div class="product-price h1 mb-0">₹290</div>
-												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
-											            		</div>	
-										            		</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Quinoa, mixed greens, apples, roasted pumpkin, beetroot, carrots and some pickled onions. Tossed in a balsamic dressing and topped with roasted almonds, mixed seeds and feta. A couple of soft boiled eggs to up your protein intake for the day.",
-												                    "title": "Quinoa and Nuts Bowl - Egg",
-												                    "product_id": "zhsxgRGAMaIbia75SQJr",
-												                    "mark_type": "Non Veg",
-												                    "default": {
-												                      "id": "zhsxgRGAMaIbia75SQJr-bowl",
-												                      "mrp": 330,
-												                      "sale_price": 290,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "/assets/images/QNB-Chicken_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "wednesday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div>
-
-												<div id="product-mbggbxvc02aF3qbekNp9" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Chilli Pineapple Barley Bowl</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Pineapple chunks add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish and carrots. Flax seeds for crunch. Choose between the veg/vegan option of brown chickpeas (kala chana) or delicious prawns.</h4>
-												            </div>
-												        </div>
-    	        										<div class="tabs-section">
-															<div class="tabs list-text-block" data-text="<?php echo 'Day of the week '.$day_of_week;?>">
-																<span class="font-size-15 pr-2">Available on:</span>
-																<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="mon">Mon</label>
-																<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="tue">Tue</label>
-																<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="wed">Wed</label>
-																<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="thrus">Thu</label>
-																<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="fri">Fri</label>
-																<label class="tab <?php if($day_of_week == 6) echo 'active' ?>" id="five-tab" for="weekend">Sat</label>
-																<label class="tab <?php if($day_of_week == 6) echo 'active' ?>" id="five-tab" for="weekend">Sun</label>
-															</div>
-														</div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="/assets/images/chilli-pineapple-veg.jpg" alt="Chilli Pineapple Barley Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="/assets/images/chilli-pineapple-prawns.jpg" alt="Chilli Pineapple Barley Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="/assets/images/chilli-pineapple-veg-2.jpg" alt="Chilli Pineapple Barley Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Chilli Pineapple Barley Bowl" src="/assets/images/chilli-pineapple-prawns-2.jpg" alt="Chilli Pineapple Barley Bowl" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex pt-4 mb-4">
-										        			<div class="menu-details">
-												        		<div class="product-variant-name">Chilli Pineapple Barley Bowl - Veg</div>
-												        		<div class="price-row d-flex">
-												            		<div class="product-price h1 mb-0">₹270</div>
-												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
-											            		</div>	
-										            		</div>												            
-										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Pineapple chunks add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish, carrots and brown chickpeas (kala chana). Flax seeds for crunch.",
-												                    "title": "Chilli Pineapple Barley Bowl - Veg",
-												                    "product_id": "mgILawWlIXQ8inejpZy8",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "mgILawWlIXQ8inejpZy8-bowl",
-												                      "mrp": 310,
-												                      "sale_price": 270,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "/assets/images/chilli-pineapple-veg.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "thursday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-												        <div class="product-meta d-flex mt-4">
-										        			<div class="menu-details">
-												        		<div class="product-variant-name">Chilli Pineapple Barley Bowl - Prawns</div>
-												        		<div class="price-row d-flex">
-												            		<div class="product-price h1 mb-0">₹320</div>
-												            		<div class="product-price discount-price h1 mb-0">₹350</div>	
-											            		</div>	
-										            		</div>	
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Pineapple chunks and prawns add a tropical vibe to this bowl. Complimented with some sour-ish pickled chillies (made in-house) and a mint mustard dressing. The odd bite with a raisin or two adds the oomph factor. Barley, greens, red cabbage, cucumber, raddish and carrots. Flax seeds for crunch.",
-												                    "title": "Chilli Pineapple Barley Bowl - Prawns",
-												                    "product_id": "Pr8J4eIEwFfKX3ZQ6gC8",
-												                    "mark_type": "Non Veg",
-												                    "default": {
-												                      "id": "Pr8J4eIEwFfKX3ZQ6gC8-bowl",
-												                      "mrp": 350,
-												                      "sale_price": 320,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "/assets/images/chilli-pineapple-prawns.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "thursday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div>
-
-												<div id="product-iAZQBNDAObu4phKqFeiO" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Thai Brown Rice Bowl</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Thai grilled paneer / tofu / chicken, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.</h4>
-												            </div>
-												        </div>
-    	        										<div class="tabs-section">
-															<div class="tabs list-text-block" data-text="<?php echo 'Day of the week '.$day_of_week;?>">
-																<span class="font-size-15 pr-2">Available on:</span>
-																<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="mon">Mon</label>
-																<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="tue">Tue</label>
-																<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="wed">Wed</label>
-																<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="thrus">Thu</label>
-																<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="fri">Fri</label>
-																<label class="tab <?php if($day_of_week == 6) echo 'active' ?>" id="five-tab" for="weekend">Sat</label>
-																<label class="tab <?php if($day_of_week == 6) echo 'active' ?>" id="five-tab" for="weekend">Sun</label>
-															</div>
-														</div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl" src="/assets/images/Thai-Bowl-Paneer_800.jpg" alt="Thai Brown Rice Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Thai Brown Rice Bowl - Chicken" src="/assets/images/Thai-Bowl-Chicken_800.jpg" alt="Thai Brown Rice Bowl - Chicken" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex pt-4 mb-4">
-										        			<div class="menu-details">
-												        		<div class="product-variant-name">Thai Brown Rice Bowl - Tofu</div>
-																<div class="price-row d-flex">
-																	<div class="product-price h1 mb-0">₹270</div>
-																	<div class="product-price discount-price h1 mb-0">₹310</div>	
-																</div>
-															</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Thai grilled tofu, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
-												                    "title": "Thai Brown Rice Bowl - Tofu",
-												                    "product_id": "EIAHVzsPLkUY6yrNGjOj",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "EIAHVzsPLkUY6yrNGjOj-bowl",
-												                      "mrp": 310,
-												                      "sale_price": 270,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "/assets/images/Thai-Bowl-Paneer_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "friday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-												        <div class="product-meta d-flex mt-4 mb-4">
-										        			<div class="menu-details">
-												        		<div class="product-variant-name">Thai Brown Rice Bowl - Paneer</div>
-																<div class="price-row d-flex">
-																	<div class="product-price h1 mb-0">₹290</div>
-																	<div class="product-price discount-price h1 mb-0">₹330</div>	
-																</div>	
-									            			</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Thai grilled paneer, greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
-												                    "title": "Thai Brown Rice Bowl - Paneer",
-												                    "product_id": "iAZQBNDAObu4phKqFeiO",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "iAZQBNDAObu4phKqFeiO-bowl",
-												                      "mrp": 330,
-												                      "sale_price": 290,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "/assets/images/Thai-Bowl-Paneer_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "friday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-												        <div class="product-meta d-flex mt-4">
-										        			<div class="menu-details">
-												        		<div class="product-variant-name">Thai Brown Rice Bowl - Chicken</div>
-																<div class="price-row d-flex">
-																	<div class="product-price h1 mb-0">₹290</div>
-																	<div class="product-price discount-price h1 mb-0">₹330</div>	
-																</div>	
-										            		</div>												            
-										            		<div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Thai grilled chicken with greens, red cabbage, cucumber, coloured peppers and corn served with basil brown rice. The peanut-butter + coconut milk dressing, along with crunchy roasted groundnuts, bring the Thai flavors home.",
-												                    "title": "Thai Brown Rice Bowl - Chicken",
-												                    "product_id": "iy0sD3rmOe9CB3extiE7",
-												                    "mark_type": "Non Veg",
-												                    "default": {
-												                      "id": "iy0sD3rmOe9CB3extiE7-bowl",
-												                      "mrp": 330,
-												                      "sale_price": 290,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "/assets/images/Thai-Bowl-Chicken_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "friday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div>
-												<div id="product-bqApKRirpEeopN3w9H3J" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger5 my-6 hide-product">
-												    <div class="product-wrapper cardfive">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Test Product</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">Dummy prodct  do not buy.</h4>
-												            </div>
-												        </div>
-    	        										<div class="tabs-section">
-															<div class="tabs list-text-block" data-text="<?php echo 'Day of the week '.$day_of_week;?>">
-																<span class="font-size-15 pr-2">Available on:</span>
-																<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="mon">Mon</label>
-																<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="tue">Tue</label>
-																<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="wed">Wed</label>
-																<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="thrus">Thu</label>
-																<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="fri">Fri</label>
-																<label class="tab <?php if($day_of_week == 6) echo 'active' ?>" id="five-tab" for="weekend">Sat</label>
-																<label class="tab <?php if($day_of_week == 6) echo 'active' ?>" id="five-tab" for="weekend">Sun</label>
-															</div>
-														</div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB-Chicken_800.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Quinoa and Nuts Bowl (Chicken)" src="assets/images/QNB.jpg" alt="Quinoa and Nuts Bowl (Chicken)" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex mt-1">
-												            <div class="product-price h1 ft6 mb-0">₹ 280</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "Dummy prodct  do not buy.",
-												                    "title": "Test Product",
-												                    "product_id": "dummy-product",
-												                    "mark_type": "Non Veg",
-												                    "default": {
-												                      "id": "dummy-product-bowl",
-												                      "mrp": 280,
-												                      "sale_price": 280,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "assets/images/QNB-Chicken_800.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "wednesday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div> 
+											
+											
 				                        </div>
 				                    </div>
 				                </div>
@@ -1098,3 +667,4 @@ Template Name: goa-salad-bowl-online-order
 	</script>
 </body>
 </html>
+p
