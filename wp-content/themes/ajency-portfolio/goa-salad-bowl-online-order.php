@@ -52,17 +52,25 @@ Template Name: goa-salad-bowl-online-order
 	}
 
 	function getProducts($productStore,$product) {
-		$productObject["title"] = $product->title;
-		$productObject["description"] = $product->description;
-		$productObject["product_id"] = $product->product_id;
-		$cheapProduct = getProductPrices($product->variants);
-		$productObject["mrp"] = $cheapProduct["mrp"];
-		$productObject["sale_price"] = $cheapProduct["sale_price"];
-		if(!isset($productStore['products'])) {
-			$productStore['products'] = [];
+		if(isset($product->variants)) {
+			$activeVariants = array_filter($product->variants, function($v){
+				return $v->active;
+			});
+			if(!isset($productStore['products'])) {
+				$productStore['products'] = [];
+			}
+			if(count($activeVariants)) {
+				$productObject["title"] = $product->title;
+				$productObject["description"] = $product->description;
+				$productObject["product_id"] = $product->product_id;
+				$cheapProduct = getProductPrices($product->variants);
+				$productObject["mrp"] = $cheapProduct["mrp"];
+				$productObject["sale_price"] = $cheapProduct["sale_price"];
+				
+				array_push($productStore['products'], $productObject);
+			}
 		}
-		array_push($productStore['products'], $productObject);
- 		return $productStore['products'];
+		return $productStore['products'];
 	}
 
 	function getProductPrices($variants) {
@@ -290,6 +298,9 @@ Template Name: goa-salad-bowl-online-order
 												<?php foreach($productsToDisplay as $product) {
 													$htmlProductId = 'product-'.$product['product_id'];
 													$daysAttr = implode(",",$product['available_on']);
+													if(!count($product['products'])) {
+														continue;
+													}
 												?>
 													<div id="<?php echo $htmlProductId;?>" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6 product-list <?php echo $product['product_id'] == 'dummy-product'? "hide-product":"" ?> " data-days_available='<?php echo $daysAttr?>'>
 														<div class="product-wrapper cardfour">
