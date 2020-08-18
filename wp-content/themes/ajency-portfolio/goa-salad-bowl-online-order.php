@@ -10,7 +10,15 @@ Template Name: goa-salad-bowl-online-order
 	$react_js_file_hashes = file_get_contents(APP_URL."/react_component_file_hash.json?time=".date_timestamp_get($date));
 	$react_css_file_hashes = file_get_contents(APP_URL."/cart_app_css_file_hash.json?time=".date_timestamp_get($date));
 	$react_js_file_hashes_decoded = json_encode($react_js_file_hashes,true);
-	
+	$DAYS =[ 
+		"mon" => "monday",
+		"tue" => "tuesday",
+		"wed" => "wednesday", 
+		"thu" => "thursday", 
+		"fri" => "friday", 
+		"sat" => "saturday", 
+		"sun" => "sunday"
+	];	
 ?>
 
 <?php
@@ -76,9 +84,9 @@ Template Name: goa-salad-bowl-online-order
 	}
 	
 	$result = fetch_all_product();
-	$allProducts = $result->data->products;
 	$productsToDisplay = [];
 	if($result->success) {
+		$allProducts = $result->data->products;
 		foreach($allProducts as $key => $product) {
 			if(isset($product->group_name)) {
 				if(!isset($productsToDisplay[$product->group_name])) {
@@ -91,8 +99,6 @@ Template Name: goa-salad-bowl-online-order
 			
 		}
 	}
-	var_export(($productsToDisplay['Almost Burrito Bowl']['products'][0]));
-		
 ?>
 <html>
 <head>
@@ -278,150 +284,62 @@ Template Name: goa-salad-bowl-online-order
 
 
 									 	<div id="panels" class="panels">
-												<?php echo $prodcutsHtml?>>
-												<div id="product-1CG6P1slxnr9TSNnPzvZ" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6">
-												    <div class="product-wrapper cardfour">
-												        <div class="lg-w-50 hover-text">
-												            <h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title">Orange Barley Bowl</h3>
-												            <div class="product-content  pb-4">
-												                <h4 class="font-weight-light font-size-18 mt-0 mb-lg-0">The odd nugget of fresh orange in a bowl of barley, greens, baby corn, beans, carrots and coloured peppers with spiced paneer / tofu / chicken will make you fall in love with this one. An orange mustard ginger dressing adds a slight pungent note. Toasted flax seeds to up the crunch. Tastes best slightly chilled.
-												            </div>
-												        </div>
-    	        										<div class="tabs-section">
-															<div class="tabs list-text-block" data-text="<?php echo 'Day of the week '.$day_of_week;?>">
-																<span class="font-size-15 pr-2">Available on:</span>
-																<label class="tab <?php if($day_of_week == 1) echo 'active' ?>" id="one-tab" for="mon">Mon</label>
-																<label class="tab <?php if($day_of_week == 2) echo 'active' ?>" id="two-tab" for="tue">Tue</label>
-																<label class="tab <?php if($day_of_week == 3) echo 'active' ?>" id="three-tab" for="wed">Wed</label>
-																<label class="tab <?php if($day_of_week == 4) echo 'active' ?>" id="four-tab" for="thrus">Thu</label>
-																<label class="tab <?php if($day_of_week == 5) echo 'active' ?>" id="five-tab" for="fri">Fri</label>
-																<label class="tab <?php if($day_of_week == 6) echo 'active' ?>" id="five-tab" for="weekend">Sat</label>
-																<label class="tab <?php if($day_of_week == 6) echo 'active' ?>" id="five-tab" for="weekend">Sun</label>
+												<?php foreach($productsToDisplay as $product) {
+													$htmlProductId = 'product-'.$product['product_id'];
+												?>
+													<div id="<?php echo $htmlProductId;?>" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6 <?php echo $product['product_id'] == 'dummy-product'? "hide-product":"" ?>">
+														<div class="product-wrapper cardfour">
+															<div class="lg-w-50 hover-text">
+																<h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title"><?php echo $product['group_name'];?></h3>
+																<div class="product-content  pb-4">
+																	<h4 class="font-weight-light font-size-18 mt-0 mb-lg-0"><?php echo $product['group_description'];?></div>
 															</div>
+															<div class="tabs-section">
+																<div class="tabs list-text-block">
+																	<span class="font-size-15 pr-2">Available on:</span>
+																	<?php foreach($DAYS as $key => $day) { ?>
+																			<label class="tab <?php echo in_array($day,$product['available_on'])? "active":""?> "><?php echo $key;?></label>
+																	<?php } ?>
+																</div>
+															</div>
+																	
+															<div class="product-image">
+																<?php foreach($product['image_urls'] as $image) {?>
+																	<div class="slick-slideshow__slide">
+																		<img class="bg-image-animation w-100" title="<?php echo $product['group_name']?>" src="<?php echo $image?>" alt="<?php echo $product['group_name']?>" />
+																	</div>
+																	
+																<?php } ?>
+															</div>
+															<?php 
+																foreach($product['products'] as $variant) {
+															?>
+																<div class="product-meta d-flex pt-4 mb-4 ">
+																	<div class="menu-details">
+																		<div class="product-variant-name"><?php echo $variant['title'];?></div>
+																		<div class="price-row d-flex">
+																			<div class="product-price h1 mb-0">₹<?php echo $variant['sale_price'];?></div>
+																			<div class="product-price discount-price h1 mb-0">₹<?php echo $variant['mrp'];?></div>	
+																		</div>	
+																	</div>
+																	<div class="react-add-to-cart-container"
+																		data-product_data='{
+																			"description": "<?php echo $variant['description']; ?>",
+																			"title": "<?php echo $variant['title']; ?>",
+																			"product_id": "<?php echo $product['product_id'];?>",
+																		}'
+																		>
+																		<div>
+																			<a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
+																		</div>
+																	</div>
+																</div>
+																<hr>
+															<?php } ?>
 														</div>
-												        <div class="product-image">
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="/assets/images/GGB-OBB-Veg.jpg" alt="Orange Barley Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="/assets/images/GGB-OBB-Chicken.jpg" alt="Orange Barley Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="/assets/images/GGB-OBB-Veg-2.jpg" alt="Orange Barley Bowl" />
-												            </div>
-												            <div class="slick-slideshow__slide">
-												                <img class="bg-image-animation w-100" title="Orange Barley Bowl" src="/assets/images/GGB-OBB-Chicken-2.jpg" alt="Orange Barley Bowl" />
-												            </div>
-												        </div>
-												        <div class="product-meta d-flex pt-4 mb-4 ">
-												        	<div class="menu-details">
-												        		<div class="product-variant-name">Orange Barley Bowl - Tofu</div>
-												        		<div class="price-row d-flex">
-												            		<div class="product-price h1 mb-0">₹270</div>
-												            		<div class="product-price discount-price h1 mb-0">₹310</div>	
-											            		</div>	
-										            		</div>
-												            <div class="react-add-to-cart-container btn-hide"
-												                data-product_data='{
-												                    "description": "The odd nugget of fresh orange in a bowl of barley, greens, baby corn, beans, carrots and coloured peppers with spiced tofu will make you fall in love with this one. An orange mustard ginger dressing adds a slight pungent note. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl - Tofu",
-												                    "product_id": "1CG6P1slxnr9TSNnPzvZ",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "1CG6P1slxnr9TSNnPzvZ-bowl",
-												                      "mrp": 310,
-												                      "sale_price": 270,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "/assets/images/Orange-Barley-Bowl-1.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'
-												                >
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-								        				<div class="product-meta d-flex mt-4 mb-4">
-												        	<div class="menu-details">
-												        		<div class="product-variant-name">Orange Barley Bowl - Paneer</div>
-												        		<div class="price-row d-flex">
-												            		<div class="product-price h1 mb-0">₹290</div>
-												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
-											            		</div>										
-											            	</div>
-												            <div class="react-add-to-cart-container btn-hide"
-												                data-product_data='{
-												                    "description": "The odd nugget of fresh orange in a bowl of barley, greens, baby corn, beans, carrots and coloured peppers with spiced paneer will make you fall in love with this one. An orange mustard ginger dressing adds a slight pungent note. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl - Paneer",
-												                    "product_id": "V2hxjWQXafuB8dq0unxy",
-												                    "mark_type": "Veg",
-												                    "default": {
-												                      "id": "V2hxjWQXafuB8dq0unxy-bowl",
-												                      "mrp": 330,
-												                      "sale_price": 290,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "/assets/images/Orange-Barley-Bowl-1.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'
-												                >
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												        <hr>
-												        <div class="product-meta d-flex mt-4 mb-4">
-												        	<div class="menu-details">
-												        		<div class="product-variant-name">Orange Barley Bowl - Chicken</div>
-												        		<div class="price-row d-flex">
-												            		<div class="product-price h1 mb-0">₹290</div>
-												            		<div class="product-price discount-price h1 mb-0">₹330</div>	
-											            		</div>	
-										            		</div>
-												            <div class="react-add-to-cart-container btn-hide" data-product_data='{
-												                    "description": "The odd nugget of fresh orange in a bowl of barley, greens, baby corn, beans, carrots and coloured peppers with roast chicken will make you fall in love with this one. An orange mustard ginger dressing adds a slight pungent note. Toasted flax seeds to up the crunch. Tastes best slightly chilled.",
-												                    "title": "Orange Barley Bowl - Chicken",
-												                    "product_id": "8FVGmVx4JjQZRUsxtYrL",
-												                    "mark_type": "Non Veg",
-												                    "default": {
-												                      "id": "8FVGmVx4JjQZRUsxtYrL-bowl",
-												                      "mrp": 290,
-												                      "sale_price": 330,
-												                      "size": "Regular Bowl"
-												                    },
-												                    "images": [
-												                      "/assets/images/Orange-Barley-Bowl-1.jpg"
-												                    ],
-												                    "class": "cardfour",
-												                    "put_empty": true,
-												                    "availability": "Tuesday",
-												                    "date": "Tuesday 2nd",
-												                    "day": "monday"
-												                }'>
-												                <div>
-												                    <a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
-												                </div>
-												            </div>
-												        </div>
-												    </div>
-												</div> 
+													</div> 
 
-											
+												<?php }?>
 											
 				                        </div>
 				                    </div>
