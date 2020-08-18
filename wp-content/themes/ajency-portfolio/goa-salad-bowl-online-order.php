@@ -9,7 +9,7 @@ Template Name: goa-salad-bowl-online-order
 	 
 	$react_js_file_hashes = file_get_contents(APP_URL."/react_component_file_hash.json?time=".date_timestamp_get($date));
 	$react_css_file_hashes = file_get_contents(APP_URL."/cart_app_css_file_hash.json?time=".date_timestamp_get($date));
-	$react_js_file_hashes_decoded = json_encode($react_js_file_hashes,true);
+	$react_js_file_hashes_decoded = json_decode($react_js_file_hashes,true);
 	$DAYS =[ 
 		"mon" => "monday",
 		"tue" => "tuesday",
@@ -230,55 +230,55 @@ Template Name: goa-salad-bowl-online-order
 				                    <div class="tab-panels">
 				                    	<?php 
 
-											if(isset($_REQUEST['day']))
-											{
-    											$day_param = strtolower($_REQUEST['day']);
+											// if(isset($_REQUEST['day']))
+											// {
+    										// 	$day_param = strtolower($_REQUEST['day']);
     											
-    											if($day_param == "monday"){
-													$day_of_week = 1;
-													// echo "/nSet monday ".$day_of_week;
-    											}
-    											else if($day_param == "tuesday"){
-													$day_of_week = 2;
-													// echo "/nSet tuesday ".$day_of_week;													
-    											}
-    											else if($day_param == "wednesday"){
-													$day_of_week = 3;
-													// echo "/nSet wednesday ".$day_of_week;													
-    											}
-    											else if($day_param == "thursday"){ 											
-													$day_of_week = 4;		
-													// echo "/nSet thursday ".$day_of_week;  									
-    											}
-    											else if($day_param == "friday"){
-													$day_of_week = 5;
-													// echo "/nSet friday ".$day_of_week;														
-    											}
-    											else if($day_param == "saturday" or $day_param == "sunday" or $day_param == "weekend"){
-													$day_of_week = 6;
-													// echo "/nSet weekend ".$day_of_week;														
-    											}
-    											else{
-													$day_of_week = date('w');
-													// echo "/nSet default current ".$day_of_week;													
-    											}
-											}
-											else{
-												// echo "no query param set";
+    										// 	if($day_param == "monday"){
+											// 		$day_of_week = 1;
+											// 		// echo "/nSet monday ".$day_of_week;
+    										// 	}
+    										// 	else if($day_param == "tuesday"){
+											// 		$day_of_week = 2;
+											// 		// echo "/nSet tuesday ".$day_of_week;													
+    										// 	}
+    										// 	else if($day_param == "wednesday"){
+											// 		$day_of_week = 3;
+											// 		// echo "/nSet wednesday ".$day_of_week;													
+    										// 	}
+    										// 	else if($day_param == "thursday"){ 											
+											// 		$day_of_week = 4;		
+											// 		// echo "/nSet thursday ".$day_of_week;  									
+    										// 	}
+    										// 	else if($day_param == "friday"){
+											// 		$day_of_week = 5;
+											// 		// echo "/nSet friday ".$day_of_week;														
+    										// 	}
+    										// 	else if($day_param == "saturday" or $day_param == "sunday" or $day_param == "weekend"){
+											// 		$day_of_week = 6;
+											// 		// echo "/nSet weekend ".$day_of_week;														
+    										// 	}
+    										// 	else{
+											// 		$day_of_week = date('w');
+											// 		// echo "/nSet default current ".$day_of_week;													
+    										// 	}
+											// }
+											// else{
+											// 	// echo "no query param set";
 
-												$CONFIGURED_END_HOUR = 15;
+											// 	$CONFIGURED_END_HOUR = 15;
 												
-												$current_date = new DateTime();
-												date_timezone_set($current_date, timezone_open('Asia/Kolkata'));
-            									$current_hour = $current_date->format('H');
+											// 	$current_date = new DateTime();
+											// 	date_timezone_set($current_date, timezone_open('Asia/Kolkata'));
+            								// 	$current_hour = $current_date->format('H');
 
 
-												if ($current_hour >= $CONFIGURED_END_HOUR){
-  													$current_date->modify('+1 day');
-												}
+											// 	if ($current_hour >= $CONFIGURED_END_HOUR){
+  											// 		$current_date->modify('+1 day');
+											// 	}
 
-												$day_of_week = date("w", strtotime($current_date->format('Y-m-d H:i:sP')));
-											}
+											// 	$day_of_week = date("w", strtotime($current_date->format('Y-m-d H:i:sP')));
+											// }
 
 										?>
 
@@ -313,7 +313,9 @@ Template Name: goa-salad-bowl-online-order
 															</div>
 															<?php 
 																foreach($product['products'] as $variant) {
-															?>
+
+																	$dataAttr = '{"title": "'.trim($variant['title']).'", "title": "'.$variant['title'].'","product_id": "'.$product['product_id'].'"}';
+																	?>
 																<div class="product-meta d-flex pt-4 mb-4 ">
 																	<div class="menu-details">
 																		<div class="product-variant-name"><?php echo $variant['title'];?></div>
@@ -322,20 +324,13 @@ Template Name: goa-salad-bowl-online-order
 																			<div class="product-price discount-price h1 mb-0">₹<?php echo $variant['mrp'];?></div>	
 																		</div>	
 																	</div>
-																	<div class="react-add-to-cart-container"
-																		data-product_data='{
-																			"description": "<?php echo $variant['description']; ?>",
-																			"title": "<?php echo $variant['title']; ?>",
-																			"product_id": "<?php echo $product['product_id'];?>",
-																		}'
-																		>
-																		<div>
+																	<div class="react-add-to-cart-container btn-hide" data-product_data='<?php echo $dataAttr;?>'>	  						<div>
 																			<a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
 																		</div>
 																	</div>
 																</div>
 																<hr>
-															<?php } ?>
+																<?php } ?>
 														</div>
 													</div> 
 
