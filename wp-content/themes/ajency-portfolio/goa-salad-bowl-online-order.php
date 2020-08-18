@@ -31,6 +31,9 @@ Template Name: goa-salad-bowl-online-order
 	}
 
 	function getAvailableDays($productStore, $variants) {
+		$variants = array_filter($variants, function($v) {
+			return $v->active == true;
+		});
 		$days = array_column($variants, "day");
 		if(!isset($productStore["available_on"])) {
 			$productStore["available_on"]=[];
@@ -195,7 +198,7 @@ Template Name: goa-salad-bowl-online-order
 				<div class="position-relative">
 					<div id="output"></div>
 					<form method="get">
-						<select data-placeholder="Select day of the Week" name="tags[]" multiple class="chosen-select d-none">
+						<select data-placeholder="Select day of the Week" name="tags[]" multiple class="chosen-select d-none" id="product-day-filter">
 							<option value="Monday">Monday</option>
 							<option value="Tuesday">Tuesday</option>
 							<option value="Wednesday">Wednesday</option>
@@ -286,8 +289,9 @@ Template Name: goa-salad-bowl-online-order
 									 	<div id="panels" class="panels">
 												<?php foreach($productsToDisplay as $product) {
 													$htmlProductId = 'product-'.$product['product_id'];
+													$daysAttr = implode(",",$product['available_on']);
 												?>
-													<div id="<?php echo $htmlProductId;?>" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6 <?php echo $product['product_id'] == 'dummy-product'? "hide-product":"" ?>">
+													<div id="<?php echo $htmlProductId;?>" class="custom-col-12 col-lg-12 product-list-item p-lg-0 effect trigger4 my-6 product-list <?php echo $product['product_id'] == 'dummy-product'? "hide-product":"" ?> " data-days_available='<?php echo $daysAttr?>'>
 														<div class="product-wrapper cardfour">
 															<div class="lg-w-50 hover-text">
 																<h3 class="product-title h1 font-weight-bold mb-2 mb-lg-3 mt-lg-1 p-title"><?php echo $product['group_name'];?></h3>
@@ -324,10 +328,14 @@ Template Name: goa-salad-bowl-online-order
 																			<div class="product-price discount-price h1 mb-0">₹<?php echo $variant['mrp'];?></div>	
 																		</div>	
 																	</div>
+																	<?php if(count($product['available_on'])) {?>
 																	<div class="react-add-to-cart-container btn-hide" data-product_data='<?php echo $dataAttr;?>'>	  						<div>
 																			<a class="btn-add-to-cart text-white bg-primary p-15 text-decoration-none m-0 font-size-25 ft6 cursor-pointer d-inline-block"><span>Add to cart</span></a>
 																		</div>
 																	</div>
+																	<?php } else {?>
+																		<span>Sold out</span>
+																	<?php }?>
 																</div>
 																<hr>
 																<?php } ?>
@@ -577,6 +585,44 @@ Template Name: goa-salad-bowl-online-order
 		// old 727e096b
 		var app_url = "<?php echo APP_URL?>";
 		var site_url = "<?php echo SITE_URL;?>"
+	</script>
+
+	<script>
+		$('#product-day-filter').change(function(e) {
+				var selected = $(e.target).val();
+				console.log(selected,"ggg");
+				if(selected.length) {
+					document.querySelectorAll('.product-list')
+					.forEach((domContainer, index) => {
+						 let days = domContainer.dataset.days_available;
+						 days = days.split(',');
+						 console.log(days,"ggg");
+						 let hideProduct = false;
+						 for (let index = 0; index < selected.length; index++) {
+							 const element = selected[index];
+							 if(!days.includes(element.toLowerCase())) {
+								 hideProduct = true;
+							 }
+						 }
+
+						 if(hideProduct) {
+							domContainer.classList.add('hide-product');
+						 } else {
+							if (domContainer.id !="product-dummy-product") {
+								domContainer.classList.remove('hide-product');
+							}	
+						 }
+						
+					});
+				} else {
+					document.querySelectorAll('.product-list')
+					.forEach((domContainer, index) => {
+						if (domContainer.id !="product-dummy-product") {
+							domContainer.classList.remove('hide-product');
+						}						
+					});
+				}
+		}); 
 	</script>
 </body>
 </html>
