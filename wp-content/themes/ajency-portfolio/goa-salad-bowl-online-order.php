@@ -41,14 +41,17 @@ Template Name: goa-salad-bowl-online-order
 		return array_unique(array_merge($productStore["available_on"], $days));
 	}	
 
-	function getImagesUrls($productStore,$image) {
+	function getImagesUrls($productStore,$product) {
 		if(!isset($productStore["image_urls"])) {
-			$productStore["image_urls"]=[];
+			$productStore["image_urls"] = [];
+			if(isset($product->group_images))  {
+				$product->group_images = usort($product->group_images, function($img1, $img2) {
+					return $img1->priority > $im1->priority;
+				});
+				$productStore["image_urls"] = $product->group_images;
+			}
 		}
-		if(isset($image))
-			array_push($productStore["image_urls"], $image);
-
-		return array_unique($productStore["image_urls"]);
+		return $productStore["image_urls"];
 	}
 
 	function getProducts($productStore,$product) {
@@ -86,7 +89,7 @@ Template Name: goa-salad-bowl-online-order
 		$productObject["group_description"] = $product->group_description;
 		 $productObject["product_id"] = $product->product_id;
 		if(isset($product->default_image))
-			$productObject["image_urls"] = getImagesUrls($productStore, $product->default_image);
+			$productObject["image_urls"] = getImagesUrls($productStore, $product);
 		if(isset($product->variants))	
 			$productObject["available_on"] = getAvailableDays($productStore, $product->variants);
 		
@@ -323,7 +326,7 @@ Template Name: goa-salad-bowl-online-order
 															<div class="product-image">
 																<?php foreach($product['image_urls'] as $image) {?>
 																	<div class="slick-slideshow__slide">
-																		<img class="bg-image-animation w-100" title="<?php echo $product['group_name']?>" src="<?php echo $image?>" alt="<?php echo $product['group_name']?>" />
+																		<img class="bg-image-animation w-100" title="<?php echo $product['group_name']?>" src="<?php echo $image->url?>" alt="<?php echo $product['group_name']?>" />
 																	</div>
 																	
 																<?php } ?>
