@@ -123,10 +123,13 @@ $(function() {
   }); 
 });
 
-
+$(window).load(function(){
+  $(".chosen-select").removeClass('d-none')
+  $(".chosen-choices-1").css({'display' : 'none'})
+  $(".chosen-select").chosen()
+});
 
 $(document).ready(function() {
-
     $(".js-select2").select2({
       closeOnSelect : false,
       placeholder : "Select days of the week",
@@ -134,4 +137,5 @@ $(document).ready(function() {
       allowClear: true,
       tags: true // создает новые опции на лету
     });
+    $(".chosen-select").removeClass('select2-results__option--highlighted');
   });
