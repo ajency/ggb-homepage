@@ -124,9 +124,8 @@ $(function() {
 });
 
 $(window).load(function(){
-  $(".chosen-select").removeClass('d-none')
-  $(".chosen-choices-1").css({'display' : 'none'})
-  $(".chosen-select").chosen()
+  $(".js-select2").removeClass('d-none')
+  $(".select2-selection--multiple--1").css({'display' : 'none'})
 });
 
 $(document).ready(function() {

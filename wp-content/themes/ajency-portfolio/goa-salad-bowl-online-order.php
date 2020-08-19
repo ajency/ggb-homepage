@@ -220,7 +220,7 @@ Template Name: goa-salad-bowl-online-order
 				                    <div class="tab-panels">
 				                    	<div class="select-box w-100">
 		                    				<div class="position-relative">
-												<select placeholder="Select day of the Week" name="tags[]" class="js-select2" multiple="multiple" id="product-day-filter">
+												<select placeholder="Select day of the Week" name="tags[]" class="js-select2 d-none" multiple="multiple" id="product-day-filter">
 													<option value="Monday">Monday</option>
 													<option value="Tuesday">Tuesday</option>
 													<option value="Wednesday">Wednesday</option>
@@ -231,6 +231,7 @@ Template Name: goa-salad-bowl-online-order
 												</select>
 											</div>
 										</div>
+										<span class="select2-selection select2-selection--multiple select2-selection--multiple--1" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="Select days of the week"></li></ul></span>
 				                    	<?php 
 
 											// if(isset($_REQUEST['day']))
@@ -579,9 +580,9 @@ Template Name: goa-salad-bowl-online-order
 	<script src="https://unpkg.com/axios@0.19.0/dist/axios.min.js"></script>
 	<script src="/assets/js/custom.js"></script>
 	<script src="/assets/js/tabs.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js"></script>	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js"></script>	
+    <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-auth.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
 	<script src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
