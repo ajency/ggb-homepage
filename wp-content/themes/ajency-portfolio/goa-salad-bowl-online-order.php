@@ -311,10 +311,12 @@ Template Name: goa-salad-bowl-online-order
 															</div>
 															<div class="tabs-section">
 																<div class="tabs list-text-block">
-																	<span class="font-size-15 pr-2">Available on:</span>
+																	<div class=""><span class="font-size-15 pr-2">Available on:</span></div>
+																	<div class="">
 																	<?php foreach($DAYS as $key => $day) { ?>
 																			<label class="tab <?php echo in_array($day,$product['available_on'])? "active":""?> "><?php echo $key;?></label>
 																	<?php } ?>
+																	</div>
 																</div>
 															</div>
 																	
@@ -345,7 +347,7 @@ Template Name: goa-salad-bowl-online-order
 																		</div>
 																	</div>
 																	<?php } else {?>
-																		<span>Sold out</span>
+																		<span class="alert-danger p-15 text-center sold-out">Sold out</span>
 																	<?php }?>
 																</div>
 																<hr>
