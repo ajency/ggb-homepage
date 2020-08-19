@@ -102,17 +102,17 @@ slider.addEventListener("mousemove", e => {
 });
 
 $(document).ready(function() {
-    var top = $('.tabs-section').offset().top;
+    var top = $('.select-box').offset().top;
     $(window).scroll(function() {
       var height = $('#panels').outerHeight() + top;
       if ( $(this).scrollTop() >= top && $(this).scrollTop() <= height ) {
-          $(".tabs-section").css({
-            'position': 'sticky',
-            'top': '0',
-            'left': '0',
-            'right': '0',
-            'z-index': '2',
-          });
+        $(".select-box").css({
+          'position': 'sticky',
+          'top': '0',
+          'left': '0',
+          'right': '0',
+          'z-index': '3',
+        });
       }
     });
 });

@@ -206,34 +206,6 @@ Template Name: goa-salad-bowl-online-order
 						</div>
 					</div>
 				</section>
-				<div class="position-relative">
-					<div id="output"></div>
-					<form>
-						<select data-placeholder="Select day of the Week" name="tags[]" multiple class="chosen-select d-none" id="product-day-filter">
-							<option value="Monday">Monday</option>
-							<option value="Tuesday">Tuesday</option>
-							<option value="Wednesday">Wednesday</option>
-							<option value="Thursday">Thursday</option>
-							<option value="Friday">Friday</option>
-							<option value="Saturday">Saturday</option>
-							<option value="Sunday">Sunday</option>
-						</select>
-						<!-- <input type="submit" class="submit-choices"> -->
-					</form>
-					<div class="chosen-container chosen-container-multi" title="">
-						<ul class="chosen-choices chosen-choices-1">
-							<li class="search-field">
-								<input class="chosen-search-input default w-100" type="text" autocomplete="off" value="Select day of the Week">
-							</li>
-						</ul>
-					</div>
-				</div>
-				<section class="toggle-wrapper pt-0 pb-1">
-					<div class="switch_box box">
-						<input type="checkbox" class="switch" id="switch-box">
-						<label for="switch-box">Hide Images</label>
-					</div>
-				</section>
 				<section class="pt-0">
 				    <div class="product-section">
 				        <div class="container-1">
@@ -242,6 +214,30 @@ Template Name: goa-salad-bowl-online-order
 				                <div class="col-xl-12">
 				                    <h1 class="ft6 product-section__title mb-4 d-none">Products</h1>
 				                    <div class="tab-panels">
+				                    	<div class="select-box w-100">
+		                    				<div class="position-relative">
+												<div id="output"></div>
+												<form>
+													<select data-placeholder="Select day of the Week" name="tags[]" multiple class="chosen-select d-none" id="product-day-filter">
+														<option value="Monday">Monday</option>
+														<option value="Tuesday">Tuesday</option>
+														<option value="Wednesday">Wednesday</option>
+														<option value="Thursday">Thursday</option>
+														<option value="Friday">Friday</option>
+														<option value="Saturday">Saturday</option>
+														<option value="Sunday">Sunday</option>
+													</select>
+													<!-- <input type="submit" class="submit-choices"> -->
+												</form>
+												<div class="chosen-container chosen-container-multi" title="">
+													<ul class="chosen-choices chosen-choices-1">
+														<li class="search-field">
+															<input class="chosen-search-input default w-100" type="text" autocomplete="off" value="Select day of the Week">
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
 				                    	<?php 
 
 											// if(isset($_REQUEST['day']))
@@ -298,6 +294,12 @@ Template Name: goa-salad-bowl-online-order
 
 
 									 	<div id="panels" class="panels">
+											<section class="toggle-wrapper pt-0 pb-1">
+												<div class="switch_box box">
+													<input type="checkbox" class="switch" id="switch-box">
+													<label for="switch-box">Hide Images</label>
+												</div>
+											</section>
 												<?php foreach($productsToDisplay as $product) {
 													$htmlProductId = 'product-'.$product['product_id'];
 													$daysAttr = implode(",",$product['available_on']);
