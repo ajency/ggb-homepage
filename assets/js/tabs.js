@@ -124,17 +124,14 @@ $(function() {
 });
 
 $(window).load(function(){
-  $(".js-select2").removeClass('d-none')
-  $(".select2-selection--multiple--1").css({'display' : 'none'})
-});
-
-$(document).ready(function() {
-    $(".js-select2").select2({
-      closeOnSelect : false,
-      placeholder : "Select days of the week",
-      // allowHtml: true,
-      allowClear: true,
-      tags: true // создает новые опции на лету
-    });
-    $(".chosen-select").removeClass('select2-results__option--highlighted');
+  $(".select-days").addClass('d-none');
+  $(".js-select2").removeClass('d-none');
+  $(".js-select2").select2({
+    closeOnSelect : false,
+    placeholder : "Select days of the week",
+    // allowHtml: true,
+    allowClear: true,
+    tags: true // создает новые опции на лету
   });
+  $(".chosen-select").removeClass('select2-results__option--highlighted');
+});
