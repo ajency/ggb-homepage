@@ -504,7 +504,7 @@ input[type="checkbox"].switch{
 .select2-container .select2-search--inline .select2-search__field{
 	padding-left: 10px !important;
     margin: 8px 1px 3px 0 !important;
-    width: 100% !important;
+    /*width: 100% !important;*/
 }
 .select2-search input{
     font-family: inherit !important;
@@ -553,14 +553,17 @@ input[type="checkbox"].switch{
 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
     color: #fdfdfd !important;
     cursor: pointer;
-    display: inline-block;
+    display: inline;
     font-weight: bold;
     margin-right: 8px !important;
     margin-left: 0px !important;
     background: #c1c1c1 !important;
     border-radius: 6px !important;
-    padding: 0px 3px !important;
+    padding: 0px 3.5px !important;
 }
 .select2-container--default .select2-selection--multiple .select2-selection__clear{
 	display: none;
+}
+.select2-results__option {
+    padding: 8px !important;
 }
