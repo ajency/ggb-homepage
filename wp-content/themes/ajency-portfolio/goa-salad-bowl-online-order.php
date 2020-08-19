@@ -99,18 +99,20 @@ Template Name: goa-salad-bowl-online-order
 	
 	$result = fetch_all_product();
 	$productsToDisplay = [];
-	if($result->success) {
-		$allProducts = $result->data->products;
-		foreach($allProducts as $key => $product) {
-			if(isset($product->group_name)) {
-				if(!isset($productsToDisplay[$product->group_name])) {
-					$productsToDisplay[$product->group_name] = [];
-					$productsToDisplay[$product->group_name] = getGroupProductObject($productsToDisplay[$product->group_name],$product);
-				} else {
-					$productsToDisplay[$product->group_name] = getGroupProductObject($productsToDisplay[$product->group_name],$product);
+	if(isset($result->success)) {
+		if($result->success) {
+			$allProducts = $result->data->products;
+			foreach($allProducts as $key => $product) {
+				if(isset($product->group_name)) {
+					if(!isset($productsToDisplay[$product->group_name])) {
+						$productsToDisplay[$product->group_name] = [];
+						$productsToDisplay[$product->group_name] = getGroupProductObject($productsToDisplay[$product->group_name],$product);
+					} else {
+						$productsToDisplay[$product->group_name] = getGroupProductObject($productsToDisplay[$product->group_name],$product);
+					}
 				}
+				
 			}
-			
 		}
 	}
 ?>
