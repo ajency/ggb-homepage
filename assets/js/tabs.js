@@ -123,8 +123,15 @@ $(function() {
   }); 
 });
 
-$(window).load(function(){
-  $(".chosen-select").removeClass('d-none')
-  $(".chosen-choices-1").css({'display' : 'none'})
-  $(".chosen-select").chosen()
-});
+
+
+$(document).ready(function() {
+
+    $(".js-select2").select2({
+      closeOnSelect : false,
+      placeholder : "Selct days of the week",
+      // allowHtml: true,
+      allowClear: true,
+      tags: true // создает новые опции на лету
+    });
+  });
