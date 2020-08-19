@@ -333,7 +333,7 @@ Template Name: goa-salad-bowl-online-order
 
 																	$dataAttr = '{"title": "'.trim($variant['title']).'", "title": "'.$variant['title'].'","product_id": "'.$product['product_id'].'"}';
 																	?>
-																<div class="product-meta d-flex pt-4 mb-4 ">
+																<div class="product-meta d-flex pt-2 mb-4 ">
 																	<div class="menu-details">
 																		<div class="product-variant-name"><?php echo $variant['title'];?></div>
 																		<div class="price-row d-flex">
