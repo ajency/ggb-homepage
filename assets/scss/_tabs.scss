@@ -50,8 +50,11 @@
                 }
             }
             @media (max-width: 575px){
-                margin-right: 10px;
+                margin-right: 8px;
                 font-size: 14px;
+            }
+            @media (max-width: 430px){
+                margin-right: 0px;
             }
         }
         &::-webkit-scrollbar {
