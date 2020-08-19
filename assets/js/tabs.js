@@ -129,7 +129,7 @@ $(document).ready(function() {
 
     $(".js-select2").select2({
       closeOnSelect : false,
-      placeholder : "Selct days of the week",
+      placeholder : "Select days of the week",
       // allowHtml: true,
       allowClear: true,
       tags: true // создает новые опции на лету

@@ -494,12 +494,16 @@ input[type="checkbox"].switch{
 .select2-dropdown{
 	border: 0 !important;
 }
+.select2-container{
+	width: 100%;
+}
 .select2-container--default .select2-selection--multiple{
     border: 1px solid #4CAF50 !important;
-    border-radius: 4px !important;
+    border-radius: 0px !important;
 }
 .select2-container .select2-search--inline .select2-search__field{
-	padding-left: 10px;
+	padding-left: 10px !important;
+    margin: 8px 1px 3px 0 !important;
 }
 .select2-search input{
     font-family: inherit !important;
