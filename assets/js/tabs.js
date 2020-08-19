@@ -130,8 +130,11 @@ $(window).load(function(){
     closeOnSelect : false,
     placeholder : "Select days of the week",
     // allowHtml: true,
-    allowClear: true,
+    allowClear: false,
     tags: true // создает новые опции на лету
   });
   $(".chosen-select").removeClass('select2-results__option--highlighted');
+  $('.select2').on('select2:open', function () {
+    $('.select2-selection__choice__remove').addClass('select2-remove-right');
+  });
 });
