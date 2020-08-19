@@ -549,3 +549,18 @@ input[type="checkbox"].switch{
     max-height: 100% !important;
     /* overflow-y: auto; */
 }
+.select2-selection--multiple.select2-selection--multiple--1{
+	width: 100%;
+	ul{
+		padding-left: 0;
+		li{
+			list-style-type: none;
+		}
+	}
+	input.select2-search__field{
+	    border: 1px solid #4CAF50 !important;
+	    border-radius: 0px !important;
+	    height: 34px;
+        width: 100%;
+	}
+}
