@@ -84,7 +84,7 @@ Template Name: goa-salad-bowl-online-order
 	function getGroupProductObject($productStore,$product) {
 		$productObject["group_name"] = $product->group_name;
 		$productObject["group_description"] = $product->group_description;
-		$productObject["product_id"] = $product->product_id;
+		 $productObject["product_id"] = $product->product_id;
 		if(isset($product->default_image))
 			$productObject["image_urls"] = getImagesUrls($productStore, $product->default_image);
 		if(isset($product->variants))	
@@ -205,7 +205,7 @@ Template Name: goa-salad-bowl-online-order
 				</section>
 				<div class="position-relative">
 					<div id="output"></div>
-					<form method="get">
+					<form>
 						<select data-placeholder="Select day of the Week" name="tags[]" multiple class="chosen-select d-none" id="product-day-filter">
 							<option value="Monday">Monday</option>
 							<option value="Tuesday">Tuesday</option>
@@ -330,8 +330,7 @@ Template Name: goa-salad-bowl-online-order
 															</div>
 															<?php 
 																foreach($product['products'] as $variant) {
-
-																	$dataAttr = '{"title": "'.trim($variant['title']).'", "title": "'.$variant['title'].'","product_id": "'.$product['product_id'].'"}';
+																	$dataAttr = '{"title": "'.trim($variant['title']).'", "title": "'.$variant['title'].'","product_id": "'.$variant['product_id'].'"}';
 																	?>
 																<div class="product-meta d-flex pt-2 mb-4 ">
 																	<div class="menu-details">
@@ -603,27 +602,34 @@ Template Name: goa-salad-bowl-online-order
 	<script>
 		$('#product-day-filter').change(function(e) {
 				var selected = $(e.target).val();
-				console.log(selected,"ggg");
+				filterProducts(selected);
+		}); 
+
+		$(document).ready(() => {
+			filterProducts($('#product-day-filter').val())
+		})
+
+		function filterProducts(selected) {
 				if(selected.length) {
 					document.querySelectorAll('.product-list')
 					.forEach((domContainer, index) => {
 						 let days = domContainer.dataset.days_available;
 						 days = days.split(',');
-						 console.log(days,"ggg");
 						 let hideProduct = false;
+						 let productToShow=[];
 						 for (let index = 0; index < selected.length; index++) {
 							 const element = selected[index];
-							 if(!days.includes(element.toLowerCase())) {
-								 hideProduct = true;
+							 if(days.includes(element.toLowerCase())) {
+								productToShow.push(true);
 							 }
 						 }
 
-						 if(hideProduct) {
-							domContainer.classList.add('hide-product');
-						 } else {
+						 if(productToShow.length) {
 							if (domContainer.id !="product-dummy-product") {
 								domContainer.classList.remove('hide-product');
-							}	
+							}
+						 } else {
+							domContainer.classList.add('hide-product');
 						 }
 						
 					});
@@ -635,7 +641,7 @@ Template Name: goa-salad-bowl-online-order
 						}						
 					});
 				}
-		}); 
+		}
 	</script>
 </body>
 </html>
