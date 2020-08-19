@@ -495,7 +495,7 @@ input[type="checkbox"].switch{
 	border: 0 !important;
 }
 .select2-container{
-	width: 100%;
+	width: 100% !important;
 }
 .select2-container--default .select2-selection--multiple{
     border: 1px solid #4CAF50 !important;
@@ -504,6 +504,7 @@ input[type="checkbox"].switch{
 .select2-container .select2-search--inline .select2-search__field{
 	padding-left: 10px !important;
     margin: 8px 1px 3px 0 !important;
+    width: 100% !important;
 }
 .select2-search input{
     font-family: inherit !important;
@@ -548,19 +549,4 @@ input[type="checkbox"].switch{
 .select2-container--default .select2-results>.select2-results__options {
     max-height: 100% !important;
     /* overflow-y: auto; */
-}
-.select2-selection--multiple.select2-selection--multiple--1{
-	width: 100%;
-	ul{
-		padding-left: 0;
-		li{
-			list-style-type: none;
-		}
-	}
-	input.select2-search__field{
-	    border: 1px solid #4CAF50 !important;
-	    border-radius: 0px !important;
-	    height: 34px;
-        width: 100%;
-	}
 }

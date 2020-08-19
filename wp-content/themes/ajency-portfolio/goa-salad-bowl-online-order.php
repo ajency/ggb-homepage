@@ -231,7 +231,6 @@ Template Name: goa-salad-bowl-online-order
 												</select>
 											</div>
 										</div>
-										<span class="select2-selection select2-selection--multiple select2-selection--multiple--1" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="Select days of the week"></li></ul></span>
 				                    	<?php 
 
 											// if(isset($_REQUEST['day']))
