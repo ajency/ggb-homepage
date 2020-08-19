@@ -561,9 +561,23 @@ input[type="checkbox"].switch{
     border-radius: 6px !important;
     padding: 0px 3.5px !important;
 }
-.select2-container--default .select2-selection--multiple .select2-selection__clear{
-	display: none;
-}
+
 .select2-results__option {
     padding: 8px !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered{
+    padding-right: 30px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__clear {
+    float: none !important;
+    margin-top: 8px !important;
+    color: #212529 !important;
+    margin-right: 0px;
+    border-radius: 10px;
+    font-size: 14px;
+    background: rgba(0,0,0,0.18);
+    padding: 0px 6px;
+    position: absolute;
+    top: 0;
+    right: 0px;
 }
