@@ -45,9 +45,9 @@ Template Name: goa-salad-bowl-online-order
 		if(!isset($productStore["image_urls"])) {
 			$productStore["image_urls"] = [];
 			if(isset($product->group_images))  {
-				$product->group_images = usort($product->group_images, function($img1, $img2) {
-					return $img1->priority > $im1->priority;
-				});
+				// $product->group_images = usort($product->group_images, function($img1, $img2) {
+				// 	return $img1->priority > $im2->priority;
+				// });
 				$productStore["image_urls"] = $product->group_images;
 			}
 		}
