@@ -35,17 +35,17 @@ $(document).ready(function(){
 
 $(document).ready(function() {
     $(".tabs").scrollCenter(".active", 300);
-    $(".tabs .tab").on("click", function() {
-        $(".tabs .tab").removeClass("active");
-        $(this).addClass("active");
-        $('html, body').animate({ 
-            scrollTop: $(".product-section").offset().top 
-        }, 700,'swing'); 
+    //$(".tabs .tab").on("click", function() {
+       // $(".tabs .tab").removeClass("active");
+        //$(this).addClass("active");
+        //$('html, body').animate({ 
+            //scrollTop: $(".product-section").offset().top 
+        //}, 700,'swing'); 
       // CALL scrollCenter PLUSGIN
-    $(".tabs").scrollCenter(".active", 300);
+    //$(".tabs").scrollCenter(".active", 300);
 
     });
-});
+// });
 $(window).load(function() {
   $('img.banner_image').attr("src",$('img.banner_image').attr("data-src"));
   $('img.banner_image').removeAttr("data-src");
@@ -111,7 +111,7 @@ $(document).ready(function() {
             'top': '0',
             'left': '0',
             'right': '0',
-            'z-index': '99',
+            'z-index': '2',
           });
       }
     });
