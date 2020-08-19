@@ -550,3 +550,17 @@ input[type="checkbox"].switch{
     max-height: 100% !important;
     /* overflow-y: auto; */
 }
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #fdfdfd !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 8px !important;
+    margin-left: 0px !important;
+    background: #c1c1c1 !important;
+    border-radius: 6px !important;
+    padding: 0px 3px !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__clear{
+	display: none;
+}
