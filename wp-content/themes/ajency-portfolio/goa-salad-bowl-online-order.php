@@ -218,12 +218,13 @@ Template Name: goa-salad-bowl-online-order
 				                    <div class="tab-panels">
 										<div class="days-filter">
 											<span class="day-selection">
-												<span class="plus-sign"></span>Monday</span>
+											<span class="plus-sign"></span>Monday</span>
 											<span class="day-selection"><span class="plus-sign"></span>Tuesday</span>
 											<span class="day-selection"><span class="plus-sign"></span>Wednesday</span>
 											<span class="day-selection"><span class="plus-sign"></span>Thursday</span>
 											<span class="day-selection"><span class="plus-sign"></span>Friday</span>
 											<span class="day-selection"><span class="plus-sign"></span>Saturday</span>
+											<span class="day-selection"><span class="plus-sign"></span>Sunday</span>
 										</div>
 				                    	<?php 
 
