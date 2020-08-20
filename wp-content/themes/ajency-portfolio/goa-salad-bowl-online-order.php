@@ -578,7 +578,7 @@ Template Name: goa-salad-bowl-online-order
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
 	<script src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
 	<script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>	
-	<script src="<?php echo APP_URL;?>/firebase-functions.js?_1" type="text/javascript"></script>
+	<script src="<?php echo APP_URL;?>/firebase-functions.<?php echo $react_js_file_hashes_decoded['firebase'];?>.js" type="text/javascript"></script>
 	<script src="<?php echo APP_URL;?>/react-components.<?php echo $react_js_file_hashes_decoded["react-components"];?>.js" type="text/javascript"></script>
 	<!-- Global variables for react cart app component and css  hash -->
 	<script>
