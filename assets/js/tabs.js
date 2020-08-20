@@ -35,17 +35,17 @@ $(document).ready(function(){
 
 $(document).ready(function() {
     $(".tabs").scrollCenter(".active", 300);
-    $(".tabs .tab").on("click", function() {
-        $(".tabs .tab").removeClass("active");
-        $(this).addClass("active");
-        $('html, body').animate({ 
-            scrollTop: $(".product-section").offset().top 
-        }, 700,'swing'); 
+    //$(".tabs .tab").on("click", function() {
+       // $(".tabs .tab").removeClass("active");
+        //$(this).addClass("active");
+        //$('html, body').animate({ 
+            //scrollTop: $(".product-section").offset().top 
+        //}, 700,'swing'); 
       // CALL scrollCenter PLUSGIN
-    $(".tabs").scrollCenter(".active", 300);
+    //$(".tabs").scrollCenter(".active", 300);
 
     });
-});
+// });
 $(window).load(function() {
   $('img.banner_image').attr("src",$('img.banner_image').attr("data-src"));
   $('img.banner_image').removeAttr("data-src");
@@ -102,17 +102,17 @@ slider.addEventListener("mousemove", e => {
 });
 
 $(document).ready(function() {
-    var top = $('.tabs-section').offset().top;
+    var top = $('.select-box').offset().top;
     $(window).scroll(function() {
       var height = $('#panels').outerHeight() + top;
       if ( $(this).scrollTop() >= top && $(this).scrollTop() <= height ) {
-          $(".tabs-section").css({
-            'position': 'sticky',
-            'top': '0',
-            'left': '0',
-            'right': '0',
-            'z-index': '99',
-          });
+        $(".select-box").css({
+          'position': 'sticky',
+          'top': '0',
+          'left': '0',
+          'right': '0',
+          'z-index': '3',
+        });
       }
     });
 });
@@ -121,4 +121,24 @@ $(function() {
     $('.product-image').toggleClass('d-none').slick('setPosition'); 
     $('.slick-dots').toggleClass('d-none'); 
   }); 
+});
+
+$(window).load(function(){
+  $(".select-days").addClass('d-none');
+  $(".js-select2").removeClass('d-none');
+  $(".js-select2").select2({
+    closeOnSelect : false,
+    placeholder : "Select days of the week",
+    allowClear: false,
+    tags: false,
+    scrollAfterSelect: true
+  });
+  $(".chosen-select").removeClass('select2-results__option--highlighted');
+  $('.select2-container').on('click', function(event){
+    if ($(this).hasClass('select2-container--open')){
+      $('.select2-selection').addClass('select2-selection__render'); 
+    }else{
+      $('.select2-selection').removeClass('select2-selection__render'); 
+    }
+  });
 });
