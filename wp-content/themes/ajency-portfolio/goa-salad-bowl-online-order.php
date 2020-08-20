@@ -216,9 +216,8 @@ Template Name: goa-salad-bowl-online-order
 				                <div class="col-xl-12">
 				                    <h1 class="ft6 product-section__title mb-4 d-none">Products</h1>
 				                    <div class="tab-panels">
-										<div class="days-filter">
-											<span class="day-selection">
-											<span class="plus-sign"></span>Monday</span>
+										<div class="days-filter" id="product-day-filter">
+											<span class="day-selection"><span class="plus-sign"></span>Monday</span>
 											<span class="day-selection"><span class="plus-sign"></span>Tuesday</span>
 											<span class="day-selection"><span class="plus-sign"></span>Wednesday</span>
 											<span class="day-selection"><span class="plus-sign"></span>Thursday</span>
