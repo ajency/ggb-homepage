@@ -142,3 +142,11 @@ $(window).load(function(){
     }
   });
 });
+$('.day-selection').click(function(){
+  $(this).toggleClass('active');
+  if ($(this).hasClass('active')){
+    $(this).find('.plus-sign').removeClass('plus-sign').addClass('check');    
+  }else{
+    $(this).find('.check').removeClass('check').addClass('plus-sign');  
+  }
+});

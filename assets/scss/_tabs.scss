@@ -99,7 +99,24 @@
         opacity:1;
     }
 }
-
+.days-filter{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    .day-selection{
+        padding: 8px 10px 8px 8px;
+        background-color: #ffffff;
+        border: 1px solid #4CAF50;
+        border-radius: 30px;
+        margin: 6px;
+        cursor: pointer;
+        &.active{
+            background-color: #4CAF50 !important;
+            color: white;
+        }
+    }
+}
 
 /*#mon:checked ~ .panels #Monday,
 #tue:checked ~ .panels #Tuesday,

@@ -133,8 +133,6 @@ Template Name: goa-salad-bowl-online-order
 	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500|Libre+Baskerville:400,400i" rel="stylesheet">  
     <link rel="stylesheet" href="https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/themes/ajency-portfolio/css/animate.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-css/1.4.6/select2-bootstrap.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css" rel="stylesheet" >
     <link rel='icon' type='image/x-icon' href="/assets/images/Favicon-48.png"/>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -218,20 +216,15 @@ Template Name: goa-salad-bowl-online-order
 				                <div class="col-xl-12">
 				                    <h1 class="ft6 product-section__title mb-4 d-none">Products</h1>
 				                    <div class="tab-panels">
-				                    	<div class="select-box w-100">
-		                    				<div class="position-relative">
-												<select placeholder="Select day of the Week" name="tags[]" class="js-select2 d-none" multiple="multiple" id="product-day-filter">
-													<option value="Monday">Monday</option>
-													<option value="Tuesday">Tuesday</option>
-													<option value="Wednesday">Wednesday</option>
-													<option value="Thursday">Thursday</option>
-													<option value="Friday">Friday</option>
-													<option value="Saturday">Saturday</option>
-													<option value="Sunday">Sunday</option>
-												</select>
-											</div>
+										<div class="days-filter">
+											<span class="day-selection">
+												<span class="plus-sign"></span>Monday</span>
+											<span class="day-selection"><span class="plus-sign"></span>Tuesday</span>
+											<span class="day-selection"><span class="plus-sign"></span>Wednesday</span>
+											<span class="day-selection"><span class="plus-sign"></span>Thursday</span>
+											<span class="day-selection"><span class="plus-sign"></span>Friday</span>
+											<span class="day-selection"><span class="plus-sign"></span>Saturday</span>
 										</div>
-										<span class="select2 select2-container select2-container--default select2-container--focus select-days" dir="ltr"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="Select days of the week"></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
 				                    	<?php 
 
 											// if(isset($_REQUEST['day']))
@@ -580,8 +573,6 @@ Template Name: goa-salad-bowl-online-order
 	<script src="https://unpkg.com/axios@0.19.0/dist/axios.min.js"></script>
 	<script src="/assets/js/custom.js"></script>
 	<script src="/assets/js/tabs.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js"></script>	
     <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-auth.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
