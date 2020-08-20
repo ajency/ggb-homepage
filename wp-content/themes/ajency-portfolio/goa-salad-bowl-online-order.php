@@ -205,7 +205,7 @@ Template Name: goa-salad-bowl-online-order
 						<div class="wpb_text_column wpb_content_element ">
 							<div class="wpb_wrapper">
 								<h1 class="font-weight-bold d-block mobile-header mb-2 display-4 aj-home-title" style="text-align: center">This Week's Menu</h1>
-								<p class="body-text">Browse through the daily menu and add one or more bowls to the cart. You can order for the entire week together or for any one day.</p>
+								<p class="body-text">We rotate our menu each week, such that 2-3 bowls are available on any given day. Select a day to see bowl availability.</p>
 							</div>
 						</div>
 					</div>
