@@ -129,12 +129,16 @@ $(window).load(function(){
   $(".js-select2").select2({
     closeOnSelect : false,
     placeholder : "Select days of the week",
-    // allowHtml: true,
     allowClear: false,
-    tags: true // создает новые опции на лету
+    tags: false,
+    scrollAfterSelect: true
   });
   $(".chosen-select").removeClass('select2-results__option--highlighted');
-  $('.select2').on('select2:open', function () {
-    $('.select2-selection__choice__remove').addClass('select2-remove-right');
+  $('.select2-container').on('click', function(event){
+    if ($(this).hasClass('select2-container--open')){
+      $('.select2-selection').addClass('select2-selection__render'); 
+    }else{
+      $('.select2-selection').removeClass('select2-selection__render'); 
+    }
   });
 });
