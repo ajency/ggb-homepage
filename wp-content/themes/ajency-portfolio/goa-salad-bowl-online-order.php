@@ -217,13 +217,13 @@ Template Name: goa-salad-bowl-online-order
 				                    <h1 class="ft6 product-section__title mb-4 d-none">Products</h1>
 				                    <div class="tab-panels">
 										<div class="days-filter" id="product-day-filter">
-											<span class="day-selection"><span class="plus-sign"></span>Monday</span>
-											<span class="day-selection"><span class="plus-sign"></span>Tuesday</span>
-											<span class="day-selection"><span class="plus-sign"></span>Wednesday</span>
-											<span class="day-selection"><span class="plus-sign"></span>Thursday</span>
-											<span class="day-selection"><span class="plus-sign"></span>Friday</span>
-											<span class="day-selection"><span class="plus-sign"></span>Saturday</span>
-											<span class="day-selection"><span class="plus-sign"></span>Sunday</span>
+											<span class="day-selection" data-day="monday"><span class="plus-sign" data-day="monday"></span>Monday</span>
+											<span class="day-selection" data-day="tuesday"><span class="plus-sign" data-day="tuesday"></span>Tuesday</span>
+											<span class="day-selection" data-day="wednesday"><span class="plus-sign" data-day="wednesday"></span>Wednesday</span>
+											<span class="day-selection" data-day="thursday"><span class="plus-sign" data-day="thursday"></span>Thursday</span>
+											<span class="day-selection" data-day="friday"><span class="plus-sign" data-day="friday"></span>Friday</span>
+											<span class="day-selection" data-day="saturday"><span class="plus-sign" data-day="saturday"></span>Saturday</span>
+											<span class="day-selection" data-day="sunday"><span class="plus-sign" data-day="sunday"></span>Sunday</span>
 										</div>
 				                    	<?php 
 
@@ -590,50 +590,6 @@ Template Name: goa-salad-bowl-online-order
 		var site_url = "<?php echo SITE_URL;?>"
 	</script>
 
-	<script>
-		$('#product-day-filter').change(function(e) {
-				var selected = $(e.target).val();
-				filterProducts(selected);
-		}); 
-
-		$(document).ready(() => {
-			filterProducts($('#product-day-filter').val())
-		})
-
-		function filterProducts(selected) {
-				if(selected.length) {
-					document.querySelectorAll('.product-list')
-					.forEach((domContainer, index) => {
-						 let days = domContainer.dataset.days_available;
-						 days = days.split(',');
-						 let hideProduct = false;
-						 let productToShow=[];
-						 for (let index = 0; index < selected.length; index++) {
-							 const element = selected[index];
-							 if(days.includes(element.toLowerCase())) {
-								productToShow.push(true);
-							 }
-						 }
-
-						 if(productToShow.length) {
-							if (domContainer.id !="product-dummy-product") {
-								domContainer.classList.remove('hide-product');
-							}
-						 } else {
-							domContainer.classList.add('hide-product');
-						 }
-						
-					});
-				} else {
-					document.querySelectorAll('.product-list')
-					.forEach((domContainer, index) => {
-						if (domContainer.id !="product-dummy-product") {
-							domContainer.classList.remove('hide-product');
-						}						
-					});
-				}
-		}
-	</script>
 </body>
 </html>
 p
