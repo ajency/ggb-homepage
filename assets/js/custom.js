@@ -170,6 +170,11 @@ $(document).ready(function(){
         if(utm_campaign == 'grow-the-tribe' && !utm_popup_shown) {
             //call show pop up here
             console.log("show pop up");
+            $("#coupon-modal").addClass("show-modal");
+            $("#utm_source").text(utm_source)
+            $("#utm_source_name").text(utm_source)
+            $(".utm_code").text(utm_source)
+            // $("#utm_source").innerHTML(utm_source)
             sessionStorage.setItem('utm_popup_shown',true);
         }
         // var hiddenFields = document.querySelectorAll("input[type=hidden], input[type=text]");
