@@ -3,7 +3,7 @@ var validEmailRegex = RegExp(/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+
 
 var $ = jQuery.noConflict();
 
-
+var utm_source = "";
 
 
 jQuery(".aj-home .items").hover(function() {
@@ -147,6 +147,40 @@ $(document).ready(function(){
             '<div>' + formatted_address + '</div><i class="fas fa-pencil-alt number-edit cursor-pointer"></i>'
         }
     }
+
+    //code to display pop up for referral 
+    var queryForm = function(settings){
+        var reset = settings && settings.reset ? settings.reset : false;
+        var self = window.location.toString();
+        var querystring = self.split("?");
+        if (querystring.length > 1) {
+          var pairs = querystring[1].split("&");
+          for (i in pairs) {
+            var keyval = pairs[i].split("=");
+            if (reset || sessionStorage.getItem(keyval[0]) === null) {
+                if(keyval[0].includes("utm_"))
+                    sessionStorage.setItem(keyval[0], decodeURIComponent(keyval[1]));
+            }
+          }
+        }
+
+        var utm_campaign = sessionStorage.getItem('utm_campaign');
+        utm_source = sessionStorage.getItem('utm_source');
+        var utm_popup_shown = sessionStorage.getItem('utm_popup_shown');
+        if(utm_campaign == 'grow-the-tribe' && !utm_popup_shown) {
+            //call show pop up here
+            console.log("show pop up");
+            sessionStorage.setItem('utm_popup_shown',true);
+        }
+        // var hiddenFields = document.querySelectorAll("input[type=hidden], input[type=text]");
+        // for (var i=0; i<hiddenFields.length; i++) {
+        //   var param = sessionStorage.getItem(hiddenFields[i].name);
+        //   if (param) document.getElementsByName(hiddenFields[i].name)[0].value = param;
+        // }
+      }
+    
+      setTimeout(function(){queryForm();}, 2000);
+
 })
 
 $(function() {
