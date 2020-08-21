@@ -115,6 +115,8 @@ Template Name: goa-salad-bowl-online-order
 			}
 		}
 	}
+
+	$timeStampVar = time();
 ?>
 <html>
 <head>
@@ -130,7 +132,7 @@ Template Name: goa-salad-bowl-online-order
     <meta content="Buy healthy food online by Green Grain Bowl. Healthy lunch bowls delivered to you in Panjim/Porvorim, Goa. Enjoy wholesome meals, salad style." name="description" name="twitter:description"/>
     <meta content="Health Food Delivery Goa | Green Grain Bowl | Buy Healthy Food Online" name="twitter:title"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css?reload=newFilter">
+	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css?reload=<?php echo $timeStampVar;?>">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500|Libre+Baskerville:400,400i" rel="stylesheet">  
     <link rel="stylesheet" href="https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/themes/ajency-portfolio/css/animate.min.css">
     <link rel='icon' type='image/x-icon' href="/assets/images/Favicon-48.png"/>
@@ -575,8 +577,8 @@ Template Name: goa-salad-bowl-online-order
 	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
 	<script src="https://unpkg.com/axios@0.19.0/dist/axios.min.js"></script>
-	<script src="/assets/js/custom.js?reload=newFilter"></script>
-	<script src="/assets/js/tabs.js?reload=newFilter"></script>
+	<script src="/assets/js/custom.js?reload=<?php echo $timeStampVar;?>"></script>
+	<script src="/assets/js/tabs.js?reload=<?php echo $timeStampVar;?>"></script>
     <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-auth.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
