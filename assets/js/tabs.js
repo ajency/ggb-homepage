@@ -39,7 +39,6 @@ $(document).ready(function() {
 
     $('.day-selection').click(function(e){
       let day = $(e.target).data('day');
-      console.log(day);
       
       $(this).toggleClass('active');
       if ($(this).hasClass('active')){
@@ -51,7 +50,6 @@ $(document).ready(function() {
         $(this).find('.check').removeClass('check').addClass('plus-sign');
         if(filterDaysSelected.indexOf(day)>=0) {
           filterDaysSelected.splice(filterDaysSelected.indexOf(day), 1);
-          console.log(filterDaysSelected);
           filterProducts(filterDaysSelected);
         }
       }
@@ -59,6 +57,14 @@ $(document).ready(function() {
     function filterProducts(selected) {
       
         if(selected.length) {
+          // if(selected.length ==1) {
+          //   if(selected.includes('sunday')) {
+          //     $("#NoBowls").removeClass('hide-product');
+          //   }
+          // } else {
+          //   $("#NoBowls").addClass('hide-product');
+          // }
+          globalProducts =[]
           document.querySelectorAll('.product-list')
           .forEach((domContainer, index) => {
              let days = domContainer.dataset.days_available;
@@ -69,22 +75,30 @@ $(document).ready(function() {
                const element = selected[index];
                if(days.includes(element.toLowerCase())) {
                 productToShow.push(true);
+                globalProducts.push(true)
                }
              }
-  
+             
              if(productToShow.length) {
-              if (domContainer.id !="product-dummy-product") {
-                domContainer.classList.remove('hide-product');
-              }
+               if (domContainer.id !="product-dummy-product" && domContainer.id !="NoBowls") {
+                 domContainer.classList.remove('hide-product');
+                }
              } else {
-              domContainer.classList.add('hide-product');
+               console.log("here", selected);
+               domContainer.classList.add('hide-product');
              }
             
           });
+         if(!globalProducts.length) {
+          $("#NoBowls").removeClass('hide-product');
+         } else {
+          $("#NoBowls").addClass('hide-product');
+         }
+          
         } else {
           document.querySelectorAll('.product-list')
           .forEach((domContainer, index) => {
-            if (domContainer.id !="product-dummy-product") {
+            if (domContainer.id !="product-dummy-product" && domContainer.id !="NoBowls") {
               domContainer.classList.remove('hide-product');
             }						
           });
