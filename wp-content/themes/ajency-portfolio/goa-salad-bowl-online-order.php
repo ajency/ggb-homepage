@@ -115,6 +115,8 @@ Template Name: goa-salad-bowl-online-order
 			}
 		}
 	}
+
+	$timeStampVar = time();
 ?>
 <html>
 <head>
@@ -130,11 +132,9 @@ Template Name: goa-salad-bowl-online-order
     <meta content="Buy healthy food online by Green Grain Bowl. Healthy lunch bowls delivered to you in Panjim/Porvorim, Goa. Enjoy wholesome meals, salad style." name="description" name="twitter:description"/>
     <meta content="Health Food Delivery Goa | Green Grain Bowl | Buy Healthy Food Online" name="twitter:title"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css?reload=<?php echo $timeStampVar;?>">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500|Libre+Baskerville:400,400i" rel="stylesheet">  
     <link rel="stylesheet" href="https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/themes/ajency-portfolio/css/animate.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-css/1.4.6/select2-bootstrap.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css" rel="stylesheet" >
     <link rel='icon' type='image/x-icon' href="/assets/images/Favicon-48.png"/>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -218,20 +218,15 @@ Template Name: goa-salad-bowl-online-order
 				                <div class="col-xl-12">
 				                    <h1 class="ft6 product-section__title mb-4 d-none">Products</h1>
 				                    <div class="tab-panels">
-				                    	<div class="select-box w-100">
-		                    				<div class="position-relative">
-												<select placeholder="Select day of the Week" name="tags[]" class="js-select2 d-none" multiple="multiple" id="product-day-filter">
-													<option value="Monday">Monday</option>
-													<option value="Tuesday">Tuesday</option>
-													<option value="Wednesday">Wednesday</option>
-													<option value="Thursday">Thursday</option>
-													<option value="Friday">Friday</option>
-													<option value="Saturday">Saturday</option>
-													<option value="Sunday">Sunday</option>
-												</select>
-											</div>
+										<div class="days-filter" id="product-day-filter">
+											<span class="day-selection" data-day="monday"><span class="plus-sign" data-day="monday"></span>Monday</span>
+											<span class="day-selection" data-day="tuesday"><span class="plus-sign" data-day="tuesday"></span>Tuesday</span>
+											<span class="day-selection" data-day="wednesday"><span class="plus-sign" data-day="wednesday"></span>Wednesday</span>
+											<span class="day-selection" data-day="thursday"><span class="plus-sign" data-day="thursday"></span>Thursday</span>
+											<span class="day-selection" data-day="friday"><span class="plus-sign" data-day="friday"></span>Friday</span>
+											<span class="day-selection" data-day="saturday"><span class="plus-sign" data-day="saturday"></span>Saturday</span>
+											<span class="day-selection" data-day="sunday"><span class="plus-sign" data-day="sunday"></span>Sunday</span>
 										</div>
-										<span class="select2 select2-container select2-container--default select2-container--focus select-days" dir="ltr"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="Select days of the week"></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
 				                    	<?php 
 
 											// if(isset($_REQUEST['day']))
@@ -352,9 +347,13 @@ Template Name: goa-salad-bowl-online-order
 																<?php } ?>
 														</div>
 													</div> 
-
 												<?php }?>
-											
+						    				<div id="NoBowls" class="row product-list m-auto panel hide-product" data-days_available="">
+							                	<div class="alert alert-light">
+							                		<img src="/assets/images/no-bowls.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<p class="mt-2 body-text text-black">Please do check back for a different day, or WhatsApp us: <a class="h4 font-weight-light" href="tel:07770004258" onclick="ga('send', 'event', 'telephone', 'CallNow', 'tel:07770004258');"> +91 7770004258 </a></p>
+												</div>
+							                </div>
 				                        </div>
 				                    </div>
 				                </div>
@@ -578,16 +577,14 @@ Template Name: goa-salad-bowl-online-order
 	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
 	<script src="https://unpkg.com/axios@0.19.0/dist/axios.min.js"></script>
-	<script src="/assets/js/custom.js"></script>
-	<script src="/assets/js/tabs.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js"></script>	
+	<script src="/assets/js/custom.js?reload=<?php echo $timeStampVar;?>"></script>
+	<script src="/assets/js/tabs.js?reload=<?php echo $timeStampVar;?>"></script>
     <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-auth.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
 	<script src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
 	<script src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>	
-	<script src="<?php echo APP_URL;?>/firebase-functions.js?_1" type="text/javascript"></script>
+	<script src="<?php echo APP_URL;?>/firebase-functions.<?php echo $react_js_file_hashes_decoded['firebase'];?>.js" type="text/javascript"></script>
 	<script src="<?php echo APP_URL;?>/react-components.<?php echo $react_js_file_hashes_decoded["react-components"];?>.js" type="text/javascript"></script>
 	<!-- Global variables for react cart app component and css  hash -->
 	<script>
@@ -599,50 +596,5 @@ Template Name: goa-salad-bowl-online-order
 		var site_url = "<?php echo SITE_URL;?>"
 	</script>
 
-	<script>
-		$('#product-day-filter').change(function(e) {
-				var selected = $(e.target).val();
-				filterProducts(selected);
-		}); 
-
-		$(document).ready(() => {
-			filterProducts($('#product-day-filter').val())
-		})
-
-		function filterProducts(selected) {
-				if(selected.length) {
-					document.querySelectorAll('.product-list')
-					.forEach((domContainer, index) => {
-						 let days = domContainer.dataset.days_available;
-						 days = days.split(',');
-						 let hideProduct = false;
-						 let productToShow=[];
-						 for (let index = 0; index < selected.length; index++) {
-							 const element = selected[index];
-							 if(days.includes(element.toLowerCase())) {
-								productToShow.push(true);
-							 }
-						 }
-
-						 if(productToShow.length) {
-							if (domContainer.id !="product-dummy-product") {
-								domContainer.classList.remove('hide-product');
-							}
-						 } else {
-							domContainer.classList.add('hide-product');
-						 }
-						
-					});
-				} else {
-					document.querySelectorAll('.product-list')
-					.forEach((domContainer, index) => {
-						if (domContainer.id !="product-dummy-product") {
-							domContainer.classList.remove('hide-product');
-						}						
-					});
-				}
-		}
-	</script>
 </body>
 </html>
-p
