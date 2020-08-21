@@ -167,7 +167,7 @@ $(document).ready(function(){
         var utm_campaign = sessionStorage.getItem('utm_campaign');
         utm_source = sessionStorage.getItem('utm_source');
         var utm_popup_shown = sessionStorage.getItem('utm_popup_shown');
-        if(utm_campaign == 'grow-the-tribe' && !utm_popup_shown) {
+        if(utm_campaign == 'grow-the-tribe') {
             //call show pop up here
             console.log("show pop up");
             $("#coupon-modal").addClass("show-modal");
@@ -184,7 +184,7 @@ $(document).ready(function(){
         // }
       }
     
-      setTimeout(function(){queryForm();}, 2000);
+      setTimeout(function(){queryForm();}, 300);
 
 })
 
