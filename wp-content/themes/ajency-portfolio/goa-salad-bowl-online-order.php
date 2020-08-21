@@ -203,7 +203,7 @@ Template Name: goa-salad-bowl-online-order
 						<div class="wpb_text_column wpb_content_element ">
 							<div class="wpb_wrapper">
 								<h1 class="font-weight-bold d-block mobile-header mb-2 display-4 aj-home-title" style="text-align: center">This Week's Menu</h1>
-								<p class="body-text">Browse through the daily menu and add one or more bowls to the cart. You can order for the entire week together or for any one day.</p>
+								<p class="body-text">We rotate our menu each week, such that 2-3 bowls are available on any given day. Select a day to see bowl availability.</p>
 							</div>
 						</div>
 					</div>
@@ -345,9 +345,13 @@ Template Name: goa-salad-bowl-online-order
 																<?php } ?>
 														</div>
 													</div> 
-
 												<?php }?>
-											
+						    				<div id="NoBowls" class="row product-list m-auto panel">
+							                	<div class="alert alert-light">
+							                		<img src="/assets/images/no-bowls.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<p class="mt-2 body-text text-black">Please do check back for a different day, or WhatsApp us: <a class="h4 font-weight-light" href="tel:07770004258" onclick="ga('send', 'event', 'telephone', 'CallNow', 'tel:07770004258');"> +91 7770004258 </a></p>
+												</div>
+							                </div>
 				                        </div>
 				                    </div>
 				                </div>
@@ -592,4 +596,3 @@ Template Name: goa-salad-bowl-online-order
 
 </body>
 </html>
-p
