@@ -1,4 +1,4 @@
-//test reloading
+//test reloading 2
 $(document).ready(function(){       
     var $carousel = $('.product-image');
 
