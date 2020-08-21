@@ -853,3 +853,56 @@ body{
     background: linear-gradient(to right, #f6f7f9 0%, #e9ebee 20%, #f6f7f9 40%, #f6f7f9 100%);
     background-size: 800px 504px;
 }
+
+
+/* Coupon modal css*/
+
+.aj-home-title-popup{
+    font-style: italic;
+    text-transform: lowercase;
+    font-family: Libre Baskerville,Baskerville,georgia,serif !important;
+}
+
+.aj-text-clutch{
+    display: inline-block;
+    position: relative;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #000;
+    font-weight: 700;
+}
+
+.aj-text-clutch-open {
+    overflow: hidden;
+    -webkit-transition: all .35s;
+    transition: all .35s;
+    height: 3px;
+    left: 0;
+    background-color: #4aa751;
+    z-index: 1;
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+}
+
+.modal-text-18{
+    font-size: 18px;
+    line-height: 23px;
+}
+
+
+.sg-popup-builder-content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.coupon-modal-content{
+    max-height: 570px;
+    overflow-y: auto;
+    height: 100%;
+}
+
+/* Coupon modal css ends*/
