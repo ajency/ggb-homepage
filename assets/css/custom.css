@@ -7303,6 +7303,18 @@ body {
   max-height: 570px;
   overflow-y: auto;
   height: 100%; }
+  @media (max-width: 767px) {
+    .coupon-modal-content {
+      max-height: 100%;
+      position: relative !important;
+      margin: 0 8px;
+      height: auto; } }
+
+@media (max-width: 767px) {
+  #coupon-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
 
 /* Coupon modal css ends*/
 .ajency-portfolio {
