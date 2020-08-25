@@ -139,7 +139,7 @@ Template Name: goa-salad-bowl-online-order
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154494750-1"></script>
-    <script>
+   <!--  <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -147,11 +147,11 @@ Template Name: goa-salad-bowl-online-order
       gtag('config', 'UA-154494750-1');
       gtag('config', 'UA-169407721-1');
 
-    </script>
+    </script> -->
 	<!-- Hotjar Tracking Code for greengrainbowl.com --> 
-	<script> 
+	<!-- <script> 
 		(function(h,o,t,j,a,r){ h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:1856895,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r); })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv='); 
-	</script>
+	</script> -->
 	<style type="text/css">
 		@media (max-width: 991px) {
 			.add-address-form{
