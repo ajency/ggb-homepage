@@ -138,8 +138,8 @@ Template Name: goa-salad-bowl-online-order
     <link rel='icon' type='image/x-icon' href="/assets/images/Favicon-48.png"/>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154494750-1"></script>
-   <!--  <script>
+<!--     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154494750-1"></script>
+ -->   <!--  <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
