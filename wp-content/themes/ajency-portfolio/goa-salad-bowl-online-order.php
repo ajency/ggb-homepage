@@ -138,8 +138,8 @@ Template Name: goa-salad-bowl-online-order
     <link rel='icon' type='image/x-icon' href="/assets/images/Favicon-48.png"/>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154494750-1"></script>
-    <script>
+<!--     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154494750-1"></script>
+ -->   <!--  <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -147,11 +147,11 @@ Template Name: goa-salad-bowl-online-order
       gtag('config', 'UA-154494750-1');
       gtag('config', 'UA-169407721-1');
 
-    </script>
+    </script> -->
 	<!-- Hotjar Tracking Code for greengrainbowl.com --> 
-	<script> 
+	<!-- <script> 
 		(function(h,o,t,j,a,r){ h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:1856895,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r); })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv='); 
-	</script>
+	</script> -->
 	<style type="text/css">
 		@media (max-width: 991px) {
 			.add-address-form{
@@ -532,6 +532,31 @@ Template Name: goa-salad-bowl-online-order
 		   </div>
 		</div>
 	</div> -->
+
+	<div class="custom-modal" id="coupon-modal">
+		<div class="custom-modal-content p-4 coupon-modal-content">			
+			<button type="button" class="btn-reset close-modal" onclick='$("#coupon-modal").removeClass("show-modal")'><i class="fas fa-times text-silver"></i></button>			
+			<p></p>
+			<div class="wp-block-image">
+				<figure class="text-center size-large">
+					<img src="https://greengrainbowl.com/assets/images/greengrainbowl.png" alt="">
+				</figure>
+			</div>
+			<p></p>
+			<p></p>
+			<h2 class="font-weight-bold aj-home-title text-center aj-home-title-popup ">You have been invited</h2>
+			<p></p>
+			<p></p>
+			<p class="has-text-align-center modal-text-18 mb-4"><strong class="aj-text-clutch"><span id="utm_source"></span> <span class="aj-text-clutch-open"></span ></strong > is a regular with us at GGB, and has invited you to try one of our green, grain bowls. Friends of&nbsp;<span id="utm_source_name"></span> get a <strong class="aj-text-clutch">30% off<span class="aj-text-clutch-open"></span ></strong > on their first order.&nbsp; Do remember to use your coupon&nbsp;<span class="utm_code"></span>&nbsp;at check-out to avail the discount.</p>
+			<p></p>
+			<p></p>
+			<p class="has-text-align-center modal-text-18 mb-4">A little more about our bowls: We deliver wholesome, salad style meals that are packed with nutrition, colour and fibre. Our food is designed for the lifestyle of today. It's food that leaves you feeling fresh and light. Food that makes you FEEL GOOD.</p>
+			<p></p>
+			<p></p>
+			<p class="has-text-align-center modal-text-18 mb-4">Coupon code: <strong class="aj-text-clutch"><span class="utm_code"></span> <span class="aj-text-clutch-open"></span ></strong >. Enter it at the last step of placing the order, just before you make the payment.</p>
+			<p></p>
+		</div>
+	</div>
 
 	<div class="msg-container">
 
