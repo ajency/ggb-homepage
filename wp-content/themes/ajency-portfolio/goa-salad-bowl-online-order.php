@@ -196,7 +196,7 @@ Template Name: goa-salad-bowl-online-order
 						</div>
 					</figure> -->
 					<div class="block-description">
-						<div class="intro-text">Welcome to <div class="clutch">GreenGrainBowl<div class="clutch-open"></div></div> online orders. Delivering <div class="clutch">5 days a week.<div class="clutch-open"></div></div> Order before <div class="clutch">10:00 A.M.<div class="clutch-open"></div></div> for lunch and before <div class="clutch">3:00 P.M.<div class="clutch-open"></div></div> for dinner.</div>
+						<div class="intro-text">Welcome to <div class="clutch">GreenGrainBowl<div class="clutch-open"></div></div> online orders. Delivering <div class="clutch">6 days a week.<div class="clutch-open"></div></div> Order before <div class="clutch">11:00 A.M.<div class="clutch-open"></div></div> for lunch and before <div class="clutch">3:00 P.M.<div class="clutch-open"></div></div> for dinner.</div>
 					</div>
 					<div class="text-center">
 						<div class="text-center py-3 px-3">
