@@ -199,3 +199,15 @@ $('.bread-crumb__menu').on('click', function(e) {
     // e.preventDefault();
     $(this).toggleClass('is-active');
 });
+
+$(".hamburger-menu").click(function(e) {
+    e.preventDefault();
+    $(".site-menu").addClass("visible");
+    $("body").addClass("overflow-hidden");
+});
+
+$(".menu-close-btn").click(function(e) {
+    e.preventDefault();
+    $(".site-menu").removeClass("visible");
+    $("body").removeClass("overflow-hidden");
+});
