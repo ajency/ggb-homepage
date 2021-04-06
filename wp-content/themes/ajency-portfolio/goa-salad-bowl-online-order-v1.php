@@ -3,6 +3,7 @@
 Template Name: goa-salad-bowl-online-order-v1
 */
 ?>
+<?php get_header();  ?>
 <!DOCTYPE html>
 <?php
 	$date = date_create();
@@ -178,7 +179,6 @@ Template Name: goa-salad-bowl-online-order-v1
 			}
 		}
 	</style>
-<?php wp_head(); ?>
 </head>
 <body>
 
@@ -639,6 +639,5 @@ Template Name: goa-salad-bowl-online-order-v1
 		var app_url = "<?php echo APP_URL?>";
 		var site_url = "<?php echo SITE_URL;?>"
 	</script>
-<?php wp_footer(); ?>
 </body>
 </html>
