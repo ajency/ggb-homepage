@@ -133,10 +133,10 @@ Template Name: goa-salad-bowl-online-order-v1
     <meta content="Buy healthy food online by Green Grain Bowl. Healthy lunch bowls delivered to you in Panjim/Porvorim, Goa. Enjoy wholesome meals, salad style." name="description" name="twitter:description"/>
     <meta content="Health Food Delivery Goa | Green Grain Bowl | Buy Healthy Food Online" name="twitter:title"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css?reload=<?php echo $timeStampVar;?>">
+	<link rel="stylesheet" type="text/css" href="./assets/css/custom.css?reload=<?php echo $timeStampVar;?>">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500|Libre+Baskerville:400,400i" rel="stylesheet">  
     <link rel="stylesheet" href="https://3ebx62qxxp43hyojr3jaqjv1-wpengine.netdna-ssl.com/wp-content/themes/ajency-portfolio/css/animate.min.css">
-    <link rel='icon' type='image/x-icon' href="/assets/images/Favicon-48.png"/>
+    <link rel='icon' type='image/x-icon' href="./assets/images/Favicon-48.png"/>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154494750-1"></script>
@@ -195,17 +195,17 @@ Template Name: goa-salad-bowl-online-order-v1
 	</div>
 
 	<div class="container m-0">
-		<div class="row header-section">
+<!-- 		<div class="row header-section">
 			<div>
 				<a href="https://greengrainbowl.com/">
-					<img src="/assets/images/greengrainbowl.png" class="logo" alt="greengrainbowl logo">
+					<img src="./assets/images/greengrainbowl.png" class="logo" alt="greengrainbowl logo">
 				</a>
 			</div>
 			<div>
                 <a class=" d-block h4 font-weight-light" href="tel:07770004258" onclick="ga('send', 'event', 'telephone', 'CallNow', 'tel:07770004258');"> +91 7770004258
 				</a>
 			</div>
-		</div>
+		</div> -->
 		<div class="row main-content">
 			<div class="contentLeft">
 				<section class="block-wrapper pb-0">
@@ -219,7 +219,7 @@ Template Name: goa-salad-bowl-online-order-v1
 					</div>
 					<div class="text-center">
 						<div class="text-center py-3 px-3">
-							<img src="/assets/images/Leaf_with_seperator@2x.png" class="img-fluid auto-width" alt="green grain bowl" title="green grain bowl">
+							<img src="./assets/images/Leaf_with_seperator@2x.png" class="img-fluid auto-width" alt="green grain bowl" title="green grain bowl">
 						</div>
 						<div class="wpb_text_column wpb_content_element ">
 							<div class="wpb_wrapper">
@@ -369,7 +369,7 @@ Template Name: goa-salad-bowl-online-order-v1
 												<?php }?>
 						    				<div id="NoBowls" class="row product-list m-auto panel hide-product" data-days_available="">
 							                	<div class="alert alert-light">
-							                		<img src="/assets/images/no-bowls.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+							                		<img src="./assets/images/no-bowls.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
 													<p class="mt-2 body-text text-black">Please do check back for a different day, or WhatsApp us: <a class="h4 font-weight-light" href="tel:07770004258" onclick="ga('send', 'event', 'telephone', 'CallNow', 'tel:07770004258');"> +91 7770004258 </a></p>
 												</div>
 							                </div>
@@ -389,7 +389,7 @@ Template Name: goa-salad-bowl-online-order-v1
 				</div>
 				<div class="follow-instagram mb-5">
 					<a href="https://www.instagram.com/greengrainbowl/"  target="_blank">
-						<img src="/assets/images/follow-instagram.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="follow us on instagram">
+						<img src="./assets/images/follow-instagram.png" class="img-fluid w-100 m-auto" alt="green grain bowl" title="follow us on instagram">
 					</a>
 				</div>	
 				<div class="btn_Whatsapp mb-5">
@@ -463,12 +463,12 @@ Template Name: goa-salad-bowl-online-order-v1
 	<div class="contentRight">
 		<div class="full-slider">
 			<?php 
-				$images = array_slice(scandir(ABSPATH.'/assets/images/front-banner/'),2);
+				$images = array_slice(scandir(ABSPATH.'./assets/images/front-banner/'),2);
 				$num = array_rand($images,1);
 			?>
 			<div class="full-slider">
 				<div class="image">
-					<img class="banner_image" src="/assets/images/dummy-image.png" data-src='/assets/images/<?php echo $images[$num];?>' alt="Green Grain Bowl" />
+					<img class="banner_image" src="./assets/images/dummy-image.png" data-src='./assets/images/<?php echo $images[$num];?>' alt="Green Grain Bowl" />
 				</div>
 			</div>
 			<!-- <div class="main-image">
@@ -605,7 +605,7 @@ Template Name: goa-salad-bowl-online-order-v1
  	<button id="cart-address-change-trigger" class="d-none"></button>
  
 	<div class="site-loader text-center p-5">
-		<img src="/assets/images/GGB-logo.png" width="75px" class="mt-5"/> 
+		<img src="./assets/images/GGB-logo.png" width="75px" class="mt-5"/> 
 		<div class="spinner">
   <div class="bounce1"></div>
   <div class="bounce2"></div>
@@ -621,8 +621,8 @@ Template Name: goa-salad-bowl-online-order-v1
 	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
 	<script src="https://unpkg.com/axios@0.19.0/dist/axios.min.js"></script>
-	<script src="/assets/js/custom.js?reload=<?php echo $timeStampVar;?>"></script>
-	<script src="/assets/js/tabs.js?reload=<?php echo $timeStampVar;?>"></script>
+	<script src="./assets/js/custom.js?reload=<?php echo $timeStampVar;?>"></script>
+	<script src="./assets/js/tabs.js?reload=<?php echo $timeStampVar;?>"></script>
     <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-auth.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>

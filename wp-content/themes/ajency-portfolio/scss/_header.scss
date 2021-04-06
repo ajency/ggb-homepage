@@ -38,11 +38,15 @@ ul{
     background: white;
     z-index: 1;
     box-shadow: 1px 1px 1px 1px #f9f9f9;
+    padding-bottom: 0 !important;
 	.site-header{
 	    padding-top: 1rem;
 	    padding-bottom: 1rem;
 		.site-logo{
 		    z-index: 5;
+		    .logo{
+		    	width: 100% !important;
+		    }
 		    @media (max-width: 340px){
 	    	    margin-bottom: 6px;
 		    }
