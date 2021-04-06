@@ -822,6 +822,7 @@ body{
                 line-height: 1.2 !important;
                 color: inherit !important;
                 font-size: 27.2px !important;
+                padding: 20px 15px !important;
                 padding-right: 30px !important;
                 padding-left: 0 !important;
                 position: relative;
@@ -855,6 +856,7 @@ body{
             p{
                 font-size: 28px !important;
                 color: #212529 !important;
+                margin-bottom: 16px !important;
                 @media (max-width: 991px){
                     font-size: 22px !important;
                 }
@@ -911,15 +913,28 @@ body{
         }
     }
 }
+.cwp_inner_content{
+    .wp-block-media-text{
+        &.is-stacked-on-mobile {
+            grid-template-columns: 42% 1fr;
+            @media (max-width: 600px){
+                -ms-grid-columns: 100%!important;
+                grid-template-columns: 80%!important;
+            }
+        }
+    }
+}
 
 .wp-block-cwp-block-slider{
-    margin-left: 0px;
+    margin-left: -20%;
+    margin-right: -30%;
+
     .cwp-block-slider-main{
         .slick-slide{
            margin: 0 15px 0 0 !important;
         }
     }
-    .cwp-preview {
+    .cwp-block-slider-main {
         opacity: 0;
         visibility: hidden;
         transition: opacity 1s ease;
@@ -958,8 +973,12 @@ body{
                     }
                 }
             }
-            @media (min-width: 1024px){
-                left: 60px !important;
+            @media (max-width: 1198px){
+                left: 36px !important;
+                bottom: -50px !important;
+            }
+            @media (min-width: 1199px){
+                left: 30px !important;
                 bottom: -50px !important;
             }
         }
@@ -970,8 +989,8 @@ body{
     }
 }
 
+
 .sp-ea-one.sp-easy-accordion{
-    padding: 3rem !important;
     @media (max-width: 767px){
         padding: 3rem 1.5rem !important;
     }

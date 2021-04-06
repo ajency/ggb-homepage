@@ -122,3 +122,13 @@ footer {
         margin-right: -15px;
     }
 }
+.wp-block-separator{
+    &.is-style-wide{
+        margin-left: -25%;
+        margin-right: -25%; 
+        @media (max-width: 1199px){
+            margin-left: 0;
+            margin-right: 0;
+        }   
+    }
+}
