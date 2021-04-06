@@ -55,11 +55,15 @@ section {
     padding-bottom: 6rem;
     padding-left: 19%;
     padding-right: 19%;
+    @media (max-width: 1199px){
+        padding-left: 32px;
+        padding-right: 32px;    
+    }
     @media (min-width: 320px) and (max-width: 767.98px) {
         padding-top: 4rem;
         padding-bottom: 4rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding-left: 0.94rem;
+        padding-right: 0.94rem;
     }
 }
 .text-link {

@@ -769,12 +769,18 @@ body{
         font-size: 28px !important;
         line-height: 1.428 !important;
         font-weight: 400 !important;
+        @media (max-width: 767px){
+            font-size: 1.375rem !important;
+        }
     }
     h5{
         font-weight: 300 !important;
     }
     strong{
         font-size: 2.125rem;
+        @media (max-width: 767px){
+            font-size: 1.6rem !important;
+        }
     }
     .container{
         max-width: 100%;
@@ -968,5 +974,20 @@ body{
     padding: 3rem !important;
     @media (max-width: 767px){
         padding: 3rem 1.5rem !important;
+    }
+}
+
+.wp-block-getwid-images-slider__item{
+    &.slick-slide{
+        margin-left: 80px;
+        @media (max-width: 767px){
+            margin-left: 25px;
+        }
+    }
+}
+.wp-block-getwid-images-slider{
+    &.getwid-init{
+        margin-left: -30.33%;
+        margin-right: -30.33%;
     }
 }

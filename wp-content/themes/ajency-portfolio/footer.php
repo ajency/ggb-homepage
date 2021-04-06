@@ -2,9 +2,9 @@
     <section class="footer-section">
         <div class="container p5">
             <div class="row">
-                <div class="col-xl-2 contact-us">
-                </div>
-                <div class="col-xl-8">
+                <!-- <div class="col-xl-2 contact-us">
+                </div> -->
+                <div class="col-xl-11">
                     <div class="row no-gutters">
                         <div class="col-md-5 contact-details">
                             <!-- <h4 class="font-weight-light">
