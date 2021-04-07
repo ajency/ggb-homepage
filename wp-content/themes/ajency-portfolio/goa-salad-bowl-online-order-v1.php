@@ -460,7 +460,7 @@ Template Name: goa-salad-bowl-online-order-v1
 
 
 
-	<div class="contentRight">
+	<div class="contentRight" style="margin-top: 90px;">
 		<div class="full-slider">
 			<?php 
 				$images = array_slice(scandir(ABSPATH.'/assets/images/front-banner/'),2);
