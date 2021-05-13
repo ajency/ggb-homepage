@@ -106,7 +106,7 @@ h3{
 		position: relative;
 	    color: #212529 !important;
         display: inline-block;
-		&:after{
+		&:before{
 			content: '';
 			overflow: hidden;
 		    -webkit-transition: all .35s;
