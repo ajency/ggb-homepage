@@ -34,24 +34,27 @@
                                 </a>
                             </h4>
                         </div>
-                        <div class="col-md-2 mt-5 mt-md-0 contact-details-1  d-flex">
-                            <h4 class="font-weight-light mr-2">
-                                <a class="d-block h4 font-weight-light mb-0" href="https://www.facebook.com/GreenGrainBowl">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" width="30" height="30" alt="facebook" title="facebook">
-                                </a>
-                            </h4>
-                            <h4 class="font-weight-light">
-                                <a class="d-block h4 font-weight-light mb-0" href="https://www.instagram.com/greengrainbowl/">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" width="30" height="30" alt="instagram" title="instagram">
-                                </a>
-                            </h4>
+                        <div class="col-md-2 mt-5 mt-md-0 contact-details-1">
+                            <div class="d-flex">
+                                <h4 class="font-weight-light mr-2">
+                                    <a class="d-block h4 font-weight-light mb-0" href="https://www.facebook.com/GreenGrainBowl">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" width="30" height="30" alt="facebook" title="facebook">
+                                    </a>
+                                </h4>
+                                <h4 class="font-weight-light">
+                                    <a class="d-block h4 font-weight-light mb-0" href="https://www.instagram.com/greengrainbowl/">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/instagram.png" width="30" height="30" alt="instagram" title="instagram">
+                                    </a>
+                                </h4>
+                            </div>
+                            <h5 class="font-weight-normal text-green">@greengrainbowl</h5>
                             <!-- <h4 class="font-weight-light">
                                 <a class="d-block h4 font-weight-light" href="https://api.whatsapp.com/send?phone=917770004258&text=Hi&source=&data=&app_absent=">
                                     <img src="<?php echo get_template_directory_uri(); ?>/img/whatsapp.png" width="30" height="30" alt="whatsapp" title="whatsapp">
                                 </a>
                             </h4> -->
                         </div>
-                        <p class="font-weight-normal text-green">@greengrainbowl</p>
+                        
 
                     </div>
                     <div class="mt-5">
