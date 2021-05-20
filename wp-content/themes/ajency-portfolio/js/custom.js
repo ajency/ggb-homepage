@@ -211,3 +211,35 @@ $(".menu-close-btn").click(function(e) {
     $(".site-menu").removeClass("visible");
     $("body").removeClass("overflow-hidden");
 });
+jQuery('.featured-bowl').slick({
+    arrows: false,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 3,
+    dots: false,
+    responsive: [{
+        breakpoint: 991,
+        settings: {
+            arrows: true,
+            slidesToShow: 2.2,
+        }
+    }, {
+        breakpoint: 768,
+        settings: {
+            arrows: true,
+            slidesToShow: 1.5,
+        }
+    }, {
+        breakpoint: 525,
+        settings: {
+            arrows: true,
+            slidesToShow: 1.3,
+        }
+    }, {
+        breakpoint: 475,
+        settings: {
+            arrows: true,
+            slidesToShow: 1,
+        }
+    }]
+});

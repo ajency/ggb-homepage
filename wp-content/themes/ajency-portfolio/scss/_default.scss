@@ -20,3 +20,115 @@ a{
 		color: #4aa751;
 	}
 }
+
+/*featured-bowls*/
+.menu_featured_bg{
+    background-color: green;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-image: url('../img/background-menu.png');
+    background-repeat: repeat-x;
+    background-size: cover;
+    height: 409px;
+    width: 100%;
+    z-index: -1;
+    @media (max-width: 767px){
+    	height: 373px;
+    }
+	@media (max-width: 575px){
+		height: 333px;
+	}
+}
+.autoScrollPane{
+	display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 50px;
+    .slick-list{
+	    .slick-slide{
+	    	outline: 0;
+	    }
+    }
+    .slick-prev, .slick-next{
+    	width: 40px;
+    	height: 40px;
+    	background: #080808cf;
+    	top: 27%;
+	    z-index: 1;
+        border: 2px solid white;
+        border-radius: 30px;
+        @media (max-width: 575px){
+        	top: 20%;
+        }
+    }
+    .slick-disabled{
+    	opacity: 0;
+    }
+    .slick-next{
+    	right: 0px;
+    	&:before{
+    		content: "\203A";
+		}
+    }
+    .slick-prev{
+    	left: 0px;
+    	&:before{
+    		content: "\2039";
+		}
+    }
+    .slick-prev:before, .slick-next:before{
+	    color: white;
+	    font-size: 34px;
+	    line-height: 2px;
+    }
+    .slick-prev:hover , .slick-next:hover{
+    	background: #080808cf;
+    }
+    .imageWrap{
+		height: 220px;
+		margin: auto;
+		overflow: hidden;
+		img{
+		    display: block;
+			height: 100%;
+			margin: 0 auto;
+			max-width: 100%;
+			object-fit: cover;
+			width: auto;
+			cursor: pointer;
+		}
+		@media (max-width: 575px){
+			height: 180px;
+		}
+    }
+    .content-wrap{
+	    width: 310px;
+    	margin: auto;
+    }
+    .cart-btn{
+	    border: 1.8px solid #4AA751;
+	    background: white;
+	    margin: 0;
+	    text-transform: uppercase;
+	    font-weight: 600;
+	    font-size: 14px;
+	    line-height: 26px;
+	    color: #4AA751;
+	    padding: 2px 20px;
+	    z-index: 5;
+	    transition: 0.3s ease-in;
+	    &:hover{
+    	    background: #4AA751;
+		    color: white;
+		    text-decoration: none;
+	    }
+    }
+    @media (max-width: 991px){
+    	margin-left: -22px;
+    	margin-right: -22px;
+    }
+	@media (min-width: 992px) and (max-width: 1399px){
+		margin-top: 65px;
+	}
+}
