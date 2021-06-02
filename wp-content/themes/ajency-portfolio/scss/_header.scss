@@ -43,14 +43,30 @@ ul{
 	.site-header{
 	    padding-top: 1rem;
 	    padding-bottom: 1rem;
+	    .row{
+	    	justify-content: space-between;
+	    	 &.removeCenterClass{
+	    	 	@media (max-width: 991px){
+	        		justify-content: space-between;
+        		}
+	        }
+			@media (max-width: 991px){
+		        justify-content: center;
+			}
+    	}
 		.site-logo{
 		    z-index: 5;
 		    .logo{
 		    	width: 100% !important;
+
 		    }
 		    @media (max-width: 340px){
 	    	    margin-bottom: 6px;
 		    }
+	    	display: none;
+	    	&.showLogo{
+	    		display: block;
+	    	}
 		}
 		.full-primary-navbar{
 			position: absolute;
@@ -192,6 +208,10 @@ ul{
 	     	@media (max-width: 375px){
 	     		margin: 0 15px 0 0;
 	     	}
+		}
+		@media (min-width: 992px){
+		    height: 94px;
+	        display: grid;
 		}
 	}
 	@media (max-width: 991px){

@@ -243,3 +243,25 @@ jQuery('.featured-bowl').slick({
         }
     }]
 });
+$(document).ready(function() {
+    var s = $(".site-logo");
+    var h = $(".site-header .row");
+    var pos = s.position();   
+    var pos_h = h.position();                  
+    $(window).scroll(function() {
+        var windowpos = $(window).scrollTop();
+        if (windowpos >= pos.top & windowpos > 300) {
+            s.addClass("showLogo");
+        } else {
+            s.removeClass("showLogo"); 
+        }
+    });
+    $(window).scroll(function() {
+        var windowpos_h = $(window).scrollTop();
+        if (windowpos_h >= pos_h.top & windowpos_h > 300) {
+            h.addClass("removeCenterClass");
+        } else {
+            h.removeClass("removeCenterClass"); 
+        }
+    });
+});
