@@ -161,7 +161,7 @@
 
   	<nav class="fixed-header position-fixed">
       <div class="container p5 site-header">
-        <div class="row align-items-center justify-content-between ml-0">
+        <div class="row align-items-center ml-0">
             <div class="site-logo">
                 <a href="<?php echo get_site_url(); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/greengrainbowl.png" class="float-right logo"/>
