@@ -1012,7 +1012,10 @@ body{
     &.getwid-init{
         margin-left: -30.33%;
         margin-right: -30.33%;
-        padding-top: 85vh;
+        padding-top: 800px;
+        @media (max-width: 767px){
+            padding-too: 650px;
+        }
     }
 }
 
@@ -1065,6 +1068,10 @@ body{
         .slick-list{
             .slick-slide{
                 outline: 0;
+                @media (max-width: 400px){
+                    margin-left: 30px;
+                    margin-right: 30px;
+                }
             }
         }
         .slick-prev, .slick-next{
