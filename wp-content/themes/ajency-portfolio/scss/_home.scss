@@ -1012,7 +1012,7 @@ body{
     &.getwid-init{
         margin-left: -30.33%;
         margin-right: -30.33%;
-        padding-top: 100%;
+        padding-top: 85vh;
     }
 }
 
@@ -1119,7 +1119,7 @@ body{
                 height: 220px;
             }
             @media (max-width: 575px){
-                height: 180px;
+                height: 200px;
             }
         }
         h4{
