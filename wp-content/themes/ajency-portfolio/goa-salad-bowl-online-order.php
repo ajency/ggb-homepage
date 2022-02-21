@@ -369,8 +369,8 @@ Template Name: goa-salad-bowl-online-order
 												<?php }?>
 						    				<div id="NoBowls" class="row product-list m-auto panel hide-product" data-days_available="">
 							                	<div class="alert alert-light">
-							                		<img src="/assets/images/no-bowls-available.jpeg" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
-													<p class="mt-2 body-text text-black">Please do check back for a different day, or WhatsApp us: <a class="h4 font-weight-light" href="tel:07770004258" onclick="ga('send', 'event', 'telephone', 'CallNow', 'tel:07770004258');"> +91 7770004258 </a></p>
+							                		<img src="/assets/images/no-delivery-msg.jpg" class="img-fluid w-100 m-auto" alt="green grain bowl" title="green grain bowl">
+													<!-- <p class="mt-2 body-text text-black">Please do check back for a different day, or WhatsApp us: <a class="h4 font-weight-light" href="tel:07770004258" onclick="ga('send', 'event', 'telephone', 'CallNow', 'tel:07770004258');"> +91 7770004258 </a></p> -->
 												</div>
 							                </div>
 				                        </div>
